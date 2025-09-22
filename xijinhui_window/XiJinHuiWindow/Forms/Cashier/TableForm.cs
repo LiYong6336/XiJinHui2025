@@ -79,6 +79,10 @@ namespace XiJinHuiWindow.Forms.Cashier
 
         private async void PrintCustomerOrder(List<SaleTable> saleTables)
         {
+            if (printers.Count == 0)
+            {
+                return;
+            }
             foreach (SaleTable saleTable in saleTables)
             {
                 List<SaleDetail> sDetails = saleTable.SaleDetails.Where(sd => sd.Qty > sd.OldQty).ToList();

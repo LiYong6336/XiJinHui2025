@@ -131,7 +131,7 @@ class ShowCart extends Component
                 'food_price' => $price,
                 'food_dish_id' => $foodDish->id,
                 //'food_dish_detail_id' => $foodDishDetail ? $foodDishDetail->id : null,
-                'food_dish_json' => $foodDish->load('category', 'category.printer'),
+                'food_dish_json' => $foodDish->load('category'),
                 //'food_dish_detail_json' => $foodDishDetail,
                 //'remark' => $remark,
             ]);

@@ -19,13 +19,11 @@ class DiningTableController extends Controller
             $query->where('is_enable', request('is_enable'));
         })->with('dining_floor')->get();
         //['id', 'status_code', 'dining_table_id', 'sale_date', 'person_count']
-        $sale_table = SaleTable::where('status_code', 1)->get();
+        $sale_table = SaleTable::with(['sale_detail', 'dining_table'])->where('status_code', 1)->get();
         $result['dining'] = $tables;
         $result['busyTable'] = $sale_table;
         return HelperController::modelGetAllSuccessfuleMessage($result);
     }
-
-
 
     /**
      * Show the form for creating a new resource.
