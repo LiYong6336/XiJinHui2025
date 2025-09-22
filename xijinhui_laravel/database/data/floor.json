@@ -1,0 +1,72 @@
+[
+  {
+    "Id": 1,
+    "floor_code": "01",
+    "english_name": "楼下",
+    "Memo": "楼下",
+    "CreateBy": null,
+    "CreateDate": null,
+    "ModifyBy": null,
+    "ModifyDate": null
+  },
+  {
+    "Id": 2,
+    "floor_code": "02",
+    "english_name": "楼阁",
+    "Memo": "楼阁",
+    "CreateBy": null,
+    "CreateDate": null,
+    "ModifyBy": null,
+    "ModifyDate": null
+  },
+  {
+    "Id": 3,
+    "floor_code": "03",
+    "english_name": "楼上",
+    "Memo": "楼上",
+    "CreateBy": null,
+    "CreateDate": null,
+    "ModifyBy": null,
+    "ModifyDate": null
+  },
+  {
+    "Id": 4,
+    "floor_code": "04",
+    "english_name": "大厅",
+    "Memo": "大厅",
+    "CreateBy": null,
+    "CreateDate": null,
+    "ModifyBy": null,
+    "ModifyDate": null
+  },
+  {
+    "Id": 5,
+    "floor_code": "05",
+    "english_name": "外24",
+    "Memo": "外24",
+    "CreateBy": null,
+    "CreateDate": null,
+    "ModifyBy": null,
+    "ModifyDate": null
+  },
+  {
+    "Id": 6,
+    "floor_code": "06",
+    "english_name": "外VAT",
+    "Memo": "外VAT",
+    "CreateBy": null,
+    "CreateDate": null,
+    "ModifyBy": null,
+    "ModifyDate": null
+  },
+  {
+    "Id": 7,
+    "floor_code": "07",
+    "english_name": "外WOW",
+    "Memo": "WOW",
+    "CreateBy": null,
+    "CreateDate": null,
+    "ModifyBy": null,
+    "ModifyDate": null
+  }
+]

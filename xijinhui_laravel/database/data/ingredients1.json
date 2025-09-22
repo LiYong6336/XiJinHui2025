@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "english_name": "Meat",
+        "chinese_name": "Meat",
+        "khmer_name": "សាច់",
+        "un_package": 1,
+        "unit_capacity": 1000
+    },
+    {
+        "id": 2,
+        "english_name": "Vegetables",
+        "chinese_name": "Vegetables",
+        "khmer_name": "បន្លែ",
+        "un_package": 1,
+        "unit_capacity": 1000
+    }
+]

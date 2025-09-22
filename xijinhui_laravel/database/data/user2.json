@@ -1,0 +1,41 @@
+[
+    {
+        "name": "Jason Li",
+        "username": "jasonli",
+        "phone": "012666336",
+        "password": "123456",
+        "is_admin": true,
+        "is_superadmin": true,
+        "role_id": 1
+    },
+    {
+        "name": "Super Admin",
+        "username": "superadmin",
+        "phone": "12929293",
+        "password": "123456",
+        "is_admin": true,
+        "is_superadmin": true,
+        "role_id": 1
+    },
+    {
+        "name": "Admin",
+        "username": "admin",
+        "phone": "012666339",
+        "password": "123456",
+        "is_admin": true,
+        "is_superadmin": false,
+        "role_id": 2
+    },
+    {
+        "name": "Cashier",
+        "username": "cashier",
+        "phone": "0193939",
+        "password": "123456",
+        "is_admin": false,
+        "is_superadmin": false,
+        "role_id": 3,
+        "user_locale": "kh"
+
+    }
+]
+

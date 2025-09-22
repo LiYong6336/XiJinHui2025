@@ -1,0 +1,51 @@
+[
+    {
+        "payment_code": "P-01",
+        "english_name": "CASH",
+        "chinese_name": "现金",
+        "khmer_name": "លុយសុទ្ធ",
+        "payment_url": ""
+    },
+    {
+        "payment_code": "P-02",
+        "english_name": "ABA",
+        "chinese_name": "ABA-银行",
+        "khmer_name": "ធនាគា-ABA",
+        "payment_url": ""
+    },
+    {
+        "payment_code": "P-03",
+        "english_name": "HUIONE",
+        "chinese_name": "汇旺",
+        "khmer_name": "ហួយវ័ន",
+        "payment_url": ""
+    },
+    {
+        "payment_code": "P-04",
+        "english_name": "VISA",
+        "chinese_name": "VISA-卡",
+        "khmer_name": "កាត-VISA",
+        "payment_url": ""
+    },
+    {
+        "payment_code": "P-05",
+        "english_name": "WECHAT",
+        "chinese_name": "微信",
+        "khmer_name": "WECHAT",
+        "payment_url": ""
+    },
+    {
+        "payment_code": "P-06",
+        "english_name": "ALIPAY",
+        "chinese_name": "支付宝",
+        "khmer_name": "ALIPAY",
+        "payment_url": ""
+    },
+    {
+        "payment_code": "P-07",
+        "english_name": "OWE",
+        "chinese_name": "赊账",
+        "khmer_name": "ជំពាក់",
+        "payment_url": "owe"
+    }
+]

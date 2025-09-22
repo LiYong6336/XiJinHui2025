@@ -1,0 +1,290 @@
+[
+    {
+        "english_name": "KHR-100",
+        "chinese_name": "柬币-100",
+        "khmer_name": "រៀល-100",
+        "paper_value": 100,
+        "paper_code": "KHR",
+        "paper_country": "Cambodia",
+        "paper_status": 1
+    },
+    {
+        "english_name": "KHR-500",
+        "chinese_name": "柬币-500",
+        "khmer_name": "រៀល-500",
+        "paper_value": 500,
+        "paper_code": "KHR",
+        "paper_country": "Cambodia",
+        "paper_status": 1
+    },
+    {
+        "english_name": "KHR-1,000",
+        "chinese_name": "柬币-1,000",
+        "khmer_name": "រៀល-1,000",
+        "paper_value": 1000,
+        "paper_code": "KHR",
+        "paper_country": "Cambodia",
+        "paper_status": 1
+    },
+    {
+        "english_name": "KHR-2,000",
+        "chinese_name": "柬币-2,000",
+        "khmer_name": "រៀល-2,000",
+        "paper_value": 2000,
+        "paper_code": "KHR",
+        "paper_country": "Cambodia",
+        "paper_status": 1
+    },
+    {
+        "english_name": "KHR-5,000",
+        "chinese_name": "柬币-5,000",
+        "khmer_name": "រៀល-5,000",
+        "paper_value": 5000,
+        "paper_code": "KHR",
+        "paper_country": "Cambodia",
+        "paper_status": 1
+    },
+    {
+        "english_name": "KHR-10,000",
+        "chinese_name": "柬币-10,000",
+        "khmer_name": "រៀល-10,000",
+        "paper_value": 10000,
+        "paper_code": "KHR",
+        "paper_country": "Cambodia",
+        "paper_status": 1
+    },
+    {
+        "english_name": "KHR-20,000",
+        "chinese_name": "柬币-20,000",
+        "khmer_name": "រៀល-20,000",
+        "paper_value": 20000,
+        "paper_code": "KHR",
+        "paper_country": "Cambodia",
+        "paper_status": 1
+    },
+    {
+        "english_name": "KHR-50,000",
+        "chinese_name": "柬币-50,000",
+        "khmer_name": "រៀល-50,000",
+        "paper_value": 50000,
+        "paper_code": "KHR",
+        "paper_country": "Cambodia",
+        "paper_status": 1
+    },
+    {
+        "english_name": "KHR-100,000",
+        "chinese_name": "柬币-100,000",
+        "khmer_name": "រៀល-100,000",
+        "paper_value": 100000,
+        "paper_code": "KHR",
+        "paper_country": "Cambodia",
+        "paper_status": 1
+    },
+    {
+        "english_name": "USD-1",
+        "chinese_name": "美元-1",
+        "khmer_name": "ដុល្លា-1",
+        "paper_value": 1,
+        "paper_code": "USD",
+        "paper_country": "United States",
+        "paper_status": 1
+    },
+    {
+        "english_name": "USD-5",
+        "chinese_name": "美元-5",
+        "khmer_name": "ដុល្លា-5",
+        "paper_value": 5,
+        "paper_code": "USD",
+        "paper_country": "United States",
+        "paper_status": 1
+    },
+    {
+        "english_name": "USD-10",
+        "chinese_name": "美元-10",
+        "khmer_name": "ដុល្លា-10",
+        "paper_value": 10,
+        "paper_code": "USD",
+        "paper_country": "United States",
+        "paper_status": 1
+    },
+    {
+        "english_name": "USD-20",
+        "chinese_name": "美元-20",
+        "khmer_name": "ដុល្លា-20",
+        "paper_value": 20,
+        "paper_code": "USD",
+        "paper_country": "United States",
+        "paper_status": 1
+    },
+    {
+        "english_name": "USD-50",
+        "chinese_name": "美元-50",
+        "khmer_name": "ដុល្លា-50",
+        "paper_value": 50,
+        "paper_code": "USD",
+        "paper_country": "United States",
+        "paper_status": 1
+    },
+    {
+        "english_name": "USD-100",
+        "chinese_name": "美元-100",
+        "khmer_name": "ដុល្លា-100",
+        "paper_value": 100,
+        "paper_code": "USD",
+        "paper_country": "United States",
+        "paper_status": 1
+    },
+    {
+        "english_name": "THB-1",
+        "chinese_name": "泰铢-1",
+        "khmer_name": "បាត-1",
+        "paper_value": 1,
+        "paper_code": "THB",
+        "paper_country": "Thailand",
+        "paper_status": 1
+    },
+    {
+        "english_name": "THB-2",
+        "chinese_name": "泰铢-2",
+        "khmer_name": "បាត-2",
+        "paper_value": 2,
+        "paper_code": "THB",
+        "paper_country": "Thailand",
+        "paper_status": 1
+    },
+    {
+        "english_name": "THB-5",
+        "chinese_name": "泰铢-5",
+        "khmer_name": "បាត-5",
+        "paper_value": 5,
+        "paper_code": "THB",
+        "paper_country": "Thailand",
+        "paper_status": 1
+    },
+    {
+        "english_name": "THB-20",
+        "chinese_name": "泰铢-20",
+        "khmer_name": "បាត-20",
+        "paper_value": 20,
+        "paper_code": "THB",
+        "paper_country": "Thailand",
+        "paper_status": 1
+    },
+    {
+        "english_name": "THB-50",
+        "chinese_name": "泰铢-50",
+        "khmer_name": "បាត-50",
+        "paper_value": 50,
+        "paper_code": "THB",
+        "paper_country": "Thailand",
+        "paper_status": 1
+    },
+    {
+        "english_name": "THB-100",
+        "chinese_name": "泰铢-100",
+        "khmer_name": "បាត-100",
+        "paper_value": 100,
+        "paper_code": "THB",
+        "paper_country": "Thailand",
+        "paper_status": 1
+    },
+    {
+        "english_name": "THB-200",
+        "chinese_name": "泰铢-200",
+        "khmer_name": "បាត-200",
+        "paper_value": 200,
+        "paper_code": "THB",
+        "paper_country": "Thailand",
+        "paper_status": 1
+    },
+    {
+        "english_name": "THB-500",
+        "chinese_name": "泰铢-500",
+        "khmer_name": "បាត-500",
+        "paper_value": 500,
+        "paper_code": "THB",
+        "paper_country": "Thailand",
+        "paper_status": 1
+    },
+    {
+        "english_name": "THB-1,000",
+        "chinese_name": "泰铢-1,000",
+        "khmer_name": "បាត-1,000",
+        "paper_value": 1000,
+        "paper_code": "THB",
+        "paper_country": "Thailand",
+        "paper_status": 1
+    },
+    {
+        "english_name": "THB-3,000",
+        "chinese_name": "泰铢-3,000",
+        "khmer_name": "បាត-3,000",
+        "paper_value": 3000,
+        "paper_code": "THB",
+        "paper_country": "Thailand",
+        "paper_status": 1
+    },
+    {
+        "english_name": "VND-1,000",
+        "chinese_name": "盾-1,000",
+        "khmer_name": "ដុង-1,000",
+        "paper_value": 1000,
+        "paper_code": "VND",
+        "paper_country": "Vietnam",
+        "paper_status": 1
+    },
+    {
+        "english_name": "VND-2,000",
+        "chinese_name": "盾-2,000",
+        "khmer_name": "ដុង-2,000",
+        "paper_value": 2000,
+        "paper_code": "VND",
+        "paper_country": "Vietnam",
+        "paper_status": 1
+    },
+    {
+        "english_name": "VND-5,000",
+        "chinese_name": "盾-5,000",
+        "khmer_name": "ដុង-5,000",
+        "paper_value": 5000,
+        "paper_code": "VND",
+        "paper_country": "Vietnam",
+        "paper_status": 1
+    },
+    {
+        "english_name": "VND-10,000",
+        "chinese_name": "盾-10,000",
+        "khmer_name": "ដុង-10,000",
+        "paper_value": 10000,
+        "paper_code": "VND",
+        "paper_country": "Vietnam",
+        "paper_status": 1
+    },
+    {
+        "english_name": "VND-20,000",
+        "chinese_name": "盾-20,000",
+        "khmer_name": "ដុង-20,000",
+        "paper_value": 20000,
+        "paper_code": "VND",
+        "paper_country": "Vietnam",
+        "paper_status": 1
+    },
+    {
+        "english_name": "VND-50,000",
+        "chinese_name": "盾-50,000",
+        "khmer_name": "ដុង-50,000",
+        "paper_value": 50000,
+        "paper_code": "VND",
+        "paper_country": "Vietnam",
+        "paper_status": 1
+    },
+    {
+        "english_name": "VND-100,000",
+        "chinese_name": "盾-100,000",
+        "khmer_name": "ដុង-100,000",
+        "paper_value": 100000,
+        "paper_code": "VND",
+        "paper_country": "Vietnam",
+        "paper_status": 1
+    }
+]

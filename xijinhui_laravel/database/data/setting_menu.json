@@ -1,0 +1,498 @@
+[
+    {
+        "id": 1,
+        "english_name": "Home",
+        "chinese_name": "首页",
+        "khmer_name": "ទំព័រដើម",
+        "parent_id": 0,
+        "sort": 1
+    },
+    {
+        "id": 2,
+        "english_name": "Order",
+        "chinese_name": "订单",
+        "khmer_name": "បញ្ជាទិញ",
+        "parent_id": 0,
+        "sort": 2
+    },
+    {
+        "id": 3,
+        "english_name": "Order List",
+        "chinese_name": "点单列表",
+        "khmer_name": "បញ្ជីបញ្ជាទិញ",
+        "parent_id": 2,
+        "sort": 3
+    },
+    {
+        "id": 4,
+        "english_name": "Pending Account List",
+        "chinese_name": "挂账列表",
+        "khmer_name": "បញ្ជីគណនីដែលមិនទាន់សម្រេច",
+        "parent_id": 2,
+        "sort": 4
+    },
+    {
+        "id": 5,
+        "english_name": "Sales Record",
+        "chinese_name": "销售记录",
+        "khmer_name": "កំណត់ត្រាលក់",
+        "parent_id": 2,
+        "sort": 5
+    },
+    {
+        "id": 6,
+        "english_name": "Abnormal Order Record",
+        "chinese_name": "异常打单记录",
+        "khmer_name": "កំណត់ត្រាលំដាប់មិនធម្មតា",
+        "parent_id": 2,
+        "sort": 6
+    },
+    {
+        "id": 7,
+        "english_name": "Commodity",
+        "chinese_name": "商品",
+        "khmer_name": "ទំនិញ",
+        "parent_id": 0,
+        "sort": 7
+    },
+    {
+        "id": 8,
+        "english_name": "Commodity Settings",
+        "chinese_name": "商品设置",
+        "khmer_name": "ការកំណត់ទំនិញ",
+        "parent_id": 7,
+        "sort": 8
+    },
+    {
+        "id": 9,
+        "english_name": "Commodity Import Record",
+        "chinese_name": "商品导入记录",
+        "khmer_name": "កំណត់ត្រានាំចូលទំនិញ",
+        "parent_id": 7,
+        "sort": 9
+    },
+    {
+        "id": 10,
+        "english_name": "Combo Set",
+        "chinese_name": "套餐",
+        "khmer_name": "បន្សំ",
+        "parent_id": 0,
+        "sort": 10
+    },
+    {
+        "id": 11,
+        "english_name": "Package Settings",
+        "chinese_name": "套餐设置",
+        "khmer_name": "ការកំណត់កញ្ចប់",
+        "parent_id": 10,
+        "sort": 11
+    },
+    {
+        "id": 12,
+        "english_name": "Package Optional Template",
+        "chinese_name": "套餐可选模板",
+        "khmer_name": "កញ្ចប់គំរូស្រេចចិត្ត",
+        "parent_id": 10,
+        "sort": 12
+    },
+    {
+        "id": 13,
+        "english_name": "Raw Material",
+        "chinese_name": "原材料",
+        "khmer_name": "របស់ឆៅ",
+        "parent_id": 0,
+        "sort": 13
+    },
+    {
+        "id": 14,
+        "english_name": "Raw Material Settings",
+        "chinese_name": "原材料设置",
+        "khmer_name": "ការកំណត់វត្ថុធាតុដើម",
+        "parent_id": 13,
+        "sort": 14
+    },
+    {
+        "id": 15,
+        "english_name": "Raw Material Import Records",
+        "chinese_name": "原材料导入记录",
+        "khmer_name": "កំណត់ត្រានាំចូលវត្ថុធាតុដើម",
+        "parent_id": 13,
+        "sort": 15
+    },
+    {
+        "id": 16,
+        "english_name": "Group Management",
+        "chinese_name": "分组管理",
+        "khmer_name": "ការគ្រប់គ្រងក្រុម",
+        "parent_id": 0,
+        "sort": 16
+    },
+    {
+        "id": 17,
+        "english_name": "Commodity Raw Material Grouping",
+        "chinese_name": "商品原材料分组",
+        "khmer_name": "ការដាក់ជាក្រុមនៃវត្ថុធាតុដើម",
+        "parent_id": 16,
+        "sort": 17
+    },
+    {
+        "id": 18,
+        "english_name": "Financial Group",
+        "chinese_name": "财务分组",
+        "khmer_name": "ក្រុមហិរញ្ញវត្ថុ",
+        "parent_id": 16,
+        "sort": 18
+    },
+    {
+        "id": 19,
+        "english_name": "Attribute Addition",
+        "chinese_name": "属性加料",
+        "khmer_name": "ការបន្ថែមគុណលក្ខណៈ",
+        "parent_id": 0,
+        "sort": 19
+    },
+    {
+        "id": 20,
+        "english_name": "Attributes",
+        "chinese_name": "属性",
+        "khmer_name": "គុណលក្ខណៈ",
+        "parent_id": 19,
+        "sort": 20
+    },
+    {
+        "id": 21,
+        "english_name": "Feed",
+        "chinese_name": "加料",
+        "khmer_name": "ចំណី",
+        "parent_id": 19,
+        "sort": 21
+    },
+    {
+        "id": 22,
+        "english_name": "Unit Management",
+        "chinese_name": "单位管理",
+        "khmer_name": "ការគ្រប់គ្រងអង្គភាព",
+        "parent_id": 0,
+        "sort": 22
+    },
+    {
+        "id": 23,
+        "english_name": "Data Center",
+        "chinese_name": "数据中心",
+        "khmer_name": "មជ្ឈមណ្ឌលទិន្នន័យ",
+        "parent_id": 0,
+        "sort": 23
+    },
+    {
+        "id": 24,
+        "english_name": "Receipt Report",
+        "chinese_name": "收款报表",
+        "khmer_name": "របាយការណ៍បង្កាន់ដៃ",
+        "parent_id": 23,
+        "sort": 24
+    },
+    {
+        "id": 25,
+        "english_name": "Payment Reconciliation",
+        "chinese_name": "支付对账",
+        "khmer_name": "ការផ្សះផ្សាការទូទាត់",
+        "parent_id": 24,
+        "sort": 25
+    },
+    {
+        "id": 26,
+        "english_name": "Payment Settlement",
+        "chinese_name": "打款结算",
+        "khmer_name": "ការទូទាត់ការទូទាត់",
+        "parent_id": 24,
+        "sort": 26
+    },
+    {
+        "id": 27,
+        "english_name": "Business Report",
+        "chinese_name": "营业报表",
+        "khmer_name": "របាយការណ៍អាជីវកម្ម",
+        "parent_id": 23,
+        "sort": 27
+    },
+    {
+        "id": 28,
+        "english_name": "Business Statistics",
+        "chinese_name": "营业统计",
+        "khmer_name": "ស្ថិតិអាជីវកម្ម",
+        "parent_id": 27,
+        "sort": 28
+    },
+    {
+        "id": 29,
+        "english_name": "Order Statistics",
+        "chinese_name": "订单统计",
+        "khmer_name": "ស្ថិតិបញ្ជាទិញ",
+        "parent_id": 27,
+        "sort": 29
+    },
+    {
+        "id": 30,
+        "english_name": "Commodity Report",
+        "chinese_name": "商品报表",
+        "khmer_name": "របាយការណ៍ទំនិញ",
+        "parent_id": 23,
+        "sort": 30
+    },
+    {
+        "id": 31,
+        "english_name": "Merchandising",
+        "chinese_name": "商品销售",
+        "khmer_name": "ការលក់ដូរ",
+        "parent_id": 30,
+        "sort": 31
+    },
+    {
+        "id": 32,
+        "english_name": "Deposit And Take",
+        "chinese_name": "寄存取",
+        "khmer_name": "ដាក់ប្រាក់ហើយយក",
+        "parent_id": 30,
+        "sort": 32
+    },
+    {
+        "id": 33,
+        "english_name": "Financial Statements",
+        "chinese_name": "财务报表",
+        "khmer_name": "របាយការណ៍​ហិរញ្ញវត្ថុ",
+        "parent_id": 23,
+        "sort": 33
+    },
+    {
+        "id": 34,
+        "english_name": "Profit Analysis",
+        "chinese_name": "盈利分析",
+        "khmer_name": "ការវិភាគប្រាក់ចំណេញ",
+        "parent_id": 33,
+        "sort": 34
+    },
+    {
+        "id": 35,
+        "english_name": "Financial Audit",
+        "chinese_name": "财务稽核",
+        "khmer_name": "សវនកម្មហិរញ្ញវត្ថុ",
+        "parent_id": 33,
+        "sort": 35
+    },
+    {
+        "id": 36,
+        "english_name": "Affiliate Marketing Report",
+        "chinese_name": "会员营销报表",
+        "khmer_name": "របាយការណ៍ទីផ្សារសម្ព័ន្ធ",
+        "parent_id": 23,
+        "sort": 36
+    },
+    {
+        "id": 37,
+        "english_name": "Marketing Activity Statistics",
+        "chinese_name": "营销活动统计",
+        "khmer_name": "ស្ថិតិសកម្មភាពទីផ្សារ",
+        "parent_id": 36,
+        "sort": 37
+    },
+    {
+        "id": 38,
+        "english_name": "Member Portrait",
+        "chinese_name": "会员画像",
+        "khmer_name": "រូបថតសមាជិក",
+        "parent_id": 36,
+        "sort": 38
+    },
+    {
+        "id": 39,
+        "english_name": "Member Consumption",
+        "chinese_name": "会员消费",
+        "khmer_name": "ការប្រើប្រាស់សមាជិក",
+        "parent_id": 36,
+        "sort": 39
+    },
+    {
+        "id": 40,
+        "english_name": "Member Balance",
+        "chinese_name": "会员余额",
+        "khmer_name": "សមតុល្យសមាជិក",
+        "parent_id": 36,
+        "sort": 40
+    },
+    {
+        "id": 41,
+        "english_name": "Member Analysis",
+        "chinese_name": "会员综合分析",
+        "khmer_name": "ការវិភាគពេញលេញនៃសមាជិក",
+        "parent_id": 36,
+        "sort": 41
+    },
+    {
+        "id": 42,
+        "english_name": "Member Coupons",
+        "chinese_name": "会员优惠券",
+        "khmer_name": "ប័ណ្ណសមាជិក",
+        "parent_id": 36,
+        "sort": 42
+    },
+    {
+        "id": 43,
+        "english_name": "Secondary Card Report",
+        "chinese_name": "次卡报表",
+        "khmer_name": "របាយការណ៍កាតបន្ទាប់បន្សំ",
+        "parent_id": 36,
+        "sort": 43
+    },
+    {
+        "id": 44,
+        "english_name": "Gift Entering The Store",
+        "chinese_name": "进店有礼",
+        "khmer_name": "ត្រូវមានសុជីវធម៌ពេលចូលហាង",
+        "parent_id": 36,
+        "sort": 44
+    },
+    {
+        "id": 45,
+        "english_name": "Supply Chain Report",
+        "chinese_name": "供应链报表",
+        "khmer_name": "របាយការណ៍ខ្សែសង្វាក់ផ្គត់ផ្គង់",
+        "parent_id": 0,
+        "sort": 45
+    },
+    {
+        "id": 46,
+        "english_name": "Cargo Flow Report",
+        "chinese_name": "货流报表",
+        "khmer_name": "របាយការណ៍លំហូរទំនិញ",
+        "parent_id": 45,
+        "sort": 46
+    },
+    {
+        "id": 47,
+        "english_name": "Invoicing Statistics",
+        "chinese_name": "进销存统计",
+        "khmer_name": "ស្ថិតិវិក័យប័ត្រ",
+        "parent_id": 45,
+        "sort": 47
+    },
+    {
+        "id": 48,
+        "english_name": "Affiliate Marketing",
+        "chinese_name": "会员营销",
+        "khmer_name": "ទីផ្សារសម្ព័ន្ធ",
+        "parent_id": 0,
+        "sort": 48
+    },
+    {
+        "id": 49,
+        "english_name": "Member Centre",
+        "chinese_name": "会员中心",
+        "khmer_name": "មជ្ឈមណ្ឌលសមាជិក",
+        "parent_id": 48,
+        "sort": 49
+    },
+    {
+        "id": 50,
+        "english_name": "Member Management",
+        "chinese_name": "会员管理",
+        "khmer_name": "ការគ្រប់គ្រងសមាជិក",
+        "parent_id": 49,
+        "sort": 50
+    },
+    {
+        "id": 51,
+        "english_name": "Level Management",
+        "chinese_name": "等级管理",
+        "khmer_name": "ការគ្រប់គ្រងកម្រិត",
+        "parent_id": 49,
+        "sort": 51
+    },
+    {
+        "id": 52,
+        "english_name": "Other Settings",
+        "chinese_name": "其他设置",
+        "khmer_name": "ការកំណត់ផ្សេងទៀត។",
+        "parent_id": 49,
+        "sort": 52
+    },
+    {
+        "id": 53,
+        "english_name": "Marketing Activities",
+        "chinese_name": "营销活动",
+        "khmer_name": "សកម្មភាពទីផ្សារ",
+        "parent_id": 48,
+        "sort": 53
+    },
+    {
+        "id": 54,
+        "english_name": "Marketing Daquan",
+        "chinese_name": "营销大全",
+        "khmer_name": "ទីផ្សារ Daquan",
+        "parent_id": 53,
+        "sort": 54
+    },
+    {
+        "id": 55,
+        "english_name": "Order Discount",
+        "chinese_name": "订单折扣",
+        "khmer_name": "ការបញ្ចុះតម្លៃបញ្ជាទិញ",
+        "parent_id": 53,
+        "sort": 55
+    },
+    {
+        "id": 56,
+        "english_name": "Promotions",
+        "chinese_name": "促销活动",
+        "khmer_name": "ការផ្សព្វផ្សាយ",
+        "parent_id": 53,
+        "sort": 56
+    },
+    {
+        "id": 57,
+        "english_name": "Member Recharge",
+        "chinese_name": "会员充值",
+        "khmer_name": "បញ្ចូលទឹកប្រាក់សមាជិក",
+        "parent_id": 53,
+        "sort": 57
+    },
+    {
+        "id": 58,
+        "english_name": "Affiliate Marketing Settings",
+        "chinese_name": "会员营销设置",
+        "khmer_name": "ការកំណត់ទីផ្សារសម្ព័ន្ធ",
+        "parent_id": 53,
+        "sort": 58
+    },
+    {
+        "id": 59,
+        "english_name": "Sms Marketing",
+        "chinese_name": "短信营销",
+        "khmer_name": "ទីផ្សារសារ SMS",
+        "parent_id": 53,
+        "sort": 59
+    },
+    {
+        "id": 60,
+        "english_name": "Pay Politely",
+        "chinese_name": "支付有礼",
+        "khmer_name": "បង់ដោយសុភាព",
+        "parent_id": 53,
+        "sort": 60
+    },
+    {
+        "id": 61,
+        "english_name": "Interactive Game",
+        "chinese_name": "互动游戏",
+        "khmer_name": "ល្បែងអន្តរកម្ម",
+        "parent_id": 53,
+        "sort": 61
+    },
+    {
+        "id": 62,
+        "english_name": "Entering Store Courtesy Setting",
+        "chinese_name": "进店有礼设置",
+        "khmer_name": "ចូលក្នុងការកំណត់គួរសមរបស់ហាង",
+        "parent_id": 53,
+        "sort": 62
+    }
+]

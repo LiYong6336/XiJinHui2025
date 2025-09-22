@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "category_code": "001",
+    "english_name": "practice seafood",
+    "chinese_name": "做法海鲜类 ",
+    "khmer_name": "អនុវត្តអាហារសមុទ្រ",
+    "printer_id": 1,
+    "is_animal_part": 1
+  },
+  {
+    "id": 2,
+    "category_code": "002",
+    "english_name": "Tobacco, alcohol and beve",
+    "chinese_name": "烟酒饮料",
+    "khmer_name": "ថ្នាំជក់ គ្រឿងស្រវឹង និងភ",
+    "printer_id": 2,
+    "is_drink": true
+  },
+  {
+    "id": 3,
+    "category_code": "003",
+    "english_name": "vegetables",
+    "chinese_name": "菜类",
+    "khmer_name": "បន្លែ",
+    "printer_id": 3
+  },
+  {
+    "id": 4,
+    "category_code": "004",
+    "english_name": "soup",
+    "chinese_name": "汤类",
+    "khmer_name": "ស៊ុប",
+    "printer_id": 4
+  },
+  {
+    "id": 5,
+    "category_code": "005",
+    "english_name": "fried siu mei",
+    "chinese_name": "烧味酥炸",
+    "khmer_name": "ស៊ីវម៉ីចៀន",
+    "printer_id": 5
+  },
+  {
+    "id": 6,
+    "category_code": "006",
+    "english_name": "stir fry",
+    "chinese_name": "小炒",
+    "khmer_name": "កូរឱ្យឆ្អិន",
+    "printer_id": 6
+  },
+  {
+    "id": 7,
+    "category_code": "007",
+    "english_name": "noodle",
+    "chinese_name": "粉面",
+    "khmer_name": "គុយទាវ",
+    "printer_id": 1
+  },
+  {
+    "id": 8,
+    "category_code": "008",
+    "english_name": "meat",
+    "chinese_name": "肉类",
+    "khmer_name": "សាច់",
+    "printer_id": 2
+  },
+  {
+    "id": 9,
+    "category_code": "009",
+    "english_name": "Claypot iron plate",
+    "chinese_name": "煲仔铁板",
+    "khmer_name": "ចានដែកដីឥដ្ឋ",
+    "printer_id": 3
+  },
+  {
+    "id": 10,
+    "category_code": "010",
+    "english_name": "Abalone wings",
+    "chinese_name": "鲍参翅",
+    "khmer_name": "ស្លាប Abalone",
+    "printer_id": 4
+  },
+  {
+    "id": 11,
+    "category_code": "011",
+    "english_name": "Cold Egg Tofu",
+    "chinese_name": "凉拌蛋豆腐",
+    "khmer_name": "តៅហ៊ូស៊ុតត្រជាក់",
+    "printer_id": 5
+  },
+  {
+    "id": 12,
+    "category_code": "012",
+    "english_name": "Assorted",
+    "chinese_name": "什锦类",
+    "khmer_name": "ចម្រុះ",
+    "printer_id": 6
+  }
+]

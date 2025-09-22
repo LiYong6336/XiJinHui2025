@@ -1,0 +1,6102 @@
+[
+    {
+        "id": 1,
+        "english_name": "Chicken-half",
+        "chinese_name": "鸡-半只",
+        "khmer_name": "មាន់-កន្លះ",
+        "price": 12.9,
+        "food_dish_id": 701,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 2,
+        "english_name": "Chicken-piece",
+        "chinese_name": "鸡-只",
+        "khmer_name": "មាន់-១",
+        "price": 24.9,
+        "food_dish_id": 701,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 3,
+        "english_name": "Soup-small",
+        "chinese_name": "汤-小",
+        "khmer_name": "សម្ល-តូច",
+        "price": 9.9,
+        "food_dish_id": 210,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 4,
+        "english_name": "Soup-medium",
+        "chinese_name": "汤-中",
+        "khmer_name": "សម្ល-កណ្តាល",
+        "price": 14.9,
+        "food_dish_id": 210,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 5,
+        "english_name": "Soup-small",
+        "chinese_name": "汤-小",
+        "khmer_name": "សម្ល-តូច",
+        "price": 9.9,
+        "food_dish_id": 210,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 6,
+        "english_name": "Soup-large",
+        "chinese_name": "汤-大",
+        "khmer_name": "សម្ល-ធំ",
+        "price": 18.9,
+        "food_dish_id": 210,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 7,
+        "english_name": "Soup-small",
+        "chinese_name": "汤-小",
+        "khmer_name": "សម្ល-តូច",
+        "price": 9.9,
+        "food_dish_id": 210,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 8,
+        "english_name": "Soup-medium",
+        "chinese_name": "汤-中",
+        "khmer_name": "សម្ល-កណ្តាល",
+        "price": 14.9,
+        "food_dish_id": 210,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 9,
+        "english_name": "Soup-large",
+        "chinese_name": "汤-大",
+        "khmer_name": "សម្ល-ធំ",
+        "price": 18.9,
+        "food_dish_id": 210,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 10,
+        "english_name": "Duck-one",
+        "chinese_name": "鸭-只",
+        "khmer_name": "ទា",
+        "price": 9,
+        "food_dish_id": 1026,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 11,
+        "english_name": "COOL MELON-L",
+        "chinese_name": "凉瓜-大",
+        "khmer_name": "ម្រះ-ធំ",
+        "price": 12.9,
+        "food_dish_id": 55,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 12,
+        "english_name": "COOL MELON-SMALL",
+        "chinese_name": "凉瓜-小",
+        "khmer_name": "ម្រះ-តូច",
+        "price": 5.9,
+        "food_dish_id": 55,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 13,
+        "english_name": "COOL MELON-MEDIUM",
+        "chinese_name": "凉瓜-中",
+        "khmer_name": "ម្រះ-ធម្មតា",
+        "price": 9.9,
+        "food_dish_id": 55,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 14,
+        "english_name": "GREEN VEGETABLES- LARGE",
+        "chinese_name": "青菜-大",
+        "khmer_name": "បន្លែ-ធំ",
+        "price": 12.9,
+        "food_dish_id": 58,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 15,
+        "english_name": "GREEN VEGETABLES-SMALL",
+        "chinese_name": "青菜-小",
+        "khmer_name": "បន្លែ-តូច",
+        "price": 5.9,
+        "food_dish_id": 58,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 16,
+        "english_name": "GREEN VEGETABLES-MIDIUM",
+        "chinese_name": "青菜-中",
+        "khmer_name": "បន្លែ-ធម្មតា",
+        "price": 9.9,
+        "food_dish_id": 58,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 17,
+        "english_name": "SUCKLING PIG-L",
+        "chinese_name": "乳猪-大",
+        "khmer_name": "កូនជ្រូក - ធំ",
+        "price": 158,
+        "food_dish_id": 150,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 18,
+        "english_name": "SUCKLING PIG-M",
+        "chinese_name": "乳猪-只",
+        "khmer_name": "ជ្រូកខ្វៃ ",
+        "price": 207.9,
+        "food_dish_id": 150,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 19,
+        "english_name": "ROAST DUCK - HALF",
+        "chinese_name": "烧鸭-半",
+        "khmer_name": "ទាខ្វៃ-កន្លះ",
+        "price": 13.9,
+        "food_dish_id": 153,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 20,
+        "english_name": "ROAST DUCK - ON",
+        "chinese_name": "烧鸭-上",
+        "khmer_name": "ទាខ្វៃ -ខាងស្លាប",
+        "price": 9.9,
+        "food_dish_id": 153,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 21,
+        "english_name": "ROAST DUCK - DOWN",
+        "chinese_name": "烧鸭-下",
+        "khmer_name": "ទាខ្វៃ - ខាងភ្លៅ",
+        "price": 10.9,
+        "food_dish_id": 153,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 22,
+        "english_name": "SIGNATURE ROASTED PIGEON",
+        "chinese_name": "乳鸽-只",
+        "khmer_name": "ព្រាបពំពង",
+        "price": 14.8,
+        "food_dish_id": 161,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 23,
+        "english_name": "PO KEE DRUNK CHICKEN-HALF",
+        "chinese_name": "醉鸡-半",
+        "khmer_name": "មាន់ស្រវឹង-កន្លះ",
+        "price": 13.9,
+        "food_dish_id": 177,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 24,
+        "english_name": "PO KEE DRUNK CHICKEN-FULL",
+        "chinese_name": "醉鸡-全",
+        "khmer_name": "មាន់ស្រវឹង-១",
+        "price": 26.9,
+        "food_dish_id": 177,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 25,
+        "english_name": "FRIED DUMPLINGS",
+        "chinese_name": "煎饺-份",
+        "khmer_name": "គាវ",
+        "price": 4.9,
+        "food_dish_id": 179,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 26,
+        "english_name": "PEANUT",
+        "chinese_name": "花生-盒",
+        "khmer_name": "សណ្តែកដី-ប្រអប់",
+        "price": 3,
+        "food_dish_id": 197,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 27,
+        "english_name": "ADD MEAT-L",
+        "chinese_name": "加肉-大",
+        "khmer_name": "បន្ថែមសាច់ - ធំ",
+        "price": 5,
+        "food_dish_id": 202,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 28,
+        "english_name": "ADD MEAT-S",
+        "chinese_name": "加肉-小",
+        "khmer_name": "បន្ថែមសាច់ - តូច",
+        "price": 2,
+        "food_dish_id": 202,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 29,
+        "english_name": "ADD MEAT-M",
+        "chinese_name": "加肉-中",
+        "khmer_name": "បន្ថែមសាច់ - ធម្មតា",
+        "price": 3,
+        "food_dish_id": 202,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 30,
+        "english_name": "Porridge-Lit",
+        "chinese_name": "白粥-位",
+        "khmer_name": "បបរ",
+        "price": 1.9,
+        "food_dish_id": 477,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 31,
+        "english_name": "Porridge-S",
+        "chinese_name": "白粥-小",
+        "khmer_name": "បបរ - តូច",
+        "price": 3.9,
+        "food_dish_id": 477,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 32,
+        "english_name": "Porridge-M",
+        "chinese_name": "白粥-中",
+        "khmer_name": "បបរ - ធម្មតា",
+        "price": 4.9,
+        "food_dish_id": 477,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 33,
+        "english_name": "Porridge-L",
+        "chinese_name": "白粥-大",
+        "khmer_name": "បបរ - ធំ",
+        "price": 5.9,
+        "food_dish_id": 477,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 34,
+        "english_name": "Salted egg - only",
+        "chinese_name": "咸蛋-只",
+        "khmer_name": "ពងទាប្រៃ",
+        "price": 1,
+        "food_dish_id": 482,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 35,
+        "english_name": "preserved egg - only",
+        "chinese_name": "皮蛋-只",
+        "khmer_name": "ពងទាខ្មៅ",
+        "price": 1.2,
+        "food_dish_id": 483,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 36,
+        "english_name": "Pancake-per person",
+        "chinese_name": "薄饼-份",
+        "khmer_name": "នំពពារ",
+        "price": 2,
+        "food_dish_id": 518,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 37,
+        "english_name": "Peanuts-Lottle",
+        "chinese_name": "花生-瓶",
+        "khmer_name": "សណ្តែកដី",
+        "price": 2,
+        "food_dish_id": 197,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 38,
+        "english_name": "Shiban-two flavors",
+        "chinese_name": "什班-二味",
+        "khmer_name": "ត្រីធម្មជាតិធ្វើ២មុខ",
+        "price": 46.9,
+        "food_dish_id": 542,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 39,
+        "english_name": "Soy sauce-stick",
+        "chinese_name": "酱油-支",
+        "khmer_name": "",
+        "price": 3,
+        "food_dish_id": 205,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 40,
+        "english_name": "Suckling pig-half",
+        "chinese_name": "乳猪-半只",
+        "khmer_name": "ជ្រូកខ្វៃ",
+        "price": 30,
+        "food_dish_id": 150,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 41,
+        "english_name": "Suckling pig-piece",
+        "chinese_name": "乳猪-只",
+        "khmer_name": "ជ្រូកខ្វៃ",
+        "price": 138,
+        "food_dish_id": 150,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 42,
+        "english_name": "Suckling pig-piece",
+        "chinese_name": "乳猪-只",
+        "khmer_name": "ជ្រូកខ្វៃ",
+        "price": 98,
+        "food_dish_id": 150,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 43,
+        "english_name": "Roast duck-whole",
+        "chinese_name": "烧鸭-全只",
+        "khmer_name": "ទាខ្វៃ",
+        "price": 25.9,
+        "food_dish_id": 153,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 44,
+        "english_name": "Sea cucumber-portion",
+        "chinese_name": "海参-份",
+        "khmer_name": "ឈ្លើងសមុទ្រ",
+        "price": 29.9,
+        "food_dish_id": 581,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 45,
+        "english_name": "Soda-can",
+        "chinese_name": "汽水-罐",
+        "khmer_name": "ភេសជ្ជះ",
+        "price": 1.9,
+        "food_dish_id": 588,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 46,
+        "english_name": "Star class-2 flavors",
+        "chinese_name": "星班-2味",
+        "khmer_name": "ត្រីតុកែក្រហម",
+        "price": 66.9,
+        "food_dish_id": 436,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 47,
+        "english_name": "Set meal-person",
+        "chinese_name": "套餐-位",
+        "khmer_name": "ម្ហូបឈុត",
+        "price": 15,
+        "food_dish_id": 86,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 48,
+        "english_name": "Lobster-piece",
+        "chinese_name": "龙虾-只",
+        "khmer_name": "បង្កងនាគ-ក្បាល",
+        "price": 38,
+        "food_dish_id": 444,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 49,
+        "english_name": "Rice cake-piece",
+        "chinese_name": "年糕-个",
+        "khmer_name": "នំជៀល-១",
+        "price": 8,
+        "food_dish_id": 641,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 50,
+        "english_name": "Sea cucumber-portion",
+        "chinese_name": "海参-份",
+        "khmer_name": "ឈ្លើងសមុទ្រ",
+        "price": 25.9,
+        "food_dish_id": 581,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 51,
+        "english_name": "Young coconut-piece",
+        "chinese_name": "椰青-个",
+        "khmer_name": "ដូង",
+        "price": 1.8,
+        "food_dish_id": 686,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 52,
+        "english_name": "Fried chicken-piece",
+        "chinese_name": "炸鸡-只",
+        "khmer_name": "មាន់បំពង-១",
+        "price": 27.9,
+        "food_dish_id": 699,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 53,
+        "english_name": "Vegetables-small",
+        "chinese_name": "蔬菜-小",
+        "khmer_name": "បន្លែ",
+        "price": 5.9,
+        "food_dish_id": 709,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 54,
+        "english_name": "Fried chicken-half",
+        "chinese_name": "炸鸡-半只",
+        "khmer_name": "មាន់បំពង់-កន្លះ",
+        "price": 13.9,
+        "food_dish_id": 699,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 55,
+        "english_name": "Scallops-one",
+        "chinese_name": "带子-只",
+        "khmer_name": "គ្រម់",
+        "price": 5.9,
+        "food_dish_id": 711,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 56,
+        "english_name": "Sea cucumber-strip",
+        "chinese_name": "海参-条",
+        "khmer_name": "ឈ្លើងសមុទ្រ-១",
+        "price": 7,
+        "food_dish_id": 581,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 57,
+        "english_name": "Apple-one",
+        "chinese_name": "苹果-个",
+        "khmer_name": "ផ្លែប៉ោម-១",
+        "price": 2.3,
+        "food_dish_id": 726,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 58,
+        "english_name": "Clam Slice-Piece",
+        "chinese_name": "蚌片-份",
+        "khmer_name": "ឆាសាច់ខ្យង",
+        "price": 17.9,
+        "food_dish_id": 762,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 59,
+        "english_name": "Eel-Piece",
+        "chinese_name": "鳗鱼-份",
+        "khmer_name": "អន្ទង់ខឆ្នាំងដី",
+        "price": 12.9,
+        "food_dish_id": 763,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 60,
+        "english_name": "Coconut-piece",
+        "chinese_name": "香椰-个",
+        "khmer_name": "ដូងក្រអូប",
+        "price": 2.8,
+        "food_dish_id": 767,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 61,
+        "english_name": "Dumplings-portion",
+        "chinese_name": "饺子-份",
+        "khmer_name": "គាវ",
+        "price": 4.9,
+        "food_dish_id": 769,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 62,
+        "english_name": "Zongzi-a",
+        "chinese_name": "粽子-个",
+        "khmer_name": "នំអន្សាម",
+        "price": 3.5,
+        "food_dish_id": 792,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 63,
+        "english_name": "Abalone - one",
+        "chinese_name": "鲍鱼-只",
+        "khmer_name": "",
+        "price": 80.9,
+        "food_dish_id": 452,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 64,
+        "english_name": "Lamb's trotter-one",
+        "chinese_name": "羊蹄-只",
+        "khmer_name": "រោមចៀម",
+        "price": 3,
+        "food_dish_id": 809,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 65,
+        "english_name": "Fish maw-strips",
+        "chinese_name": "花胶-条",
+        "khmer_name": "ក្រពះត្រី",
+        "price": 4.9,
+        "food_dish_id": 825,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 66,
+        "english_name": "Braised duck-half",
+        "chinese_name": "炆鸭-半只",
+        "khmer_name": "ទាខ",
+        "price": 14.9,
+        "food_dish_id": 834,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 67,
+        "english_name": "Braised duck-one",
+        "chinese_name": "炆鸭-只",
+        "khmer_name": "ទាខ",
+        "price": 30.9,
+        "food_dish_id": 834,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 68,
+        "english_name": "Noodles Bao-noodles",
+        "chinese_name": "面包-条",
+        "khmer_name": "នំប័ង",
+        "price": 0.75,
+        "food_dish_id": 840,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 69,
+        "english_name": "Shrimp dumplings-pieces",
+        "chinese_name": "虾饺-粒",
+        "khmer_name": "ហាកាវ",
+        "price": 1,
+        "food_dish_id": 852,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 70,
+        "english_name": "Gecko-strips",
+        "chinese_name": "蛤蚧-条",
+        "khmer_name": "",
+        "price": 5.9,
+        "food_dish_id": 853,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 71,
+        "english_name": "Shrimp balls-portion",
+        "chinese_name": "虾丸-份",
+        "khmer_name": "ប្រហិតបង្កា",
+        "price": 12,
+        "food_dish_id": 862,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 72,
+        "english_name": "Sea cucumber-portion",
+        "chinese_name": "海参-条",
+        "khmer_name": "ឈ្លើងសមុទ្រ",
+        "price": 9.9,
+        "food_dish_id": 581,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 73,
+        "english_name": "Noodle soup-S",
+        "chinese_name": "汤面-小",
+        "khmer_name": "មីស៊ុប",
+        "price": 7.9,
+        "food_dish_id": 874,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 74,
+        "english_name": "Noodle soup-M",
+        "chinese_name": "汤面-中",
+        "khmer_name": "មីស៊ុប",
+        "price": 10.9,
+        "food_dish_id": 874,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 75,
+        "english_name": "Noodle soup-L",
+        "chinese_name": "汤面-大",
+        "khmer_name": "មីស៊ុប",
+        "price": 13.9,
+        "food_dish_id": 874,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 76,
+        "english_name": "Squab pigeon - piece",
+        "chinese_name": "乳鸽-只",
+        "khmer_name": "ព្រាប",
+        "price": 9.9,
+        "food_dish_id": 161,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 77,
+        "english_name": "Tofu-S",
+        "chinese_name": "豆腐-小",
+        "khmer_name": "តៅហ៊ូ",
+        "price": 5,
+        "food_dish_id": 886,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 78,
+        "english_name": "Tofu-M",
+        "chinese_name": "豆腐-中",
+        "khmer_name": "តៅហ៊ូ",
+        "price": 7,
+        "food_dish_id": 886,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 79,
+        "english_name": "Tofu-L",
+        "chinese_name": "豆腐-大",
+        "khmer_name": "តៅហ៊ូ",
+        "price": 9,
+        "food_dish_id": 886,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 80,
+        "english_name": "Roast duck - piece",
+        "chinese_name": "烧鸭-只",
+        "khmer_name": "ទាខ្វៃ",
+        "price": 27.9,
+        "food_dish_id": 153,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 81,
+        "english_name": "Small soup",
+        "chinese_name": "例汤-小",
+        "khmer_name": "ស៊ុប",
+        "price": 9.9,
+        "food_dish_id": 924,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 82,
+        "english_name": "Medium soup",
+        "chinese_name": "例汤-中",
+        "khmer_name": "ស៊ុប",
+        "price": 14.9,
+        "food_dish_id": 924,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 83,
+        "english_name": "Medium soup",
+        "chinese_name": "例汤-大",
+        "khmer_name": "ស៊ុប",
+        "price": 18.9,
+        "food_dish_id": 924,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 84,
+        "english_name": "Yacon",
+        "chinese_name": "雀仔-只",
+        "khmer_name": "ចាប",
+        "price": 2,
+        "food_dish_id": 931,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 85,
+        "english_name": "Soy sauce",
+        "chinese_name": "燕窝-位",
+        "khmer_name": "ទឹកមាត់ត្រចៀកកាំ",
+        "price": 11,
+        "food_dish_id": 929,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 86,
+        "english_name": "Pomelo-piece",
+        "chinese_name": "柚子-个",
+        "khmer_name": "",
+        "price": 3,
+        "food_dish_id": 993,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 87,
+        "english_name": "Orange-per serving",
+        "chinese_name": "橙子-个",
+        "khmer_name": "ក្រូច",
+        "price": 2.5,
+        "food_dish_id": 1005,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 88,
+        "english_name": "Orange-Lox",
+        "chinese_name": "橙子-箱",
+        "khmer_name": "ក្រូច",
+        "price": 23,
+        "food_dish_id": 1005,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 89,
+        "english_name": "Noodle soup-piece",
+        "chinese_name": "汤面-位",
+        "khmer_name": "មីស៊ុប",
+        "price": 4.9,
+        "food_dish_id": 874,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 90,
+        "english_name": "Foreign duck-piece",
+        "chinese_name": "洋鸭-只",
+        "khmer_name": "ទា",
+        "price": 9,
+        "food_dish_id": 1021,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 91,
+        "english_name": "Scallop-piece",
+        "chinese_name": "带子-粒",
+        "khmer_name": "",
+        "price": 1.2,
+        "food_dish_id": 711,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 92,
+        "english_name": "Zongzi-each",
+        "chinese_name": "粽子-个",
+        "khmer_name": "នំអន្សាម",
+        "price": 3.8,
+        "food_dish_id": 792,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 93,
+        "english_name": "Durian-Lox",
+        "chinese_name": "榴莲-盒",
+        "khmer_name": "ធូរេន",
+        "price": 25,
+        "food_dish_id": 1040,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 94,
+        "english_name": "Beef-portion",
+        "chinese_name": "肥牛-份",
+        "khmer_name": "សាច់គោ",
+        "price": 11.9,
+        "food_dish_id": 1041,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 95,
+        "english_name": "WANZAI WING-LIT",
+        "chinese_name": "碗仔翅-位",
+        "khmer_name": "ព្រុយត្រី-មួយចាន",
+        "price": 14.9,
+        "food_dish_id": 41,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 96,
+        "english_name": "PRESERVED EGG PORRIDGE",
+        "chinese_name": "皮蛋粥-1位",
+        "khmer_name": "បបរពងទាខ្មៅ",
+        "price": 3.9,
+        "food_dish_id": 82,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 97,
+        "english_name": "PRESERVED EGG PORRIDGE",
+        "chinese_name": "皮蛋粥-小",
+        "khmer_name": "បបរពងទាខ្មៅ",
+        "price": 8.9,
+        "food_dish_id": 82,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 98,
+        "english_name": "PRESERVED EGG PORRIDGE",
+        "chinese_name": "皮蛋粥-中",
+        "khmer_name": "បបរពងទាខ្មៅ",
+        "price": 13.9,
+        "food_dish_id": 82,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 99,
+        "english_name": "SWEET AND SOUR PORK-L",
+        "chinese_name": "咕咾肉-大",
+        "khmer_name": "សាច់ជ្រូកឆាបីជាន់ឆាជូអែម-ធំ",
+        "price": 17.9,
+        "food_dish_id": 130,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 100,
+        "english_name": "SWEET AND SOUR PORK-S",
+        "chinese_name": "咕咾肉-小",
+        "khmer_name": "សាច់ជ្រូកឆាបីជាន់ឆាជូអែម-តូច",
+        "price": 9.9,
+        "food_dish_id": 130,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 101,
+        "english_name": "SWEET AND SOUR PORK-M",
+        "chinese_name": "咕咾肉-中",
+        "khmer_name": "សាច់ជ្រូកឆាបីជាន់ឆាជូអែម-ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 130,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 102,
+        "english_name": "BOILED CHICKEN",
+        "chinese_name": "白切鸡-半",
+        "khmer_name": "មាន់ត្រជាក់-កន្លះ",
+        "price": 12.9,
+        "food_dish_id": 139,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 103,
+        "english_name": "BOILED CHICKEN",
+        "chinese_name": "白切鸡-全",
+        "khmer_name": "មាន់ត្រជាក់-១",
+        "price": 24.9,
+        "food_dish_id": 139,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 104,
+        "english_name": "SCALLION CHICKEN - HALF",
+        "chinese_name": "葱油鸡-半",
+        "khmer_name": "មាន់ទឹកសីវអីវ-កន្លះ",
+        "price": 12.9,
+        "food_dish_id": 148,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 105,
+        "english_name": "SCALLION CHICKEN - WHOLE",
+        "chinese_name": "葱油鸡-全",
+        "khmer_name": "មាន់ទឹកសីវអីវ-ទាំងមូល",
+        "price": 24.9,
+        "food_dish_id": 148,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 106,
+        "english_name": "MARINATED DUCK",
+        "chinese_name": "卤水鸭-大",
+        "khmer_name": "ទាផាក់ឡូវ-ធំ",
+        "price": 25.9,
+        "food_dish_id": 175,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 107,
+        "english_name": "MARINATED DUCK",
+        "chinese_name": "卤水鸭-小",
+        "khmer_name": "ទាផាក់ឡូវ-តូច",
+        "price": 13.9,
+        "food_dish_id": 175,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 108,
+        "english_name": "CHICKEN SOUR SOUP - HALF",
+        "chinese_name": "鸡酸汤-半",
+        "khmer_name": "សម្លម្ជូរមាន់-កន្លះ",
+        "price": 13.9,
+        "food_dish_id": 208,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 109,
+        "english_name": "CHICKEN SOUR SOUP - WHOLE",
+        "chinese_name": "鸡酸汤-全",
+        "khmer_name": "សម្លម្ជូរមាន់ - ១",
+        "price": 27.9,
+        "food_dish_id": 208,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 110,
+        "english_name": "CRAB SOUP-L",
+        "chinese_name": "蟹肉羹-大",
+        "khmer_name": "ស៊ុបក្តាម - ធំ",
+        "price": 18.9,
+        "food_dish_id": 211,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 111,
+        "english_name": "CRAB SOUP - ONE",
+        "chinese_name": "蟹肉羹-位",
+        "khmer_name": "ស៊ុបក្តាម - ចំនែក",
+        "price": 4.9,
+        "food_dish_id": 211,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 112,
+        "english_name": "CRAB SOUP-S",
+        "chinese_name": "蟹肉羹-小",
+        "khmer_name": "ស៊ុបក្តាម - តូច",
+        "price": 9.9,
+        "food_dish_id": 211,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 113,
+        "english_name": "CRAB SOUP-M",
+        "chinese_name": "蟹肉羹-中",
+        "khmer_name": "ស៊ុបក្តាម - ធម្មតា",
+        "price": 14.9,
+        "food_dish_id": 211,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 114,
+        "english_name": "PORK BELLY SOUP",
+        "chinese_name": "猪肚汤-位",
+        "khmer_name": "ស៊ុបក្រពេះជ្រូក",
+        "price": 5.9,
+        "food_dish_id": 216,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 115,
+        "english_name": "FRIED PORK-L",
+        "chinese_name": "小炒肉-大",
+        "khmer_name": "សាច់ជ្រូកឆាស្ងួត-ធំ",
+        "price": 17.9,
+        "food_dish_id": 318,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 116,
+        "english_name": "FRIED PORK-S",
+        "chinese_name": "小炒肉-小",
+        "khmer_name": "សាច់ជ្រូកឆាស្ងួត-តូច",
+        "price": 9.9,
+        "food_dish_id": 318,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 117,
+        "english_name": "FRIED PORK-M",
+        "chinese_name": "小炒肉-中",
+        "khmer_name": "សាច់ជ្រូកឆាស្ងួត-ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 318,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 118,
+        "english_name": "NAVY WATER (B)",
+        "chinese_name": "海军水-大",
+        "khmer_name": "ទឹកណាវីធំ",
+        "price": 3,
+        "food_dish_id": 353,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 119,
+        "english_name": "NAVY WATER (S)",
+        "chinese_name": "海军水-小",
+        "khmer_name": "ទឹកណាវីតូច",
+        "price": 1.6,
+        "food_dish_id": 353,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 120,
+        "english_name": "EVIAN WATER(B)",
+        "chinese_name": "依云水-大",
+        "khmer_name": "ទឹកអែវីយុងធំ",
+        "price": 4.3,
+        "food_dish_id": 378,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 121,
+        "english_name": "EVIAN WATER(S)",
+        "chinese_name": "依云水-小",
+        "khmer_name": "ទឹកអែវីយុងតូច",
+        "price": 2.6,
+        "food_dish_id": 378,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 122,
+        "english_name": "TIGER SPOT - 2 FLAVOR",
+        "chinese_name": "老虎斑-2味",
+        "khmer_name": "ត្រីតុកែខ្លា-២រស់ជាតិ",
+        "price": 40.9,
+        "food_dish_id": 445,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 123,
+        "english_name": "Poached Eggs - Only",
+        "chinese_name": "荷包蛋-只",
+        "khmer_name": "ស៊ុតឆ្អិន",
+        "price": 1,
+        "food_dish_id": 484,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 124,
+        "english_name": "Add Beef-S",
+        "chinese_name": "加牛肉-小",
+        "khmer_name": "ថែមសាច់គោ - តូច",
+        "price": 2,
+        "food_dish_id": 485,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 125,
+        "english_name": "Add Beef-M",
+        "chinese_name": "加牛肉-中",
+        "khmer_name": "ថែមសាច់គោ - ធម្មតា",
+        "price": 3,
+        "food_dish_id": 485,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 126,
+        "english_name": "Add Beef-L",
+        "chinese_name": "加牛肉-大",
+        "khmer_name": "ថែមសាច់គោ - ធំ",
+        "price": 5,
+        "food_dish_id": 485,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 127,
+        "english_name": "Add pork-S",
+        "chinese_name": "加猪肉-小",
+        "khmer_name": "ថែមសាច់ជ្រូក - តូច",
+        "price": 2,
+        "food_dish_id": 488,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 128,
+        "english_name": "Add pork-M",
+        "chinese_name": "加猪肉-中",
+        "khmer_name": "ថែមសាច់ជ្រូក - ធម្មតា",
+        "price": 3,
+        "food_dish_id": 488,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 129,
+        "english_name": "Add Pork-L",
+        "chinese_name": "加猪肉-大",
+        "khmer_name": "ថែមសាច់ជ្រូក - ធំ",
+        "price": 4.9,
+        "food_dish_id": 488,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 130,
+        "english_name": "Add Seafood-S",
+        "chinese_name": "加海鲜-小",
+        "khmer_name": "ថែមគ្រឿងសមុទ្រ - តូច",
+        "price": 2,
+        "food_dish_id": 491,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 131,
+        "english_name": "Add Seafood-M",
+        "chinese_name": "加海鲜-中",
+        "khmer_name": "ថែមអាហារសមុទ្រ - ធម្មតា",
+        "price": 3,
+        "food_dish_id": 491,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 132,
+        "english_name": "Add Seafood-L",
+        "chinese_name": "加海鲜-大",
+        "khmer_name": "ថែមគ្រឿងសមុទ្រ - ធំ",
+        "price": 5,
+        "food_dish_id": 491,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 133,
+        "english_name": "Oyster Sauce-S",
+        "chinese_name": "蚝油菜-小",
+        "khmer_name": "បន្លែឆាប្រេងខ្យង - តូច",
+        "price": 5.9,
+        "food_dish_id": 495,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 134,
+        "english_name": "Oyster Sauce-M",
+        "chinese_name": "蚝油菜-中",
+        "khmer_name": "បន្លែឆាប្រេងខ្យង - ធម្មតា",
+        "price": 9.9,
+        "food_dish_id": 495,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 135,
+        "english_name": "Oyster Sauce-L",
+        "chinese_name": "蚝油菜-大",
+        "khmer_name": "បន្លែឆាប្រេងខ្យង - ធំ",
+        "price": 12.9,
+        "food_dish_id": 495,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 136,
+        "english_name": "Sweet potato leaves-small",
+        "chinese_name": "番薯叶-小",
+        "khmer_name": "បន្លែ-តូច",
+        "price": 5.9,
+        "food_dish_id": 515,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 137,
+        "english_name": "Sweet potato leaves-medium",
+        "chinese_name": "番薯叶-中",
+        "khmer_name": "បន្លែ-កណ្តាល",
+        "price": 9.9,
+        "food_dish_id": 515,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 138,
+        "english_name": "Sweet potato leaves-large",
+        "chinese_name": "番薯叶-大",
+        "khmer_name": "បន្លែ-ធំ",
+        "price": 12.9,
+        "food_dish_id": 515,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 139,
+        "english_name": "Broccoli-small",
+        "chinese_name": "西蓝花-小",
+        "khmer_name": "ផ្កាខាត់ណា-តូច",
+        "price": 5.9,
+        "food_dish_id": 528,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 140,
+        "english_name": "Broccoli-medium",
+        "chinese_name": "西蓝花-中",
+        "khmer_name": "ផ្កាខាត់ណា-កណ្តាល",
+        "price": 9.9,
+        "food_dish_id": 528,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 141,
+        "english_name": "Broccoli-large",
+        "chinese_name": "西蓝花-大",
+        "khmer_name": "ផ្កាខាត់ណា-ធំ",
+        "price": 12.9,
+        "food_dish_id": 528,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 142,
+        "english_name": "Broccoli-medium",
+        "chinese_name": "小塘菜-小",
+        "khmer_name": "បន្លែ-តូច",
+        "price": 5.9,
+        "food_dish_id": 535,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 143,
+        "english_name": "Broccoli-large",
+        "chinese_name": "小塘菜-中",
+        "khmer_name": "បន្លែ-កណ្តាល",
+        "price": 9.9,
+        "food_dish_id": 535,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 144,
+        "english_name": "Platinum Dream",
+        "chinese_name": "小塘菜-大",
+        "khmer_name": "បន្លែ-ធំ",
+        "price": 12.9,
+        "food_dish_id": 535,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 145,
+        "english_name": "Luohanzhai-small",
+        "chinese_name": "罗汉斋-小",
+        "khmer_name": "បួសឡហាន-តូច",
+        "price": 5.9,
+        "food_dish_id": 546,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 146,
+        "english_name": "Luohanzhai-medium",
+        "chinese_name": "罗汉斋-中",
+        "khmer_name": "បួសឡហាន-កណ្តាល",
+        "price": 9.9,
+        "food_dish_id": 546,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 147,
+        "english_name": "Luohanzhai-large",
+        "chinese_name": "罗汉斋-大",
+        "khmer_name": "បួសឡហាន-ធំ",
+        "price": 12.9,
+        "food_dish_id": 546,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 148,
+        "english_name": "Bamboo fish-two flavors",
+        "chinese_name": "笋壳鱼-二味",
+        "khmer_name": "ត្រីដំរីធ្វើ២មុខ",
+        "price": 42.9,
+        "food_dish_id": 554,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 149,
+        "english_name": "Clam-piece",
+        "chinese_name": "贵妃蚌-只",
+        "khmer_name": "គ្រុម",
+        "price": 2.9,
+        "food_dish_id": 560,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 150,
+        "english_name": "Fried shrimp cake-piece",
+        "chinese_name": "炸虾饼-份",
+        "khmer_name": "នំបំពង",
+        "price": 2.9,
+        "food_dish_id": 572,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 151,
+        "english_name": "Octopus-large",
+        "chinese_name": "八爪鱼-大",
+        "khmer_name": "មឹកឆា-ធំ",
+        "price": 27.9,
+        "food_dish_id": 589,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 152,
+        "english_name": "Beef stew-large",
+        "chinese_name": "牛什煲-大",
+        "khmer_name": "ពោះគោឆ្នឹងដី-ធំ",
+        "price": 23.9,
+        "food_dish_id": 21,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 153,
+        "english_name": "Lamb stew-large",
+        "chinese_name": "羊腩煲-大",
+        "khmer_name": "សាច់ពពែឆ្នឹងដី-ធំ",
+        "price": 39.9,
+        "food_dish_id": 592,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 154,
+        "english_name": "Fried lotus root slices-small",
+        "chinese_name": "炒藕片-小",
+        "khmer_name": "ឆាមើមឈូក-តូច",
+        "price": 5.9,
+        "food_dish_id": 595,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 155,
+        "english_name": "Fried lotus root slices-medium",
+        "chinese_name": "炒藕片-中",
+        "khmer_name": "ឆាមើមឈូក-កណ្តាល",
+        "price": 9.9,
+        "food_dish_id": 595,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 156,
+        "english_name": "Fried lotus root slices-large",
+        "chinese_name": "炒藕片-大",
+        "khmer_name": "ឆាមើមឈូក-ធំ",
+        "price": 12.9,
+        "food_dish_id": 595,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 157,
+        "english_name": "Stir-fried vegetables-small",
+        "chinese_name": "炒什菜-小",
+        "khmer_name": "ឆាបន្លែគ្រប់មុខ-តូច",
+        "price": 5.9,
+        "food_dish_id": 652,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 158,
+        "english_name": "Stir-fried vegetables-medium",
+        "chinese_name": "炒什菜-中",
+        "khmer_name": "ឆាបន្លែគ្រប់មុខ-កណ្តាល",
+        "price": 9.9,
+        "food_dish_id": 652,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 159,
+        "english_name": "Stir-fried vegetables-large",
+        "chinese_name": "炒什菜-大",
+        "khmer_name": "ឆាបន្លែគ្រប់មុខ-ធំ",
+        "price": 12.9,
+        "food_dish_id": 652,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 160,
+        "english_name": "Lavender bun-portion",
+        "chinese_name": "流沙包-份",
+        "khmer_name": "នំប៉ាវ-ចំណែក",
+        "price": 2.8,
+        "food_dish_id": 656,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 161,
+        "english_name": "Pearl pan-fried-large",
+        "chinese_name": "珍珠烙-大",
+        "khmer_name": "ពោតចៀន-ធំ",
+        "price": 11.9,
+        "food_dish_id": 183,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 162,
+        "english_name": "Salad vegetables-portion",
+        "chinese_name": "沙律菜-份",
+        "khmer_name": "សាឡាត់",
+        "price": 9.9,
+        "food_dish_id": 685,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 163,
+        "english_name": "Pineapple bun-Lox",
+        "chinese_name": "菠萝包-盒",
+        "khmer_name": "នំប៉ាវម្នាស់-ប្រអប់",
+        "price": 2.8,
+        "food_dish_id": 696,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 164,
+        "english_name": "Bin-389",
+        "chinese_name": "Bin-389",
+        "khmer_name": "ប៊ីន389",
+        "price": 119,
+        "food_dish_id": 708,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 165,
+        "english_name": "Takeaway box-one",
+        "chinese_name": "打包盒-个",
+        "khmer_name": "ប្រអប់",
+        "price": 1,
+        "food_dish_id": 712,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 166,
+        "english_name": "King of the Holy Son-one",
+        "chinese_name": "圣子王-只",
+        "khmer_name": "គ្រម់ឬស្សី",
+        "price": 3.5,
+        "food_dish_id": 713,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 167,
+        "english_name": "Fried shrimp dumplings-one",
+        "chinese_name": "炸虾饺-份",
+        "khmer_name": "ហាកាវបំពង",
+        "price": 5.9,
+        "food_dish_id": 718,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 168,
+        "english_name": "Fried fish floss-small",
+        "chinese_name": "炒鱼松-小",
+        "khmer_name": "",
+        "price": 9.9,
+        "food_dish_id": 719,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 169,
+        "english_name": "Braised soup-large",
+        "chinese_name": "卤水拼-大",
+        "khmer_name": "",
+        "price": 27.9,
+        "food_dish_id": 724,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 170,
+        "english_name": "Stir-fried kale-small",
+        "chinese_name": "炒芥兰-小",
+        "khmer_name": "បន្លែ-តូច",
+        "price": 5.9,
+        "food_dish_id": 738,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 171,
+        "english_name": "Stir-fried kale-medium",
+        "chinese_name": "炒芥兰-中",
+        "khmer_name": "បន្លែ-កណ្ដាល",
+        "price": 9.9,
+        "food_dish_id": 738,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 172,
+        "english_name": "Stir-fried kale-large",
+        "chinese_name": "炒芥兰-大",
+        "khmer_name": "បន្លែ-ធំ",
+        "price": 12.9,
+        "food_dish_id": 738,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 173,
+        "english_name": "Lavender buns-17",
+        "chinese_name": "流沙包-17个",
+        "khmer_name": "នំប៉ាវ",
+        "price": 12,
+        "food_dish_id": 656,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 174,
+        "english_name": "Big Abalone-Piece",
+        "chinese_name": "大鲍鱼-只",
+        "khmer_name": "ប៉ាវហឺ",
+        "price": 188,
+        "food_dish_id": 753,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 175,
+        "english_name": "Turtle Jelly-Lox",
+        "chinese_name": "龟苓膏-盒",
+        "khmer_name": "ចាហួយចិន",
+        "price": 1.5,
+        "food_dish_id": 768,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 176,
+        "english_name": "Fried shrimp cakes-large",
+        "chinese_name": "炸虾饼-大",
+        "khmer_name": "នំបំពង",
+        "price": 3.9,
+        "food_dish_id": 572,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 177,
+        "english_name": "Fried milk-a portion",
+        "chinese_name": "炸鲜奶-份",
+        "khmer_name": "ទឹកដោះគោស្រស់បំពង",
+        "price": 5.9,
+        "food_dish_id": 791,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 178,
+        "english_name": "Large abalone - one",
+        "chinese_name": "大鲍鱼-只",
+        "khmer_name": "",
+        "price": 198,
+        "food_dish_id": 753,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 179,
+        "english_name": "Fish maw soup - one",
+        "chinese_name": "花胶汤-位",
+        "khmer_name": "",
+        "price": 15.9,
+        "food_dish_id": 805,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 180,
+        "english_name": "Chicken with vegetable bile-one",
+        "chinese_name": "菜胆鸡-只",
+        "khmer_name": "",
+        "price": 27.9,
+        "food_dish_id": 827,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 181,
+        "english_name": "Fried fish floss-large",
+        "chinese_name": "炒鱼松-大",
+        "khmer_name": "",
+        "price": 17.9,
+        "food_dish_id": 719,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 182,
+        "english_name": "Sour cucumber-Lox",
+        "chinese_name": "酸青瓜-盒",
+        "khmer_name": "ត្រសក់ជ្រក់",
+        "price": 4.9,
+        "food_dish_id": 839,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 183,
+        "english_name": "Small",
+        "chinese_name": "鲜淮山-小",
+        "khmer_name": "យ៉ាអួស្រស់ - តូច",
+        "price": 5.9,
+        "food_dish_id": 847,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 184,
+        "english_name": "Medium",
+        "chinese_name": "鲜淮山-中",
+        "khmer_name": "យ៉ាអួស្រស់ - ធម្មតា",
+        "price": 9.9,
+        "food_dish_id": 847,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 185,
+        "english_name": "Large",
+        "chinese_name": "鲜淮山-大",
+        "khmer_name": "យ៉ាអួស្រស់ - ធំ",
+        "price": 12.9,
+        "food_dish_id": 847,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 186,
+        "english_name": "Mainland hairy crab",
+        "chinese_name": "大闸蟹-只",
+        "khmer_name": "ក្តាមសៀងហៃ",
+        "price": 35,
+        "food_dish_id": 415,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 187,
+        "english_name": "Butterfly clam-portion",
+        "chinese_name": "蝴蝶蚌-份",
+        "khmer_name": "គ្រុម",
+        "price": 19.9,
+        "food_dish_id": 868,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 188,
+        "english_name": "Pickled cucumbers - box",
+        "chinese_name": "酸黄瓜-盒",
+        "khmer_name": "ត្រសក់ជ្រក់",
+        "price": 4.9,
+        "food_dish_id": 871,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 189,
+        "english_name": "Turtle jelly - piece",
+        "chinese_name": "龟苓膏-个",
+        "khmer_name": "ចាហួយ",
+        "price": 0.25,
+        "food_dish_id": 768,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 190,
+        "english_name": "Abalone soup - piece",
+        "chinese_name": "鲍鱼汤-位",
+        "khmer_name": "ស៊ុបប៉ាវហឺ",
+        "price": 9.9,
+        "food_dish_id": 899,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 191,
+        "english_name": "Water fish soup-per person",
+        "chinese_name": "水鱼汤-位",
+        "khmer_name": "ស៊ុបកន្ទាយ",
+        "price": 8.9,
+        "food_dish_id": 913,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 192,
+        "english_name": "Turbot",
+        "chinese_name": "尿虾仔-只",
+        "khmer_name": "បង្កងប៉ាកតូច",
+        "price": 4.5,
+        "food_dish_id": 945,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 193,
+        "english_name": "Yellow fish",
+        "chinese_name": "多宝鱼-条",
+        "khmer_name": "ត្រីតាប៉ែត",
+        "price": 59,
+        "food_dish_id": 584,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 194,
+        "english_name": "Stir-fried lotus root and water chestnuts-small",
+        "chinese_name": "炒藕荇-小",
+        "khmer_name": "ឆាបន្លែ",
+        "price": 5.9,
+        "food_dish_id": 999,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 195,
+        "english_name": "Fish maw soup-per serving",
+        "chinese_name": "花胶汤-位",
+        "khmer_name": "ស៊ុប",
+        "price": 18,
+        "food_dish_id": 805,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 196,
+        "english_name": "Hua Diao wine-per serving",
+        "chinese_name": "花雕酒-支",
+        "khmer_name": "ស្រារស",
+        "price": 10,
+        "food_dish_id": 1003,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 197,
+        "english_name": "Stewed sea cucumber-per serving",
+        "chinese_name": "炖海参-位",
+        "khmer_name": "",
+        "price": 6,
+        "food_dish_id": 1004,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 198,
+        "english_name": "Wenchang chicken-piece",
+        "chinese_name": "文昌鸡-只",
+        "khmer_name": "មាន់",
+        "price": 35,
+        "food_dish_id": 1008,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 199,
+        "english_name": "Takeaway box-piece",
+        "chinese_name": "打包盒-个",
+        "khmer_name": "ប្រអប់",
+        "price": 0.5,
+        "food_dish_id": 712,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 200,
+        "english_name": "Fried fish-piece",
+        "chinese_name": "炸鱼仔-份",
+        "khmer_name": "ត្រីបំពង់",
+        "price": 5.9,
+        "food_dish_id": 1020,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 201,
+        "english_name": "Spicy broth-piece",
+        "chinese_name": "高汤翅-位",
+        "khmer_name": "ស៊ុប",
+        "price": 40,
+        "food_dish_id": 1022,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 202,
+        "english_name": "Owl-one",
+        "chinese_name": "猫头鹰-只",
+        "khmer_name": "ម្ហូប",
+        "price": 220,
+        "food_dish_id": 1027,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 203,
+        "english_name": "Sweet Zongzi-each",
+        "chinese_name": "甜粽子-个",
+        "khmer_name": "",
+        "price": 2.5,
+        "food_dish_id": 1038,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 204,
+        "english_name": "Buddha jumps over the wall-each",
+        "chinese_name": "佛跳墙-位",
+        "khmer_name": "",
+        "price": 48,
+        "food_dish_id": 1039,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 205,
+        "english_name": "STIR FRIED BEEF ON IRON PLATE-L",
+        "chinese_name": "铁板牛肉-大",
+        "khmer_name": "សាច់គោបន្ទះដែក-ធំ",
+        "price": 17.9,
+        "food_dish_id": 5,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 206,
+        "english_name": "STIR FRIED BEEF ON IRON PLATE-S",
+        "chinese_name": "铁板牛肉-小",
+        "khmer_name": "សាច់គោបន្ទះដែក-តូច",
+        "price": 9.9,
+        "food_dish_id": 5,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 207,
+        "english_name": "STIR FRIED BEEF ON IRON PLATE-M",
+        "chinese_name": "铁板牛肉-中",
+        "khmer_name": "សាច់គោបន្ទះដែក-ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 5,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 208,
+        "english_name": "STIR FRIED VENISON-L",
+        "chinese_name": "铁板鹿肉-大",
+        "khmer_name": "សាច់ឈ្លូសបន្ទះដែក-ធំ",
+        "price": 20.9,
+        "food_dish_id": 15,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 209,
+        "english_name": "STIR FRIED VENISON-S",
+        "chinese_name": "铁板鹿肉-小",
+        "khmer_name": "សាច់ឈ្លូសបន្ទះដែក-តូច",
+        "price": 10.9,
+        "food_dish_id": 15,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 210,
+        "english_name": "STIR FRIED VENISON-M",
+        "chinese_name": "铁板鹿肉-中",
+        "khmer_name": "សាច់ឈ្លូសបន្ទះដែក-ធម្មតា",
+        "price": 16.9,
+        "food_dish_id": 15,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 211,
+        "english_name": "BRAISED PIG INTENSTINES-L",
+        "chinese_name": "红烧大肠-大",
+        "khmer_name": "ពោះវៀនជ្រូកឆ្នាំងដី-ធំ",
+        "price": 20.9,
+        "food_dish_id": 23,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 212,
+        "english_name": "BRAISED PIG INTENSTINES-S",
+        "chinese_name": "红烧大肠-小",
+        "khmer_name": "ពោះវៀនជ្រូកឆ្នាំងដី-តូច",
+        "price": 10.9,
+        "food_dish_id": 23,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 213,
+        "english_name": "BRAISED PIG INTENSTINES-M",
+        "chinese_name": "红烧大肠-中",
+        "khmer_name": "ពោះវៀនជ្រូកឆ្នាំងដី-ធម្មតា",
+        "price": 16.9,
+        "food_dish_id": 23,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 214,
+        "english_name": "BRAISED ABALONE-L",
+        "chinese_name": "红烧鲍鱼-大",
+        "khmer_name": "ខប៉ាវហ៊ឺពិសេស-ធំ",
+        "price": 49,
+        "food_dish_id": 43,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 215,
+        "english_name": "BRAISED ABALONE-S",
+        "chinese_name": "红烧鲍鱼-小",
+        "khmer_name": "ខប៉ាវហ៊ឺពិសេស-តូច",
+        "price": 9.9,
+        "food_dish_id": 43,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 216,
+        "english_name": "BRAISED ABALONE-M",
+        "chinese_name": "红烧鲍鱼-中",
+        "khmer_name": "ខប៉ាវហ៊ឺពិសេស-ធម្មតា",
+        "price": 37.9,
+        "food_dish_id": 43,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 217,
+        "english_name": "STIR FRIED NOODLES WITH ABALONE SAUSE-L",
+        "chinese_name": "鲍汁捞面-大",
+        "khmer_name": "មីស្រូបទឹកប៉ោវហ៊ឺ-ធំ",
+        "price": 12.9,
+        "food_dish_id": 50,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 218,
+        "english_name": "STIR FRIED NOODLES WITH ABALONE SAUSE-S",
+        "chinese_name": "鲍汁捞面-小",
+        "khmer_name": "មីស្រូបទឹកប៉ោវហ៊ឺ-តូច",
+        "price": 6.9,
+        "food_dish_id": 50,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 219,
+        "english_name": "STIR FRIED NOODLES WITH ABALONE SAUSE-M",
+        "chinese_name": "鲍汁捞面-中",
+        "khmer_name": "មីស្រូបទឹកប៉ោវហ៊ឺ-ធម្មតា",
+        "price": 9.9,
+        "food_dish_id": 50,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 220,
+        "english_name": "STIR FRIED BEAN SPROUTS WITH GARLIC -L",
+        "chinese_name": "蒜蓉豆苗-大",
+        "khmer_name": "ត្រួយសណ្តែកឆាខ្ទឹមស-ធំ",
+        "price": 12.9,
+        "food_dish_id": 70,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 221,
+        "english_name": "STIR FRIED BEAN SPROUTS WITH GARLIC -S",
+        "chinese_name": "蒜蓉豆苗-小",
+        "khmer_name": "ត្រួយសណ្តែកឆាខ្ទឹមស-តូច",
+        "price": 5.9,
+        "food_dish_id": 70,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 222,
+        "english_name": "STIR FRIED BEAN SPROUTS WITH GARLIC -M",
+        "chinese_name": "蒜蓉豆苗-中",
+        "khmer_name": "ត្រួយសណ្តែកឆាខ្ទឹមស-ធម្មតា",
+        "price": 9.9,
+        "food_dish_id": 70,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 223,
+        "english_name": "SHRIMP BALL FRIED NOODLES-L",
+        "chinese_name": "虾球炒面-大",
+        "khmer_name": "មីឆាបង្គា - ធំ",
+        "price": 13.9,
+        "food_dish_id": 87,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 224,
+        "english_name": "FRIED NOODLES WITH SHRIMP BALLS-S",
+        "chinese_name": "虾球炒面-小",
+        "khmer_name": "មីឆាបង្គា - តូច",
+        "price": 7.9,
+        "food_dish_id": 87,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 225,
+        "english_name": "FRIED NOODLES WITH SHRIMP BALLS-M",
+        "chinese_name": "虾球炒面-中",
+        "khmer_name": "មីឆាបង្គា - ធម្មតា",
+        "price": 10.9,
+        "food_dish_id": 87,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 226,
+        "english_name": "MAPO TOFU",
+        "chinese_name": "麻婆豆腐-大",
+        "khmer_name": "តៅហ៊ូឆាសាច់ជ្រូកចិញ្រ្ចាំឆាហិរ",
+        "price": 14.9,
+        "food_dish_id": 97,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 227,
+        "english_name": "MAPO TOFU",
+        "chinese_name": "麻婆豆腐-小",
+        "khmer_name": "តៅហ៊ូឆាសាច់ជ្រូកចិញ្រ្ចាំឆាហិរ",
+        "price": 8.9,
+        "food_dish_id": 97,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 228,
+        "english_name": "MAPO TOFU",
+        "chinese_name": "麻婆豆腐-中",
+        "khmer_name": "តៅហ៊ូឆាសាច់ជ្រូកចិញ្រ្ចាំឆាហិរ",
+        "price": 13.9,
+        "food_dish_id": 97,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 229,
+        "english_name": "COOL MELON OMELETTE-L",
+        "chinese_name": "凉瓜煎蛋-大",
+        "khmer_name": "ម្រះចៀនពងមាន់-ធំ",
+        "price": 12.9,
+        "food_dish_id": 103,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 230,
+        "english_name": "COOL MELON OMELETTE-S",
+        "chinese_name": "凉瓜煎蛋-小",
+        "khmer_name": "ម្រះចៀនពងមាន់-តូច",
+        "price": 7.9,
+        "food_dish_id": 103,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 231,
+        "english_name": "COOL MELON OMELETTE-M",
+        "chinese_name": "凉瓜煎蛋-中",
+        "khmer_name": "ម្រះចៀនពងមាន់-ធម្មតា",
+        "price": 9.9,
+        "food_dish_id": 103,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 232,
+        "english_name": "FIVE WILLOW FRIED EGGS",
+        "chinese_name": "五柳炸蛋-大",
+        "khmer_name": "ពងមាន់បំពងជូអែម",
+        "price": 17.9,
+        "food_dish_id": 106,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 233,
+        "english_name": "FIVE WILLOW FRIED EGGS",
+        "chinese_name": "五柳炸蛋-小",
+        "khmer_name": "ពងមាន់បំពងជូអែម",
+        "price": 9.9,
+        "food_dish_id": 106,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 234,
+        "english_name": "FIVE WILLOW FRIED EGGS",
+        "chinese_name": "五柳炸蛋-中",
+        "khmer_name": "ពងមាន់បំពងជូអែម",
+        "price": 13.9,
+        "food_dish_id": 106,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 235,
+        "english_name": "COLD FUNGUS-L",
+        "chinese_name": "凉拌木耳-大",
+        "khmer_name": "ញុំត្រចៀកកណ្តុរ-ធំ",
+        "price": 12.9,
+        "food_dish_id": 120,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 236,
+        "english_name": "COLD FUNGUS-S",
+        "chinese_name": "凉拌木耳-小",
+        "khmer_name": "ញុំត្រចៀកកណ្តុរ-តូច",
+        "price": 6.9,
+        "food_dish_id": 120,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 237,
+        "english_name": "COLD FUNGUS-M",
+        "chinese_name": "凉拌木耳-中",
+        "khmer_name": "ញុំត្រចៀកកណ្តុរ-ធម្មតា",
+        "price": 9.9,
+        "food_dish_id": 120,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 238,
+        "english_name": "CUCUMBER SALAD-L",
+        "chinese_name": "凉拌青瓜-大",
+        "khmer_name": "ញុំត្រសក់-ធំ",
+        "price": 13.9,
+        "food_dish_id": 123,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 239,
+        "english_name": "CUCUMBER SALAD-S",
+        "chinese_name": "凉拌青瓜-小",
+        "khmer_name": "ញុំត្រសក់-តូច",
+        "price": 6.9,
+        "food_dish_id": 123,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 240,
+        "english_name": "CUCUMBER SALAD-M",
+        "chinese_name": "凉拌青瓜-中",
+        "khmer_name": "ញុំត្រសក់-ធម្មតា",
+        "price": 9.9,
+        "food_dish_id": 123,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 241,
+        "english_name": "BOILED BEEF-L",
+        "chinese_name": "水煮牛肉-大",
+        "khmer_name": "សាច់គោស៊ីឈួន-ធំ",
+        "price": 17.9,
+        "food_dish_id": 136,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 242,
+        "english_name": "BOILED BEEF-S",
+        "chinese_name": "水煮牛肉-小",
+        "khmer_name": "សាច់គោស៊ីឈួន-តូច",
+        "price": 9.9,
+        "food_dish_id": 136,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 243,
+        "english_name": "BOILED BEEF-M",
+        "chinese_name": "水煮牛肉-中",
+        "khmer_name": "សាច់គោស៊ីឈួន-ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 136,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 244,
+        "english_name": "BBQ ROASTED PORK-L",
+        "chinese_name": "金牌叉烧-大",
+        "khmer_name": "សាស៊ីវទឹកឃ្មុំ-ធំ",
+        "price": 18.9,
+        "food_dish_id": 165,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 245,
+        "english_name": "BBQ ROASTED PORK-S",
+        "chinese_name": "金牌叉烧-小",
+        "khmer_name": "សាស៊ីវទឹកឃ្មុំ-តូច",
+        "price": 10.9,
+        "food_dish_id": 165,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 246,
+        "english_name": "BBQ ROASTED PORK-M",
+        "chinese_name": "金牌叉烧-中",
+        "khmer_name": "សាស៊ីវទឹកឃ្មុំ-ធម្មតា",
+        "price": 14.9,
+        "food_dish_id": 165,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 247,
+        "english_name": "ROASTED MEAT-L",
+        "chinese_name": "黄金烧肉-大",
+        "khmer_name": "សាច់ខ្វៃ-ធំ",
+        "price": 18.9,
+        "food_dish_id": 168,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 248,
+        "english_name": "ROASTED MEAT-S",
+        "chinese_name": "黄金烧肉-小",
+        "khmer_name": "សាច់ខ្វៃ-តូច",
+        "price": 10.9,
+        "food_dish_id": 168,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 249,
+        "english_name": "ROASTED MEAT-M",
+        "chinese_name": "黄金烧肉-0.5kg",
+        "khmer_name": "សាច់ខ្វៃ-ធម្មតា",
+        "price": 14.9,
+        "food_dish_id": 168,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 250,
+        "english_name": "DEEP FRIED ROFU WITH SALI AND PEPPER-L",
+        "chinese_name": "椒盐豆腐-大",
+        "khmer_name": "តៅហ៊ូបំពងអំបិលម្រេច-ធំ",
+        "price": 17.9,
+        "food_dish_id": 180,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 251,
+        "english_name": "DEEP FRIED ROFU WITH SALI AND PEPPER-S",
+        "chinese_name": "椒盐豆腐-小",
+        "khmer_name": "តៅហ៊ូបំពងអំបិលម្រេច-តូច",
+        "price": 9.9,
+        "food_dish_id": 180,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 252,
+        "english_name": "DEEP FRIED ROFU WITH SALI AND PEPPER-M",
+        "chinese_name": "椒盐豆腐-中",
+        "khmer_name": "តៅហ៊ូបំពងអំបិលម្រេច-ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 180,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 253,
+        "english_name": "SIGNATURE DEEP FRIED PIG INTESTINES-L",
+        "chinese_name": "特色大肠-大",
+        "khmer_name": "ពោះវៀនជ្រូកបំពង-ធំ",
+        "price": 20.9,
+        "food_dish_id": 189,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 254,
+        "english_name": "SIGNATURE DEEP FRIED PIG INTESTINES-S",
+        "chinese_name": "特色大肠-小",
+        "khmer_name": "ពោះវៀនជ្រូកបំពង-តូច",
+        "price": 10.9,
+        "food_dish_id": 189,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 255,
+        "english_name": "SIGNATURE DEEP FRIED PIG INTESTINES-M",
+        "chinese_name": "特色大肠-中",
+        "khmer_name": "ពោះវៀនជ្រូកបំពង-កណ្តាល",
+        "price": 16.9,
+        "food_dish_id": 189,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 256,
+        "english_name": "DEEP FRIED SQUID WITH SALT AND PEPPER-L",
+        "chinese_name": "椒盐鲜鱿-大",
+        "khmer_name": "មឹកបំពងអំបិលម្រេច-ធំ",
+        "price": 17.9,
+        "food_dish_id": 192,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 257,
+        "english_name": "DEEP FRIED SQUID WITH SALT AND PEPPER-S",
+        "chinese_name": "椒盐鲜鱿-小",
+        "khmer_name": "មឹកបំពងអំបិលម្រេច-តូច",
+        "price": 9.9,
+        "food_dish_id": 192,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 258,
+        "english_name": "DEEP FRIED SQUID WITH SALT AND PEPPER-M",
+        "chinese_name": "椒盐鲜鱿-中",
+        "khmer_name": "មឹកបំពងអំបិលម្រេច-ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 192,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 259,
+        "english_name": "SPINACH BROTH-L",
+        "chinese_name": "上汤菠菜-大",
+        "khmer_name": "ពួយឡេងត្រាំទឹកស៊ុប-ធំ",
+        "price": 12.9,
+        "food_dish_id": 251,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 260,
+        "english_name": "SPINACH BROTH-S",
+        "chinese_name": "上汤菠菜-小",
+        "khmer_name": "ពួយឡេងត្រាំទឹកស៊ុប-តូច",
+        "price": 5.9,
+        "food_dish_id": 251,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 261,
+        "english_name": "SPINACH BROTH-M",
+        "chinese_name": "上汤菠菜-中",
+        "khmer_name": "ពួយឡេងត្រាំទឹកស៊ុប-ធម្មតា",
+        "price": 9.9,
+        "food_dish_id": 251,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 262,
+        "english_name": "SEAFOOD FRIED RICE-L",
+        "chinese_name": "海鲜炒饭-大",
+        "khmer_name": "បាយឆាគ្រឿងសមុទ្រ - ធំ",
+        "price": 13.9,
+        "food_dish_id": 255,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 263,
+        "english_name": "SEAFOOD FRIED RICE-S",
+        "chinese_name": "海鲜炒饭-小",
+        "khmer_name": "បាយឆាគ្រឿងសមុទ្រ - តូច",
+        "price": 7.9,
+        "food_dish_id": 255,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 264,
+        "english_name": "SEAFOOD FRIED RICE-M",
+        "chinese_name": "海鲜炒饭-中",
+        "khmer_name": "បាយឆាគ្រឿងសមុទ្រ - ធម្មតា",
+        "price": 10.9,
+        "food_dish_id": 255,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 265,
+        "english_name": "SEAFOOD FRIED RIVER-L",
+        "chinese_name": "海鲜炒河-大",
+        "khmer_name": "គុយទាវឆាគ្រឿងសមុទ្រ - ធំ",
+        "price": 13.9,
+        "food_dish_id": 258,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 266,
+        "english_name": "SEAFOOD FRIED RIVER-S",
+        "chinese_name": "海鲜炒河-小",
+        "khmer_name": "គុយទាវឆាគ្រឿងសមុទ្រ - តូច",
+        "price": 7.9,
+        "food_dish_id": 258,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 267,
+        "english_name": "SEAFOOD FRIED RIVER-M",
+        "chinese_name": "海鲜炒河-中",
+        "khmer_name": "គុយទាវឆាគ្រឿងសមុទ្រ - ធម្មតា",
+        "price": 10.9,
+        "food_dish_id": 258,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 268,
+        "english_name": "SEAFOOD FRIED NOODLES-L",
+        "chinese_name": "海鲜炒面-大",
+        "khmer_name": "មីឆាគ្រឿងសមុទ្រ- ធំ",
+        "price": 13.9,
+        "food_dish_id": 261,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 269,
+        "english_name": "SEAFOOD FRIED NOODLES-S",
+        "chinese_name": "海鲜炒面-小",
+        "khmer_name": "មីឆាគ្រឿងសមុទ្រ - តូច",
+        "price": 7.9,
+        "food_dish_id": 261,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 270,
+        "english_name": "SEAFOOD FRIED NOODLES-M",
+        "chinese_name": "海鲜炒面-中",
+        "khmer_name": "មីឆាគ្រឿងសមុទ្រ - ធម្មតា",
+        "price": 10.9,
+        "food_dish_id": 261,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 271,
+        "english_name": "BEEF CHOW MEIN-L",
+        "chinese_name": "牛肉炒面-大",
+        "khmer_name": "មីឆាសាច់គោ- ធំ",
+        "price": 11.9,
+        "food_dish_id": 264,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 272,
+        "english_name": "BEEF CHOW MEIN-S",
+        "chinese_name": "牛肉炒面-小",
+        "khmer_name": "មីឆាសាច់គោ- តូច",
+        "price": 6.9,
+        "food_dish_id": 264,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 273,
+        "english_name": "BEEF CHOW MEIN-M",
+        "chinese_name": "牛肉炒面-中",
+        "khmer_name": "មីឆាសាច់គោ- ធម្មតា",
+        "price": 8.9,
+        "food_dish_id": 264,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 274,
+        "english_name": "SHRIMP FRIED RICE-L",
+        "chinese_name": "虾仁炒饭-大",
+        "khmer_name": "បាយឆាបង្គា-ធំ",
+        "price": 13.9,
+        "food_dish_id": 270,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 275,
+        "english_name": "SHRIMP FRIED RICE-S",
+        "chinese_name": "虾仁炒饭-小",
+        "khmer_name": "បាយឆាបង្គា-តូច",
+        "price": 7.9,
+        "food_dish_id": 270,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 276,
+        "english_name": "SHRIMP FRIED RICE-M",
+        "chinese_name": "虾仁炒饭-中",
+        "khmer_name": "បាយឆាបង្គា-ធម្មតា",
+        "price": 10.9,
+        "food_dish_id": 270,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 277,
+        "english_name": "CRAB MEAT FRIED RICE-L",
+        "chinese_name": "蟹肉炒饭-大",
+        "khmer_name": "បាយឆាសាច់ក្តាម - ធំ",
+        "price": 13.9,
+        "food_dish_id": 273,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 278,
+        "english_name": "CRAB MEAT FRIED RICE-S",
+        "chinese_name": "蟹肉炒饭-小",
+        "khmer_name": "បាយឆាសាច់ក្តាម - តូច",
+        "price": 7.9,
+        "food_dish_id": 273,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 279,
+        "english_name": "CRAB MEAT FRIED RICE-M",
+        "chinese_name": "蟹肉炒饭-中",
+        "khmer_name": "បាយឆាសាច់ក្តាម - ធម្មតា",
+        "price": 10.9,
+        "food_dish_id": 273,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 280,
+        "english_name": "STIR-FRIED PORK RIBS-L",
+        "chinese_name": "生炒排骨-大",
+        "khmer_name": "ឆ្អឹងជំនីឆាជូអែម-ធំ",
+        "price": 17.9,
+        "food_dish_id": 302,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 281,
+        "english_name": "STIR-FRIED PORK RIBS-S",
+        "chinese_name": "生炒排骨-小",
+        "khmer_name": "ឆ្អឹងជំនីឆាជូអែម-តូច",
+        "price": 9.9,
+        "food_dish_id": 302,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 282,
+        "english_name": "STIR-FRIED PORK RIBS-M",
+        "chinese_name": "生炒排骨-中",
+        "khmer_name": "ឆ្អឹងជំនីឆាជូអែម-ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 302,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 283,
+        "english_name": "YANG CHEW STYLE FRIED RICE-L",
+        "chinese_name": "杨洲炒饭-大",
+        "khmer_name": "បាយឆាយ៉ាងចូវ-ធំ",
+        "price": 11.9,
+        "food_dish_id": 309,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 284,
+        "english_name": "YANG CHEW STYLE FRIED RICE-S",
+        "chinese_name": "杨洲炒饭-小",
+        "khmer_name": "បាយឆាយ៉ាងចូវ-តូច",
+        "price": 6.9,
+        "food_dish_id": 309,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 285,
+        "english_name": "YANG CHEW STYLE FRIED RICE-M",
+        "chinese_name": "杨洲炒饭-中",
+        "khmer_name": "បាយឆាយ៉ាងចូវ-ធម្មតា",
+        "price": 8.9,
+        "food_dish_id": 309,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 286,
+        "english_name": "STIR FRIED RICE NOODLES WITH BEEF-L",
+        "chinese_name": "干炒牛河-大",
+        "khmer_name": "គុយទាវឆាសាច់គោ-ធំ",
+        "price": 11.9,
+        "food_dish_id": 312,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 287,
+        "english_name": "STIR FRIED RICE NOODLES WITH BEEF-S",
+        "chinese_name": "干炒牛河-小",
+        "khmer_name": "គុយទាវឆាសាច់គោ-តូច",
+        "price": 6.9,
+        "food_dish_id": 312,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 288,
+        "english_name": "STIR FRIED RICE NOODLES WITH BEEF-M",
+        "chinese_name": "干炒牛河-中",
+        "khmer_name": "គុយទាវឆាសាច់គោ-ធម្មតា",
+        "price": 8.9,
+        "food_dish_id": 312,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 289,
+        "english_name": "SINGAPORE STYLE FRIED VERMICELI-L",
+        "chinese_name": "星洲炒米-大",
+        "khmer_name": "មីឆាបែបសាំងហ្គាពួរ-ធំ",
+        "price": 12.9,
+        "food_dish_id": 315,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 290,
+        "english_name": "SINGAPORE STYLE FRIED VERMICELI-S",
+        "chinese_name": "星洲炒米-小",
+        "khmer_name": "មីឆាបែបសាំងហ្គាពួរ-តូច",
+        "price": 7.9,
+        "food_dish_id": 315,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 291,
+        "english_name": "SINGAPORE STYLE FRIED VERMICELI-M",
+        "chinese_name": "星洲炒米-中",
+        "khmer_name": "មីឆាបែបសាំងហ្គាពួរ-ធម្មតា",
+        "price": 9.9,
+        "food_dish_id": 315,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 292,
+        "english_name": "STIR FRIED CHINES CABBAGE WITH GARLIC-L",
+        "chinese_name": "生炒菜心-大",
+        "khmer_name": "ឆាស្ពៃចិន-ធំ",
+        "price": 12.9,
+        "food_dish_id": 324,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 293,
+        "english_name": "STIR FRIED CHINES CABBAGE WITH GARLIC-S",
+        "chinese_name": "生炒菜心-小",
+        "khmer_name": "ឆាស្ពៃចិន-តូច",
+        "price": 5.9,
+        "food_dish_id": 324,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 294,
+        "english_name": "STIR FRIED CHINES CABBAGE WITH GARLIC-M",
+        "chinese_name": "生炒菜心-中",
+        "khmer_name": "ឆាស្ពៃចិន-ធម្មតា",
+        "price": 9.9,
+        "food_dish_id": 324,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 295,
+        "english_name": "ANGKOR(B)",
+        "chinese_name": "吴哥啤酒-大",
+        "khmer_name": "អង្គរធំ",
+        "price": 3.6,
+        "food_dish_id": 374,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 296,
+        "english_name": "ANGKOR(S)",
+        "chinese_name": "吴哥啤酒-小",
+        "khmer_name": "អង្គរតូច",
+        "price": 2.6,
+        "food_dish_id": 374,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 297,
+        "english_name": "TIGER (S)",
+        "chinese_name": "虎牌啤酒-小",
+        "khmer_name": "ខ្លាតូច",
+        "price": 3.6,
+        "food_dish_id": 389,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 298,
+        "english_name": "BOILED FISH",
+        "chinese_name": "水煮红鱼-条",
+        "khmer_name": "ម្ទេសត្រាំត្រី",
+        "price": 14.9,
+        "food_dish_id": 423,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 299,
+        "english_name": "Pork Chow Mein-S",
+        "chinese_name": "猪肉炒面-小",
+        "khmer_name": "មីឆាសាច់ជ្រូក - តូច",
+        "price": 6.9,
+        "food_dish_id": 468,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 300,
+        "english_name": "Pork Chow Mein-M",
+        "chinese_name": "猪肉炒面-中",
+        "khmer_name": "មីឆាសាច់ជ្រូក - ធម្មតា",
+        "price": 8.9,
+        "food_dish_id": 468,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 301,
+        "english_name": "Pork Chow Mein-L",
+        "chinese_name": "猪肉炒面-大",
+        "khmer_name": "មីឆាសាច់ជ្រូក - ធំ",
+        "price": 11.9,
+        "food_dish_id": 468,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 302,
+        "english_name": "Pork Fried River-S",
+        "chinese_name": "猪肉炒河-小",
+        "khmer_name": "គុយទាវឆាសាច់ជ្រូក - តូច",
+        "price": 6.9,
+        "food_dish_id": 474,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 303,
+        "english_name": "Pork Fried River-M",
+        "chinese_name": "猪肉炒河-中",
+        "khmer_name": "គុយទាវឆាសាច់ជ្រូក - ធម្មតា",
+        "price": 8.9,
+        "food_dish_id": 474,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 304,
+        "english_name": "Pork Fried River-L",
+        "chinese_name": "猪肉炒河-大",
+        "khmer_name": "គុយទាវឆាសាច់ជ្រូក - ធំ",
+        "price": 11.9,
+        "food_dish_id": 474,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 305,
+        "english_name": "Garlic choy heart-large",
+        "chinese_name": "蒜蓉菜心-大",
+        "khmer_name": "ខ្ទឹមសស្ពៃចិន-ធំ",
+        "price": 12.9,
+        "food_dish_id": 502,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 306,
+        "english_name": "Garlic choy heart-medium",
+        "chinese_name": "蒜蓉菜心-中",
+        "khmer_name": "ខ្ទឹមសស្ពៃចិន-កណ្តាល",
+        "price": 9.9,
+        "food_dish_id": 502,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 307,
+        "english_name": "Garlic choy heart-small",
+        "chinese_name": "蒜蓉菜心-小",
+        "khmer_name": "ខ្ទឹមសស្ពៃចិន-តូច",
+        "price": 5.9,
+        "food_dish_id": 502,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 308,
+        "english_name": "Garlic spinach-small",
+        "chinese_name": "蒜茸菠菜-小",
+        "khmer_name": "ពួយឡេង-តូច",
+        "price": 5.9,
+        "food_dish_id": 512,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 309,
+        "english_name": "Garlic spinach-medium",
+        "chinese_name": "蒜茸菠菜-中",
+        "khmer_name": "ពួយឡេង-កណ្តាល",
+        "price": 9.9,
+        "food_dish_id": 512,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 310,
+        "english_name": "Garlic spinach-large",
+        "chinese_name": "蒜茸菠菜-大",
+        "khmer_name": "ពួយឡេង-ធំ",
+        "price": 12.9,
+        "food_dish_id": 512,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 311,
+        "english_name": "Garlic water spinach-small",
+        "chinese_name": "蒜茸通菜-小",
+        "khmer_name": "ត្រកួង-តូច",
+        "price": 5.9,
+        "food_dish_id": 522,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 312,
+        "english_name": "Garlic water spinach-medium",
+        "chinese_name": "蒜茸通菜-中",
+        "khmer_name": "ត្រកួង-កណ្តាល",
+        "price": 9.9,
+        "food_dish_id": 522,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 313,
+        "english_name": "Garlic water spinach-large",
+        "chinese_name": "蒜茸通菜-大",
+        "khmer_name": "ត្រកួង-ធំ",
+        "price": 12.9,
+        "food_dish_id": 522,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 314,
+        "english_name": "Fermented bean curd water spinach-small",
+        "chinese_name": "腐乳通菜-小",
+        "khmer_name": "ត្រកួង-តូច",
+        "price": 5.9,
+        "food_dish_id": 525,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 315,
+        "english_name": "Fermented bean curd water spinach-medium",
+        "chinese_name": "腐乳通菜-中",
+        "khmer_name": "ត្រកួង-កណ្តាល",
+        "price": 9.9,
+        "food_dish_id": 525,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 316,
+        "english_name": "Fermented bean curd water spinach-large",
+        "chinese_name": "腐乳通菜-大",
+        "khmer_name": "ត្រកួង-ធំ",
+        "price": 12.9,
+        "food_dish_id": 525,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 317,
+        "english_name": "Caifu fried egg-small",
+        "chinese_name": "菜甫煎蛋-小",
+        "khmer_name": "",
+        "price": 7.9,
+        "food_dish_id": 549,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 318,
+        "english_name": "Caifu fried egg-medium",
+        "chinese_name": "菜甫煎蛋-中",
+        "khmer_name": "",
+        "price": 9.9,
+        "food_dish_id": 549,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 319,
+        "english_name": "Caifu fried egg-large",
+        "chinese_name": "菜甫煎蛋-大",
+        "khmer_name": "",
+        "price": 12.9,
+        "food_dish_id": 549,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 320,
+        "english_name": "Salt and pepper duck tongue-large",
+        "chinese_name": "椒盐鸭舌-大",
+        "khmer_name": "អណ្តាតទាបំពងអំបិលម្រេច-ធំ",
+        "price": 27.9,
+        "food_dish_id": 188,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 321,
+        "english_name": "Preserved pork with preserved vegetables-large",
+        "chinese_name": "梅菜扣肉-大",
+        "khmer_name": "សាច់ជ្រូកបីជាន់ស្បៃក្រៀម-ធំ",
+        "price": 23.9,
+        "food_dish_id": 593,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 322,
+        "english_name": "Deer meat fried river-small",
+        "chinese_name": "鹿肉炒河-小",
+        "khmer_name": "គុយទាវឆាសាច់ឈ្លូស-តូច",
+        "price": 7.9,
+        "food_dish_id": 605,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 323,
+        "english_name": "Deer meat fried river-medium",
+        "chinese_name": "鹿肉炒河-中",
+        "khmer_name": "គុយទាវឆាសាច់ឈ្លូស-កណ្តាល",
+        "price": 10.9,
+        "food_dish_id": 605,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 324,
+        "english_name": "Deer meat fried river-large",
+        "chinese_name": "鹿肉炒河-大",
+        "khmer_name": "គុយទាវឆាសាច់ឈ្លូស-ធំ",
+        "price": 13.9,
+        "food_dish_id": 605,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 325,
+        "english_name": "Fried beef noodles-small",
+        "chinese_name": "牛肉炸面-小",
+        "khmer_name": "មីបំពងសាច់គោ-តូច",
+        "price": 7.9,
+        "food_dish_id": 614,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 326,
+        "english_name": "Fried beef noodles-medium",
+        "chinese_name": "牛肉炸面-中",
+        "khmer_name": "មីបំពងសាច់គោ-កណ្តាល",
+        "price": 10.9,
+        "food_dish_id": 614,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 327,
+        "english_name": "Fried beef noodles-large",
+        "chinese_name": "牛肉炸面-大",
+        "khmer_name": "មីបំពងសាច់គោ-ធំ",
+        "price": 13.9,
+        "food_dish_id": 614,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 328,
+        "english_name": "Fried pork noodles-small",
+        "chinese_name": "猪肉炸面-小",
+        "khmer_name": "មីបំពងសាច់ជ្រូក-តូច",
+        "price": 7.9,
+        "food_dish_id": 617,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 329,
+        "english_name": "Fried pork noodles-medium",
+        "chinese_name": "猪肉炸面-中",
+        "khmer_name": "មីបំពងសាច់ជ្រូក-កណ្តាល",
+        "price": 10.9,
+        "food_dish_id": 617,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 330,
+        "english_name": "Fried pork noodles-large",
+        "chinese_name": "猪肉炸面-大",
+        "khmer_name": "មីបំពងសាច់ជ្រូក-ធំ",
+        "price": 13.9,
+        "food_dish_id": 617,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 331,
+        "english_name": "Fried seafood noodles-small",
+        "chinese_name": "海鲜炸面-小",
+        "khmer_name": "មីបំពងគ្រឿងសមុទ្រ-តូច",
+        "price": 7.9,
+        "food_dish_id": 620,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 332,
+        "english_name": "Fried seafood noodles-medium",
+        "chinese_name": "海鲜炸面-中",
+        "khmer_name": "មីបំពងគ្រឿងសមុទ្រ-កណ្តាល",
+        "price": 10.9,
+        "food_dish_id": 620,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 333,
+        "english_name": "Fried seafood noodles-large",
+        "chinese_name": "海鲜炸面-大",
+        "khmer_name": "មីបំពងគ្រឿងសមុទ្រ-ធំ",
+        "price": 13.9,
+        "food_dish_id": 620,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 334,
+        "english_name": "Braised abalone chicken-portion",
+        "chinese_name": "鲍鱼焖鸡-份",
+        "khmer_name": "ប៉ាវហឺខមាន់-ចំណែក",
+        "price": 21,
+        "food_dish_id": 629,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 335,
+        "english_name": "Pork knuckle-portion",
+        "chinese_name": "发财猪手-份",
+        "khmer_name": "ខជើងជ្រូកហុកឆាយ-១",
+        "price": 23,
+        "food_dish_id": 640,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 336,
+        "english_name": "Sizzling pork-small",
+        "chinese_name": "铁板猪肉-小",
+        "khmer_name": "សាច់ជ្រូកបន្ទះដែក-តូច",
+        "price": 9.9,
+        "food_dish_id": 643,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 337,
+        "english_name": "Sizzling pork-medium",
+        "chinese_name": "铁板猪肉-中",
+        "khmer_name": "សាច់ជ្រូកបន្ទះដែក-កណ្តាល",
+        "price": 13.9,
+        "food_dish_id": 643,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 338,
+        "english_name": "Sizzling pork-large",
+        "chinese_name": "铁板猪肉-大",
+        "khmer_name": "សាច់ជ្រូកបន្ទះដែក-ធំ",
+        "price": 17.9,
+        "food_dish_id": 643,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 339,
+        "english_name": "Salt and pepper spare ribs-small",
+        "chinese_name": "椒盐排骨-小",
+        "khmer_name": "ឆ្អឹងជំនី-តូច",
+        "price": 9.9,
+        "food_dish_id": 672,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 340,
+        "english_name": "Salt and pepper spare ribs-medium",
+        "chinese_name": "椒盐排骨-中",
+        "khmer_name": "ឆ្អឹងជំនី-កណ្តាល",
+        "price": 13.9,
+        "food_dish_id": 672,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 341,
+        "english_name": "Salt and pepper spare ribs-large",
+        "chinese_name": "椒盐排骨-大",
+        "khmer_name": "ឆ្អឹងជំនី-ធំ",
+        "price": 17.9,
+        "food_dish_id": 672,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 342,
+        "english_name": "Ginger chicken-half",
+        "chinese_name": "沙姜鸡煲-半只",
+        "khmer_name": "មាន់ឆ្នាំងដី-កន្លះ",
+        "price": 13.9,
+        "food_dish_id": 678,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 343,
+        "english_name": "Ginger chicken-whole",
+        "chinese_name": "沙姜鸡煲-全只",
+        "khmer_name": "មាន់ឆ្នាំងដី-១ក្បាល",
+        "price": 26.9,
+        "food_dish_id": 678,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 344,
+        "english_name": "Zhezhe chicken-half",
+        "chinese_name": "啫啫鸡煲-半只",
+        "khmer_name": "មាន់ឆ្នាំងដី-កន្លះ",
+        "price": 13.9,
+        "food_dish_id": 680,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 345,
+        "english_name": "Zhezhe chicken-whole",
+        "chinese_name": "啫啫鸡煲-全只",
+        "khmer_name": "មាន់ឆ្នាំងដី-១ក្បាល",
+        "price": 26.9,
+        "food_dish_id": 680,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 346,
+        "english_name": "Boji fried rice-small",
+        "chinese_name": "波记炒饭-小",
+        "khmer_name": "បាយឆាប្រចាំហាង-តូច",
+        "price": 9.9,
+        "food_dish_id": 693,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 347,
+        "english_name": "Boji fried rice-medium",
+        "chinese_name": "波记炒饭-中",
+        "khmer_name": "បាយឆាប្រចាំហាង-កណ្តាល",
+        "price": 14.9,
+        "food_dish_id": 693,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 348,
+        "english_name": "Boji fried rice-large",
+        "chinese_name": "波记炒饭-大",
+        "khmer_name": "បាយឆាប្រចាំហាង-ធំ",
+        "price": 11.9,
+        "food_dish_id": 693,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 349,
+        "english_name": "Lotus root braised pork-one",
+        "chinese_name": "莲藕扣肉-份",
+        "khmer_name": "មើមឈូកសាច់បីជាន់",
+        "price": 11.9,
+        "food_dish_id": 721,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 350,
+        "english_name": "Lotus root braised pork-large",
+        "chinese_name": "莲藕扣肉-大",
+        "khmer_name": "មើមឈូកសាច់បីជាន់-ធំ",
+        "price": 23.9,
+        "food_dish_id": 721,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 351,
+        "english_name": "Pickled pepper chicken feet-one",
+        "chinese_name": "泡椒凤爪-份",
+        "khmer_name": "ជើងមាន់ជ្រក់",
+        "price": 4.5,
+        "food_dish_id": 171,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 352,
+        "english_name": "Golden squid-small",
+        "chinese_name": "黄金鲜鱿-小",
+        "khmer_name": "មឹកឆាពង់ទាប្រៃ-តូច",
+        "price": 9.9,
+        "food_dish_id": 742,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 353,
+        "english_name": "Golden squid-medium",
+        "chinese_name": "黄金鲜鱿-中",
+        "khmer_name": "មឹកឆាពង់ទាប្រៃ-កណ្ដាល",
+        "price": 13.9,
+        "food_dish_id": 742,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 354,
+        "english_name": "Golden squid-large",
+        "chinese_name": "黄金鲜鱿-大",
+        "khmer_name": "មឹកឆាពង់ទាប្រៃ-ធំ",
+        "price": 17.9,
+        "food_dish_id": 742,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 355,
+        "english_name": "Brine Platter-Piece",
+        "chinese_name": "卤水拼盘-份",
+        "khmer_name": "ផាក់ឡូវ",
+        "price": 18.9,
+        "food_dish_id": 749,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 356,
+        "english_name": "Braised yellow eel-portion",
+        "chinese_name": "红烧黄鳝-份",
+        "khmer_name": "អន្ទង់ឆ្នាំងដី",
+        "price": 24.9,
+        "food_dish_id": 865,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 357,
+        "english_name": "Marinated platter-portion",
+        "chinese_name": "卤水拼盘-份",
+        "khmer_name": "ផាស់ឡូវ",
+        "price": 22,
+        "food_dish_id": 749,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 358,
+        "english_name": "Shrimp fried eggs-M",
+        "chinese_name": "虾仁炒蛋-中",
+        "khmer_name": "បង្គាឆាពងមាន់",
+        "price": 13.9,
+        "food_dish_id": 690,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 359,
+        "english_name": "Five blessings - piece",
+        "chinese_name": "五福临门-份",
+        "khmer_name": "សម្បត្តិទាំង៥",
+        "price": 19.9,
+        "food_dish_id": 900,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 360,
+        "english_name": "Fried three treasures-small",
+        "chinese_name": "煎让三宝-小",
+        "khmer_name": "",
+        "price": 9.9,
+        "food_dish_id": 916,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 361,
+        "english_name": "Fried three treasures-medium",
+        "chinese_name": "煎让三宝-中",
+        "khmer_name": "",
+        "price": 13.9,
+        "food_dish_id": 916,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 362,
+        "english_name": "Fried three treasures-large",
+        "chinese_name": "煎让三宝-大",
+        "khmer_name": "",
+        "price": 17.9,
+        "food_dish_id": 916,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 363,
+        "english_name": "Pork fried noodles-large",
+        "chinese_name": "象拔蚌仔-只",
+        "khmer_name": "កូនខ្យងប្រមោយដំរី",
+        "price": 20,
+        "food_dish_id": 737,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 364,
+        "english_name": "Oyster sauce melon preserves-small",
+        "chinese_name": "蚝油瓜脯-小",
+        "khmer_name": "ត្រឡាត់ចំហុយប្រេងខ្យង-តូច",
+        "price": 5.9,
+        "food_dish_id": 979,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 365,
+        "english_name": "Oyster sauce melon preserves-medium",
+        "chinese_name": "蚝油瓜脯-中",
+        "khmer_name": "ត្រឡាត់ចំហុយប្រេងខ្យង-កណ្តាល",
+        "price": 9.9,
+        "food_dish_id": 979,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 366,
+        "english_name": "Oyster sauce melon preserves-large",
+        "chinese_name": "蚝油瓜脯-大",
+        "khmer_name": "ត្រឡាត់ចំហុយប្រេងខ្យង-ធំ",
+        "price": 12.9,
+        "food_dish_id": 979,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 367,
+        "english_name": "Golden tofu-small",
+        "chinese_name": "黄金豆腐-小",
+        "khmer_name": "តៅហ៉ួបំពង់ពងទាប្រៃ-តូច",
+        "price": 9.9,
+        "food_dish_id": 985,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 368,
+        "english_name": "Golden tofu-medium",
+        "chinese_name": "黄金豆腐-中",
+        "khmer_name": "តៅហ៉ួបំពង់ពងទាប្រៃ-កណ្តាល",
+        "price": 13.9,
+        "food_dish_id": 985,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 369,
+        "english_name": "Golden tofu-large",
+        "chinese_name": "黄金豆腐-大",
+        "khmer_name": "តៅហ៉ួបំពង់ពងទាប្រៃ-ធំ",
+        "price": 17.9,
+        "food_dish_id": 985,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 370,
+        "english_name": "Crab meat and fin casserole-portion",
+        "chinese_name": "蟹肉翅煲-份",
+        "khmer_name": "បាយឆាសាច់ក្តាម - ចំនែក",
+        "price": 60,
+        "food_dish_id": 988,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 371,
+        "english_name": "Pork knuckle with pepper and salt-piece",
+        "chinese_name": "椒盐猪手-份",
+        "khmer_name": "ជើងជ្រូក",
+        "price": 11.9,
+        "food_dish_id": 1011,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 372,
+        "english_name": "Shrimp fried egg-large",
+        "chinese_name": "虾仁炒蛋-大",
+        "khmer_name": "បង្កាឆាពងមាន់",
+        "price": 17.9,
+        "food_dish_id": 690,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 373,
+        "english_name": "BRAISED SEA CUCUMBER IN CASSEROLE - One",
+        "chinese_name": "红烧海参煲-份",
+        "khmer_name": "ខឈ្លើងសមុទ្រ-មួយចាន",
+        "price": 29.9,
+        "food_dish_id": 1,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 374,
+        "english_name": "FISH FLAVORED EGGPLANT CASSEROLE-L",
+        "chinese_name": "鱼香茄子煲-大",
+        "khmer_name": "ត្រីខត្រប - ធំ",
+        "price": 17.9,
+        "food_dish_id": 2,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 375,
+        "english_name": "FISH FLAVORED EGGPLANT CASSEROLE-S",
+        "chinese_name": "鱼香茄子煲-小",
+        "khmer_name": "ត្រីខត្រប - តូច",
+        "price": 9.9,
+        "food_dish_id": 2,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 376,
+        "english_name": "FISH FLAVORED EGGPLANT IN CLAY POT-M",
+        "chinese_name": "鱼香茄子煲-中",
+        "khmer_name": "ត្រីខត្រប - ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 2,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 377,
+        "english_name": "BRAISED TOFU-L",
+        "chinese_name": "红烧豆腐煲-大",
+        "khmer_name": "តៅហ៊ូឆ្នាំងដី-ធំ",
+        "price": 17.9,
+        "food_dish_id": 27,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 378,
+        "english_name": "BRAISED TOFU-S",
+        "chinese_name": "红烧豆腐煲-小",
+        "khmer_name": "តៅហ៊ូឆ្នាំងដី-តូច",
+        "price": 9.9,
+        "food_dish_id": 27,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 379,
+        "english_name": "BRAISED TOFU-M",
+        "chinese_name": "红烧豆腐煲-中",
+        "khmer_name": "តៅហ៊ូឆ្នាំងដី-ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 27,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 380,
+        "english_name": "SINATURE CLAYPOT-L",
+        "chinese_name": "波记一品煲-大",
+        "khmer_name": "ឆ្នាំងដីប្រចាំហាង-ធំ",
+        "price": 20.9,
+        "food_dish_id": 30,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 381,
+        "english_name": "SINATURE CLAYPOT-S",
+        "chinese_name": "波记一品煲-小",
+        "khmer_name": "ឆ្នាំងដីប្រចាំហាង-តូច",
+        "price": 10.9,
+        "food_dish_id": 30,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 382,
+        "english_name": "SINATURE CLAYPOT-M",
+        "chinese_name": "波记一品煲-中",
+        "khmer_name": "ឆ្នាំងដីប្រចាំហាង-ធម្មតា",
+        "price": 16.9,
+        "food_dish_id": 30,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 383,
+        "english_name": "BRAISED CHICKEN FEET WITH PEANUTS-L",
+        "chinese_name": "花生焖鸡脚-大",
+        "khmer_name": "ជើងមាន់ខសណ្តែកដី-ធំ",
+        "price": 17.9,
+        "food_dish_id": 33,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 384,
+        "english_name": "BRAISED CHICKEN FEET WITH PEANUTS-S",
+        "chinese_name": "花生焖鸡脚-小",
+        "khmer_name": "ជើងមាន់ខសណ្តែកដី-តូច",
+        "price": 9.9,
+        "food_dish_id": 33,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 385,
+        "english_name": "BRAISED CHICKEN FEET WITH PEANUTS-M",
+        "chinese_name": "花生焖鸡脚-中",
+        "khmer_name": "ជើងមាន់ខសណ្តែកដី-ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 33,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 386,
+        "english_name": "SEAFOOD TOFU CASSEROLE-L",
+        "chinese_name": "海鲜豆腐煲-大",
+        "khmer_name": "តៅហ៊ូគ្រឿងសមុទ្រខឆ្នាំងដី-ធំ",
+        "price": 17.9,
+        "food_dish_id": 37,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 387,
+        "english_name": "SEAFOOD TOFU CASSEROLE-S",
+        "chinese_name": "海鲜豆腐煲-小",
+        "khmer_name": "តៅហ៊ូគ្រឿងសមុទ្រខឆ្នាំងដី-តូច",
+        "price": 9.9,
+        "food_dish_id": 37,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 388,
+        "english_name": "SEAFOOD TOFU CASSEROLE-M",
+        "chinese_name": "海鲜豆腐煲-中",
+        "khmer_name": "តៅហ៊ូគ្រឿងសមុទ្រខឆ្នាំងដី-ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 37,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 389,
+        "english_name": "STIR FRIED KALE WITH GINGER SAUCE-L",
+        "chinese_name": "姜汁炒介籣-大",
+        "khmer_name": "ទឹកខ្ញីឆាខាត់ណា-ធំ",
+        "price": 12.9,
+        "food_dish_id": 67,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 390,
+        "english_name": "STIR FRIED KALE WITH GINGER SAUCE-S",
+        "chinese_name": "姜汁炒介籣-小",
+        "khmer_name": "ទឹកខ្ញីឆាខាត់ណា-តូច",
+        "price": 5.9,
+        "food_dish_id": 67,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 391,
+        "english_name": "STIR FRIED KALE WITH GINGER SAUCE-M",
+        "chinese_name": "姜汁炒介籣-中",
+        "khmer_name": "ទឹកខ្ញីឆាខាត់ណា-ធម្មតា",
+        "price": 9.9,
+        "food_dish_id": 67,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 392,
+        "english_name": "MALAYSIAN STYLE FRIED NOODLE-L",
+        "chinese_name": "马拉酱捞面-大",
+        "khmer_name": "មីឆាបែបម៉ាឡេ-ធំ",
+        "price": 13.9,
+        "food_dish_id": 91,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 393,
+        "english_name": "MALAYSIAN STYLE FRIED NOODLE-S",
+        "chinese_name": "马拉酱捞面-小",
+        "khmer_name": "មីឆាបែបម៉ាឡេ-តូច",
+        "price": 7.9,
+        "food_dish_id": 91,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 394,
+        "english_name": "MALAYSIAN STYLE FRIED NOODLE-M",
+        "chinese_name": "马拉酱捞面-中",
+        "khmer_name": "មីឆាបែបម៉ាឡេ-ធម្មតា",
+        "price": 10.9,
+        "food_dish_id": 91,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 395,
+        "english_name": "THREE-COLOR STEAMED EGG-L",
+        "chinese_name": "三色蒸水蛋-大",
+        "khmer_name": "ពងមាន់ចំហុយបីណ៍-ធំ",
+        "price": 12.9,
+        "food_dish_id": 94,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 396,
+        "english_name": "THREE-COLOR STEAMED EGG-S",
+        "chinese_name": "三色蒸水蛋-小",
+        "khmer_name": "ពងមាន់ចំហុយបីណ៍-តូច",
+        "price": 7.9,
+        "food_dish_id": 94,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 397,
+        "english_name": "THREE-COLOR STEAMED EGG-M",
+        "chinese_name": "三色蒸水蛋-中",
+        "khmer_name": "ពងមាន់ចំហុយបីណ៍-ធម្មតា",
+        "price": 10.9,
+        "food_dish_id": 94,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 398,
+        "english_name": "BRAISED PORK RIBS WITH COLD MELON-L",
+        "chinese_name": "凉瓜炆排骨-大",
+        "khmer_name": "ឆ្អឹងជំនីខម្រះ-ធំ",
+        "price": 17.9,
+        "food_dish_id": 111,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 399,
+        "english_name": "BRAISED PORK RIBS WITH COLD MELON-S",
+        "chinese_name": "凉瓜炆排骨-小",
+        "khmer_name": "ឆ្អឹងជំនីខម្រះ-តូច",
+        "price": 9.9,
+        "food_dish_id": 111,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 400,
+        "english_name": "BRAISED PORK RIBS WITH COLD MELON-M",
+        "chinese_name": "凉瓜炆排骨-中",
+        "khmer_name": "ឆ្អឹងជំនីខម្រះ-ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 111,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 401,
+        "english_name": "JELLYFISH SALAD-L",
+        "chinese_name": "凉拌海蜇皮-大",
+        "khmer_name": "ញុំសារាយសមុទ្រ-ធំ",
+        "price": 16.9,
+        "food_dish_id": 117,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 402,
+        "english_name": "JELLYFISH SALAD-S",
+        "chinese_name": "凉拌海蜇皮-小",
+        "khmer_name": "ញុំសារាយសមុទ្រ-តូច",
+        "price": 8.9,
+        "food_dish_id": 117,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 403,
+        "english_name": "JELLYFISH SALAD-M",
+        "chinese_name": "凉拌海蜇皮-中",
+        "khmer_name": "ញុំសារាយសមុទ្រ-ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 117,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 404,
+        "english_name": "SICHUAN TWICE-COOKED PORK-L",
+        "chinese_name": "四川回锅肉-大",
+        "khmer_name": "សាច់បីជាន់ឆាហិរ-ធំ",
+        "price": 17.9,
+        "food_dish_id": 133,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 405,
+        "english_name": "SICHUAN TWICE-COOKED PORK-S",
+        "chinese_name": "四川回锅肉-小",
+        "khmer_name": "សាច់បីជាន់ឆាហិរ-តូច",
+        "price": 9.9,
+        "food_dish_id": 133,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 406,
+        "english_name": "SICHUAN TWICE-COOKED PORK-M",
+        "chinese_name": "四川回锅肉-中",
+        "khmer_name": "សាច់បីជាន់ឆាហិរ-ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 133,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 407,
+        "english_name": "PEKING DUCK - 2 FLAVOR - HALF",
+        "chinese_name": "北京片皮鸭-2味-半",
+        "khmer_name": "ទាបេកាំង - 2 រសជាតិ - កន្លះ",
+        "price": 23.9,
+        "food_dish_id": 146,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 408,
+        "english_name": "PEKING DUCK - 2 FLAVOR - WHOLE",
+        "chinese_name": "北京片皮鸭-2味-全",
+        "khmer_name": "ទាបេកាំង - 2 រសជាតិ - ១",
+        "price": 38.9,
+        "food_dish_id": 146,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 409,
+        "english_name": "STEAMD PORK RIBS WITH BLACK BEANS-L",
+        "chinese_name": "咸鱼蒸肉饼-大",
+        "khmer_name": "ត្រីប្រម៉ាចំហុយសាច់ចញ្រ្ចាំ-ធំ",
+        "price": 17.9,
+        "food_dish_id": 156,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 410,
+        "english_name": "STEAMD PORK RIBS WITH BLACK BEANS-S",
+        "chinese_name": "咸鱼蒸肉饼-小",
+        "khmer_name": "ត្រីប្រម៉ាចំហុយសាច់ចញ្រ្ចាំ-តូច",
+        "price": 9.9,
+        "food_dish_id": 156,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 411,
+        "english_name": "STEAMD PORK RIBS WITH BLACK BEANS-M",
+        "chinese_name": "咸鱼蒸肉饼-中",
+        "khmer_name": "ត្រីប្រម៉ាចំហុយសាច់ចញ្រ្ចាំ-ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 156,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 412,
+        "english_name": "BEIJING STYLE ROASTED DUCK",
+        "chinese_name": "北京片皮鸭-半",
+        "khmer_name": "ទាខ្វៃប៉េកាំង-កន្លះ",
+        "price": 18.9,
+        "food_dish_id": 146,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 413,
+        "english_name": "BEIJING STYLE ROASTED DUCK",
+        "chinese_name": "北京片皮鸭-全",
+        "khmer_name": "ទាខ្វៃប៉េកាំង-១",
+        "price": 34.9,
+        "food_dish_id": 146,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 414,
+        "english_name": "ROASTED DUCK AND PORK",
+        "chinese_name": "烧鸭拼叉烧-上",
+        "khmer_name": "សាស៊ីវនិងទាខ្វៃ-ខាងស្លាប",
+        "price": 18.9,
+        "food_dish_id": 174,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 415,
+        "english_name": "DEEP FRIED CHICKEN CARLLAGE WITH SALT PEPPER-L",
+        "chinese_name": "椒盐鸡软骨-大",
+        "khmer_name": "ជង្គងមាន់ខ្ចីបំពងអំបិលម្រេច-ធំ",
+        "price": 17.9,
+        "food_dish_id": 185,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 416,
+        "english_name": "DEEP FRIED CHICKEN CARLLAGE WITH SALT PEPPER-S",
+        "chinese_name": "椒盐鸡软骨-小",
+        "khmer_name": "ជង្គងមាន់ខ្ចីបំពងអំបិលម្រេច-តូច",
+        "price": 9.9,
+        "food_dish_id": 185,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 417,
+        "english_name": "DEEP FRIED CHICKEN CARLLAGE WITH SALT PEPPER-M",
+        "chinese_name": "椒盐鸡软骨-中",
+        "khmer_name": "ជង្គងមាន់ខ្ចីបំពងអំបិលម្រេច-ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 185,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 418,
+        "english_name": "SZE CHUAN STYLE BROTH-L",
+        "chinese_name": "四川酸辣羹-大",
+        "khmer_name": "ស៊ុបស៊ីឈួន-ធំ",
+        "price": 18.9,
+        "food_dish_id": 221,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 419,
+        "english_name": "SZE CHUAN STYLE BROTH-S",
+        "chinese_name": "四川酸辣羹-小",
+        "khmer_name": "ស៊ុបស៊ីឈួន-តូច",
+        "price": 9.9,
+        "food_dish_id": 221,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 420,
+        "english_name": "SZE CHUAN STYLE BROTH-M",
+        "chinese_name": "四川酸辣羹-中",
+        "khmer_name": "ស៊ុបស៊ីឈួន-ធម្មតា",
+        "price": 14.9,
+        "food_dish_id": 221,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 421,
+        "english_name": "PIG STOMACH WITH BLACK PEPPER SOUP-L",
+        "chinese_name": "胡椒猪肚汤-大",
+        "khmer_name": "ស៊ុបមាន់ក្រពះជ្រូក-ធំ",
+        "price": 33.9,
+        "food_dish_id": 224,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 422,
+        "english_name": "PIG STOMACH WITH BLACK PEPPER SOUP-S",
+        "chinese_name": "胡椒猪肚汤-小",
+        "khmer_name": "ស៊ុបមាន់ក្រពះជ្រូក-តូច",
+        "price": 16.9,
+        "food_dish_id": 224,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 423,
+        "english_name": "PIG STOMACH WITH BLACK PEPPER SOUP-M",
+        "chinese_name": "胡椒猪肚汤-中",
+        "khmer_name": "ស៊ុបមាន់ក្រពះជ្រូក-ធម្មតា",
+        "price": 26.9,
+        "food_dish_id": 224,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 424,
+        "english_name": "CORN FISH SOUP-L",
+        "chinese_name": "粟米鱼肚羹-大",
+        "khmer_name": "ស៊ុបពោតក្រពះត្រី-ធំ",
+        "price": 18.9,
+        "food_dish_id": 227,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 425,
+        "english_name": "CORN FISH SOUP-S",
+        "chinese_name": "粟米鱼肚羹-小",
+        "khmer_name": "ស៊ុបពោតក្រពះត្រី-តូច",
+        "price": 9.9,
+        "food_dish_id": 227,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 426,
+        "english_name": "CORN FISH SOUP-M",
+        "chinese_name": "粟米鱼肚羹-中",
+        "khmer_name": "ស៊ុបពោតក្រពះត្រី-ធម្មតា",
+        "price": 14.9,
+        "food_dish_id": 227,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 427,
+        "english_name": "CORN FISH MAW SOUP-L",
+        "chinese_name": "玉米鱼肚羹-大",
+        "khmer_name": "ស៊ុបពោតក្រពះត្រី - ធំ",
+        "price": 18.9,
+        "food_dish_id": 230,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 428,
+        "english_name": "CORN FISH MAW SOUP - ONE",
+        "chinese_name": "玉米鱼肚羹-位",
+        "khmer_name": "ស៊ុបពោតក្រពះត្រី - ចំនែក",
+        "price": 4.9,
+        "food_dish_id": 230,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 429,
+        "english_name": "CORN FISH MAW SOUP-S",
+        "chinese_name": "玉米鱼肚羹-小",
+        "khmer_name": "ស៊ុបពោតក្រពះត្រី - តូច",
+        "price": 9.9,
+        "food_dish_id": 230,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 430,
+        "english_name": "CORN FISH MAW SOUP-M",
+        "chinese_name": "玉米鱼肚羹-中",
+        "khmer_name": "ស៊ុបពោតក្រពះត្រី - ធម្មតា",
+        "price": 14.9,
+        "food_dish_id": 230,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 431,
+        "english_name": "SNAIL CHICKEN SOUP-L",
+        "chinese_name": "螺头老鸡汤-大",
+        "khmer_name": "ស៊ុបខ្យងមាន់ចាស់-ធំ",
+        "price": 33.9,
+        "food_dish_id": 245,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 432,
+        "english_name": "SNAIL CHICKEN SOUP-S",
+        "chinese_name": "螺头老鸡汤-小",
+        "khmer_name": "ស៊ុបខ្យងមាន់ចាស់-តូច",
+        "price": 16.9,
+        "food_dish_id": 245,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 433,
+        "english_name": "SNAIL CHICKEN SOUP-M",
+        "chinese_name": "螺头老鸡汤-中",
+        "khmer_name": "ស៊ុបខ្យងមាន់ចាស់-ធម្មតា",
+        "price": 26.9,
+        "food_dish_id": 245,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 434,
+        "english_name": "FRIED LARGE INTESTINE WITH SAUERKRAUT-L",
+        "chinese_name": "酸菜炒大肠-大",
+        "khmer_name": "ចៀនពោះវៀនស្ពីជូរ - ធំ",
+        "price": 21.9,
+        "food_dish_id": 267,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 435,
+        "english_name": "FRIED LARGE INTESTINE WITH SAUERKRAUT-S",
+        "chinese_name": "酸菜炒大肠-小",
+        "khmer_name": "ចៀនពោះវៀនស្ពីជូរ - តូច",
+        "price": 10.9,
+        "food_dish_id": 267,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 436,
+        "english_name": "FRIED LARGE INTESTINE WITH SAUERKRAUT-M",
+        "chinese_name": "酸菜炒大肠-中",
+        "khmer_name": "ចៀនពោះវៀនស្ពីជូរ - ធម្មតា",
+        "price": 16.9,
+        "food_dish_id": 267,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 437,
+        "english_name": "HOT AND SOUR SHREDDED POTATO-L",
+        "chinese_name": "酸辣土豆丝-大",
+        "khmer_name": "ដំឡូងបារាំងញុំបែបចិន-ធំ",
+        "price": 11.9,
+        "food_dish_id": 283,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 438,
+        "english_name": "HOT AND SOUR SHREDDED POTATO-S",
+        "chinese_name": "酸辣土豆丝-小",
+        "khmer_name": "ដំឡូងបារាំងញុំបែបចិន-តូច",
+        "price": 6.9,
+        "food_dish_id": 283,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 439,
+        "english_name": "HOT AND SOUR SHREDDED POTATO-M",
+        "chinese_name": "酸辣土豆丝-中",
+        "khmer_name": "ដំឡូងបារាំងញុំបែបចិន-ធម្មតា",
+        "price": 9.9,
+        "food_dish_id": 283,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 440,
+        "english_name": "STIR-FRIED BEEF WITH TEMPEH-L",
+        "chinese_name": "豉椒炒牛肉-大",
+        "khmer_name": "ខៀងខ្មៅម្ទេសប្លោកសាច់គោ-ធំ",
+        "price": 17.9,
+        "food_dish_id": 305,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 441,
+        "english_name": "STIR-FRIED BEEF WITH TEMPEH-S",
+        "chinese_name": "豉椒炒牛肉-小",
+        "khmer_name": "ខៀងខ្មៅម្ទេសប្លោកសាច់គោ-តូច",
+        "price": 9.9,
+        "food_dish_id": 305,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 442,
+        "english_name": "STIR-FRIED BEEF WITH TEMPEH-M",
+        "chinese_name": "豉椒炒牛肉-中",
+        "khmer_name": "ខៀងខ្មៅម្ទេសប្លោកសាច់គោ-ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 305,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 443,
+        "english_name": "SIGNATURE STIR FRIED DISH -M",
+        "chinese_name": "波记小炒皇-中",
+        "khmer_name": "ឆាប្រចាំហាង-ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 321,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 444,
+        "english_name": "SPICY STIR-FRIED SHIITAKE MUSHROOMS-L",
+        "chinese_name": "香辣炒什菇-大",
+        "khmer_name": "ម្ទេសក្រៀមឆាផ្សិតគ្រប់មុខ-ធំ",
+        "price": 17.9,
+        "food_dish_id": 327,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 445,
+        "english_name": "SPICY STIR-FRIED SHIITAKE MUSHROOMS-S",
+        "chinese_name": "香辣炒什菇-小",
+        "khmer_name": "ម្ទេសក្រៀមឆាផ្សិតគ្រប់មុខ-តូច",
+        "price": 9.9,
+        "food_dish_id": 327,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 446,
+        "english_name": "SPICY STIR-FRIED SHIITAKE MUSHROOMS-M",
+        "chinese_name": "香辣炒什菇-中",
+        "khmer_name": "ម្ទេសក្រៀមឆាផ្សិតគ្រប់មុខ-ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 327,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 447,
+        "english_name": "BOSTON LOBSTER",
+        "chinese_name": "波士顿龙虾-只",
+        "khmer_name": "បង្កងនាគ បុស្តុន",
+        "price": 29,
+        "food_dish_id": 461,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 448,
+        "english_name": "Salted Fish Pork Belly Pot-Small",
+        "chinese_name": "咸鱼花腩煲-小",
+        "khmer_name": "ត្រីប្រៃ សាច់ជ្រូក - តូច",
+        "price": 9.9,
+        "food_dish_id": 462,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 449,
+        "english_name": "Salted Fish Pork Belly Pot-Medium",
+        "chinese_name": "咸鱼花腩煲-中",
+        "khmer_name": "ត្រីប្រៃ សាច់ជ្រូក - ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 462,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 450,
+        "english_name": "Salted Fish Pork Belly Pot-Large",
+        "chinese_name": "咸鱼花腩煲-大",
+        "khmer_name": "ត្រីប្រៃ សាច់ជ្រូក-ធំ",
+        "price": 17.9,
+        "food_dish_id": 462,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 451,
+        "english_name": "Soy Sauce King Fried Noodles-S",
+        "chinese_name": "豉油王炒面-小",
+        "khmer_name": "មីឆាទឹកស៊ីអ៊ីវ - តូច",
+        "price": 6.9,
+        "food_dish_id": 465,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 452,
+        "english_name": "Soy Sauce King Fried Noodles-M",
+        "chinese_name": "豉油王炒面-中",
+        "khmer_name": "មីឆាទឹកស៊ីអ៊ីវ - ធម្មតា",
+        "price": 8.9,
+        "food_dish_id": 465,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 453,
+        "english_name": "Soy Sauce King Fried Noodles-L",
+        "chinese_name": "豉油王炒面-大",
+        "khmer_name": "មីឆាទឹកស៊ីអ៊ីវ - ធំ",
+        "price": 11.9,
+        "food_dish_id": 465,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 454,
+        "english_name": "Soy Sauce King Fried River-Small",
+        "chinese_name": "豉油王炒河-小",
+        "khmer_name": "គុយទាវឆាទឹកស៊ីអ៉ីវ-តូច",
+        "price": 6.9,
+        "food_dish_id": 471,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 455,
+        "english_name": "Soy Sauce King Fried River-M",
+        "chinese_name": "豉油王炒河-中",
+        "khmer_name": "គុយទាវឆាទឹកស៊ីអ៉ីវ - ធម្មតា",
+        "price": 8.9,
+        "food_dish_id": 471,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 456,
+        "english_name": "Soy Sauce King Fried River-L",
+        "chinese_name": "豉油王炒河-大",
+        "khmer_name": "គុយទាវឆាទឹកស៊ីអ៉ីវ - ធំ",
+        "price": 11.9,
+        "food_dish_id": 471,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 457,
+        "english_name": "Pepper Pork Belly Soup - Bits",
+        "chinese_name": "胡椒猪肚汤-位",
+        "khmer_name": "ស៊ុបពោះជ្រូកម្រេច",
+        "price": 5.9,
+        "food_dish_id": 224,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 458,
+        "english_name": "Stir-fried beef with bitter melon-small",
+        "chinese_name": "凉瓜炒牛肉-小",
+        "khmer_name": "",
+        "price": 9.9,
+        "food_dish_id": 519,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 459,
+        "english_name": "Stir-fried beef with bitter melon-medium",
+        "chinese_name": "凉瓜炒牛肉-中",
+        "khmer_name": "",
+        "price": 13.9,
+        "food_dish_id": 519,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 460,
+        "english_name": "Stir-fried beef with bitter melon-large",
+        "chinese_name": "凉瓜炒牛肉-大",
+        "khmer_name": "",
+        "price": 17.9,
+        "food_dish_id": 519,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 461,
+        "english_name": "Broccoli-small",
+        "chinese_name": "蒜茸西蓝花-小",
+        "khmer_name": "ផ្កាខាត់ណា-តូច",
+        "price": 5.9,
+        "food_dish_id": 531,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 462,
+        "english_name": "Broccoli-medium",
+        "chinese_name": "蒜茸西蓝花-中",
+        "khmer_name": "ផ្កាខាត់ណា-កណ្តាល",
+        "price": 9.9,
+        "food_dish_id": 531,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 463,
+        "english_name": "Broccoli-large",
+        "chinese_name": "蒜茸西蓝花-大",
+        "khmer_name": "ផ្កាខាត់ណា-ធំ",
+        "price": 12.9,
+        "food_dish_id": 531,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 464,
+        "english_name": "Stir-fried bitter melon with black bean sauce-small",
+        "chinese_name": "豉汁炒凉瓜-小",
+        "khmer_name": "ឆាម្រះ-តូច",
+        "price": 5.9,
+        "food_dish_id": 538,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 465,
+        "english_name": "Stir-fried bitter melon with black bean sauce-medium",
+        "chinese_name": "豉汁炒凉瓜-中",
+        "khmer_name": "ឆាម្រះ-កណ្តាល",
+        "price": 9.9,
+        "food_dish_id": 538,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 466,
+        "english_name": "Stir-fried bitter melon with black bean sauce-large",
+        "chinese_name": "豉汁炒凉瓜-大",
+        "khmer_name": "ឆាម្រះ-ធំ",
+        "price": 12.9,
+        "food_dish_id": 538,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 467,
+        "english_name": "Beef stir-fried rice-small",
+        "chinese_name": "牛肉湿炒河-小",
+        "khmer_name": "គុណទាវឆាសាច់គោសើម-តូច",
+        "price": 7.9,
+        "food_dish_id": 573,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 468,
+        "english_name": "Beef stir-fried rice-medium",
+        "chinese_name": "牛肉湿炒河-中",
+        "khmer_name": "គុណទាវឆាសាច់គោសើម-កណ្តាល",
+        "price": 10.9,
+        "food_dish_id": 573,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 469,
+        "english_name": "Beef stir-fried rice-large",
+        "chinese_name": "牛肉湿炒河-大",
+        "khmer_name": "គុណទាវឆាសាច់គោសើម-ធំ",
+        "price": 13.9,
+        "food_dish_id": 573,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 470,
+        "english_name": "Duck tongue with soy sauce-large",
+        "chinese_name": "豉油皇鸭舌-大",
+        "khmer_name": "អណ្តាតទា-ធំ",
+        "price": 27.9,
+        "food_dish_id": 195,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 471,
+        "english_name": "Sizzling beef ribs-large",
+        "chinese_name": "铁板牛仔骨-大",
+        "khmer_name": "ឆ្អឹងជំនីគោម្រេចបន្ទះដែក-ធំ",
+        "price": 33.9,
+        "food_dish_id": 8,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 472,
+        "english_name": "Thai style fried fish belly-large",
+        "chinese_name": "泰式炒鱼肚-大",
+        "khmer_name": "ក្រពះត្រីឆាបែបថៃ-ធំ",
+        "price": 25.9,
+        "food_dish_id": 287,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 473,
+        "english_name": "Garlic steamed eggplant-small",
+        "chinese_name": "蒜茸蒸茄子-小",
+        "khmer_name": "ត្រប់",
+        "price": 5.9,
+        "food_dish_id": 601,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 474,
+        "english_name": "Garlic steamed eggplant-medium",
+        "chinese_name": "蒜茸蒸茄子-中",
+        "khmer_name": "ត្រប់",
+        "price": 9.9,
+        "food_dish_id": 601,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 475,
+        "english_name": "Garlic steamed eggplant-large",
+        "chinese_name": "蒜茸蒸茄子-大",
+        "khmer_name": "ត្រប់",
+        "price": 12.9,
+        "food_dish_id": 601,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 476,
+        "english_name": "Roast duck and barbecued pork-small",
+        "chinese_name": "烧鸭拼叉烧-下",
+        "khmer_name": "សាសីវនិងទាខ្វៃ-ខាងភ្លៅ",
+        "price": 20.9,
+        "food_dish_id": 174,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 477,
+        "english_name": "Fried vegetables and pork shreds-small",
+        "chinese_name": "炸菜炒肉丝-小",
+        "khmer_name": "បន្លែចៀនជាមួយសាច់ជ្រូក - តូច",
+        "price": 9.9,
+        "food_dish_id": 626,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 478,
+        "english_name": "Braised abalone pork knuckle-portion",
+        "chinese_name": "鲍鱼焖猪手-份",
+        "khmer_name": "ជើងជ្រូកខប៉ាវហឺ-ចំណែក",
+        "price": 68.9,
+        "food_dish_id": 630,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 479,
+        "english_name": "Abalone casserole-portion",
+        "chinese_name": "鲍鱼一品煲-份",
+        "khmer_name": "ខប៉ាវហឺឆ្នាំងដីពិសេស-ចំណែក",
+        "price": 67.9,
+        "food_dish_id": 631,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 480,
+        "english_name": "Sea cucumber casserole-portion",
+        "chinese_name": "海参一品煲-份",
+        "khmer_name": "ឈ្លើងសមុទ្រឆ្នាំងដីពិសេស-ចំណែក",
+        "price": 37.9,
+        "food_dish_id": 569,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 481,
+        "english_name": "Assorted seafood soup-large",
+        "chinese_name": "海鲜什锦汤-大",
+        "khmer_name": "ស៊ុបគ្រឿងសមុទ្រ-ធំ",
+        "price": 19.9,
+        "food_dish_id": 633,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 482,
+        "english_name": "Braised goose feet with fish maw-portion",
+        "chinese_name": "花胶焖鹅掌-份",
+        "khmer_name": "ក្រពះត្រីខជើងក្ងាន-ចំណែក",
+        "price": 57.9,
+        "food_dish_id": 636,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 483,
+        "english_name": "Sea cucumber and lamb belly casserole-portion",
+        "chinese_name": "海参羊腩煲-份",
+        "khmer_name": "ខឈ្លើងសមុទ្រនិងសាច់ពពែឆ្នាំងដី-ចំណែក",
+        "price": 47.9,
+        "food_dish_id": 637,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 484,
+        "english_name": "Braised abalone wings-portion",
+        "chinese_name": "红烧大鲍翅-份",
+        "khmer_name": "ខព្រុយត្រីឆ្លាមពិសេស-ចំណែក",
+        "price": 51.9,
+        "food_dish_id": 638,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 485,
+        "english_name": "Assorted seafood-large portion",
+        "chinese_name": "海鲜炒什锦-大份",
+        "khmer_name": "ឆាបន្លែគ្រឿងសមុទ្រគ្រប់មុខ-ចានធំ",
+        "price": 19.9,
+        "food_dish_id": 642,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 486,
+        "english_name": "Sizzling conch and broccoli-portion",
+        "chinese_name": "螺片西蓝花-份",
+        "khmer_name": "សាច់ខ្យងផ្កាខាត់ណា",
+        "price": 17.9,
+        "food_dish_id": 646,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 487,
+        "english_name": "Salmon Lo Sang-portion",
+        "chinese_name": "三文鱼捞生-份",
+        "khmer_name": "",
+        "price": 37.9,
+        "food_dish_id": 651,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 488,
+        "english_name": "Sichuan hot and sour soup-portion",
+        "chinese_name": "四川酸辣羹-位",
+        "khmer_name": "ស៊ុបសីឈួន",
+        "price": 4.9,
+        "food_dish_id": 221,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 489,
+        "english_name": "Stir-fried seafood vegetables-small",
+        "chinese_name": "海鲜炒什菜-小",
+        "khmer_name": "បន្លែគ្រប់មុខឆាគ្រឿងសមុទ្រ-តូច",
+        "price": 9.9,
+        "food_dish_id": 657,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 490,
+        "english_name": "Stir-fried seafood vegetables-medium",
+        "chinese_name": "海鲜炒什菜-中",
+        "khmer_name": "បន្លែគ្រប់មុខឆាគ្រឿងសមុទ្រ-កណ្តាល",
+        "price": 13.9,
+        "food_dish_id": 657,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 491,
+        "english_name": "Stir-fried seafood vegetables-large",
+        "chinese_name": "海鲜炒什菜-大",
+        "khmer_name": "បន្លែគ្រប់មុខឆាគ្រឿងសមុទ្រ-ធំ",
+        "price": 17.9,
+        "food_dish_id": 657,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 492,
+        "english_name": "Stir-fried seafood assorted-small",
+        "chinese_name": "海鲜炒什锦-小",
+        "khmer_name": "ឆាបន្លែគ្រឿងសមុទ្រគ្រប់មុខ-តូច",
+        "price": 10.9,
+        "food_dish_id": 642,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 493,
+        "english_name": "Stir-fried seafood assorted-medium",
+        "chinese_name": "海鲜炒什锦-中",
+        "khmer_name": "ឆាបន្លែគ្រឿងសមុទ្រគ្រប់មុខ-កណ្តាល",
+        "price": 16.9,
+        "food_dish_id": 642,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 494,
+        "english_name": "Stir-fried seafood assorted-large",
+        "chinese_name": "海鲜炒什锦-大",
+        "khmer_name": "ឆាបន្លែគ្រឿងសមុទ្រគ្រប់មុខ-ធំ",
+        "price": 20.9,
+        "food_dish_id": 642,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 495,
+        "english_name": "Sautéed lotus root slices with Chinese sausage-medium",
+        "chinese_name": "腊肠炒藕片-中",
+        "khmer_name": "សាច់ក្រក់ឆាមើមឈូក-កណ្តាល",
+        "price": 13.9,
+        "food_dish_id": 675,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 496,
+        "english_name": "Sautéed lotus root slices with Chinese sausage-small",
+        "chinese_name": "腊肠炒藕片-小",
+        "khmer_name": "សាច់ក្រក់ឆាមើមឈូក-តូច",
+        "price": 9.9,
+        "food_dish_id": 675,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 497,
+        "english_name": "Sautéed lotus root slices with Chinese sausage Slices-large",
+        "chinese_name": "腊肠炒藕片-大",
+        "khmer_name": "សាច់ក្រក់ឆាមើមឈូក-ធំ",
+        "price": 17.9,
+        "food_dish_id": 675,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 498,
+        "english_name": "Beef stir-fried with Chinese kale-medium",
+        "chinese_name": "牛辗炒芥兰-中",
+        "khmer_name": "",
+        "price": 13.9,
+        "food_dish_id": 682,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 499,
+        "english_name": "Beef stir-fried with Chinese kale-large",
+        "chinese_name": "牛辗炒芥兰-大",
+        "khmer_name": "",
+        "price": 17.9,
+        "food_dish_id": 682,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 500,
+        "english_name": "Beef stir-fried with Chinese kale-small",
+        "chinese_name": "牛辗炒芥兰-小",
+        "khmer_name": "",
+        "price": 9.9,
+        "food_dish_id": 682,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 501,
+        "english_name": "Curry lamb brisket-portion",
+        "chinese_name": "咖喱羊腩煲-份",
+        "khmer_name": "សាច់ពពែឆ្នាំងដី",
+        "price": 20.9,
+        "food_dish_id": 703,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 502,
+        "english_name": "Sausage fried with Chinese kale-small",
+        "chinese_name": "腊肠炒芥兰-小",
+        "khmer_name": "",
+        "price": 9.9,
+        "food_dish_id": 715,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 503,
+        "english_name": "Sausage fried with Chinese kale-medium",
+        "chinese_name": "腊肠炒芥兰-中",
+        "khmer_name": "",
+        "price": 13.9,
+        "food_dish_id": 715,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 504,
+        "english_name": "Sausage fried with Chinese kale-large",
+        "chinese_name": "腊肠炒芥兰-大",
+        "khmer_name": "",
+        "price": 17.9,
+        "food_dish_id": 715,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 505,
+        "english_name": "Pork soup rice noodles-one",
+        "chinese_name": "猪肉汤河粉-位",
+        "khmer_name": "គុយទាវស៊ុប",
+        "price": 4.9,
+        "food_dish_id": 727,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 506,
+        "english_name": "Spicy beef ribs-portion",
+        "chinese_name": "香辣牛仔骨-份",
+        "khmer_name": "ឆ្អឹងជំនីគោឆាហិរ",
+        "price": 19.9,
+        "food_dish_id": 787,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 507,
+        "english_name": "Fried vegetables with pork-medium",
+        "chinese_name": "炸菜炒肉丝-中",
+        "khmer_name": "បន្លែចៀនជាមួយសាច់ជ្រូក - ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 626,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 508,
+        "english_name": "Fried vegetables with pork-large",
+        "chinese_name": "炸菜炒肉丝-大",
+        "khmer_name": "បន្លែចៀនជាមួយសាច់ជ្រូក - ធំ",
+        "price": 17.9,
+        "food_dish_id": 626,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 509,
+        "english_name": "Shrimp balls with green vegetables-portion",
+        "chinese_name": "虾丸浸青菜-份",
+        "khmer_name": "ប្រហិតបង្គារ",
+        "price": 14.9,
+        "food_dish_id": 869,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 510,
+        "english_name": "Salted fish fried vegetables-S",
+        "chinese_name": "咸鱼炒青菜-小",
+        "khmer_name": "ឆាបន្លែ",
+        "price": 9.9,
+        "food_dish_id": 890,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 511,
+        "english_name": "Salted fish fried vegetables-M",
+        "chinese_name": "咸鱼炒青菜-中",
+        "khmer_name": "ឆាបន្លែ",
+        "price": 13.9,
+        "food_dish_id": 890,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 512,
+        "english_name": "Salted fish fried vegetables-L",
+        "chinese_name": "咸鱼炒青菜-大",
+        "khmer_name": "ឆាបន្លែ",
+        "price": 17.9,
+        "food_dish_id": 890,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 513,
+        "english_name": "Abalone soup with conch head - piece",
+        "chinese_name": "螺头鲍鱼汤-位",
+        "khmer_name": "ស៊ុបប៉ាវហឺ",
+        "price": 13.9,
+        "food_dish_id": 907,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 514,
+        "english_name": "Shrimp and vermicelli casserole-L",
+        "chinese_name": "虾米粉丝煲-大",
+        "khmer_name": "បង្គា​ក្រៀម​បំពង​បំពង​-​ធំ",
+        "price": 17.9,
+        "food_dish_id": 838,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 515,
+        "english_name": "Kudzu soup",
+        "chinese_name": "猪肉湿炒面-小",
+        "khmer_name": "មីឆាសាច់ជ្រូក",
+        "price": 7.9,
+        "food_dish_id": 940,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 516,
+        "english_name": "Pork fried noodles-small",
+        "chinese_name": "猪肉湿炒面-中",
+        "khmer_name": "មីឆាសាច់ជ្រូក",
+        "price": 10.9,
+        "food_dish_id": 940,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 517,
+        "english_name": "Pork fried noodles-medium",
+        "chinese_name": "猪肉湿炒面-大",
+        "khmer_name": "មីឆាសាច់ជ្រូក",
+        "price": 13.9,
+        "food_dish_id": 940,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 518,
+        "english_name": "Scallop braised melon preserves-small",
+        "chinese_name": "瑶柱扒瓜脯-小",
+        "khmer_name": "ខ្យងក្រៀមទឹកប៉ាវហឺចំហុយត្រឡាត់-តូច",
+        "price": 9.9,
+        "food_dish_id": 973,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 519,
+        "english_name": "Scallop braised melon preserves-medium",
+        "chinese_name": "瑶柱扒瓜脯-中",
+        "khmer_name": "ខ្យងក្រៀមទឹកប៉ាវហឺចំហុយត្រឡាត់-កណ្តាល",
+        "price": 13.9,
+        "food_dish_id": 973,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 520,
+        "english_name": "Scallop braised melon preserves-large",
+        "chinese_name": "瑶柱扒瓜脯-大",
+        "khmer_name": "ខ្យងក្រៀមទឹកប៉ាវហឺចំហុយត្រឡាត់-ធំ",
+        "price": 17.9,
+        "food_dish_id": 973,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 521,
+        "english_name": "Crab meat braised melon preserves-small",
+        "chinese_name": "蟹肉扒瓜脯-小",
+        "khmer_name": "សាច់ក្តាមទឹកប៉ាវហឺចំហុយត្រឡាត់-តូច",
+        "price": 9.9,
+        "food_dish_id": 976,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 522,
+        "english_name": "Crab meat braised melon preserves-medium",
+        "chinese_name": "蟹肉扒瓜脯-中",
+        "khmer_name": "សាច់ក្តាមទឹកប៉ាវហឺចំហុយត្រឡាត់-កណ្តាល",
+        "price": 13.9,
+        "food_dish_id": 976,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 523,
+        "english_name": "Crab meat braised melon preserves-large",
+        "chinese_name": "蟹肉扒瓜脯-大",
+        "khmer_name": "សាច់ក្តាមទឹកប៉ាវហឺចំហុយត្រឡាត់-ធំ",
+        "price": 17.9,
+        "food_dish_id": 976,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 524,
+        "english_name": "Abalone and chicken soup-piece",
+        "chinese_name": "鲍鱼老鸡汤-位",
+        "khmer_name": "ស៊ុប",
+        "price": 18,
+        "food_dish_id": 1009,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 525,
+        "english_name": "SIZZLING GINGER SCALLION FROG-L",
+        "chinese_name": "铁板姜葱田鸡-大",
+        "khmer_name": "កង្កែបបន្ទះដែក-ធំ",
+        "price": 17.9,
+        "food_dish_id": 12,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 526,
+        "english_name": "SIZZLING GINGER SCALLION FROG-S",
+        "chinese_name": "铁板姜葱田鸡-小",
+        "khmer_name": "កង្កែបបន្ទះដែក-តូច",
+        "price": 9.9,
+        "food_dish_id": 12,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 527,
+        "english_name": "SIZZLING GINGER SCALLION FROG-M",
+        "chinese_name": "铁板姜葱田鸡-中",
+        "khmer_name": "កង្កែបបន្ទះដែក-ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 12,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 528,
+        "english_name": "STEAMED BABY VEGETABLES WITH MINCED MEAT-L",
+        "chinese_name": "肉碎蒸娃娃菜-大",
+        "khmer_name": "សាច់ជ្រូកចិញ្រ្ចាំចំហុយកូនស្ពៃបូកគោ-ធំ",
+        "price": 16.9,
+        "food_dish_id": 61,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 529,
+        "english_name": "STEAMED BABY VEGETABLES WITH MINCED MEAT-S",
+        "chinese_name": "肉碎蒸娃娃菜-小",
+        "khmer_name": "សាច់ជ្រូកចិញ្រ្ចាំចំហុយកូនស្ពៃបូកគោ-តូច",
+        "price": 9.9,
+        "food_dish_id": 61,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 530,
+        "english_name": "STEAMED BABY VEGETABLES WITH MINCED MEAT-M",
+        "chinese_name": "肉碎蒸娃娃菜-中",
+        "khmer_name": "សាច់ជ្រូកចិញ្រ្ចាំចំហុយកូនស្ពៃបូកគោ-ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 61,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 531,
+        "english_name": "STIR FRIED ICEBERG SALAD WITH CHILLI AND FERMENTED ROFU-L",
+        "chinese_name": "椒付炒西生菜-大",
+        "khmer_name": "សាឡាត់ស្រួយឆាទឹកតៅហ៊ូ-ធំ",
+        "price": 12.9,
+        "food_dish_id": 73,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 532,
+        "english_name": "STIR FRIED ICEBERG SALAD WITH CHILLI AND FERMENTED ROFU-S",
+        "chinese_name": "椒付炒西生菜-小",
+        "khmer_name": "សាឡាត់ស្រួយឆាទឹកតៅហ៊ូ-តូច",
+        "price": 5.9,
+        "food_dish_id": 73,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 533,
+        "english_name": "STIR FRIED ICEBERG SALAD WITH CHILLI AND FERMENTED ROFU-M",
+        "chinese_name": "椒付炒西生菜-中",
+        "khmer_name": "សាឡាត់ស្រួយឆាទឹកតៅហ៊ូ-ធម្មតា",
+        "price": 9.9,
+        "food_dish_id": 73,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 534,
+        "english_name": "STEAMED SALTED FISH WITH MINCED PORK-L",
+        "chinese_name": "马拉酱炒通菜-大",
+        "khmer_name": "ត្រកួនឆាបែបម៉ាឡេ-ធំ",
+        "price": 12.9,
+        "food_dish_id": 76,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 535,
+        "english_name": "STEAMED SALTED FISH WITH MINCED PORK-S",
+        "chinese_name": "马拉酱炒通菜-小",
+        "khmer_name": "ត្រកួនឆាបែបម៉ាឡេ-តូច",
+        "price": 5.9,
+        "food_dish_id": 76,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 536,
+        "english_name": "STEAMED SALTED FISH WITH MINCED PORK-M",
+        "chinese_name": "马拉酱炒通菜-中",
+        "khmer_name": "ត្រកួនឆាបែបម៉ាឡេ-ធម្មតា",
+        "price": 9.9,
+        "food_dish_id": 76,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 537,
+        "english_name": "COLD PRESERVED EGG TOFU-L",
+        "chinese_name": "凉拌皮蛋豆腐-大",
+        "khmer_name": "ញុំតៅហ៊ូពងទាខ្មៅ-ធំ",
+        "price": 17.9,
+        "food_dish_id": 100,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 538,
+        "english_name": "COLD PRESERVED EGG TOFU-S",
+        "chinese_name": "凉拌皮蛋豆腐-小",
+        "khmer_name": "ញុំតៅហ៊ូពងទាខ្មៅ-តូច",
+        "price": 9.9,
+        "food_dish_id": 100,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 539,
+        "english_name": "COLD PRESERVED EGG TOFU-M",
+        "chinese_name": "凉拌皮蛋豆腐-中",
+        "khmer_name": "ញុំតៅហ៊ូពងទាខ្មៅ-ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 100,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 540,
+        "english_name": "SIGNATURE HOMEMADE TOFU WITH ABALONE SAUCE-L",
+        "chinese_name": "野米鲍汁豆腐-大",
+        "khmer_name": "តៅហ៊ូប្រចាំហាង-ធំ",
+        "price": 17.9,
+        "food_dish_id": 114,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 541,
+        "english_name": "SIGNATURE HOMEMADE TOFU WITH ABALONE SAUCE-S",
+        "chinese_name": "野米鲍汁豆腐-小",
+        "khmer_name": "តៅហ៊ូប្រចាំហាង-តូច",
+        "price": 9.9,
+        "food_dish_id": 114,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 542,
+        "english_name": "SIGNATURE HOMEMADE TOFU WITH ABALONE SAUCE-M",
+        "chinese_name": "野米鲍汁豆腐-中",
+        "khmer_name": "តៅហ៊ូប្រចាំហាង-ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 114,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 543,
+        "english_name": "TEMPEH STEAMED PORK RIBS-L",
+        "chinese_name": "豆豉 蒸排骨-大",
+        "khmer_name": "ឆ្អឹងជំនីចំហុយសណ្តែកសៀង-ធំ",
+        "price": 17.9,
+        "food_dish_id": 126,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 544,
+        "english_name": "TEMPEH STEAMED PORK RIBS-S",
+        "chinese_name": "豆豉 蒸排骨-小",
+        "khmer_name": "ឆ្អឹងជំនីចំហុយសណ្តែកសៀង-តូច",
+        "price": 9.9,
+        "food_dish_id": 126,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 545,
+        "english_name": "TEMPEH STEAMED PORK RIBS-M",
+        "chinese_name": "豆豉 蒸排骨-中",
+        "khmer_name": "ឆ្អឹងជំនីចំហុយសណ្តែកសៀង-ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 126,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 546,
+        "english_name": "SINATURE DEEP FRIED PORK RIBS WITH GARLIC-L",
+        "chinese_name": "招牌蒜香排骨-大",
+        "khmer_name": "ឆ្អឹងជំនីបំពងខ្ទឹមស-ធំ",
+        "price": 20.9,
+        "food_dish_id": 143,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 547,
+        "english_name": "SINATURE DEEP FRIED PORK RIBS WITH GARLIC-S",
+        "chinese_name": "招牌蒜香排骨-小",
+        "khmer_name": "ឆ្អឹងជំនីបំពងខ្ទឹមស-តូច",
+        "price": 10.9,
+        "food_dish_id": 143,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 548,
+        "english_name": "SINATURE DEEP FRIED PORK RIBS WITH GARLIC-M",
+        "chinese_name": "招牌蒜香排骨-中",
+        "khmer_name": "ឆ្អឹងជំនីបំពងខ្ទឹមស-ធម្មតា",
+        "price": 16.9,
+        "food_dish_id": 143,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 549,
+        "english_name": "THAI-STYLE SALAD WITH LOTUS ROOT-L",
+        "chinese_name": "泰式凉拌莲藕-大",
+        "khmer_name": "មើមឈូកកញុំបែបថៃ-ធំ",
+        "price": 13.9,
+        "food_dish_id": 217,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 550,
+        "english_name": "THAI-STYLE SALAD WITH LOTUS ROOT-S",
+        "chinese_name": "泰式凉拌莲藕-小",
+        "khmer_name": "មើមឈូកកញុំបែបថៃ-តូច",
+        "price": 6.9,
+        "food_dish_id": 217,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 551,
+        "english_name": "THAI-STYLE SALAD WITH LOTUS ROOT-M",
+        "chinese_name": "泰式凉拌莲藕-中",
+        "khmer_name": "មើមឈូកកញុំបែបថៃ-ធម្មតា",
+        "price": 9.9,
+        "food_dish_id": 217,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 552,
+        "english_name": "STIR FRIED ROFU WITH SOY-L",
+        "chinese_name": "烧汁铁板豆腐-大",
+        "khmer_name": "តៅហ៊ូបន្ទះដែក-ធំ",
+        "price": 17.9,
+        "food_dish_id": 276,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 553,
+        "english_name": "STIR FRIED ROFU WITH SOY-S",
+        "chinese_name": "烧汁铁板豆腐-小",
+        "khmer_name": "តៅហ៊ូបន្ទះដែក-តូច",
+        "price": 9.9,
+        "food_dish_id": 276,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 554,
+        "english_name": "STIR FRIED ROFU WITH SOY-M",
+        "chinese_name": "烧汁铁板豆腐-中",
+        "khmer_name": "តៅហ៊ូបន្ទះដែក-ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 276,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 555,
+        "english_name": "GRILLED SIZZLING EGGPLANT-L",
+        "chinese_name": "烧汁铁板茄子-大",
+        "khmer_name": "ត្រប់បន្ទះដែក-ធំ",
+        "price": 17.9,
+        "food_dish_id": 279,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 556,
+        "english_name": "GRILLED SIZZLING EGGPLANT-S",
+        "chinese_name": "烧汁铁板茄子-小",
+        "khmer_name": "ត្រប់បន្ទះដែក-តូច",
+        "price": 9.9,
+        "food_dish_id": 279,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 557,
+        "english_name": "GRILLED SIZZLING EGGPLANT-M",
+        "chinese_name": "烧汁铁板茄子-中",
+        "khmer_name": "ត្រប់បន្ទះដែក-ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 279,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 558,
+        "english_name": "STIR-FRIED BEEF WITH SOUR BEANS-L",
+        "chinese_name": "酸豆角炒牛肉-大",
+        "khmer_name": "សាច់គោ ឆាសណ្តែកគួរជូរ-ធំ",
+        "price": 17.9,
+        "food_dish_id": 289,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 559,
+        "english_name": "STIR-FRIED BEEF WITH SOUR BEANS-S",
+        "chinese_name": "酸豆角炒牛肉-小",
+        "khmer_name": "សាច់គោ ឆាសណ្តែកគួរជូរ-តូច",
+        "price": 9.9,
+        "food_dish_id": 289,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 560,
+        "english_name": "STIR-FRIED BEEF WITH SOUR BEANS-M",
+        "chinese_name": "酸豆角炒牛肉-中",
+        "khmer_name": "សាច់គោ ឆាសណ្តែកគួរជូរ-ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 289,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 561,
+        "english_name": "BIN389",
+        "chinese_name": "Bin389-小",
+        "khmer_name": "ប៊ីន389",
+        "price": 119,
+        "food_dish_id": 331,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 562,
+        "english_name": "LUSSAC SAIN-GMILLION",
+        "chinese_name": "吕萨克·赛恩-吉米翁",
+        "khmer_name": "Lussac Sion-Gimion",
+        "price": 98,
+        "food_dish_id": 363,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 563,
+        "english_name": "Garlic steamed baby cabbage-medium",
+        "chinese_name": "蒜茸蒸娃娃菜-中",
+        "khmer_name": "បន្លែ-កណ្តាល",
+        "price": 9.9,
+        "food_dish_id": 608,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 564,
+        "english_name": "Garlic steamed baby cabbage-small",
+        "chinese_name": "蒜茸蒸娃娃菜-小",
+        "khmer_name": "បន្លែ-តូច",
+        "price": 5.9,
+        "food_dish_id": 608,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 565,
+        "english_name": "Garlic steamed baby cabbage-large",
+        "chinese_name": "蒜茸蒸娃娃菜-大",
+        "khmer_name": "បន្លែ-ធំ",
+        "price": 12.9,
+        "food_dish_id": 608,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 566,
+        "english_name": "Spicy white-cut lamb-portion",
+        "chinese_name": "香辣白切羊肉-份",
+        "khmer_name": "សាច់ពពែ",
+        "price": 17.9,
+        "food_dish_id": 627,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 567,
+        "english_name": "Braised clam meat with tofu-small",
+        "chinese_name": "花甲肉炆豆腐-小",
+        "khmer_name": "",
+        "price": 9.9,
+        "food_dish_id": 723,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 568,
+        "english_name": "Braised clam meat with tofu-large",
+        "chinese_name": "花甲肉焖豆腐-大",
+        "khmer_name": "",
+        "price": 17.9,
+        "food_dish_id": 725,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 569,
+        "english_name": "Taro stewed with small pond vegetables-L",
+        "chinese_name": "芋头炆小塘菜-大",
+        "khmer_name": "បន្លែ",
+        "price": 17.9,
+        "food_dish_id": 797,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 570,
+        "english_name": "Braised white radish in abalone sauce-small",
+        "chinese_name": "鲍汁焖白萝卜-小",
+        "khmer_name": "ទឹកប៉ាវហឺខឆាយថៅ-តូច",
+        "price": 5.9,
+        "food_dish_id": 982,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 571,
+        "english_name": "Braised white radish in abalone sauce-medium",
+        "chinese_name": "鲍汁焖白萝卜-中",
+        "khmer_name": "ទឹកប៉ាវហឺខឆាយថៅ-កណ្តាល",
+        "price": 9.9,
+        "food_dish_id": 982,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 572,
+        "english_name": "Braised white radish in abalone sauce-large",
+        "chinese_name": "鲍汁焖白萝卜-大",
+        "khmer_name": "ទឹកប៉ាវហឺខឆាយថៅ-ធំ",
+        "price": 12.9,
+        "food_dish_id": 982,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 573,
+        "english_name": "SIZZLING FRESH PEPPER SQUID-L",
+        "chinese_name": "铁板鲜胡椒鲜鱿-大",
+        "khmer_name": "មឹកម្រេចខ្ចីបន្ទះដែក-ធំ",
+        "price": 17.9,
+        "food_dish_id": 18,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 574,
+        "english_name": "SIZZLING FRESH PEPPER SQUID-S",
+        "chinese_name": "铁板鲜胡椒鲜鱿-小",
+        "khmer_name": "មឹកម្រេចខ្ចីបន្ទះដែក-តូច",
+        "price": 9.9,
+        "food_dish_id": 18,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 575,
+        "english_name": "SIZZLING FRESH PEPPER SQUID-M",
+        "chinese_name": "铁板鲜胡椒鲜鱿-中",
+        "khmer_name": "មឹកម្រេចខ្ចីបន្ទះដែក-ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 18,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 576,
+        "english_name": "STIR FRIED BROCCOLI WITH ABALINE MUSHROOM-L",
+        "chinese_name": "白灵菇扒西兰花-大",
+        "khmer_name": "ផ្កាខាត់ណានិងផ្សិតប៉ាវហ៊ឺ-ធំ",
+        "price": 15.9,
+        "food_dish_id": 64,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 577,
+        "english_name": "STIR FRIED BROCCOLI WITH ABALINE MUSHROOM-S",
+        "chinese_name": "白灵菇扒西兰花-小",
+        "khmer_name": "ផ្កាខាត់ណានិងផ្សិតប៉ាវហ៊ឺ-តូច",
+        "price": 8.9,
+        "food_dish_id": 64,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 578,
+        "english_name": "STIR FRIED BROCCOLI WITH ABALINE MUSHROOM-M",
+        "chinese_name": "白灵菇扒西兰花-中",
+        "khmer_name": "ផ្កាខាត់ណានិងផ្សិតប៉ាវហ៊ឺ-ធម្មតា",
+        "price": 11.9,
+        "food_dish_id": 64,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 579,
+        "english_name": "SEAWEED TOFU MINCED PORK SOUP-L",
+        "chinese_name": "紫菜豆腐肉碎汤-大",
+        "khmer_name": "សម្លសាច់ជ្រូកតៅហ៊ូជីឆាយ-ធំ",
+        "price": 18.9,
+        "food_dish_id": 236,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 580,
+        "english_name": "SEAWEED TOFU MINCED PORK SOUP-S",
+        "chinese_name": "紫菜豆腐肉碎汤-小",
+        "khmer_name": "សម្លសាច់ជ្រូកតៅហ៊ូជីឆាយ-តូច",
+        "price": 9.9,
+        "food_dish_id": 236,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 581,
+        "english_name": "SEAWEED TOFU MINCED PORK SOUP-M",
+        "chinese_name": "紫菜豆腐肉碎汤-中",
+        "khmer_name": "សម្លសាច់ជ្រូកតៅហ៊ូជីឆាយ-ធម្មតា",
+        "price": 14.9,
+        "food_dish_id": 236,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 582,
+        "english_name": "THAI SEAFOOD HOT AND SOUR SOUP-L",
+        "chinese_name": "泰式海鲜酸辣汤-大",
+        "khmer_name": "សម្លរតុងយាំគ្រឿងសមុទ្រ-ធំ",
+        "price": 18.9,
+        "food_dish_id": 239,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 583,
+        "english_name": "THAI SEAFOOD HOT AND SOUR SOUP-S",
+        "chinese_name": "泰式海鲜酸辣汤-小",
+        "khmer_name": "សម្លរតុងយាំគ្រឿងសមុទ្រ-តូច",
+        "price": 9.9,
+        "food_dish_id": 239,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 584,
+        "english_name": "THAI SEAFOOD HOT AND SOUR SOUP-M",
+        "chinese_name": "泰式海鲜酸辣汤-中",
+        "khmer_name": "សម្លរតុងយាំគ្រឿងសមុទ្រ-ធម្មតា",
+        "price": 14.9,
+        "food_dish_id": 239,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 585,
+        "english_name": "VIETNAMESE SEAFOOD HOT AND SOUR SOUP",
+        "chinese_name": "越南海鲜酸辣汤-大",
+        "khmer_name": "សម្លរម្ជូរយួនគ្រឿងសមុទ្រ",
+        "price": 18.9,
+        "food_dish_id": 248,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 586,
+        "english_name": "VIETNAMESE SEAFOOD HOT AND SOUR SOUP",
+        "chinese_name": "越南海鲜酸辣汤-小",
+        "khmer_name": "សម្លរម្ជូរយួនគ្រឿងសមុទ្រ",
+        "price": 9.9,
+        "food_dish_id": 248,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 587,
+        "english_name": "VIETNAMESE SEAFOOD HOT AND SOUR SOUP",
+        "chinese_name": "越南海鲜酸辣汤-中",
+        "khmer_name": "សម្លរម្ជូរយួនគ្រឿងសមុទ្រ",
+        "price": 14.9,
+        "food_dish_id": 248,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 588,
+        "english_name": "STIR FRIED BITTER GROURD WITH DRIED CLAMS AND MINCED MEAT-L",
+        "chinese_name": "干贝肉碎炒凉瓜-大",
+        "khmer_name": "ខ្យងក្រៀមសាច់ចិញ្រ្ចាំឆាម្រះ-ធំ",
+        "price": 17.9,
+        "food_dish_id": 292,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 589,
+        "english_name": "STIR FRIED BITTER GROURD WITH DRIED CLAMS AND MINCED MEAT-S",
+        "chinese_name": "干贝肉碎炒凉瓜-小",
+        "khmer_name": "ខ្យងក្រៀមសាច់ចិញ្រ្ចាំឆាម្រះ-តូច",
+        "price": 9.9,
+        "food_dish_id": 292,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 590,
+        "english_name": "STIR FRIED BITTER GROURD WITH DRIED CLAMS AND MINCED MEAT-M",
+        "chinese_name": "干贝肉碎炒凉瓜-中",
+        "khmer_name": "ខ្យងក្រៀមសាច់ចិញ្រ្ចាំឆាម្រះ-ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 292,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 591,
+        "english_name": "FRIED COLD MELON WITH DACE AND TEMPEH-L",
+        "chinese_name": "豆豉鲮鱼炒凉瓜-大",
+        "khmer_name": "សៀងខ្មៅត្រីក្រៀមឆាម្រះ-ធំ",
+        "price": 16.9,
+        "food_dish_id": 296,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 592,
+        "english_name": "FRIED COLD MELON WITH DACE AND TEMPEH-S",
+        "chinese_name": "豆豉鲮鱼炒凉瓜-小",
+        "khmer_name": "សៀងខ្មៅត្រីក្រៀមឆាម្រះ-តូច",
+        "price": 8.9,
+        "food_dish_id": 296,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 593,
+        "english_name": "FRIED COLD MELON WITH DACE AND TEMPEH-M",
+        "chinese_name": "豆豉鲮鱼炒凉瓜-中",
+        "khmer_name": "សៀងខ្មៅត្រីក្រៀមឆាម្រះ-ធម្មតា",
+        "price": 12.9,
+        "food_dish_id": 296,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 594,
+        "english_name": "DRIED LENTILS WITH TEMPEH AND PORK BELLY-L",
+        "chinese_name": "干扁豆豉五花肉-大",
+        "khmer_name": "សាច់ជ្រូកបីជាន់ឆាសៀងខ្មៅ-ធំ",
+        "price": 17.9,
+        "food_dish_id": 299,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 595,
+        "english_name": "DRIED LENTILS WITH TEMPEH AND PORK BELLY-S",
+        "chinese_name": "干扁豆豉五花肉-小",
+        "khmer_name": "សាច់ជ្រូកបីជាន់ឆាសៀងខ្មៅ-តូច",
+        "price": 9.9,
+        "food_dish_id": 299,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 596,
+        "english_name": "DRIED LENTILS WITH TEMPEH AND PORK BELLY-M",
+        "chinese_name": "干扁豆豉五花肉-中",
+        "khmer_name": "សាច់ជ្រូកបីជាន់ឆាសៀងខ្មៅ-ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 299,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 597,
+        "english_name": "Seaweed, tofu and minced meat soup-per person",
+        "chinese_name": "紫菜豆腐肉碎汤-位",
+        "khmer_name": "សម្ល",
+        "price": 4.9,
+        "food_dish_id": 236,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 598,
+        "english_name": "Seaweed, tofu and fish balls soup-large",
+        "chinese_name": "紫菜豆腐鱼蛋汤-大",
+        "khmer_name": "សម្លសាច់ជ្រូកតៅហ៊ូជីឆាយ-ធំ",
+        "price": 18.9,
+        "food_dish_id": 625,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 599,
+        "english_name": "Sliced ​​conch with abalone sauce-portion",
+        "chinese_name": "鲍汁螺片娃娃菜-份",
+        "khmer_name": "កូនស្ពៃបូកគោស្រូបទឹកប៉ាវហឺនិងសាច់ក្បាលខ្យង-ចំណែក",
+        "price": 17.9,
+        "food_dish_id": 634,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 600,
+        "english_name": "Braised broccoli with ganoderma-Lraised mushroom-portion",
+        "chinese_name": "灵芝菇扒西兰花-份",
+        "khmer_name": "ផ្កាខាតណាស្រូបផ្សិតប៉ាវហឺ-ចំណែក",
+        "price": 15.9,
+        "food_dish_id": 635,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 601,
+        "english_name": "Deep-fried spicy beef ribs-portion",
+        "chinese_name": "酥炸辣子牛仔骨-份",
+        "khmer_name": "ឆ្អឹងជំនីគោ",
+        "price": 17.9,
+        "food_dish_id": 687,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 602,
+        "english_name": "STIR FRIED SQUID WITH SHRIMP-L",
+        "chinese_name": "铁板虾酱斗角啫鲜鱿-大",
+        "khmer_name": "មឹកឆាសណ្តែកគួរបន្ទះដែក-ធំ",
+        "price": 17.9,
+        "food_dish_id": 9,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 603,
+        "english_name": "STIR FRIED SQUID WITH SHRIMP-S",
+        "chinese_name": "铁板虾酱斗角啫鲜鱿-小",
+        "khmer_name": "មឹកឆាសណ្តែកគួរបន្ទះដែក-តូច",
+        "price": 9.9,
+        "food_dish_id": 9,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 604,
+        "english_name": "STIR FRIED SQUID WITH SHRIMP-M",
+        "chinese_name": "铁板虾酱斗角啫鲜鱿-中",
+        "khmer_name": "មឹកឆាសណ្តែកគួរបន្ទះដែក-ធម្មតា",
+        "price": 13.9,
+        "food_dish_id": 9,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 605,
+        "english_name": "MUSTARD, SALTED EGG, PORK AND TOFU SOUP-L",
+        "chinese_name": "芥菜咸蛋肉片豆腐汤-大",
+        "khmer_name": "សម្លសាច់ជ្រូកតៅហ៊ូស្ពៃខ្មៅ-ធំ",
+        "price": 18.9,
+        "food_dish_id": 242,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 606,
+        "english_name": "MUSTARD, SALTED EGG, PORK AND TOFU SOUP-S",
+        "chinese_name": "芥菜咸蛋肉片豆腐汤-小",
+        "khmer_name": "សម្លសាច់ជ្រូកតៅហ៊ូស្ពៃខ្មៅ-តូច",
+        "price": 9.9,
+        "food_dish_id": 242,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 607,
+        "english_name": "MUSTARD, SALTED EGG, PORK AND TOFU SOUP-M",
+        "chinese_name": "芥菜咸蛋肉片豆腐汤-中",
+        "khmer_name": "សម្លសាច់ជ្រូកតៅហ៊ូស្ពៃខ្មៅ-ធម្មតា",
+        "price": 14.9,
+        "food_dish_id": 242,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 608,
+        "english_name": "Mustard, salted egg, pork and tofu soup-per person",
+        "chinese_name": "芥菜咸蛋肉片豆腐汤-位",
+        "khmer_name": "សម្ល",
+        "price": 4.9,
+        "food_dish_id": 242,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 609,
+        "english_name": "K.HILL SHZ/CAB",
+        "chinese_name": "K.Hill Shz/Cab-大",
+        "khmer_name": "K.Hill Shz/Cab",
+        "price": 58,
+        "food_dish_id": 345,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    },
+    {
+        "id": 610,
+        "english_name": "K.HILL SHZ/CAB",
+        "chinese_name": "K.Hill Shz/Cab-小",
+        "khmer_name": "K.Hill Shz/Cab",
+        "price": 12.9,
+        "food_dish_id": 345,
+        "created_at": 45824.5566105324,
+        "updated_at": 45824.5566105324
+    }
+]

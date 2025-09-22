@@ -1,0 +1,15 @@
+[
+    {
+        "floor_code": "G1",
+        "english_name": "Ground Floor",
+        "chinese_name": "底层",
+        "khmer_name": "ជាន់ក្រោម"
+    },
+    {
+        "floor_code": "F1",
+        "english_name": "First Floor",
+        "chinese_name": "二楼",
+        "khmer_name": "ជាន់ទី១"
+    }
+]
+

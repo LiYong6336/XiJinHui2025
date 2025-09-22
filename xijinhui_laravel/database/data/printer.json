@@ -1,0 +1,52 @@
+[
+    {
+        "printer_name": "PAPER001",
+        "printer_brand": "XPRINTER",
+        "printer_ip_address": "192.168.1.10"
+    },
+    {
+        "printer_name": "PAPER002",
+        "printer_brand": "XPRINTER",
+        "printer_ip_address": "192.168.1.11"
+    },
+    {
+        "printer_name": "PAPER003",
+        "printer_brand": "XPRINTER",
+        "printer_ip_address": "192.168.1.12"
+    },
+    {
+        "printer_name": "PAPER004",
+        "printer_brand": "XPRINTER",
+        "printer_ip_address": "192.168.1.13"
+    },
+    {
+        "printer_name": "PAPER005",
+        "printer_brand": "XPRINTER",
+        "printer_ip_address": "192.168.1.14"
+    },
+    {
+        "printer_name": "PAPER006",
+        "printer_brand": "XPRINTER",
+        "printer_ip_address": "192.168.1.15"
+    },
+    {
+        "printer_name": "PAPER007",
+        "printer_brand": "XPRINTER",
+        "printer_ip_address": "192.168.1.16"
+    },
+    {
+        "printer_name": "PAPER008",
+        "printer_brand": "XPRINTER",
+        "printer_ip_address": "192.168.1.17"
+    },
+    {
+        "printer_name": "PAPER009",
+        "printer_brand": "XPRINTER",
+        "printer_ip_address": "192.168.1.18"
+    },
+    {
+        "printer_name": "PAPER010",
+        "printer_brand": "XPRINTER",
+        "printer_ip_address": "192.168.1.19"
+    }
+]

@@ -1,0 +1,929 @@
+[
+  {
+    "sub_food_id": 1,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "五柳",
+    "sub_food_khmer": "បំពងជូរអែម",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 2,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "五柳",
+    "sub_food_khmer": "បំពងជូរអែម",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 3,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "五柳",
+    "sub_food_khmer": "បំពងជូរអែម",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 4,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "刺身",
+    "sub_food_khmer": "ម្ហូបឆៅសាស៊ីមី",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 5,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "刺身",
+    "sub_food_khmer": "ម្ហូបឆៅសាស៊ីមី",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 6,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "刺身",
+    "sub_food_khmer": "ម្ហូបឆៅសាស៊ីមី",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 7,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "椒盐",
+    "sub_food_khmer": "បំពងខ្វឹមស",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 8,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "椒盐",
+    "sub_food_khmer": "បំពងខ្វឹមស",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 9,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "椒盐",
+    "sub_food_khmer": "បំពងខ្វឹមស",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 10,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "油浸",
+    "sub_food_khmer": "បំពងទឹកស៊ីអ៊ីវ",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 11,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "油浸",
+    "sub_food_khmer": "បំពងទឹកស៊ីអ៊ីវ",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 12,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "油浸",
+    "sub_food_khmer": "បំពងទឹកស៊ីអ៊ីវ",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 13,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "清蒸",
+    "sub_food_khmer": "ចំហុយ",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 14,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "清蒸",
+    "sub_food_khmer": "ចំហុយ",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 15,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "清蒸",
+    "sub_food_khmer": "ចំហុយ",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 16,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "煲粥",
+    "sub_food_khmer": "បបរ",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 17,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "煲粥",
+    "sub_food_khmer": "បបរ",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 18,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "煲粥",
+    "sub_food_khmer": "បបរ",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 19,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "生上",
+    "sub_food_khmer": "ឆៅ",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 20,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "生上",
+    "sub_food_khmer": "ឆៅ",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 21,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "生上",
+    "sub_food_khmer": "ឆៅ",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 22,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "白灼",
+    "sub_food_khmer": "ស្រុះ",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 23,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "白灼",
+    "sub_food_khmer": "ស្រុះ",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 24,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "白灼",
+    "sub_food_khmer": "ស្រុះ",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 25,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "盐烧",
+    "sub_food_khmer": "ដុតអំបិល",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 26,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "盐烧",
+    "sub_food_khmer": "ដុតអំបិល",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 27,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "盐烧",
+    "sub_food_khmer": "ដុតអំបិល",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 28,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "红烧",
+    "sub_food_khmer": "ខឆ្នាំងដី",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 29,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "红烧",
+    "sub_food_khmer": "ខឆ្នាំងដី",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 30,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "红烧",
+    "sub_food_khmer": "ខឆ្នាំងដី",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 31,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "黄金",
+    "sub_food_khmer": "ពងទាប្រៃ",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 32,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "黄金",
+    "sub_food_khmer": "ពងទាប្រៃ",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 33,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "黄金",
+    "sub_food_khmer": "ពងទាប្រៃ",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 34,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "姜丝汤",
+    "sub_food_khmer": "ស៊ុបខ្ញីសរសៃ",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 35,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "姜丝汤",
+    "sub_food_khmer": "ស៊ុបខ្ញីសរសៃ",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 36,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "姜丝汤",
+    "sub_food_khmer": "ស៊ុបខ្ញីសរសៃ",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 37,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "姜葱炒",
+    "sub_food_khmer": "ឆាខ្ញី",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 38,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "姜葱炒",
+    "sub_food_khmer": "ឆាខ្ញី",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 39,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "姜葱炒",
+    "sub_food_khmer": "ឆាខ្ញី",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 40,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "梅子蒸",
+    "sub_food_khmer": "ចំហុយគាមមួយ",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 41,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "梅子蒸",
+    "sub_food_khmer": "ចំហុយគាមមួយ",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 42,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "梅子蒸",
+    "sub_food_khmer": "ចំហុយគាមមួយ",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 43,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "泰式炒",
+    "sub_food_khmer": "ឆាបែបថៃ",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 44,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "泰式炒",
+    "sub_food_khmer": "ឆាបែបថៃ",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 45,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "泰式炒",
+    "sub_food_khmer": "ឆាបែបថៃ",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 46,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "泡椒浸",
+    "sub_food_khmer": "ម្ទេសត្រាំ",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 47,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "泡椒浸",
+    "sub_food_khmer": "ម្ទេសត្រាំ",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 48,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "泡椒浸",
+    "sub_food_khmer": "ម្ទេសត្រាំ",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 49,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "蒜蓉蒸",
+    "sub_food_khmer": "ចំហុយខ្ទឹមសរ",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 50,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "蒜蓉蒸",
+    "sub_food_khmer": "ចំហុយខ្ទឹមសរ",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 51,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "蒜蓉蒸",
+    "sub_food_khmer": "ចំហុយខ្ទឹមសរ",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 52,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "豉汁蒸",
+    "sub_food_khmer": "ចំហុយសៀងខ្មៅ",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 53,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "豉汁蒸",
+    "sub_food_khmer": "ចំហុយសៀងខ្មៅ",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 54,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "豉汁蒸",
+    "sub_food_khmer": "ចំហុយសៀងខ្មៅ",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 55,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "辣酒煮",
+    "sub_food_khmer": "កាឡុកស្រាម្ទេស",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 56,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "辣酒煮",
+    "sub_food_khmer": "កាឡុកស្រាម្ទេស",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 57,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "辣酒煮",
+    "sub_food_khmer": "កាឡុកស្រាម្ទេស",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 58,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "酸子炒",
+    "sub_food_khmer": "ឆាអំបិលទុំ",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 59,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "酸子炒",
+    "sub_food_khmer": "ឆាអំបិលទុំ",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 60,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "酸子炒",
+    "sub_food_khmer": "ឆាអំបិលទុំ",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 61,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "剁椒蒸",
+    "sub_food_khmer": "ម្ទេសចំហុយ",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 62,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "剁椒蒸",
+    "sub_food_khmer": "ម្ទេសចំហុយ",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 63,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "剁椒蒸",
+    "sub_food_khmer": "ម្ទេសចំហុយ",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 64,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "鲜胡椒炒",
+    "sub_food_khmer": "ម្រេចខ្ចី",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 65,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "鲜胡椒炒",
+    "sub_food_khmer": "ម្រេចខ្ចី",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 66,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "鲜胡椒炒",
+    "sub_food_khmer": "ម្រេចខ្ចី",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 67,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "黑胡椒炒",
+    "sub_food_khmer": "ម្រេចខ្មៅ",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 68,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "黑胡椒炒",
+    "sub_food_khmer": "ម្រេចខ្មៅ",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 69,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "黑胡椒炒",
+    "sub_food_khmer": "ម្រេចខ្មៅ",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 70,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "XO 酱炒",
+    "sub_food_khmer": "ឆាទឹកសៀង X.O",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 71,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "XO 酱炒",
+    "sub_food_khmer": "ឆាទឹកសៀង X.O",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 72,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "XO 酱炒",
+    "sub_food_khmer": "ឆាទឹកសៀង X.O",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 73,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "柬式酸辣汤",
+    "sub_food_khmer": "ស្លោរជ្រក",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 74,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "柬式酸辣汤",
+    "sub_food_khmer": "ស្លោរជ្រក",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 75,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "柬式酸辣汤",
+    "sub_food_khmer": "ស្លោរជ្រក",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 76,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "泰式酸辣汤",
+    "sub_food_khmer": "តង់យ៉ាំង",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 77,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "泰式酸辣汤",
+    "sub_food_khmer": "តង់យ៉ាំង",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 78,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "泰式酸辣汤",
+    "sub_food_khmer": "តង់យ៉ាំង",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 79,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "芝士牛油焗",
+    "sub_food_khmer": "ឆាប៊ី ឈីស",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 80,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "芝士牛油焗",
+    "sub_food_khmer": "ឆាប៊ី ឈីស",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 81,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "芝士牛油焗",
+    "sub_food_khmer": "ឆាប៊ី ឈីស",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 82,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "芥菜豆腐汤",
+    "sub_food_khmer": "ស្ពៃខ្មៅតៅហ៊ូ៎(សម្លរ)",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 83,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "芥菜豆腐汤",
+    "sub_food_khmer": "ស្ពៃខ្មៅតៅហ៊ូ៎(សម្លរ)",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 84,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "芥菜豆腐汤",
+    "sub_food_khmer": "ស្ពៃខ្មៅតៅហ៊ូ៎(សម្លរ)",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 85,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "起肉泰式炒",
+    "sub_food_khmer": "បកសំបកឆាបែបថៃ",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 86,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "起肉泰式炒",
+    "sub_food_khmer": "បកសំបកឆាបែបថៃ",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 87,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "起肉泰式炒",
+    "sub_food_khmer": "បកសំបកឆាបែបថៃ",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 88,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "越式酸辣汤",
+    "sub_food_khmer": "សម្លរម្ជូយួន",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 89,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "越式酸辣汤",
+    "sub_food_khmer": "សម្លរម្ជូយួន",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 90,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "越式酸辣汤",
+    "sub_food_khmer": "សម្លរម្ជូយួន",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 91,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "芝士牛油炸面底",
+    "sub_food_khmer": "ឆាប៊ឺឈីសជាមូយមីបំពង",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 92,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "芝士牛油炸面底",
+    "sub_food_khmer": "ឆាប៊ឺឈីសជាមូយមីបំពង",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 93,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "芝士牛油炸面底",
+    "sub_food_khmer": "ឆាប៊ឺឈីសជាមូយមីបំពង",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 94,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "粥水浸",
+    "sub_food_khmer": "ត្រាំទឹកបបរ",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 95,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "粥水浸",
+    "sub_food_khmer": "ត្រាំទឹកបបរ",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 96,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "粥水浸",
+    "sub_food_khmer": "ត្រាំទឹកបបរ",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 97,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "生炒",
+    "sub_food_khmer": "បំពងពិសេស",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 98,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "生炒",
+    "sub_food_khmer": "បំពងពិសេស",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 99,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "生炒",
+    "sub_food_khmer": "បំពងពិសេស",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 100,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "沙律",
+    "sub_food_khmer": "សាឡុត",
+    "sub_food_photo": "",
+    "sub_food_type": "H"
+  },
+  {
+    "sub_food_id": 101,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "沙律",
+    "sub_food_khmer": "សាឡុត",
+    "sub_food_photo": "",
+    "sub_food_type": "W"
+  },
+  {
+    "sub_food_id": 102,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "沙律",
+    "sub_food_khmer": "សាឡុត",
+    "sub_food_photo": "",
+    "sub_food_type": "T"
+  },
+  {
+    "sub_food_id": 103,
+    "sub_food_fdt_id": null,
+    "sub_food_english": "",
+    "sub_food_chinese": "沙律",
+    "sub_food_khmer": "សាឡុត",
+    "sub_food_photo": "",
+    "sub_food_type": "M"
+  }
+]
