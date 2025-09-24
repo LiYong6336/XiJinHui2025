@@ -23,11 +23,13 @@ namespace XiJinHuiWindow.Forms.Cashier
 
         private Timer timer;
 
+        private DiningFloor selectedFloor;
+
         public TableForm()
         {
             InitializeComponent();
             timer = new Timer();
-            timer.Interval = 1000 * 5; // Set interval to 1 second (1000 ms)
+            timer.Interval = 1000 * 10; // Set interval to 1 second (1000 ms)
             timer.Tick += Timer_Tick;
             timer.Start();
         }
@@ -85,6 +87,10 @@ namespace XiJinHuiWindow.Forms.Cashier
             }
             foreach (SaleTable saleTable in saleTables)
             {
+                if (saleTable.UserId != null)
+                {
+                    continue;
+                }
                 List<SaleDetail> sDetails = saleTable.SaleDetails.Where(sd => sd.Qty > sd.OldQty).ToList();
 
                 if (sDetails.Count > 0)
@@ -120,7 +126,7 @@ namespace XiJinHuiWindow.Forms.Cashier
         }
 
 
-        private void CreateDiningTablesButtons(List<DiningTable> diningTables)
+        private void CreateDiningTablesButtons(List<DiningTable> dts)
         {
             pnlContent.Controls.Clear();
 
@@ -132,8 +138,10 @@ namespace XiJinHuiWindow.Forms.Cashier
 
             int formWidth = this.ClientSize.Width;
 
+            List<DiningTable> tables = dts;
+            if (selectedFloor != null && selectedFloor.Id > 0) tables = dts.Where(t => t.DiningFloorId == selectedFloor.Id).ToList();
 
-            foreach (DiningTable df in diningTables)
+            foreach (DiningTable df in tables)
             {
                 int filteredBusyTablesCount = busyTables.Where(bt => bt.DiningTableId == df.Id).Count();
 
@@ -233,15 +241,13 @@ namespace XiJinHuiWindow.Forms.Cashier
         private void BtnDiningFloor_Click(object sender, EventArgs e)
         {
             RadButton btn = (RadButton)sender;
-            DiningFloor diningFloor = btn.Tag as DiningFloor;
-            List<DiningTable> tables = diningTables;
-            if (diningFloor.Id > 0) tables = diningTables.Where(t => t.DiningFloorId == diningFloor.Id).ToList();
-            CreateDiningTablesButtons(tables);
+            selectedFloor = btn.Tag as DiningFloor;
+            CreateDiningTablesButtons(diningTables);
         }
 
         private void TableForm1_Load(object sender, EventArgs e)
         {
-            
+
             LoadData();
         }
 

@@ -367,10 +367,10 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0.047D), Telerik.Reporting.Drawing.Unit.Inch(0D));
+            this.pictureBox1.Location = new Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0D), Telerik.Reporting.Drawing.Unit.Inch(0D));
             this.pictureBox1.MimeType = "image/png";
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(2.74D), Telerik.Reporting.Drawing.Unit.Inch(0.776D));
+            this.pictureBox1.Size = new Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(2.774D), Telerik.Reporting.Drawing.Unit.Inch(0.776D));
             this.pictureBox1.Sizing = Telerik.Reporting.Drawing.ImageSizeMode.Stretch;
             this.pictureBox1.Value = ((object)(resources.GetObject("pictureBox1.Value")));
             // 
@@ -1074,7 +1074,6 @@
         private Telerik.Reporting.TextBox textBox28;
         private Telerik.Reporting.TextBox textBox41;
         private Telerik.Reporting.TextBox textBox42;
-        private Telerik.Reporting.PictureBox pictureBox1;
         private Telerik.Reporting.TextBox textBox5;
         private Telerik.Reporting.TextBox textBox15;
         private Telerik.Reporting.TextBox textBox17;
@@ -1086,5 +1085,6 @@
         private Telerik.Reporting.TextBox textBox39;
         private Telerik.Reporting.TextBox textBox1;
         private Telerik.Reporting.TextBox textBox23;
+        private Telerik.Reporting.PictureBox pictureBox1;
     }
 }
