@@ -8,7 +8,7 @@
         <flux:spacer />
 
         <div class="relative">
-            <a href="{{ route('show-cart', request()->all()) }}">
+            <a href="{{ route('show-cart', request()->only(['c', 't'])) }}">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-gray-700" fill="none" viewBox="0 0 24 24"
                     stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"

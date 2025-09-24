@@ -73,7 +73,7 @@
             </div>
             <div class="mb-2">
                 <flux:modal.trigger name="handle-order">
-                    <flux:button class="w-full">Order</flux:button>
+                    <flux:button class="w-full bg-blue-600" variant="primary" color="blue">Order</flux:button>
                 </flux:modal.trigger>
             </div>
 

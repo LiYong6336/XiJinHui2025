@@ -25,6 +25,7 @@ class TableOrder extends Component
 
         $this->items = FoodDish::where('is_enable', true)
             ->when($category_id, fn($query) => $query->where('category_id', $category_id))
+            ->with(['foodDishDetails'])
             ->get();
         $this->mapCartQty($this->items);
 
@@ -53,5 +54,4 @@ class TableOrder extends Component
         });
         $this->totalItems = collect($this->carts)->sum('quantity');
     }
-
 }
