@@ -28,35 +28,38 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn3 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn4 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition2 = new Telerik.WinControls.UI.TableViewDefinition();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn1 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn2 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition1 = new Telerik.WinControls.UI.TableViewDefinition();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RolesForm));
             this.materialTheme1 = new Telerik.WinControls.Themes.MaterialPinkTheme();
             this.radPanel1 = new Telerik.WinControls.UI.RadPanel();
             this.radPanel3 = new Telerik.WinControls.UI.RadPanel();
             this.radPanel6 = new Telerik.WinControls.UI.RadPanel();
+            this.radPanel7 = new Telerik.WinControls.UI.RadPanel();
+            this.cklMenu = new Telerik.WinControls.UI.RadCheckedListBox();
             this.radPanel5 = new Telerik.WinControls.UI.RadPanel();
             this.btnCancel = new FontAwesome.Sharp.IconButton();
             this.btnClear = new FontAwesome.Sharp.IconButton();
             this.btnModify = new FontAwesome.Sharp.IconButton();
             this.btnDelete = new FontAwesome.Sharp.IconButton();
-            this.cklMenu = new Telerik.WinControls.UI.RadCheckedListBox();
             this.radPanel4 = new Telerik.WinControls.UI.RadPanel();
             this.lblMenu = new Telerik.WinControls.UI.RadLabel();
             this.radPanel2 = new Telerik.WinControls.UI.RadPanel();
             this.txtName = new Telerik.WinControls.UI.RadTextBox();
             this.lblName = new Telerik.WinControls.UI.RadLabel();
             this.dgView = new Telerik.WinControls.UI.RadGridView();
-            this.radPanel7 = new Telerik.WinControls.UI.RadPanel();
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).BeginInit();
             this.radPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radPanel3)).BeginInit();
             this.radPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radPanel6)).BeginInit();
             this.radPanel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radPanel7)).BeginInit();
+            this.radPanel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cklMenu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radPanel5)).BeginInit();
             this.radPanel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.cklMenu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radPanel4)).BeginInit();
             this.radPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.lblMenu)).BeginInit();
@@ -66,8 +69,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.lblName)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgView.MasterTemplate)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radPanel7)).BeginInit();
-            this.radPanel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
@@ -102,6 +103,26 @@
             this.radPanel6.Name = "radPanel6";
             this.radPanel6.Size = new System.Drawing.Size(491, 551);
             this.radPanel6.TabIndex = 6;
+            // 
+            // radPanel7
+            // 
+            this.radPanel7.Controls.Add(this.cklMenu);
+            this.radPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.radPanel7.Location = new System.Drawing.Point(0, 0);
+            this.radPanel7.Name = "radPanel7";
+            this.radPanel7.Size = new System.Drawing.Size(491, 489);
+            this.radPanel7.TabIndex = 6;
+            // 
+            // cklMenu
+            // 
+            this.cklMenu.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cklMenu.GroupItemSize = new System.Drawing.Size(200, 36);
+            this.cklMenu.ItemSize = new System.Drawing.Size(200, 36);
+            this.cklMenu.Location = new System.Drawing.Point(0, 0);
+            this.cklMenu.Name = "cklMenu";
+            this.cklMenu.Size = new System.Drawing.Size(491, 489);
+            this.cklMenu.TabIndex = 37;
+            this.cklMenu.ThemeName = "MaterialPink";
             // 
             // radPanel5
             // 
@@ -176,17 +197,6 @@
             this.btnDelete.UseVisualStyleBackColor = true;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
-            // cklMenu
-            // 
-            this.cklMenu.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.cklMenu.GroupItemSize = new System.Drawing.Size(200, 36);
-            this.cklMenu.ItemSize = new System.Drawing.Size(200, 36);
-            this.cklMenu.Location = new System.Drawing.Point(0, 0);
-            this.cklMenu.Name = "cklMenu";
-            this.cklMenu.Size = new System.Drawing.Size(491, 489);
-            this.cklMenu.TabIndex = 37;
-            this.cklMenu.ThemeName = "MaterialPink";
-            // 
             // radPanel4
             // 
             this.radPanel4.Controls.Add(this.lblMenu);
@@ -258,36 +268,27 @@
             this.dgView.MasterTemplate.AllowRowResize = false;
             this.dgView.MasterTemplate.AutoGenerateColumns = false;
             this.dgView.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill;
-            gridViewTextBoxColumn3.FieldName = "Name";
-            gridViewTextBoxColumn3.HeaderText = "Title";
-            gridViewTextBoxColumn3.Name = "Name";
-            gridViewTextBoxColumn3.Width = 197;
-            gridViewTextBoxColumn4.FieldName = "MenusText";
-            gridViewTextBoxColumn4.HeaderText = "Menu";
-            gridViewTextBoxColumn4.IsVisible = false;
-            gridViewTextBoxColumn4.Name = "MenusText";
-            gridViewTextBoxColumn4.Width = 350;
+            gridViewTextBoxColumn1.FieldName = "Name";
+            gridViewTextBoxColumn1.HeaderText = "Title";
+            gridViewTextBoxColumn1.Name = "Name";
+            gridViewTextBoxColumn1.Width = 197;
+            gridViewTextBoxColumn2.FieldName = "MenusText";
+            gridViewTextBoxColumn2.HeaderText = "Menu";
+            gridViewTextBoxColumn2.IsVisible = false;
+            gridViewTextBoxColumn2.Name = "MenusText";
+            gridViewTextBoxColumn2.Width = 350;
             this.dgView.MasterTemplate.Columns.AddRange(new Telerik.WinControls.UI.GridViewDataColumn[] {
-            gridViewTextBoxColumn3,
-            gridViewTextBoxColumn4});
+            gridViewTextBoxColumn1,
+            gridViewTextBoxColumn2});
             this.dgView.MasterTemplate.EnableGrouping = false;
             this.dgView.MasterTemplate.EnableSorting = false;
             this.dgView.MasterTemplate.ShowRowHeaderColumn = false;
-            this.dgView.MasterTemplate.ViewDefinition = tableViewDefinition2;
+            this.dgView.MasterTemplate.ViewDefinition = tableViewDefinition1;
             this.dgView.Name = "dgView";
             this.dgView.Size = new System.Drawing.Size(197, 611);
             this.dgView.TabIndex = 5;
             this.dgView.ThemeName = "MaterialPink";
             this.dgView.CellDoubleClick += new Telerik.WinControls.UI.GridViewCellEventHandler(this.dgView_CellDoubleClick);
-            // 
-            // radPanel7
-            // 
-            this.radPanel7.Controls.Add(this.cklMenu);
-            this.radPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radPanel7.Location = new System.Drawing.Point(0, 0);
-            this.radPanel7.Name = "radPanel7";
-            this.radPanel7.Size = new System.Drawing.Size(491, 489);
-            this.radPanel7.TabIndex = 6;
             // 
             // RolesForm
             // 
@@ -297,6 +298,7 @@
             this.Controls.Add(this.dgView);
             this.Controls.Add(this.radPanel1);
             this.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "RolesForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Roles";
@@ -308,9 +310,11 @@
             this.radPanel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.radPanel6)).EndInit();
             this.radPanel6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.radPanel7)).EndInit();
+            this.radPanel7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.cklMenu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radPanel5)).EndInit();
             this.radPanel5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.cklMenu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radPanel4)).EndInit();
             this.radPanel4.ResumeLayout(false);
             this.radPanel4.PerformLayout();
@@ -322,8 +326,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.lblName)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgView.MasterTemplate)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgView)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radPanel7)).EndInit();
-            this.radPanel7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 

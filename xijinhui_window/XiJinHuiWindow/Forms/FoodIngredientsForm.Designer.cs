@@ -28,9 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn9 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn10 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition2 = new Telerik.WinControls.UI.TableViewDefinition();
             Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn1 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
             Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn2 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
             Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn3 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
@@ -40,8 +37,13 @@
             Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn7 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
             Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn8 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
             Telerik.WinControls.UI.TableViewDefinition tableViewDefinition1 = new Telerik.WinControls.UI.TableViewDefinition();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn9 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn10 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition2 = new Telerik.WinControls.UI.TableViewDefinition();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FoodIngredientsForm));
             this.materialTheme1 = new Telerik.WinControls.Themes.MaterialPinkTheme();
             this.radPanel1 = new Telerik.WinControls.UI.RadPanel();
+            this.mcbIngredient = new Telerik.WinControls.UI.RadMultiColumnComboBox();
             this.txtUsage = new Telerik.WinControls.UI.RadTextBox();
             this.btnCancel = new FontAwesome.Sharp.IconButton();
             this.btnClear = new FontAwesome.Sharp.IconButton();
@@ -50,17 +52,16 @@
             this.btnModify = new FontAwesome.Sharp.IconButton();
             this.lblIngredient = new Telerik.WinControls.UI.RadLabel();
             this.dgView = new Telerik.WinControls.UI.RadGridView();
-            this.mcbIngredient = new Telerik.WinControls.UI.RadMultiColumnComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).BeginInit();
             this.radPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.mcbIngredient)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mcbIngredient.EditorControl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mcbIngredient.EditorControl.MasterTemplate)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtUsage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lblUsage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lblIngredient)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgView.MasterTemplate)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mcbIngredient)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mcbIngredient.EditorControl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mcbIngredient.EditorControl.MasterTemplate)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
@@ -80,6 +81,114 @@
             this.radPanel1.Size = new System.Drawing.Size(843, 198);
             this.radPanel1.TabIndex = 4;
             this.radPanel1.ThemeName = "MaterialPink";
+            // 
+            // mcbIngredient
+            // 
+            this.mcbIngredient.DisplayMember = "EnglishName";
+            // 
+            // mcbIngredient.NestedRadGridView
+            // 
+            this.mcbIngredient.EditorControl.BackColor = System.Drawing.SystemColors.Window;
+            this.mcbIngredient.EditorControl.Cursor = System.Windows.Forms.Cursors.Default;
+            this.mcbIngredient.EditorControl.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.mcbIngredient.EditorControl.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.mcbIngredient.EditorControl.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.mcbIngredient.EditorControl.Location = new System.Drawing.Point(0, 0);
+            // 
+            // 
+            // 
+            this.mcbIngredient.EditorControl.MasterTemplate.AllowAddNewRow = false;
+            this.mcbIngredient.EditorControl.MasterTemplate.AllowCellContextMenu = false;
+            this.mcbIngredient.EditorControl.MasterTemplate.AllowColumnChooser = false;
+            this.mcbIngredient.EditorControl.MasterTemplate.AllowDragToGroup = false;
+            gridViewTextBoxColumn1.AllowGroup = false;
+            gridViewTextBoxColumn1.AllowResize = false;
+            gridViewTextBoxColumn1.EnableExpressionEditor = false;
+            gridViewTextBoxColumn1.FieldName = "Id";
+            gridViewTextBoxColumn1.HeaderText = "Id";
+            gridViewTextBoxColumn1.IsVisible = false;
+            gridViewTextBoxColumn1.Name = "Id";
+            gridViewTextBoxColumn1.VisibleInColumnChooser = false;
+            gridViewTextBoxColumn2.AllowGroup = false;
+            gridViewTextBoxColumn2.EnableExpressionEditor = false;
+            gridViewTextBoxColumn2.FieldName = "FullName";
+            gridViewTextBoxColumn2.HeaderText = "Name";
+            gridViewTextBoxColumn2.Name = "FullName";
+            gridViewTextBoxColumn2.ReadOnly = true;
+            gridViewTextBoxColumn2.Width = 200;
+            gridViewTextBoxColumn3.AllowGroup = false;
+            gridViewTextBoxColumn3.EnableExpressionEditor = false;
+            gridViewTextBoxColumn3.FieldName = "ChineseName";
+            gridViewTextBoxColumn3.HeaderText = "ChineseName";
+            gridViewTextBoxColumn3.IsVisible = false;
+            gridViewTextBoxColumn3.Name = "ChineseName";
+            gridViewTextBoxColumn3.ReadOnly = true;
+            gridViewTextBoxColumn3.Width = 100;
+            gridViewTextBoxColumn4.AllowGroup = false;
+            gridViewTextBoxColumn4.EnableExpressionEditor = false;
+            gridViewTextBoxColumn4.FieldName = "KhmerName";
+            gridViewTextBoxColumn4.HeaderText = "KhmerName";
+            gridViewTextBoxColumn4.IsVisible = false;
+            gridViewTextBoxColumn4.Name = "KhmerName";
+            gridViewTextBoxColumn4.ReadOnly = true;
+            gridViewTextBoxColumn4.VisibleInColumnChooser = false;
+            gridViewTextBoxColumn4.Width = 100;
+            gridViewTextBoxColumn5.AllowGroup = false;
+            gridViewTextBoxColumn5.EnableExpressionEditor = false;
+            gridViewTextBoxColumn5.FieldName = "Quantity";
+            gridViewTextBoxColumn5.HeaderText = "Quantity";
+            gridViewTextBoxColumn5.Name = "Quantity";
+            gridViewTextBoxColumn5.ReadOnly = true;
+            gridViewTextBoxColumn5.VisibleInColumnChooser = false;
+            gridViewTextBoxColumn5.Width = 100;
+            gridViewTextBoxColumn6.AllowGroup = false;
+            gridViewTextBoxColumn6.EnableExpressionEditor = false;
+            gridViewTextBoxColumn6.FieldName = "UnPackage";
+            gridViewTextBoxColumn6.HeaderText = "UnPackage";
+            gridViewTextBoxColumn6.Name = "UnPackage";
+            gridViewTextBoxColumn6.ReadOnly = true;
+            gridViewTextBoxColumn6.VisibleInColumnChooser = false;
+            gridViewTextBoxColumn6.Width = 100;
+            gridViewTextBoxColumn7.EnableExpressionEditor = false;
+            gridViewTextBoxColumn7.FieldName = "UnitCapacity";
+            gridViewTextBoxColumn7.HeaderText = "UnitCapacity";
+            gridViewTextBoxColumn7.Name = "UnitCapacity";
+            gridViewTextBoxColumn7.ReadOnly = true;
+            gridViewTextBoxColumn7.VisibleInColumnChooser = false;
+            gridViewTextBoxColumn7.Width = 100;
+            gridViewTextBoxColumn8.EnableExpressionEditor = false;
+            gridViewTextBoxColumn8.FieldName = "ChineseKeyword";
+            gridViewTextBoxColumn8.HeaderText = "ChineseKeyword";
+            gridViewTextBoxColumn8.MinWidth = 0;
+            gridViewTextBoxColumn8.Name = "ChineseKeyword";
+            gridViewTextBoxColumn8.ReadOnly = true;
+            gridViewTextBoxColumn8.Width = 150;
+            this.mcbIngredient.EditorControl.MasterTemplate.Columns.AddRange(new Telerik.WinControls.UI.GridViewDataColumn[] {
+            gridViewTextBoxColumn1,
+            gridViewTextBoxColumn2,
+            gridViewTextBoxColumn3,
+            gridViewTextBoxColumn4,
+            gridViewTextBoxColumn5,
+            gridViewTextBoxColumn6,
+            gridViewTextBoxColumn7,
+            gridViewTextBoxColumn8});
+            this.mcbIngredient.EditorControl.MasterTemplate.EnableGrouping = false;
+            this.mcbIngredient.EditorControl.MasterTemplate.ShowFilteringRow = false;
+            this.mcbIngredient.EditorControl.MasterTemplate.ShowRowHeaderColumn = false;
+            this.mcbIngredient.EditorControl.MasterTemplate.ViewDefinition = tableViewDefinition1;
+            this.mcbIngredient.EditorControl.Name = "NestedRadGridView";
+            this.mcbIngredient.EditorControl.ReadOnly = true;
+            this.mcbIngredient.EditorControl.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.mcbIngredient.EditorControl.ShowGroupPanel = false;
+            this.mcbIngredient.EditorControl.Size = new System.Drawing.Size(240, 150);
+            this.mcbIngredient.EditorControl.TabIndex = 0;
+            this.mcbIngredient.Location = new System.Drawing.Point(135, 30);
+            this.mcbIngredient.Name = "mcbIngredient";
+            this.mcbIngredient.Size = new System.Drawing.Size(613, 36);
+            this.mcbIngredient.TabIndex = 47;
+            this.mcbIngredient.TabStop = false;
+            this.mcbIngredient.ThemeName = "MaterialPink";
+            this.mcbIngredient.ValueMember = "Id";
             // 
             // txtUsage
             // 
@@ -211,114 +320,6 @@
             this.dgView.ThemeName = "MaterialPink";
             this.dgView.CellDoubleClick += new Telerik.WinControls.UI.GridViewCellEventHandler(this.dgView_CellDoubleClick);
             // 
-            // mcbIngredient
-            // 
-            this.mcbIngredient.DisplayMember = "EnglishName";
-            // 
-            // mcbIngredient.NestedRadGridView
-            // 
-            this.mcbIngredient.EditorControl.BackColor = System.Drawing.SystemColors.Window;
-            this.mcbIngredient.EditorControl.Cursor = System.Windows.Forms.Cursors.Default;
-            this.mcbIngredient.EditorControl.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.mcbIngredient.EditorControl.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.mcbIngredient.EditorControl.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.mcbIngredient.EditorControl.Location = new System.Drawing.Point(0, 0);
-            // 
-            // 
-            // 
-            this.mcbIngredient.EditorControl.MasterTemplate.AllowAddNewRow = false;
-            this.mcbIngredient.EditorControl.MasterTemplate.AllowCellContextMenu = false;
-            this.mcbIngredient.EditorControl.MasterTemplate.AllowColumnChooser = false;
-            this.mcbIngredient.EditorControl.MasterTemplate.AllowDragToGroup = false;
-            gridViewTextBoxColumn1.AllowGroup = false;
-            gridViewTextBoxColumn1.AllowResize = false;
-            gridViewTextBoxColumn1.EnableExpressionEditor = false;
-            gridViewTextBoxColumn1.FieldName = "Id";
-            gridViewTextBoxColumn1.HeaderText = "Id";
-            gridViewTextBoxColumn1.IsVisible = false;
-            gridViewTextBoxColumn1.Name = "Id";
-            gridViewTextBoxColumn1.VisibleInColumnChooser = false;
-            gridViewTextBoxColumn2.AllowGroup = false;
-            gridViewTextBoxColumn2.EnableExpressionEditor = false;
-            gridViewTextBoxColumn2.FieldName = "FullName";
-            gridViewTextBoxColumn2.HeaderText = "Name";
-            gridViewTextBoxColumn2.Name = "FullName";
-            gridViewTextBoxColumn2.ReadOnly = true;
-            gridViewTextBoxColumn2.Width = 200;
-            gridViewTextBoxColumn3.AllowGroup = false;
-            gridViewTextBoxColumn3.EnableExpressionEditor = false;
-            gridViewTextBoxColumn3.FieldName = "ChineseName";
-            gridViewTextBoxColumn3.HeaderText = "ChineseName";
-            gridViewTextBoxColumn3.IsVisible = false;
-            gridViewTextBoxColumn3.Name = "ChineseName";
-            gridViewTextBoxColumn3.ReadOnly = true;
-            gridViewTextBoxColumn3.Width = 100;
-            gridViewTextBoxColumn4.AllowGroup = false;
-            gridViewTextBoxColumn4.EnableExpressionEditor = false;
-            gridViewTextBoxColumn4.FieldName = "KhmerName";
-            gridViewTextBoxColumn4.HeaderText = "KhmerName";
-            gridViewTextBoxColumn4.IsVisible = false;
-            gridViewTextBoxColumn4.Name = "KhmerName";
-            gridViewTextBoxColumn4.ReadOnly = true;
-            gridViewTextBoxColumn4.VisibleInColumnChooser = false;
-            gridViewTextBoxColumn4.Width = 100;
-            gridViewTextBoxColumn5.AllowGroup = false;
-            gridViewTextBoxColumn5.EnableExpressionEditor = false;
-            gridViewTextBoxColumn5.FieldName = "Quantity";
-            gridViewTextBoxColumn5.HeaderText = "Quantity";
-            gridViewTextBoxColumn5.Name = "Quantity";
-            gridViewTextBoxColumn5.ReadOnly = true;
-            gridViewTextBoxColumn5.VisibleInColumnChooser = false;
-            gridViewTextBoxColumn5.Width = 100;
-            gridViewTextBoxColumn6.AllowGroup = false;
-            gridViewTextBoxColumn6.EnableExpressionEditor = false;
-            gridViewTextBoxColumn6.FieldName = "UnPackage";
-            gridViewTextBoxColumn6.HeaderText = "UnPackage";
-            gridViewTextBoxColumn6.Name = "UnPackage";
-            gridViewTextBoxColumn6.ReadOnly = true;
-            gridViewTextBoxColumn6.VisibleInColumnChooser = false;
-            gridViewTextBoxColumn6.Width = 100;
-            gridViewTextBoxColumn7.EnableExpressionEditor = false;
-            gridViewTextBoxColumn7.FieldName = "UnitCapacity";
-            gridViewTextBoxColumn7.HeaderText = "UnitCapacity";
-            gridViewTextBoxColumn7.Name = "UnitCapacity";
-            gridViewTextBoxColumn7.ReadOnly = true;
-            gridViewTextBoxColumn7.VisibleInColumnChooser = false;
-            gridViewTextBoxColumn7.Width = 100;
-            gridViewTextBoxColumn8.EnableExpressionEditor = false;
-            gridViewTextBoxColumn8.FieldName = "ChineseKeyword";
-            gridViewTextBoxColumn8.HeaderText = "ChineseKeyword";
-            gridViewTextBoxColumn8.MinWidth = 0;
-            gridViewTextBoxColumn8.Name = "ChineseKeyword";
-            gridViewTextBoxColumn8.ReadOnly = true;
-            gridViewTextBoxColumn8.Width = 150;
-            this.mcbIngredient.EditorControl.MasterTemplate.Columns.AddRange(new Telerik.WinControls.UI.GridViewDataColumn[] {
-            gridViewTextBoxColumn1,
-            gridViewTextBoxColumn2,
-            gridViewTextBoxColumn3,
-            gridViewTextBoxColumn4,
-            gridViewTextBoxColumn5,
-            gridViewTextBoxColumn6,
-            gridViewTextBoxColumn7,
-            gridViewTextBoxColumn8});
-            this.mcbIngredient.EditorControl.MasterTemplate.EnableGrouping = false;
-            this.mcbIngredient.EditorControl.MasterTemplate.ShowFilteringRow = false;
-            this.mcbIngredient.EditorControl.MasterTemplate.ShowRowHeaderColumn = false;
-            this.mcbIngredient.EditorControl.MasterTemplate.ViewDefinition = tableViewDefinition1;
-            this.mcbIngredient.EditorControl.Name = "NestedRadGridView";
-            this.mcbIngredient.EditorControl.ReadOnly = true;
-            this.mcbIngredient.EditorControl.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.mcbIngredient.EditorControl.ShowGroupPanel = false;
-            this.mcbIngredient.EditorControl.Size = new System.Drawing.Size(240, 150);
-            this.mcbIngredient.EditorControl.TabIndex = 0;
-            this.mcbIngredient.Location = new System.Drawing.Point(135, 30);
-            this.mcbIngredient.Name = "mcbIngredient";
-            this.mcbIngredient.Size = new System.Drawing.Size(613, 36);
-            this.mcbIngredient.TabIndex = 47;
-            this.mcbIngredient.TabStop = false;
-            this.mcbIngredient.ThemeName = "MaterialPink";
-            this.mcbIngredient.ValueMember = "Id";
-            // 
             // FoodIngredientsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -327,6 +328,7 @@
             this.Controls.Add(this.dgView);
             this.Controls.Add(this.radPanel1);
             this.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FoodIngredientsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Food Ingredients";
@@ -335,14 +337,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).EndInit();
             this.radPanel1.ResumeLayout(false);
             this.radPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.mcbIngredient.EditorControl.MasterTemplate)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mcbIngredient.EditorControl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mcbIngredient)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtUsage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lblUsage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lblIngredient)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgView.MasterTemplate)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgView)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mcbIngredient.EditorControl.MasterTemplate)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mcbIngredient.EditorControl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mcbIngredient)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 

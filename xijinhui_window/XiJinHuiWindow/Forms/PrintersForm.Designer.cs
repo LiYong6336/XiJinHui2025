@@ -28,15 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn19 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn20 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn21 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn22 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn23 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn24 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition4 = new Telerik.WinControls.UI.TableViewDefinition();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn1 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn2 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn3 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn4 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn5 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn6 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition1 = new Telerik.WinControls.UI.TableViewDefinition();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PrintersForm));
             this.materialTheme1 = new Telerik.WinControls.Themes.MaterialPinkTheme();
             this.radPanel1 = new Telerik.WinControls.UI.RadPanel();
+            this.btnCancel = new FontAwesome.Sharp.IconButton();
+            this.btnClear = new FontAwesome.Sharp.IconButton();
+            this.btnDelete = new FontAwesome.Sharp.IconButton();
+            this.btnModify = new FontAwesome.Sharp.IconButton();
             this.ddType = new Telerik.WinControls.UI.RadDropDownList();
             this.txtLocation = new Telerik.WinControls.UI.RadTextBox();
             this.lblLocation = new Telerik.WinControls.UI.RadLabel();
@@ -50,10 +55,6 @@
             this.txtDeviceName = new Telerik.WinControls.UI.RadTextBox();
             this.lblDeviceName = new Telerik.WinControls.UI.RadLabel();
             this.dgView = new Telerik.WinControls.UI.RadGridView();
-            this.btnCancel = new FontAwesome.Sharp.IconButton();
-            this.btnClear = new FontAwesome.Sharp.IconButton();
-            this.btnDelete = new FontAwesome.Sharp.IconButton();
-            this.btnModify = new FontAwesome.Sharp.IconButton();
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).BeginInit();
             this.radPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ddType)).BeginInit();
@@ -97,6 +98,66 @@
             this.radPanel1.Size = new System.Drawing.Size(843, 197);
             this.radPanel1.TabIndex = 4;
             this.radPanel1.ThemeName = "MaterialPink";
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancel.IconChar = FontAwesome.Sharp.IconChar.Remove;
+            this.btnCancel.IconColor = System.Drawing.Color.MediumBlue;
+            this.btnCancel.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnCancel.IconSize = 32;
+            this.btnCancel.Location = new System.Drawing.Point(776, 100);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(55, 38);
+            this.btnCancel.TabIndex = 42;
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            // 
+            // btnClear
+            // 
+            this.btnClear.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClear.IconChar = FontAwesome.Sharp.IconChar.Broom;
+            this.btnClear.IconColor = System.Drawing.Color.MediumBlue;
+            this.btnClear.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnClear.IconSize = 32;
+            this.btnClear.Location = new System.Drawing.Point(776, 56);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(55, 38);
+            this.btnClear.TabIndex = 43;
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDelete.IconChar = FontAwesome.Sharp.IconChar.Trash;
+            this.btnDelete.IconColor = System.Drawing.Color.Red;
+            this.btnDelete.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnDelete.IconSize = 32;
+            this.btnDelete.Location = new System.Drawing.Point(776, 144);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(55, 38);
+            this.btnDelete.TabIndex = 45;
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // btnModify
+            // 
+            this.btnModify.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnModify.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnModify.IconChar = FontAwesome.Sharp.IconChar.Check;
+            this.btnModify.IconColor = System.Drawing.Color.MediumBlue;
+            this.btnModify.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnModify.IconSize = 32;
+            this.btnModify.Location = new System.Drawing.Point(776, 12);
+            this.btnModify.Name = "btnModify";
+            this.btnModify.Size = new System.Drawing.Size(55, 38);
+            this.btnModify.TabIndex = 44;
+            this.btnModify.UseVisualStyleBackColor = true;
+            this.btnModify.Click += new System.EventHandler(this.btnModify_Click);
             // 
             // ddType
             // 
@@ -234,106 +295,46 @@
             this.dgView.MasterTemplate.AllowRowResize = false;
             this.dgView.MasterTemplate.AutoGenerateColumns = false;
             this.dgView.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill;
-            gridViewTextBoxColumn19.FieldName = "PrinterBrand";
-            gridViewTextBoxColumn19.HeaderText = "Brand";
-            gridViewTextBoxColumn19.Name = "PrinterBrand";
-            gridViewTextBoxColumn19.Width = 112;
-            gridViewTextBoxColumn20.FieldName = "DeviceName";
-            gridViewTextBoxColumn20.HeaderText = "DeviceName";
-            gridViewTextBoxColumn20.Name = "DeviceName";
-            gridViewTextBoxColumn20.Width = 169;
-            gridViewTextBoxColumn21.FieldName = "PrinterIpAddress";
-            gridViewTextBoxColumn21.HeaderText = "Ip";
-            gridViewTextBoxColumn21.Name = "PrinterIpAddress";
-            gridViewTextBoxColumn21.Width = 112;
-            gridViewTextBoxColumn22.FieldName = "Port";
-            gridViewTextBoxColumn22.HeaderText = "Port";
-            gridViewTextBoxColumn22.Name = "Port";
-            gridViewTextBoxColumn22.Width = 169;
-            gridViewTextBoxColumn23.FieldName = "PrinterType";
-            gridViewTextBoxColumn23.HeaderText = "Type";
-            gridViewTextBoxColumn23.Name = "PrinterType";
-            gridViewTextBoxColumn23.Width = 169;
-            gridViewTextBoxColumn24.FieldName = "PrintLocation";
-            gridViewTextBoxColumn24.HeaderText = "Location";
-            gridViewTextBoxColumn24.Name = "PrintLocation";
-            gridViewTextBoxColumn24.Width = 112;
+            gridViewTextBoxColumn1.FieldName = "PrinterBrand";
+            gridViewTextBoxColumn1.HeaderText = "Brand";
+            gridViewTextBoxColumn1.Name = "PrinterBrand";
+            gridViewTextBoxColumn1.Width = 112;
+            gridViewTextBoxColumn2.FieldName = "DeviceName";
+            gridViewTextBoxColumn2.HeaderText = "DeviceName";
+            gridViewTextBoxColumn2.Name = "DeviceName";
+            gridViewTextBoxColumn2.Width = 169;
+            gridViewTextBoxColumn3.FieldName = "PrinterIpAddress";
+            gridViewTextBoxColumn3.HeaderText = "Ip";
+            gridViewTextBoxColumn3.Name = "PrinterIpAddress";
+            gridViewTextBoxColumn3.Width = 112;
+            gridViewTextBoxColumn4.FieldName = "Port";
+            gridViewTextBoxColumn4.HeaderText = "Port";
+            gridViewTextBoxColumn4.Name = "Port";
+            gridViewTextBoxColumn4.Width = 169;
+            gridViewTextBoxColumn5.FieldName = "PrinterType";
+            gridViewTextBoxColumn5.HeaderText = "Type";
+            gridViewTextBoxColumn5.Name = "PrinterType";
+            gridViewTextBoxColumn5.Width = 169;
+            gridViewTextBoxColumn6.FieldName = "PrintLocation";
+            gridViewTextBoxColumn6.HeaderText = "Location";
+            gridViewTextBoxColumn6.Name = "PrintLocation";
+            gridViewTextBoxColumn6.Width = 112;
             this.dgView.MasterTemplate.Columns.AddRange(new Telerik.WinControls.UI.GridViewDataColumn[] {
-            gridViewTextBoxColumn19,
-            gridViewTextBoxColumn20,
-            gridViewTextBoxColumn21,
-            gridViewTextBoxColumn22,
-            gridViewTextBoxColumn23,
-            gridViewTextBoxColumn24});
+            gridViewTextBoxColumn1,
+            gridViewTextBoxColumn2,
+            gridViewTextBoxColumn3,
+            gridViewTextBoxColumn4,
+            gridViewTextBoxColumn5,
+            gridViewTextBoxColumn6});
             this.dgView.MasterTemplate.EnableGrouping = false;
             this.dgView.MasterTemplate.EnableSorting = false;
             this.dgView.MasterTemplate.ShowRowHeaderColumn = false;
-            this.dgView.MasterTemplate.ViewDefinition = tableViewDefinition4;
+            this.dgView.MasterTemplate.ViewDefinition = tableViewDefinition1;
             this.dgView.Name = "dgView";
             this.dgView.Size = new System.Drawing.Size(843, 414);
             this.dgView.TabIndex = 5;
             this.dgView.ThemeName = "MaterialPink";
             this.dgView.CellDoubleClick += new Telerik.WinControls.UI.GridViewCellEventHandler(this.dgView_CellDoubleClick);
-            // 
-            // btnCancel
-            // 
-            this.btnCancel.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCancel.IconChar = FontAwesome.Sharp.IconChar.Remove;
-            this.btnCancel.IconColor = System.Drawing.Color.MediumBlue;
-            this.btnCancel.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnCancel.IconSize = 32;
-            this.btnCancel.Location = new System.Drawing.Point(776, 100);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(55, 38);
-            this.btnCancel.TabIndex = 42;
-            this.btnCancel.UseVisualStyleBackColor = true;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
-            // 
-            // btnClear
-            // 
-            this.btnClear.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClear.IconChar = FontAwesome.Sharp.IconChar.Broom;
-            this.btnClear.IconColor = System.Drawing.Color.MediumBlue;
-            this.btnClear.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnClear.IconSize = 32;
-            this.btnClear.Location = new System.Drawing.Point(776, 56);
-            this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(55, 38);
-            this.btnClear.TabIndex = 43;
-            this.btnClear.UseVisualStyleBackColor = true;
-            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
-            // 
-            // btnDelete
-            // 
-            this.btnDelete.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDelete.IconChar = FontAwesome.Sharp.IconChar.Trash;
-            this.btnDelete.IconColor = System.Drawing.Color.Red;
-            this.btnDelete.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnDelete.IconSize = 32;
-            this.btnDelete.Location = new System.Drawing.Point(776, 144);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(55, 38);
-            this.btnDelete.TabIndex = 45;
-            this.btnDelete.UseVisualStyleBackColor = true;
-            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
-            // 
-            // btnModify
-            // 
-            this.btnModify.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnModify.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnModify.IconChar = FontAwesome.Sharp.IconChar.Check;
-            this.btnModify.IconColor = System.Drawing.Color.MediumBlue;
-            this.btnModify.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnModify.IconSize = 32;
-            this.btnModify.Location = new System.Drawing.Point(776, 12);
-            this.btnModify.Name = "btnModify";
-            this.btnModify.Size = new System.Drawing.Size(55, 38);
-            this.btnModify.TabIndex = 44;
-            this.btnModify.UseVisualStyleBackColor = true;
-            this.btnModify.Click += new System.EventHandler(this.btnModify_Click);
             // 
             // PrintersForm
             // 
@@ -343,6 +344,7 @@
             this.Controls.Add(this.dgView);
             this.Controls.Add(this.radPanel1);
             this.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PrintersForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Printers";

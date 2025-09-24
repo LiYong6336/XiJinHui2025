@@ -41,6 +41,7 @@
             Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn10 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
             Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn11 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
             Telerik.WinControls.UI.TableViewDefinition tableViewDefinition1 = new Telerik.WinControls.UI.TableViewDefinition();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FoodDishesForm));
             this.radPanel1 = new Telerik.WinControls.UI.RadPanel();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.txtSearch = new Telerik.WinControls.UI.RadTextBox();
@@ -275,6 +276,7 @@
             this.ClientSize = new System.Drawing.Size(1004, 538);
             this.Controls.Add(this.radPanel2);
             this.Controls.Add(this.radPanel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FoodDishesForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Food Dish";

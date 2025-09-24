@@ -568,15 +568,31 @@ namespace XiJinHuiWindow.Forms.Cashier
 
         private async void btnPayCashPrint_Click(object sender, EventArgs e)
         {
-            btnPayCashPrint.Enabled = false;
+            SubmitPayment(1);
+        }
 
-            var cashPaymentMethodId = 1;
+        private void btnPayAba_Click(object sender, EventArgs e)
+        {
+            SubmitPayment(2);
+        }
+
+        private void btnPayHuione_Click(object sender, EventArgs e)
+        {
+            SubmitPayment(3);
+        }
+
+        private async void SubmitPayment(int paymentMethodId)
+        {
+            btnPayCashPrint.Enabled = false;
+            btnPayAba.Enabled = false;
+            btnPayHuione.Enabled = false;
+
             List<object> pments = new List<object>();
             object payment = new
             {
                 amount_dollar = total,
                 amount_riel = 0,
-                payment_method_id = cashPaymentMethodId,
+                payment_method_id = paymentMethodId,
             };
             pments.Add(payment);
             try
@@ -608,8 +624,10 @@ namespace XiJinHuiWindow.Forms.Cashier
             } finally
             {
                 btnPayCashPrint.Enabled = true;
+                btnPayAba.Enabled = true;
+                btnPayHuione.Enabled = true;
             }
-
         }
+
     }
 }

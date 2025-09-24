@@ -67,6 +67,8 @@
             this.txtRemark = new Telerik.WinControls.UI.RadTextBox();
             this.txtInvoiceNumber = new Telerik.WinControls.UI.RadTextBox();
             this.btnPayCashPrint = new FontAwesome.Sharp.IconButton();
+            this.btnPayAba = new FontAwesome.Sharp.IconButton();
+            this.btnPayHuione = new FontAwesome.Sharp.IconButton();
             ((System.ComponentModel.ISupportInitialize)(this.btn1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn3)).BeginInit();
@@ -553,6 +555,8 @@
             this.pnlRight.Controls.Add(this.btn3);
             this.pnlRight.Controls.Add(this.btnNoInvoice);
             this.pnlRight.Controls.Add(this.btn4);
+            this.pnlRight.Controls.Add(this.btnPayHuione);
+            this.pnlRight.Controls.Add(this.btnPayAba);
             this.pnlRight.Controls.Add(this.btnPayCashPrint);
             this.pnlRight.Controls.Add(this.btnPrintInvoice);
             this.pnlRight.Controls.Add(this.btn5);
@@ -616,19 +620,51 @@
             // 
             // btnPayCashPrint
             // 
-            this.btnPayCashPrint.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnPayCashPrint.BackColor = System.Drawing.Color.SlateGray;
             this.btnPayCashPrint.ForeColor = System.Drawing.Color.White;
             this.btnPayCashPrint.IconChar = FontAwesome.Sharp.IconChar.Print;
             this.btnPayCashPrint.IconColor = System.Drawing.Color.White;
             this.btnPayCashPrint.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnPayCashPrint.Location = new System.Drawing.Point(21, 387);
             this.btnPayCashPrint.Name = "btnPayCashPrint";
-            this.btnPayCashPrint.Size = new System.Drawing.Size(285, 88);
+            this.btnPayCashPrint.Size = new System.Drawing.Size(89, 88);
             this.btnPayCashPrint.TabIndex = 27;
-            this.btnPayCashPrint.Text = "Pay Cash and Print";
+            this.btnPayCashPrint.Text = "Pay Cash";
             this.btnPayCashPrint.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnPayCashPrint.UseVisualStyleBackColor = false;
             this.btnPayCashPrint.Click += new System.EventHandler(this.btnPayCashPrint_Click);
+            // 
+            // btnPayAba
+            // 
+            this.btnPayAba.BackColor = System.Drawing.Color.DarkBlue;
+            this.btnPayAba.ForeColor = System.Drawing.Color.White;
+            this.btnPayAba.IconChar = FontAwesome.Sharp.IconChar.Print;
+            this.btnPayAba.IconColor = System.Drawing.Color.White;
+            this.btnPayAba.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnPayAba.Location = new System.Drawing.Point(121, 387);
+            this.btnPayAba.Name = "btnPayAba";
+            this.btnPayAba.Size = new System.Drawing.Size(89, 88);
+            this.btnPayAba.TabIndex = 27;
+            this.btnPayAba.Text = "Pay ABA";
+            this.btnPayAba.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnPayAba.UseVisualStyleBackColor = false;
+            this.btnPayAba.Click += new System.EventHandler(this.btnPayAba_Click);
+            // 
+            // btnPayHuione
+            // 
+            this.btnPayHuione.BackColor = System.Drawing.Color.OrangeRed;
+            this.btnPayHuione.ForeColor = System.Drawing.Color.White;
+            this.btnPayHuione.IconChar = FontAwesome.Sharp.IconChar.Print;
+            this.btnPayHuione.IconColor = System.Drawing.Color.White;
+            this.btnPayHuione.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnPayHuione.Location = new System.Drawing.Point(218, 387);
+            this.btnPayHuione.Name = "btnPayHuione";
+            this.btnPayHuione.Size = new System.Drawing.Size(89, 88);
+            this.btnPayHuione.TabIndex = 27;
+            this.btnPayHuione.Text = "Huione";
+            this.btnPayHuione.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnPayHuione.UseVisualStyleBackColor = false;
+            this.btnPayHuione.Click += new System.EventHandler(this.btnPayHuione_Click);
             // 
             // PaymentForm
             // 
@@ -734,5 +770,7 @@
         private Telerik.WinControls.UI.RadTextBox txtRemark;
         private Telerik.WinControls.UI.RadTextBox txtInvoiceNumber;
         private FontAwesome.Sharp.IconButton btnPayCashPrint;
+        private FontAwesome.Sharp.IconButton btnPayHuione;
+        private FontAwesome.Sharp.IconButton btnPayAba;
     }
 }
