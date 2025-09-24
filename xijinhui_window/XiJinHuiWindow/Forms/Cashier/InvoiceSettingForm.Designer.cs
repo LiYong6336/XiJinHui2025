@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InvoiceSettingForm));
             this.btnDiscount = new FontAwesome.Sharp.IconButton();
             this.btnSplitInvoice = new FontAwesome.Sharp.IconButton();
             this.btnChangeTable = new FontAwesome.Sharp.IconButton();
@@ -116,12 +117,13 @@
             this.Controls.Add(this.btnSplitInvoice);
             this.Controls.Add(this.btnDiscountCategory);
             this.Controls.Add(this.btnDiscount);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "InvoiceSettingForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Invioce Setting";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.InvoiceSettingForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);

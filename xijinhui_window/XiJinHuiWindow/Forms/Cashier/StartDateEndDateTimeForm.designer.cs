@@ -68,7 +68,7 @@ namespace XiJinHuiWindow
             this.dtStartDate.TabIndex = 22;
             this.dtStartDate.TabStop = false;
             this.dtStartDate.Text = "2025-01-18 15:05:52";
-            this.dtStartDate.ThemeName = "Material";
+            this.dtStartDate.ThemeName = "MaterialPink";
             this.dtStartDate.Value = new System.DateTime(2025, 1, 18, 15, 5, 52, 224);
             // 
             // dtEndDate
@@ -82,7 +82,7 @@ namespace XiJinHuiWindow
             this.dtEndDate.TabIndex = 22;
             this.dtEndDate.TabStop = false;
             this.dtEndDate.Text = "2025-01-18 15:05:52";
-            this.dtEndDate.ThemeName = "Material";
+            this.dtEndDate.ThemeName = "MaterialPink";
             this.dtEndDate.Value = new System.DateTime(2025, 1, 18, 15, 5, 52, 224);
             // 
             // radLabel1
@@ -119,7 +119,7 @@ namespace XiJinHuiWindow
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Select Date";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.frmReprintInvoice_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtStartDate)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtEndDate)).EndInit();

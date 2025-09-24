@@ -43,7 +43,7 @@
             this.lblIsAdmin = new Telerik.WinControls.UI.RadLabel();
             this.switchAdmin = new Telerik.WinControls.UI.RadToggleSwitch();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialTheme();
+            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialPinkTheme();
             ((System.ComponentModel.ISupportInitialize)(this.txtUsername)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lblUsername)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lblPassword)).BeginInit();
@@ -67,7 +67,7 @@
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(311, 36);
             this.txtUsername.TabIndex = 0;
-            this.txtUsername.ThemeName = "Material";
+            this.txtUsername.ThemeName = "MaterialPink";
             // 
             // lblUsername
             // 
@@ -76,7 +76,7 @@
             this.lblUsername.Size = new System.Drawing.Size(77, 21);
             this.lblUsername.TabIndex = 1;
             this.lblUsername.Text = "Username:";
-            this.lblUsername.ThemeName = "Material";
+            this.lblUsername.ThemeName = "MaterialPink";
             // 
             // lblPassword
             // 
@@ -85,7 +85,7 @@
             this.lblPassword.Size = new System.Drawing.Size(75, 21);
             this.lblPassword.TabIndex = 3;
             this.lblPassword.Text = "Password:";
-            this.lblPassword.ThemeName = "Material";
+            this.lblPassword.ThemeName = "MaterialPink";
             // 
             // txtPassword
             // 
@@ -94,7 +94,7 @@
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(311, 36);
             this.txtPassword.TabIndex = 2;
-            this.txtPassword.ThemeName = "Material";
+            this.txtPassword.ThemeName = "MaterialPink";
             // 
             // btnLogin
             // 
@@ -103,7 +103,7 @@
             this.btnLogin.Size = new System.Drawing.Size(140, 41);
             this.btnLogin.TabIndex = 4;
             this.btnLogin.Text = "Login";
-            this.btnLogin.ThemeName = "Material";
+            this.btnLogin.ThemeName = "MaterialPink";
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // radPanel1
@@ -127,7 +127,7 @@
             this.radPanel1.Name = "radPanel1";
             this.radPanel1.Size = new System.Drawing.Size(424, 496);
             this.radPanel1.TabIndex = 5;
-            this.radPanel1.ThemeName = "Material";
+            this.radPanel1.ThemeName = "MaterialPink";
             // 
             // lblVersion
             // 
@@ -159,7 +159,7 @@
             this.radPictureBox2.Size = new System.Drawing.Size(30, 30);
             this.radPictureBox2.SvgImageXml = resources.GetString("radPictureBox2.SvgImageXml");
             this.radPictureBox2.TabIndex = 8;
-            this.radPictureBox2.ThemeName = "Material";
+            this.radPictureBox2.ThemeName = "MaterialPink";
             // 
             // radPictureBox1
             // 
@@ -168,7 +168,7 @@
             this.radPictureBox1.Size = new System.Drawing.Size(30, 30);
             this.radPictureBox1.SvgImageXml = resources.GetString("radPictureBox1.SvgImageXml");
             this.radPictureBox1.TabIndex = 8;
-            this.radPictureBox1.ThemeName = "Material";
+            this.radPictureBox1.ThemeName = "MaterialPink";
             // 
             // btnCancel
             // 
@@ -178,7 +178,7 @@
             this.btnCancel.Size = new System.Drawing.Size(140, 41);
             this.btnCancel.TabIndex = 5;
             this.btnCancel.Text = "Cancel";
-            this.btnCancel.ThemeName = "Material";
+            this.btnCancel.ThemeName = "MaterialPink";
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // lblIsAdmin
@@ -188,7 +188,7 @@
             this.lblIsAdmin.Size = new System.Drawing.Size(53, 21);
             this.lblIsAdmin.TabIndex = 7;
             this.lblIsAdmin.Text = "Setting";
-            this.lblIsAdmin.ThemeName = "Material";
+            this.lblIsAdmin.ThemeName = "MaterialPink";
             // 
             // switchAdmin
             // 
@@ -196,15 +196,15 @@
             this.switchAdmin.Name = "switchAdmin";
             this.switchAdmin.Size = new System.Drawing.Size(50, 20);
             this.switchAdmin.TabIndex = 6;
-            this.switchAdmin.ThemeName = "Material";
+            this.switchAdmin.ThemeName = "MaterialPink";
             this.switchAdmin.Value = false;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(141, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(107, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(143, 102);
+            this.pictureBox1.Size = new System.Drawing.Size(245, 126);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
@@ -223,7 +223,7 @@
             this.Name = "LoginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.LoginForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.txtUsername)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lblUsername)).EndInit();
@@ -254,7 +254,7 @@
         private Telerik.WinControls.UI.RadButton btnLogin;
         private Telerik.WinControls.UI.RadPanel radPanel1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private Telerik.WinControls.Themes.MaterialTheme materialTheme1;
+        private Telerik.WinControls.Themes.MaterialPinkTheme materialTheme1;
         private Telerik.WinControls.UI.RadLabel lblIsAdmin;
         private Telerik.WinControls.UI.RadToggleSwitch switchAdmin;
         private Telerik.WinControls.UI.RadButton btnCancel;

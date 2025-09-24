@@ -33,7 +33,7 @@
             this.lblAmount = new Telerik.WinControls.UI.RadLabel();
             this.btnLogin = new Telerik.WinControls.UI.RadButton();
             this.radPanel1 = new Telerik.WinControls.UI.RadPanel();
-            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialTheme();
+            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialPinkTheme();
             ((System.ComponentModel.ISupportInitialize)(this.txtAmount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lblAmount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnLogin)).BeginInit();
@@ -48,7 +48,7 @@
             this.txtAmount.Name = "txtAmount";
             this.txtAmount.Size = new System.Drawing.Size(176, 36);
             this.txtAmount.TabIndex = 0;
-            this.txtAmount.ThemeName = "Material";
+            this.txtAmount.ThemeName = "MaterialPink";
             // 
             // lblAmount
             // 
@@ -57,7 +57,7 @@
             this.lblAmount.Size = new System.Drawing.Size(62, 21);
             this.lblAmount.TabIndex = 1;
             this.lblAmount.Text = "Amount:";
-            this.lblAmount.ThemeName = "Material";
+            this.lblAmount.ThemeName = "MaterialPink";
             // 
             // btnLogin
             // 
@@ -66,7 +66,7 @@
             this.btnLogin.Size = new System.Drawing.Size(176, 41);
             this.btnLogin.TabIndex = 4;
             this.btnLogin.Text = "Submit";
-            this.btnLogin.ThemeName = "Material";
+            this.btnLogin.ThemeName = "MaterialPink";
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // radPanel1
@@ -92,7 +92,7 @@
             this.Name = "CustomerTopupForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Customer Topup";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.LoginForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.txtAmount)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lblAmount)).EndInit();
@@ -111,6 +111,6 @@
         private Telerik.WinControls.UI.RadLabel lblAmount;
         private Telerik.WinControls.UI.RadButton btnLogin;
         private Telerik.WinControls.UI.RadPanel radPanel1;
-        private Telerik.WinControls.Themes.MaterialTheme materialTheme1;
+        private Telerik.WinControls.Themes.MaterialPinkTheme materialTheme1;
     }
 }

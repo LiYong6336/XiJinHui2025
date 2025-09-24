@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialTheme();
+            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialPinkTheme();
             this.lblEndDate = new Telerik.WinControls.UI.RadLabel();
             this.dtpEnd = new Telerik.WinControls.UI.RadDateTimePicker();
             this.btnShowFood = new Telerik.WinControls.UI.RadButton();
@@ -50,7 +50,7 @@
             this.lblEndDate.Size = new System.Drawing.Size(71, 26);
             this.lblEndDate.TabIndex = 9;
             this.lblEndDate.Text = "EndDate";
-            this.lblEndDate.ThemeName = "Material";
+            this.lblEndDate.ThemeName = "MaterialPink";
             // 
             // dtpEnd
             // 
@@ -65,7 +65,7 @@
             this.dtpEnd.TabIndex = 8;
             this.dtpEnd.TabStop = false;
             this.dtpEnd.Text = "2022-06-16 12:11:26";
-            this.dtpEnd.ThemeName = "Material";
+            this.dtpEnd.ThemeName = "MaterialPink";
             this.dtpEnd.Value = new System.DateTime(2022, 6, 16, 12, 11, 26, 504);
             // 
             // btnShowFood
@@ -76,7 +76,7 @@
             this.btnShowFood.Size = new System.Drawing.Size(236, 36);
             this.btnShowFood.TabIndex = 7;
             this.btnShowFood.Text = "Submit";
-            this.btnShowFood.ThemeName = "Material";
+            this.btnShowFood.ThemeName = "MaterialPink";
             this.btnShowFood.Click += new System.EventHandler(this.btnShow_Click);
             // 
             // lblStartDate
@@ -87,7 +87,7 @@
             this.lblStartDate.Size = new System.Drawing.Size(77, 26);
             this.lblStartDate.TabIndex = 6;
             this.lblStartDate.Text = "StartDate";
-            this.lblStartDate.ThemeName = "Material";
+            this.lblStartDate.ThemeName = "MaterialPink";
             // 
             // dtpStart
             // 
@@ -102,7 +102,7 @@
             this.dtpStart.TabIndex = 5;
             this.dtpStart.TabStop = false;
             this.dtpStart.Text = "2022-06-16 12:11:26";
-            this.dtpStart.ThemeName = "Material";
+            this.dtpStart.ThemeName = "MaterialPink";
             this.dtpStart.Value = new System.DateTime(2022, 6, 16, 12, 11, 26, 504);
             // 
             // SaleReportByFoodForm
@@ -118,7 +118,7 @@
             this.Name = "SaleReportByFoodForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sale By Food";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.frmSaleByFood_Load);
             ((System.ComponentModel.ISupportInitialize)(this.lblEndDate)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtpEnd)).EndInit();
@@ -133,7 +133,7 @@
 
         #endregion
 
-        private Telerik.WinControls.Themes.MaterialTheme materialTheme1;
+        private Telerik.WinControls.Themes.MaterialPinkTheme materialTheme1;
         private Telerik.WinControls.UI.RadLabel lblEndDate;
         private Telerik.WinControls.UI.RadDateTimePicker dtpEnd;
         private Telerik.WinControls.UI.RadButton btnShowFood;

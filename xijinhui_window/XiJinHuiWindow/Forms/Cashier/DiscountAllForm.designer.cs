@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DiscountAllForm));
             this.btnDis_0 = new Telerik.WinControls.UI.RadButton();
             this.btnDis_5 = new Telerik.WinControls.UI.RadButton();
             this.btnDis_10 = new Telerik.WinControls.UI.RadButton();
@@ -81,7 +82,7 @@
             this.btnDis_0.Size = new System.Drawing.Size(90, 60);
             this.btnDis_0.TabIndex = 0;
             this.btnDis_0.Text = "0%";
-            this.btnDis_0.ThemeName = "Material";
+            this.btnDis_0.ThemeName = "MaterialPink";
             this.btnDis_0.Click += new System.EventHandler(this.btnDis_Click);
             // 
             // btnDis_5
@@ -94,7 +95,7 @@
             this.btnDis_5.Size = new System.Drawing.Size(90, 60);
             this.btnDis_5.TabIndex = 1;
             this.btnDis_5.Text = "5%";
-            this.btnDis_5.ThemeName = "Material";
+            this.btnDis_5.ThemeName = "MaterialPink";
             this.btnDis_5.Click += new System.EventHandler(this.btnDis_Click);
             // 
             // btnDis_10
@@ -107,7 +108,7 @@
             this.btnDis_10.Size = new System.Drawing.Size(90, 60);
             this.btnDis_10.TabIndex = 2;
             this.btnDis_10.Text = "10%";
-            this.btnDis_10.ThemeName = "Material";
+            this.btnDis_10.ThemeName = "MaterialPink";
             this.btnDis_10.Click += new System.EventHandler(this.btnDis_Click);
             // 
             // btnDis_20
@@ -120,7 +121,7 @@
             this.btnDis_20.Size = new System.Drawing.Size(90, 60);
             this.btnDis_20.TabIndex = 3;
             this.btnDis_20.Text = "20%";
-            this.btnDis_20.ThemeName = "Material";
+            this.btnDis_20.ThemeName = "MaterialPink";
             this.btnDis_20.Click += new System.EventHandler(this.btnDis_Click);
             // 
             // btnDis_60
@@ -133,7 +134,7 @@
             this.btnDis_60.Size = new System.Drawing.Size(90, 60);
             this.btnDis_60.TabIndex = 7;
             this.btnDis_60.Text = "60%";
-            this.btnDis_60.ThemeName = "Material";
+            this.btnDis_60.ThemeName = "MaterialPink";
             this.btnDis_60.Click += new System.EventHandler(this.btnDis_Click);
             // 
             // btnDis_50
@@ -146,7 +147,7 @@
             this.btnDis_50.Size = new System.Drawing.Size(90, 60);
             this.btnDis_50.TabIndex = 6;
             this.btnDis_50.Text = "50%";
-            this.btnDis_50.ThemeName = "Material";
+            this.btnDis_50.ThemeName = "MaterialPink";
             this.btnDis_50.Click += new System.EventHandler(this.btnDis_Click);
             // 
             // btnDis_40
@@ -159,7 +160,7 @@
             this.btnDis_40.Size = new System.Drawing.Size(90, 60);
             this.btnDis_40.TabIndex = 5;
             this.btnDis_40.Text = "40%";
-            this.btnDis_40.ThemeName = "Material";
+            this.btnDis_40.ThemeName = "MaterialPink";
             this.btnDis_40.Click += new System.EventHandler(this.btnDis_Click);
             // 
             // btnDis_30
@@ -172,7 +173,7 @@
             this.btnDis_30.Size = new System.Drawing.Size(90, 60);
             this.btnDis_30.TabIndex = 4;
             this.btnDis_30.Text = "30%";
-            this.btnDis_30.ThemeName = "Material";
+            this.btnDis_30.ThemeName = "MaterialPink";
             this.btnDis_30.Click += new System.EventHandler(this.btnDis_Click);
             // 
             // btnDis_100
@@ -185,7 +186,7 @@
             this.btnDis_100.Size = new System.Drawing.Size(474, 60);
             this.btnDis_100.TabIndex = 11;
             this.btnDis_100.Text = "100%";
-            this.btnDis_100.ThemeName = "Material";
+            this.btnDis_100.ThemeName = "MaterialPink";
             this.btnDis_100.Click += new System.EventHandler(this.btnDis_Click);
             // 
             // btnDis_90
@@ -198,7 +199,7 @@
             this.btnDis_90.Size = new System.Drawing.Size(90, 60);
             this.btnDis_90.TabIndex = 10;
             this.btnDis_90.Text = "90%";
-            this.btnDis_90.ThemeName = "Material";
+            this.btnDis_90.ThemeName = "MaterialPink";
             this.btnDis_90.Click += new System.EventHandler(this.btnDis_Click);
             // 
             // btnDis_80
@@ -211,7 +212,7 @@
             this.btnDis_80.Size = new System.Drawing.Size(90, 60);
             this.btnDis_80.TabIndex = 9;
             this.btnDis_80.Text = "80%";
-            this.btnDis_80.ThemeName = "Material";
+            this.btnDis_80.ThemeName = "MaterialPink";
             this.btnDis_80.Click += new System.EventHandler(this.btnDis_Click);
             // 
             // btnDis_70
@@ -224,7 +225,7 @@
             this.btnDis_70.Size = new System.Drawing.Size(90, 60);
             this.btnDis_70.TabIndex = 8;
             this.btnDis_70.Text = "70%";
-            this.btnDis_70.ThemeName = "Material";
+            this.btnDis_70.ThemeName = "MaterialPink";
             this.btnDis_70.Click += new System.EventHandler(this.btnDis_Click);
             // 
             // btnEnter
@@ -237,7 +238,7 @@
             this.btnEnter.Size = new System.Drawing.Size(476, 60);
             this.btnEnter.TabIndex = 12;
             this.btnEnter.Text = "Close";
-            this.btnEnter.ThemeName = "Material";
+            this.btnEnter.ThemeName = "MaterialPink";
             this.btnEnter.Click += new System.EventHandler(this.btnEnter_Click);
             // 
             // atPanel1
@@ -247,7 +248,7 @@
             this.atPanel1.Name = "atPanel1";
             this.atPanel1.Size = new System.Drawing.Size(2, 2);
             this.atPanel1.TabIndex = 1;
-            this.atPanel1.ThemeName = "Material";
+            this.atPanel1.ThemeName = "MaterialPink";
             // 
             // atLabel1
             // 
@@ -271,7 +272,7 @@
             this.atLabel2.TabIndex = 13;
             this.atLabel2.Text = "Discount";
             this.atLabel2.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            this.atLabel2.ThemeName = "Material";
+            this.atLabel2.ThemeName = "MaterialPink";
             // 
             // btnDis_15
             // 
@@ -283,7 +284,7 @@
             this.btnDis_15.Size = new System.Drawing.Size(90, 60);
             this.btnDis_15.TabIndex = 14;
             this.btnDis_15.Text = "15%";
-            this.btnDis_15.ThemeName = "Material";
+            this.btnDis_15.ThemeName = "MaterialPink";
             this.btnDis_15.Click += new System.EventHandler(this.btnDis_Click);
             // 
             // btnDis_25
@@ -296,7 +297,7 @@
             this.btnDis_25.Size = new System.Drawing.Size(90, 60);
             this.btnDis_25.TabIndex = 15;
             this.btnDis_25.Text = "25%";
-            this.btnDis_25.ThemeName = "Material";
+            this.btnDis_25.ThemeName = "MaterialPink";
             this.btnDis_25.Click += new System.EventHandler(this.btnDis_Click);
             // 
             // btnDis_35
@@ -309,7 +310,7 @@
             this.btnDis_35.Size = new System.Drawing.Size(90, 60);
             this.btnDis_35.TabIndex = 16;
             this.btnDis_35.Text = "35%";
-            this.btnDis_35.ThemeName = "Material";
+            this.btnDis_35.ThemeName = "MaterialPink";
             this.btnDis_35.Click += new System.EventHandler(this.btnDis_Click);
             // 
             // btnDis_78
@@ -322,7 +323,7 @@
             this.btnDis_78.Size = new System.Drawing.Size(90, 60);
             this.btnDis_78.TabIndex = 17;
             this.btnDis_78.Text = "22%";
-            this.btnDis_78.ThemeName = "Material";
+            this.btnDis_78.ThemeName = "MaterialPink";
             this.btnDis_78.Click += new System.EventHandler(this.btnDis_Click);
             // 
             // DiscountAllForm
@@ -352,11 +353,12 @@
             this.Controls.Add(this.btnDis_5);
             this.Controls.Add(this.btnDis_0);
             this.Font = new System.Drawing.Font("Khmer OS Battambang", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "DiscountAllForm";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Discount All";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.frmDiscount_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnDis_0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnDis_5)).EndInit();

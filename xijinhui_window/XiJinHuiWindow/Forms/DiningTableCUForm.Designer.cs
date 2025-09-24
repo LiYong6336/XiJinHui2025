@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DiningTableCUForm));
             this.lblCode = new Telerik.WinControls.UI.RadLabel();
             this.radPanel1 = new Telerik.WinControls.UI.RadPanel();
             this.dropdownDinigFloor = new Telerik.WinControls.UI.RadDropDownList();
@@ -96,7 +97,7 @@
             this.lblCode.Size = new System.Drawing.Size(41, 21);
             this.lblCode.TabIndex = 0;
             this.lblCode.Text = "Code";
-            this.lblCode.ThemeName = "Material";
+            this.lblCode.ThemeName = "MaterialPink";
             // 
             // radPanel1
             // 
@@ -132,7 +133,7 @@
             this.radPanel1.Name = "radPanel1";
             this.radPanel1.Size = new System.Drawing.Size(630, 470);
             this.radPanel1.TabIndex = 1;
-            this.radPanel1.ThemeName = "Material";
+            this.radPanel1.ThemeName = "MaterialPink";
             this.radPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.radPanel1_Paint);
             // 
             // dropdownDinigFloor
@@ -142,7 +143,7 @@
             this.dropdownDinigFloor.Name = "dropdownDinigFloor";
             this.dropdownDinigFloor.Size = new System.Drawing.Size(173, 36);
             this.dropdownDinigFloor.TabIndex = 11;
-            this.dropdownDinigFloor.ThemeName = "Material";
+            this.dropdownDinigFloor.ThemeName = "MaterialPink";
             // 
             // dropdownStatus
             // 
@@ -151,7 +152,7 @@
             this.dropdownStatus.Name = "dropdownStatus";
             this.dropdownStatus.Size = new System.Drawing.Size(168, 36);
             this.dropdownStatus.TabIndex = 12;
-            this.dropdownStatus.ThemeName = "Material";
+            this.dropdownStatus.ThemeName = "MaterialPink";
             // 
             // cbIsEnable
             // 
@@ -160,7 +161,7 @@
             this.cbIsEnable.Size = new System.Drawing.Size(80, 19);
             this.cbIsEnable.TabIndex = 14;
             this.cbIsEnable.Text = "IsEnable";
-            this.cbIsEnable.ThemeName = "Material";
+            this.cbIsEnable.ThemeName = "MaterialPink";
             // 
             // cbIsBroken
             // 
@@ -169,7 +170,7 @@
             this.cbIsBroken.Size = new System.Drawing.Size(82, 19);
             this.cbIsBroken.TabIndex = 13;
             this.cbIsBroken.Text = "IsBroken";
-            this.cbIsBroken.ThemeName = "Material";
+            this.cbIsBroken.ThemeName = "MaterialPink";
             // 
             // lblFloor
             // 
@@ -178,7 +179,7 @@
             this.lblFloor.Size = new System.Drawing.Size(40, 21);
             this.lblFloor.TabIndex = 0;
             this.lblFloor.Text = "Floor";
-            this.lblFloor.ThemeName = "Material";
+            this.lblFloor.ThemeName = "MaterialPink";
             // 
             // btnSubmit
             // 
@@ -187,7 +188,7 @@
             this.btnSubmit.Size = new System.Drawing.Size(173, 52);
             this.btnSubmit.TabIndex = 15;
             this.btnSubmit.Text = "Submit";
-            this.btnSubmit.ThemeName = "Material";
+            this.btnSubmit.ThemeName = "MaterialPink";
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // lblStatus
@@ -197,7 +198,7 @@
             this.lblStatus.Size = new System.Drawing.Size(49, 21);
             this.lblStatus.TabIndex = 0;
             this.lblStatus.Text = "Status";
-            this.lblStatus.ThemeName = "Material";
+            this.lblStatus.ThemeName = "MaterialPink";
             // 
             // txtRemark
             // 
@@ -205,7 +206,7 @@
             this.txtRemark.Name = "txtRemark";
             this.txtRemark.Size = new System.Drawing.Size(167, 36);
             this.txtRemark.TabIndex = 10;
-            this.txtRemark.ThemeName = "Material";
+            this.txtRemark.ThemeName = "MaterialPink";
             // 
             // lblRemark
             // 
@@ -214,7 +215,7 @@
             this.lblRemark.Size = new System.Drawing.Size(57, 21);
             this.lblRemark.TabIndex = 0;
             this.lblRemark.Text = "Remark";
-            this.lblRemark.ThemeName = "Material";
+            this.lblRemark.ThemeName = "MaterialPink";
             // 
             // txtRoomServiceFixPrice
             // 
@@ -222,7 +223,7 @@
             this.txtRoomServiceFixPrice.Name = "txtRoomServiceFixPrice";
             this.txtRoomServiceFixPrice.Size = new System.Drawing.Size(173, 36);
             this.txtRoomServiceFixPrice.TabIndex = 9;
-            this.txtRoomServiceFixPrice.ThemeName = "Material";
+            this.txtRoomServiceFixPrice.ThemeName = "MaterialPink";
             // 
             // lblRoomServiceFixPrice
             // 
@@ -231,7 +232,7 @@
             this.lblRoomServiceFixPrice.Size = new System.Drawing.Size(145, 21);
             this.lblRoomServiceFixPrice.TabIndex = 0;
             this.lblRoomServiceFixPrice.Text = "RoomServiceFixPrice";
-            this.lblRoomServiceFixPrice.ThemeName = "Material";
+            this.lblRoomServiceFixPrice.ThemeName = "MaterialPink";
             // 
             // txtRoomServicePercentage
             // 
@@ -239,7 +240,7 @@
             this.txtRoomServicePercentage.Name = "txtRoomServicePercentage";
             this.txtRoomServicePercentage.Size = new System.Drawing.Size(167, 36);
             this.txtRoomServicePercentage.TabIndex = 8;
-            this.txtRoomServicePercentage.ThemeName = "Material";
+            this.txtRoomServicePercentage.ThemeName = "MaterialPink";
             // 
             // lblRoomServicePercentage
             // 
@@ -248,7 +249,7 @@
             this.lblRoomServicePercentage.Size = new System.Drawing.Size(167, 21);
             this.lblRoomServicePercentage.TabIndex = 0;
             this.lblRoomServicePercentage.Text = "RoomServicePercentage";
-            this.lblRoomServicePercentage.ThemeName = "Material";
+            this.lblRoomServicePercentage.ThemeName = "MaterialPink";
             // 
             // txtTaxFixPrice
             // 
@@ -256,7 +257,7 @@
             this.txtTaxFixPrice.Name = "txtTaxFixPrice";
             this.txtTaxFixPrice.Size = new System.Drawing.Size(173, 36);
             this.txtTaxFixPrice.TabIndex = 7;
-            this.txtTaxFixPrice.ThemeName = "Material";
+            this.txtTaxFixPrice.ThemeName = "MaterialPink";
             // 
             // lblTaxFixPrice
             // 
@@ -265,7 +266,7 @@
             this.lblTaxFixPrice.Size = new System.Drawing.Size(83, 21);
             this.lblTaxFixPrice.TabIndex = 0;
             this.lblTaxFixPrice.Text = "TaxFixPrice";
-            this.lblTaxFixPrice.ThemeName = "Material";
+            this.lblTaxFixPrice.ThemeName = "MaterialPink";
             // 
             // txtTaxPercentage
             // 
@@ -273,7 +274,7 @@
             this.txtTaxPercentage.Name = "txtTaxPercentage";
             this.txtTaxPercentage.Size = new System.Drawing.Size(167, 36);
             this.txtTaxPercentage.TabIndex = 6;
-            this.txtTaxPercentage.ThemeName = "Material";
+            this.txtTaxPercentage.ThemeName = "MaterialPink";
             // 
             // lblTaxPercentage
             // 
@@ -282,7 +283,7 @@
             this.lblTaxPercentage.Size = new System.Drawing.Size(105, 21);
             this.lblTaxPercentage.TabIndex = 0;
             this.lblTaxPercentage.Text = "TaxPercentage";
-            this.lblTaxPercentage.ThemeName = "Material";
+            this.lblTaxPercentage.ThemeName = "MaterialPink";
             // 
             // txtPersonCount
             // 
@@ -290,7 +291,7 @@
             this.txtPersonCount.Name = "txtPersonCount";
             this.txtPersonCount.Size = new System.Drawing.Size(173, 36);
             this.txtPersonCount.TabIndex = 5;
-            this.txtPersonCount.ThemeName = "Material";
+            this.txtPersonCount.ThemeName = "MaterialPink";
             // 
             // lblPersonCount
             // 
@@ -299,7 +300,7 @@
             this.lblPersonCount.Size = new System.Drawing.Size(91, 21);
             this.lblPersonCount.TabIndex = 0;
             this.lblPersonCount.Text = "PersonCount";
-            this.lblPersonCount.ThemeName = "Material";
+            this.lblPersonCount.ThemeName = "MaterialPink";
             // 
             // txtKhmerName
             // 
@@ -307,7 +308,7 @@
             this.txtKhmerName.Name = "txtKhmerName";
             this.txtKhmerName.Size = new System.Drawing.Size(167, 36);
             this.txtKhmerName.TabIndex = 4;
-            this.txtKhmerName.ThemeName = "Material";
+            this.txtKhmerName.ThemeName = "MaterialPink";
             this.txtKhmerName.MouseEnter += new System.EventHandler(this.txtKhmerName_MouseEnter);
             this.txtKhmerName.MouseLeave += new System.EventHandler(this.txtKhmerName_MouseLeave);
             // 
@@ -318,7 +319,7 @@
             this.lblKhmer.Size = new System.Drawing.Size(50, 21);
             this.lblKhmer.TabIndex = 0;
             this.lblKhmer.Text = "Khmer";
-            this.lblKhmer.ThemeName = "Material";
+            this.lblKhmer.ThemeName = "MaterialPink";
             // 
             // txtChineseName
             // 
@@ -326,7 +327,7 @@
             this.txtChineseName.Name = "txtChineseName";
             this.txtChineseName.Size = new System.Drawing.Size(173, 36);
             this.txtChineseName.TabIndex = 3;
-            this.txtChineseName.ThemeName = "Material";
+            this.txtChineseName.ThemeName = "MaterialPink";
             this.txtChineseName.MouseEnter += new System.EventHandler(this.txtChineseName_MouseEnter);
             this.txtChineseName.MouseLeave += new System.EventHandler(this.txtChineseName_MouseLeave);
             // 
@@ -337,7 +338,7 @@
             this.lblChinese.Size = new System.Drawing.Size(59, 21);
             this.lblChinese.TabIndex = 0;
             this.lblChinese.Text = "Chinese";
-            this.lblChinese.ThemeName = "Material";
+            this.lblChinese.ThemeName = "MaterialPink";
             // 
             // txtEnglishName
             // 
@@ -345,7 +346,7 @@
             this.txtEnglishName.Name = "txtEnglishName";
             this.txtEnglishName.Size = new System.Drawing.Size(167, 36);
             this.txtEnglishName.TabIndex = 2;
-            this.txtEnglishName.ThemeName = "Material";
+            this.txtEnglishName.ThemeName = "MaterialPink";
             // 
             // lblEnglish
             // 
@@ -354,7 +355,7 @@
             this.lblEnglish.Size = new System.Drawing.Size(54, 21);
             this.lblEnglish.TabIndex = 0;
             this.lblEnglish.Text = "English";
-            this.lblEnglish.ThemeName = "Material";
+            this.lblEnglish.ThemeName = "MaterialPink";
             // 
             // txtCode
             // 
@@ -362,7 +363,7 @@
             this.txtCode.Name = "txtCode";
             this.txtCode.Size = new System.Drawing.Size(173, 36);
             this.txtCode.TabIndex = 1;
-            this.txtCode.ThemeName = "Material";
+            this.txtCode.ThemeName = "MaterialPink";
             // 
             // DiningTableCUForm
             // 
@@ -371,10 +372,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(630, 470);
             this.Controls.Add(this.radPanel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "DiningTableCUForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Create Dining Table";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.DiningTableCUForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.lblCode)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).EndInit();

@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialTheme();
+            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialPinkTheme();
             this.lblEndDate = new Telerik.WinControls.UI.RadLabel();
             this.dtpEnd = new Telerik.WinControls.UI.RadDateTimePicker();
             this.btnShow = new Telerik.WinControls.UI.RadButton();
@@ -58,7 +58,7 @@
             this.lblEndDate.Size = new System.Drawing.Size(71, 26);
             this.lblEndDate.TabIndex = 9;
             this.lblEndDate.Text = "EndDate";
-            this.lblEndDate.ThemeName = "Material";
+            this.lblEndDate.ThemeName = "MaterialPink";
             // 
             // dtpEnd
             // 
@@ -73,7 +73,7 @@
             this.dtpEnd.TabIndex = 8;
             this.dtpEnd.TabStop = false;
             this.dtpEnd.Text = "2022-06-16 12:11:26";
-            this.dtpEnd.ThemeName = "Material";
+            this.dtpEnd.ThemeName = "MaterialPink";
             this.dtpEnd.Value = new System.DateTime(2022, 6, 16, 12, 11, 26, 504);
             // 
             // btnShow
@@ -84,7 +84,7 @@
             this.btnShow.Size = new System.Drawing.Size(120, 36);
             this.btnShow.TabIndex = 7;
             this.btnShow.Text = "Show";
-            this.btnShow.ThemeName = "Material";
+            this.btnShow.ThemeName = "MaterialPink";
             this.btnShow.Click += new System.EventHandler(this.btnShow_Click);
             // 
             // lblStartDate
@@ -95,7 +95,7 @@
             this.lblStartDate.Size = new System.Drawing.Size(77, 26);
             this.lblStartDate.TabIndex = 6;
             this.lblStartDate.Text = "StartDate";
-            this.lblStartDate.ThemeName = "Material";
+            this.lblStartDate.ThemeName = "MaterialPink";
             // 
             // dtpStart
             // 
@@ -110,7 +110,7 @@
             this.dtpStart.TabIndex = 5;
             this.dtpStart.TabStop = false;
             this.dtpStart.Text = "2022-06-16 12:11:26";
-            this.dtpStart.ThemeName = "Material";
+            this.dtpStart.ThemeName = "MaterialPink";
             this.dtpStart.Value = new System.DateTime(2022, 6, 16, 12, 11, 26, 504);
             // 
             // lblPhone
@@ -121,7 +121,7 @@
             this.lblPhone.Size = new System.Drawing.Size(55, 26);
             this.lblPhone.TabIndex = 10;
             this.lblPhone.Text = "Phone";
-            this.lblPhone.ThemeName = "Material";
+            this.lblPhone.ThemeName = "MaterialPink";
             // 
             // txtPhoneNumber
             // 
@@ -129,7 +129,7 @@
             this.txtPhoneNumber.Name = "txtPhoneNumber";
             this.txtPhoneNumber.Size = new System.Drawing.Size(192, 36);
             this.txtPhoneNumber.TabIndex = 11;
-            this.txtPhoneNumber.ThemeName = "Material";
+            this.txtPhoneNumber.ThemeName = "MaterialPink";
             // 
             // btnPhone
             // 
@@ -139,7 +139,7 @@
             this.btnPhone.Size = new System.Drawing.Size(114, 36);
             this.btnPhone.TabIndex = 12;
             this.btnPhone.Text = "Show";
-            this.btnPhone.ThemeName = "Material";
+            this.btnPhone.ThemeName = "MaterialPink";
             this.btnPhone.Click += new System.EventHandler(this.radButton1_Click);
             // 
             // radPanel1
@@ -167,7 +167,7 @@
             this.Name = "TopupInformationForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TopupInformation";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.frmTopupInformation_Load);
             ((System.ComponentModel.ISupportInitialize)(this.lblEndDate)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtpEnd)).EndInit();
@@ -186,7 +186,7 @@
 
         #endregion
 
-        private Telerik.WinControls.Themes.MaterialTheme materialTheme1;
+        private Telerik.WinControls.Themes.MaterialPinkTheme materialTheme1;
         private Telerik.WinControls.UI.RadLabel lblEndDate;
         private Telerik.WinControls.UI.RadDateTimePicker dtpEnd;
         private Telerik.WinControls.UI.RadButton btnShow;

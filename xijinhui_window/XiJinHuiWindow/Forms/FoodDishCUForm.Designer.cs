@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FoodDishCUForm));
             this.lblCode = new Telerik.WinControls.UI.RadLabel();
             this.radPanel1 = new Telerik.WinControls.UI.RadPanel();
             this.pictureBox = new Telerik.WinControls.UI.RadPictureBox();
@@ -97,7 +98,7 @@
             this.lblCode.Size = new System.Drawing.Size(41, 21);
             this.lblCode.TabIndex = 0;
             this.lblCode.Text = "Code";
-            this.lblCode.ThemeName = "Material";
+            this.lblCode.ThemeName = "MaterialPink";
             // 
             // radPanel1
             // 
@@ -134,7 +135,7 @@
             this.radPanel1.Name = "radPanel1";
             this.radPanel1.Size = new System.Drawing.Size(630, 525);
             this.radPanel1.TabIndex = 1;
-            this.radPanel1.ThemeName = "Material";
+            this.radPanel1.ThemeName = "MaterialPink";
             this.radPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.radPanel1_Paint);
             // 
             // pictureBox
@@ -162,7 +163,7 @@
             this.dropdownCategory.Name = "dropdownCategory";
             this.dropdownCategory.Size = new System.Drawing.Size(173, 36);
             this.dropdownCategory.TabIndex = 9;
-            this.dropdownCategory.ThemeName = "Material";
+            this.dropdownCategory.ThemeName = "MaterialPink";
             // 
             // cbIsEnable
             // 
@@ -171,7 +172,7 @@
             this.cbIsEnable.Size = new System.Drawing.Size(80, 19);
             this.cbIsEnable.TabIndex = 10;
             this.cbIsEnable.Text = "IsEnable";
-            this.cbIsEnable.ThemeName = "Material";
+            this.cbIsEnable.ThemeName = "MaterialPink";
             // 
             // lblCategory
             // 
@@ -180,7 +181,7 @@
             this.lblCategory.Size = new System.Drawing.Size(65, 21);
             this.lblCategory.TabIndex = 0;
             this.lblCategory.Text = "Category";
-            this.lblCategory.ThemeName = "Material";
+            this.lblCategory.ThemeName = "MaterialPink";
             // 
             // btnSubmit
             // 
@@ -189,7 +190,7 @@
             this.btnSubmit.Size = new System.Drawing.Size(173, 52);
             this.btnSubmit.TabIndex = 12;
             this.btnSubmit.Text = "Submit";
-            this.btnSubmit.ThemeName = "Material";
+            this.btnSubmit.ThemeName = "MaterialPink";
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // txtRemark
@@ -198,7 +199,7 @@
             this.txtRemark.Name = "txtRemark";
             this.txtRemark.Size = new System.Drawing.Size(167, 36);
             this.txtRemark.TabIndex = 7;
-            this.txtRemark.ThemeName = "Material";
+            this.txtRemark.ThemeName = "MaterialPink";
             // 
             // lblRemark
             // 
@@ -207,7 +208,7 @@
             this.lblRemark.Size = new System.Drawing.Size(57, 21);
             this.lblRemark.TabIndex = 0;
             this.lblRemark.Text = "Remark";
-            this.lblRemark.ThemeName = "Material";
+            this.lblRemark.ThemeName = "MaterialPink";
             // 
             // txtDisplayOrder
             // 
@@ -215,7 +216,7 @@
             this.txtDisplayOrder.Name = "txtDisplayOrder";
             this.txtDisplayOrder.Size = new System.Drawing.Size(173, 36);
             this.txtDisplayOrder.TabIndex = 8;
-            this.txtDisplayOrder.ThemeName = "Material";
+            this.txtDisplayOrder.ThemeName = "MaterialPink";
             // 
             // lblDisplayOrder
             // 
@@ -224,7 +225,7 @@
             this.lblDisplayOrder.Size = new System.Drawing.Size(90, 21);
             this.lblDisplayOrder.TabIndex = 0;
             this.lblDisplayOrder.Text = "DisplayOrder";
-            this.lblDisplayOrder.ThemeName = "Material";
+            this.lblDisplayOrder.ThemeName = "MaterialPink";
             // 
             // txtPrice
             // 
@@ -232,7 +233,7 @@
             this.txtPrice.Name = "txtPrice";
             this.txtPrice.Size = new System.Drawing.Size(167, 36);
             this.txtPrice.TabIndex = 6;
-            this.txtPrice.ThemeName = "Material";
+            this.txtPrice.ThemeName = "MaterialPink";
             // 
             // lblPrice
             // 
@@ -241,7 +242,7 @@
             this.lblPrice.Size = new System.Drawing.Size(40, 21);
             this.lblPrice.TabIndex = 0;
             this.lblPrice.Text = "Price";
-            this.lblPrice.ThemeName = "Material";
+            this.lblPrice.ThemeName = "MaterialPink";
             // 
             // txtDescription
             // 
@@ -249,7 +250,7 @@
             this.txtDescription.Name = "txtDescription";
             this.txtDescription.Size = new System.Drawing.Size(173, 36);
             this.txtDescription.TabIndex = 5;
-            this.txtDescription.ThemeName = "Material";
+            this.txtDescription.ThemeName = "MaterialPink";
             // 
             // lblDescription
             // 
@@ -258,7 +259,7 @@
             this.lblDescription.Size = new System.Drawing.Size(81, 21);
             this.lblDescription.TabIndex = 0;
             this.lblDescription.Text = "Description";
-            this.lblDescription.ThemeName = "Material";
+            this.lblDescription.ThemeName = "MaterialPink";
             // 
             // txtKhmerKeyword
             // 
@@ -266,7 +267,7 @@
             this.txtKhmerKeyword.Name = "txtKhmerKeyword";
             this.txtKhmerKeyword.Size = new System.Drawing.Size(167, 36);
             this.txtKhmerKeyword.TabIndex = 4;
-            this.txtKhmerKeyword.ThemeName = "Material";
+            this.txtKhmerKeyword.ThemeName = "MaterialPink";
             this.txtKhmerKeyword.Enter += new System.EventHandler(this.txtKhmerName_Enter);
             this.txtKhmerKeyword.Leave += new System.EventHandler(this.txtKhmerName_Leave);
             // 
@@ -276,7 +277,7 @@
             this.txtKhmerName.Name = "txtKhmerName";
             this.txtKhmerName.Size = new System.Drawing.Size(167, 36);
             this.txtKhmerName.TabIndex = 4;
-            this.txtKhmerName.ThemeName = "Material";
+            this.txtKhmerName.ThemeName = "MaterialPink";
             this.txtKhmerName.Enter += new System.EventHandler(this.txtKhmerName_Enter);
             this.txtKhmerName.Leave += new System.EventHandler(this.txtKhmerName_Leave);
             // 
@@ -287,7 +288,7 @@
             this.lblKhmerKeyword.Size = new System.Drawing.Size(106, 21);
             this.lblKhmerKeyword.TabIndex = 0;
             this.lblKhmerKeyword.Text = "KhmerKeyword";
-            this.lblKhmerKeyword.ThemeName = "Material";
+            this.lblKhmerKeyword.ThemeName = "MaterialPink";
             // 
             // lblKhmer
             // 
@@ -296,7 +297,7 @@
             this.lblKhmer.Size = new System.Drawing.Size(50, 21);
             this.lblKhmer.TabIndex = 0;
             this.lblKhmer.Text = "Khmer";
-            this.lblKhmer.ThemeName = "Material";
+            this.lblKhmer.ThemeName = "MaterialPink";
             // 
             // txtChineseKeyword
             // 
@@ -304,7 +305,7 @@
             this.txtChineseKeyword.Name = "txtChineseKeyword";
             this.txtChineseKeyword.Size = new System.Drawing.Size(173, 36);
             this.txtChineseKeyword.TabIndex = 3;
-            this.txtChineseKeyword.ThemeName = "Material";
+            this.txtChineseKeyword.ThemeName = "MaterialPink";
             this.txtChineseKeyword.Enter += new System.EventHandler(this.txtChineseName_Enter);
             this.txtChineseKeyword.Leave += new System.EventHandler(this.txtChineseName_Leave);
             // 
@@ -314,7 +315,7 @@
             this.txtChineseName.Name = "txtChineseName";
             this.txtChineseName.Size = new System.Drawing.Size(173, 36);
             this.txtChineseName.TabIndex = 3;
-            this.txtChineseName.ThemeName = "Material";
+            this.txtChineseName.ThemeName = "MaterialPink";
             this.txtChineseName.Enter += new System.EventHandler(this.txtChineseName_Enter);
             this.txtChineseName.Leave += new System.EventHandler(this.txtChineseName_Leave);
             // 
@@ -325,7 +326,7 @@
             this.lblChineseKeyword.Size = new System.Drawing.Size(115, 21);
             this.lblChineseKeyword.TabIndex = 0;
             this.lblChineseKeyword.Text = "ChineseKeyword";
-            this.lblChineseKeyword.ThemeName = "Material";
+            this.lblChineseKeyword.ThemeName = "MaterialPink";
             // 
             // lblChinese
             // 
@@ -334,7 +335,7 @@
             this.lblChinese.Size = new System.Drawing.Size(59, 21);
             this.lblChinese.TabIndex = 0;
             this.lblChinese.Text = "Chinese";
-            this.lblChinese.ThemeName = "Material";
+            this.lblChinese.ThemeName = "MaterialPink";
             // 
             // txtEnglishKeyword
             // 
@@ -342,7 +343,7 @@
             this.txtEnglishKeyword.Name = "txtEnglishKeyword";
             this.txtEnglishKeyword.Size = new System.Drawing.Size(167, 36);
             this.txtEnglishKeyword.TabIndex = 2;
-            this.txtEnglishKeyword.ThemeName = "Material";
+            this.txtEnglishKeyword.ThemeName = "MaterialPink";
             // 
             // txtEnglishName
             // 
@@ -350,7 +351,7 @@
             this.txtEnglishName.Name = "txtEnglishName";
             this.txtEnglishName.Size = new System.Drawing.Size(167, 36);
             this.txtEnglishName.TabIndex = 2;
-            this.txtEnglishName.ThemeName = "Material";
+            this.txtEnglishName.ThemeName = "MaterialPink";
             // 
             // lblEnglishKeyword
             // 
@@ -359,7 +360,7 @@
             this.lblEnglishKeyword.Size = new System.Drawing.Size(110, 21);
             this.lblEnglishKeyword.TabIndex = 0;
             this.lblEnglishKeyword.Text = "EnglishKeyword";
-            this.lblEnglishKeyword.ThemeName = "Material";
+            this.lblEnglishKeyword.ThemeName = "MaterialPink";
             // 
             // lblEnglish
             // 
@@ -368,7 +369,7 @@
             this.lblEnglish.Size = new System.Drawing.Size(54, 21);
             this.lblEnglish.TabIndex = 0;
             this.lblEnglish.Text = "English";
-            this.lblEnglish.ThemeName = "Material";
+            this.lblEnglish.ThemeName = "MaterialPink";
             // 
             // txtCode
             // 
@@ -376,7 +377,7 @@
             this.txtCode.Name = "txtCode";
             this.txtCode.Size = new System.Drawing.Size(173, 36);
             this.txtCode.TabIndex = 1;
-            this.txtCode.ThemeName = "Material";
+            this.txtCode.ThemeName = "MaterialPink";
             // 
             // FoodDishCUForm
             // 
@@ -385,10 +386,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(630, 525);
             this.Controls.Add(this.radPanel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FoodDishCUForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Food Dish CU";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.FoodDishCUForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.lblCode)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).EndInit();

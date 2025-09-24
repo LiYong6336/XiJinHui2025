@@ -58,7 +58,7 @@ namespace XiJinHuiWindow.Forms.Cashier
                 button.BackColor = Color.LightBlue;
                 button.ForeColor = Color.Black;
                 button.Font = PublicVariable.fontStyleByLanguage();
-                button.ThemeName = "Material";
+                button.ThemeName = "MaterialPink";
                 button.Tag = df;
 
                 if (currentX + buttonWidth + padding > formWidth)

@@ -30,6 +30,7 @@ namespace XiJinHuiWindow.Forms.Cashier
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(QuantityForm));
             this.btnBackSpace = new Telerik.WinControls.UI.RadButton();
             this.btn0 = new Telerik.WinControls.UI.RadButton();
             this.btn9 = new Telerik.WinControls.UI.RadButton();
@@ -104,7 +105,7 @@ namespace XiJinHuiWindow.Forms.Cashier
             this.btnBackSpace.Size = new System.Drawing.Size(93, 60);
             this.btnBackSpace.TabIndex = 25;
             this.btnBackSpace.Text = "<";
-            this.btnBackSpace.ThemeName = "Material";
+            this.btnBackSpace.ThemeName = "MaterialPink";
             this.btnBackSpace.Click += new System.EventHandler(this.btnBackSpace_Click);
             // 
             // btn0
@@ -117,7 +118,7 @@ namespace XiJinHuiWindow.Forms.Cashier
             this.btn0.Size = new System.Drawing.Size(89, 60);
             this.btn0.TabIndex = 24;
             this.btn0.Text = "0";
-            this.btn0.ThemeName = "Material";
+            this.btn0.ThemeName = "MaterialPink";
             this.btn0.Click += new System.EventHandler(this.btnNumber_Click);
             // 
             // btn9
@@ -130,7 +131,7 @@ namespace XiJinHuiWindow.Forms.Cashier
             this.btn9.Size = new System.Drawing.Size(90, 60);
             this.btn9.TabIndex = 23;
             this.btn9.Text = "9";
-            this.btn9.ThemeName = "Material";
+            this.btn9.ThemeName = "MaterialPink";
             this.btn9.Click += new System.EventHandler(this.btnNumber_Click);
             // 
             // btn8
@@ -143,7 +144,7 @@ namespace XiJinHuiWindow.Forms.Cashier
             this.btn8.Size = new System.Drawing.Size(90, 60);
             this.btn8.TabIndex = 22;
             this.btn8.Text = "8";
-            this.btn8.ThemeName = "Material";
+            this.btn8.ThemeName = "MaterialPink";
             this.btn8.Click += new System.EventHandler(this.btnNumber_Click);
             // 
             // btn7
@@ -156,7 +157,7 @@ namespace XiJinHuiWindow.Forms.Cashier
             this.btn7.Size = new System.Drawing.Size(90, 60);
             this.btn7.TabIndex = 21;
             this.btn7.Text = "7";
-            this.btn7.ThemeName = "Material";
+            this.btn7.ThemeName = "MaterialPink";
             this.btn7.Click += new System.EventHandler(this.btnNumber_Click);
             // 
             // btn6
@@ -169,7 +170,7 @@ namespace XiJinHuiWindow.Forms.Cashier
             this.btn6.Size = new System.Drawing.Size(90, 60);
             this.btn6.TabIndex = 20;
             this.btn6.Text = "6";
-            this.btn6.ThemeName = "Material";
+            this.btn6.ThemeName = "MaterialPink";
             this.btn6.Click += new System.EventHandler(this.btnNumber_Click);
             // 
             // btn5
@@ -182,7 +183,7 @@ namespace XiJinHuiWindow.Forms.Cashier
             this.btn5.Size = new System.Drawing.Size(90, 60);
             this.btn5.TabIndex = 19;
             this.btn5.Text = "5";
-            this.btn5.ThemeName = "Material";
+            this.btn5.ThemeName = "MaterialPink";
             this.btn5.Click += new System.EventHandler(this.btnNumber_Click);
             // 
             // btn4
@@ -195,7 +196,7 @@ namespace XiJinHuiWindow.Forms.Cashier
             this.btn4.Size = new System.Drawing.Size(90, 60);
             this.btn4.TabIndex = 18;
             this.btn4.Text = "4";
-            this.btn4.ThemeName = "Material";
+            this.btn4.ThemeName = "MaterialPink";
             this.btn4.Click += new System.EventHandler(this.btnNumber_Click);
             // 
             // btn3
@@ -208,7 +209,7 @@ namespace XiJinHuiWindow.Forms.Cashier
             this.btn3.Size = new System.Drawing.Size(90, 60);
             this.btn3.TabIndex = 17;
             this.btn3.Text = "3";
-            this.btn3.ThemeName = "Material";
+            this.btn3.ThemeName = "MaterialPink";
             this.btn3.Click += new System.EventHandler(this.btnNumber_Click);
             // 
             // btn2
@@ -221,7 +222,7 @@ namespace XiJinHuiWindow.Forms.Cashier
             this.btn2.Size = new System.Drawing.Size(90, 60);
             this.btn2.TabIndex = 16;
             this.btn2.Text = "2";
-            this.btn2.ThemeName = "Material";
+            this.btn2.ThemeName = "MaterialPink";
             this.btn2.Click += new System.EventHandler(this.btnNumber_Click);
             // 
             // btn1
@@ -234,7 +235,7 @@ namespace XiJinHuiWindow.Forms.Cashier
             this.btn1.Size = new System.Drawing.Size(90, 60);
             this.btn1.TabIndex = 15;
             this.btn1.Text = "1";
-            this.btn1.ThemeName = "Material";
+            this.btn1.ThemeName = "MaterialPink";
             this.btn1.Click += new System.EventHandler(this.btnNumber_Click);
             // 
             // btnDot
@@ -247,7 +248,7 @@ namespace XiJinHuiWindow.Forms.Cashier
             this.btnDot.Size = new System.Drawing.Size(89, 60);
             this.btnDot.TabIndex = 26;
             this.btnDot.Text = ".";
-            this.btnDot.ThemeName = "Material";
+            this.btnDot.ThemeName = "MaterialPink";
             this.btnDot.Click += new System.EventHandler(this.btnNumber_Click);
             // 
             // txtKg
@@ -264,7 +265,7 @@ namespace XiJinHuiWindow.Forms.Cashier
             this.txtKg.TabIndex = 27;
             this.txtKg.Text = "1";
             this.txtKg.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.txtKg.ThemeName = "Material";
+            this.txtKg.ThemeName = "MaterialPink";
             // 
             // btnClear
             // 
@@ -276,7 +277,7 @@ namespace XiJinHuiWindow.Forms.Cashier
             this.btnClear.Size = new System.Drawing.Size(89, 60);
             this.btnClear.TabIndex = 28;
             this.btnClear.Text = "C";
-            this.btnClear.ThemeName = "Material";
+            this.btnClear.ThemeName = "MaterialPink";
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnEnter
@@ -289,7 +290,7 @@ namespace XiJinHuiWindow.Forms.Cashier
             this.btnEnter.Size = new System.Drawing.Size(93, 124);
             this.btnEnter.TabIndex = 29;
             this.btnEnter.Text = "Enter";
-            this.btnEnter.ThemeName = "Material";
+            this.btnEnter.ThemeName = "MaterialPink";
             this.btnEnter.Click += new System.EventHandler(this.btnEnter_Click);
             // 
             // txtRemark
@@ -306,7 +307,7 @@ namespace XiJinHuiWindow.Forms.Cashier
             this.txtRemark.TabIndex = 32;
             this.txtRemark.Text = "1";
             this.txtRemark.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.txtRemark.ThemeName = "Material";
+            this.txtRemark.ThemeName = "MaterialPink";
             // 
             // b9
             // 
@@ -318,7 +319,7 @@ namespace XiJinHuiWindow.Forms.Cashier
             this.b9.Size = new System.Drawing.Size(65, 60);
             this.b9.TabIndex = 41;
             this.b9.Text = "9";
-            this.b9.ThemeName = "Material";
+            this.b9.ThemeName = "MaterialPink";
             this.b9.Click += new System.EventHandler(this.b9_Click);
             // 
             // b8
@@ -331,7 +332,7 @@ namespace XiJinHuiWindow.Forms.Cashier
             this.b8.Size = new System.Drawing.Size(65, 60);
             this.b8.TabIndex = 40;
             this.b8.Text = "8";
-            this.b8.ThemeName = "Material";
+            this.b8.ThemeName = "MaterialPink";
             this.b8.Click += new System.EventHandler(this.b8_Click);
             // 
             // b7
@@ -344,7 +345,7 @@ namespace XiJinHuiWindow.Forms.Cashier
             this.b7.Size = new System.Drawing.Size(65, 60);
             this.b7.TabIndex = 39;
             this.b7.Text = "7";
-            this.b7.ThemeName = "Material";
+            this.b7.ThemeName = "MaterialPink";
             this.b7.Click += new System.EventHandler(this.b7_Click);
             // 
             // b6
@@ -357,7 +358,7 @@ namespace XiJinHuiWindow.Forms.Cashier
             this.b6.Size = new System.Drawing.Size(65, 60);
             this.b6.TabIndex = 38;
             this.b6.Text = "6";
-            this.b6.ThemeName = "Material";
+            this.b6.ThemeName = "MaterialPink";
             this.b6.Click += new System.EventHandler(this.b6_Click);
             // 
             // b5
@@ -370,7 +371,7 @@ namespace XiJinHuiWindow.Forms.Cashier
             this.b5.Size = new System.Drawing.Size(65, 60);
             this.b5.TabIndex = 37;
             this.b5.Text = "5";
-            this.b5.ThemeName = "Material";
+            this.b5.ThemeName = "MaterialPink";
             this.b5.Click += new System.EventHandler(this.b5_Click);
             // 
             // b4
@@ -383,7 +384,7 @@ namespace XiJinHuiWindow.Forms.Cashier
             this.b4.Size = new System.Drawing.Size(65, 60);
             this.b4.TabIndex = 36;
             this.b4.Text = "4";
-            this.b4.ThemeName = "Material";
+            this.b4.ThemeName = "MaterialPink";
             this.b4.Click += new System.EventHandler(this.b4_Click);
             // 
             // b3
@@ -396,7 +397,7 @@ namespace XiJinHuiWindow.Forms.Cashier
             this.b3.Size = new System.Drawing.Size(65, 60);
             this.b3.TabIndex = 35;
             this.b3.Text = "3";
-            this.b3.ThemeName = "Material";
+            this.b3.ThemeName = "MaterialPink";
             this.b3.Click += new System.EventHandler(this.b3_Click);
             // 
             // b2
@@ -409,7 +410,7 @@ namespace XiJinHuiWindow.Forms.Cashier
             this.b2.Size = new System.Drawing.Size(65, 60);
             this.b2.TabIndex = 34;
             this.b2.Text = "2";
-            this.b2.ThemeName = "Material";
+            this.b2.ThemeName = "MaterialPink";
             this.b2.Click += new System.EventHandler(this.b2_Click);
             // 
             // b1
@@ -422,7 +423,7 @@ namespace XiJinHuiWindow.Forms.Cashier
             this.b1.Size = new System.Drawing.Size(65, 60);
             this.b1.TabIndex = 33;
             this.b1.Text = "1";
-            this.b1.ThemeName = "Material";
+            this.b1.ThemeName = "MaterialPink";
             this.b1.Click += new System.EventHandler(this.b1_Click);
             // 
             // bc
@@ -435,7 +436,7 @@ namespace XiJinHuiWindow.Forms.Cashier
             this.bc.Size = new System.Drawing.Size(65, 60);
             this.bc.TabIndex = 44;
             this.bc.Text = "C";
-            this.bc.ThemeName = "Material";
+            this.bc.ThemeName = "MaterialPink";
             this.bc.Click += new System.EventHandler(this.bc_Click);
             // 
             // bdot
@@ -448,7 +449,7 @@ namespace XiJinHuiWindow.Forms.Cashier
             this.bdot.Size = new System.Drawing.Size(65, 60);
             this.bdot.TabIndex = 43;
             this.bdot.Text = ".";
-            this.bdot.ThemeName = "Material";
+            this.bdot.ThemeName = "MaterialPink";
             this.bdot.Click += new System.EventHandler(this.bdot_Click);
             // 
             // b0
@@ -461,7 +462,7 @@ namespace XiJinHuiWindow.Forms.Cashier
             this.b0.Size = new System.Drawing.Size(65, 60);
             this.b0.TabIndex = 42;
             this.b0.Text = "0";
-            this.b0.ThemeName = "Material";
+            this.b0.ThemeName = "MaterialPink";
             this.b0.Click += new System.EventHandler(this.b0_Click);
             // 
             // lblKg
@@ -533,10 +534,11 @@ namespace XiJinHuiWindow.Forms.Cashier
             this.Controls.Add(this.btn3);
             this.Controls.Add(this.btn2);
             this.Controls.Add(this.btn1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "QuantityForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quantity";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.frmAdjust_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnBackSpace)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn0)).EndInit();

@@ -33,7 +33,7 @@
             Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn3 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
             Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn4 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
             Telerik.WinControls.UI.TableViewDefinition tableViewDefinition1 = new Telerik.WinControls.UI.TableViewDefinition();
-            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialTheme();
+            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialPinkTheme();
             this.radPanel1 = new Telerik.WinControls.UI.RadPanel();
             this.btnCancel = new FontAwesome.Sharp.IconButton();
             this.btnClear = new FontAwesome.Sharp.IconButton();
@@ -88,7 +88,7 @@
             this.radPanel1.Name = "radPanel1";
             this.radPanel1.Size = new System.Drawing.Size(843, 198);
             this.radPanel1.TabIndex = 4;
-            this.radPanel1.ThemeName = "Material";
+            this.radPanel1.ThemeName = "MaterialPink";
             // 
             // btnCancel
             // 
@@ -157,7 +157,7 @@
             this.txtUnitCapacity.Name = "txtUnitCapacity";
             this.txtUnitCapacity.Size = new System.Drawing.Size(229, 38);
             this.txtUnitCapacity.TabIndex = 4;
-            this.txtUnitCapacity.ThemeName = "Material";
+            this.txtUnitCapacity.ThemeName = "MaterialPink";
             // 
             // lblUnitCapacity
             // 
@@ -167,7 +167,7 @@
             this.lblUnitCapacity.Size = new System.Drawing.Size(100, 26);
             this.lblUnitCapacity.TabIndex = 25;
             this.lblUnitCapacity.Text = "UnitCapacity";
-            this.lblUnitCapacity.ThemeName = "Material";
+            this.lblUnitCapacity.ThemeName = "MaterialPink";
             // 
             // txtUnpackage
             // 
@@ -176,7 +176,7 @@
             this.txtUnpackage.Name = "txtUnpackage";
             this.txtUnpackage.Size = new System.Drawing.Size(229, 38);
             this.txtUnpackage.TabIndex = 3;
-            this.txtUnpackage.ThemeName = "Material";
+            this.txtUnpackage.ThemeName = "MaterialPink";
             // 
             // lblUnpackage
             // 
@@ -186,7 +186,7 @@
             this.lblUnpackage.Size = new System.Drawing.Size(90, 26);
             this.lblUnpackage.TabIndex = 25;
             this.lblUnpackage.Text = "Unpackage";
-            this.lblUnpackage.ThemeName = "Material";
+            this.lblUnpackage.ThemeName = "MaterialPink";
             // 
             // txtKhmer
             // 
@@ -195,7 +195,7 @@
             this.txtKhmer.Name = "txtKhmer";
             this.txtKhmer.Size = new System.Drawing.Size(229, 38);
             this.txtKhmer.TabIndex = 2;
-            this.txtKhmer.ThemeName = "Material";
+            this.txtKhmer.ThemeName = "MaterialPink";
             this.txtKhmer.Enter += new System.EventHandler(this.txtKhmer_Enter);
             this.txtKhmer.Leave += new System.EventHandler(this.txtKhmer_Leave);
             // 
@@ -207,7 +207,7 @@
             this.lblKhmer.Size = new System.Drawing.Size(56, 26);
             this.lblKhmer.TabIndex = 25;
             this.lblKhmer.Text = "Khmer";
-            this.lblKhmer.ThemeName = "Material";
+            this.lblKhmer.ThemeName = "MaterialPink";
             // 
             // txtChinese
             // 
@@ -216,7 +216,7 @@
             this.txtChinese.Name = "txtChinese";
             this.txtChinese.Size = new System.Drawing.Size(229, 45);
             this.txtChinese.TabIndex = 1;
-            this.txtChinese.ThemeName = "Material";
+            this.txtChinese.ThemeName = "MaterialPink";
             this.txtChinese.Enter += new System.EventHandler(this.txtChinese_Enter);
             this.txtChinese.Leave += new System.EventHandler(this.txtChinese_Leave);
             // 
@@ -228,7 +228,7 @@
             this.lblChinese.Size = new System.Drawing.Size(68, 26);
             this.lblChinese.TabIndex = 23;
             this.lblChinese.Text = "Chinese";
-            this.lblChinese.ThemeName = "Material";
+            this.lblChinese.ThemeName = "MaterialPink";
             // 
             // txtEnglish
             // 
@@ -237,7 +237,7 @@
             this.txtEnglish.Name = "txtEnglish";
             this.txtEnglish.Size = new System.Drawing.Size(229, 41);
             this.txtEnglish.TabIndex = 0;
-            this.txtEnglish.ThemeName = "Material";
+            this.txtEnglish.ThemeName = "MaterialPink";
             // 
             // lblEnglish
             // 
@@ -247,7 +247,7 @@
             this.lblEnglish.Size = new System.Drawing.Size(61, 26);
             this.lblEnglish.TabIndex = 21;
             this.lblEnglish.Text = "English";
-            this.lblEnglish.ThemeName = "Material";
+            this.lblEnglish.ThemeName = "MaterialPink";
             // 
             // dgView
             // 
@@ -298,7 +298,7 @@
             this.dgView.Name = "dgView";
             this.dgView.Size = new System.Drawing.Size(843, 413);
             this.dgView.TabIndex = 5;
-            this.dgView.ThemeName = "Material";
+            this.dgView.ThemeName = "MaterialPink";
             this.dgView.CellDoubleClick += new Telerik.WinControls.UI.GridViewCellEventHandler(this.dgView_CellDoubleClick);
             // 
             // IngredientsForm
@@ -312,7 +312,7 @@
             this.Name = "IngredientsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ingredients";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.FormIngredient_Load);
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).EndInit();
             this.radPanel1.ResumeLayout(false);
@@ -335,7 +335,7 @@
         }
 
         #endregion
-        private Telerik.WinControls.Themes.MaterialTheme materialTheme1;
+        private Telerik.WinControls.Themes.MaterialPinkTheme materialTheme1;
         private Telerik.WinControls.UI.RadPanel radPanel1;
         private Telerik.WinControls.UI.RadTextBox txtKhmer;
         private Telerik.WinControls.UI.RadLabel lblKhmer;

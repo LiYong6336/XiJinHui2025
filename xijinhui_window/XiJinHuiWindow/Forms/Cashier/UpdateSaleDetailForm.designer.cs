@@ -110,7 +110,7 @@
             resources.ApplyResources(this.btnDis_25, "btnDis_25");
             this.btnDis_25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(88)))), ((int)(((byte)(12)))));
             this.btnDis_25.Name = "btnDis_25";
-            this.btnDis_25.ThemeName = "Material";
+            this.btnDis_25.ThemeName = "MaterialPink";
             this.btnDis_25.Click += new System.EventHandler(this.btnDis_Click);
             // 
             // btnDis_22
@@ -119,7 +119,7 @@
             resources.ApplyResources(this.btnDis_22, "btnDis_22");
             this.btnDis_22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(88)))), ((int)(((byte)(12)))));
             this.btnDis_22.Name = "btnDis_22";
-            this.btnDis_22.ThemeName = "Material";
+            this.btnDis_22.ThemeName = "MaterialPink";
             this.btnDis_22.Click += new System.EventHandler(this.btnDis_Click);
             // 
             // btnOk
@@ -128,7 +128,7 @@
             resources.ApplyResources(this.btnOk, "btnOk");
             this.btnOk.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(88)))), ((int)(((byte)(12)))));
             this.btnOk.Name = "btnOk";
-            this.btnOk.ThemeName = "Material";
+            this.btnOk.ThemeName = "MaterialPink";
             this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
             // txtQty
@@ -137,7 +137,7 @@
             this.txtQty.ForeColor = System.Drawing.Color.Black;
             this.txtQty.Name = "txtQty";
             this.txtQty.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtQty.ThemeName = "Material";
+            this.txtQty.ThemeName = "MaterialPink";
             this.txtQty.Enter += new System.EventHandler(this.txtQty_Enter);
             this.txtQty.Leave += new System.EventHandler(this.txtQty_Leave);
             // 
@@ -146,7 +146,7 @@
             resources.ApplyResources(this.lblQty, "lblQty");
             this.lblQty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(88)))), ((int)(((byte)(12)))));
             this.lblQty.Name = "lblQty";
-            this.lblQty.ThemeName = "Material";
+            this.lblQty.ThemeName = "MaterialPink";
             // 
             // txtPrice
             // 
@@ -154,14 +154,14 @@
             resources.ApplyResources(this.txtPrice, "txtPrice");
             this.txtPrice.Name = "txtPrice";
             this.txtPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtPrice.ThemeName = "Material";
+            this.txtPrice.ThemeName = "MaterialPink";
             // 
             // lblPrice
             // 
             this.lblPrice.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(88)))), ((int)(((byte)(12)))));
             resources.ApplyResources(this.lblPrice, "lblPrice");
             this.lblPrice.Name = "lblPrice";
-            this.lblPrice.ThemeName = "Material";
+            this.lblPrice.ThemeName = "MaterialPink";
             // 
             // txtDiscount
             // 
@@ -169,14 +169,14 @@
             this.txtDiscount.ForeColor = System.Drawing.Color.Black;
             this.txtDiscount.Name = "txtDiscount";
             this.txtDiscount.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtDiscount.ThemeName = "Material";
+            this.txtDiscount.ThemeName = "MaterialPink";
             // 
             // lblDiscount
             // 
             resources.ApplyResources(this.lblDiscount, "lblDiscount");
             this.lblDiscount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(88)))), ((int)(((byte)(12)))));
             this.lblDiscount.Name = "lblDiscount";
-            this.lblDiscount.ThemeName = "Material";
+            this.lblDiscount.ThemeName = "MaterialPink";
             // 
             // btnEnter
             // 
@@ -184,7 +184,7 @@
             resources.ApplyResources(this.btnEnter, "btnEnter");
             this.btnEnter.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(88)))), ((int)(((byte)(12)))));
             this.btnEnter.Name = "btnEnter";
-            this.btnEnter.ThemeName = "Material";
+            this.btnEnter.ThemeName = "MaterialPink";
             this.btnEnter.Click += new System.EventHandler(this.btnEnter_Click);
             // 
             // btnDis_100
@@ -193,7 +193,7 @@
             resources.ApplyResources(this.btnDis_100, "btnDis_100");
             this.btnDis_100.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(88)))), ((int)(((byte)(12)))));
             this.btnDis_100.Name = "btnDis_100";
-            this.btnDis_100.ThemeName = "Material";
+            this.btnDis_100.ThemeName = "MaterialPink";
             this.btnDis_100.Click += new System.EventHandler(this.btnDis_Click);
             // 
             // btnDis_90
@@ -202,7 +202,7 @@
             resources.ApplyResources(this.btnDis_90, "btnDis_90");
             this.btnDis_90.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(88)))), ((int)(((byte)(12)))));
             this.btnDis_90.Name = "btnDis_90";
-            this.btnDis_90.ThemeName = "Material";
+            this.btnDis_90.ThemeName = "MaterialPink";
             this.btnDis_90.Click += new System.EventHandler(this.btnDis_Click);
             // 
             // btnDis_80
@@ -211,7 +211,7 @@
             resources.ApplyResources(this.btnDis_80, "btnDis_80");
             this.btnDis_80.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(88)))), ((int)(((byte)(12)))));
             this.btnDis_80.Name = "btnDis_80";
-            this.btnDis_80.ThemeName = "Material";
+            this.btnDis_80.ThemeName = "MaterialPink";
             this.btnDis_80.Click += new System.EventHandler(this.btnDis_Click);
             // 
             // btnDis_70
@@ -220,7 +220,7 @@
             resources.ApplyResources(this.btnDis_70, "btnDis_70");
             this.btnDis_70.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(88)))), ((int)(((byte)(12)))));
             this.btnDis_70.Name = "btnDis_70";
-            this.btnDis_70.ThemeName = "Material";
+            this.btnDis_70.ThemeName = "MaterialPink";
             this.btnDis_70.Click += new System.EventHandler(this.btnDis_Click);
             // 
             // btnDis_60
@@ -229,7 +229,7 @@
             resources.ApplyResources(this.btnDis_60, "btnDis_60");
             this.btnDis_60.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(88)))), ((int)(((byte)(12)))));
             this.btnDis_60.Name = "btnDis_60";
-            this.btnDis_60.ThemeName = "Material";
+            this.btnDis_60.ThemeName = "MaterialPink";
             this.btnDis_60.Click += new System.EventHandler(this.btnDis_Click);
             // 
             // btnDis_50
@@ -238,7 +238,7 @@
             resources.ApplyResources(this.btnDis_50, "btnDis_50");
             this.btnDis_50.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(88)))), ((int)(((byte)(12)))));
             this.btnDis_50.Name = "btnDis_50";
-            this.btnDis_50.ThemeName = "Material";
+            this.btnDis_50.ThemeName = "MaterialPink";
             this.btnDis_50.Click += new System.EventHandler(this.btnDis_Click);
             // 
             // btnDis_40
@@ -247,7 +247,7 @@
             resources.ApplyResources(this.btnDis_40, "btnDis_40");
             this.btnDis_40.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(88)))), ((int)(((byte)(12)))));
             this.btnDis_40.Name = "btnDis_40";
-            this.btnDis_40.ThemeName = "Material";
+            this.btnDis_40.ThemeName = "MaterialPink";
             this.btnDis_40.Click += new System.EventHandler(this.btnDis_Click);
             // 
             // btnDis_30
@@ -256,7 +256,7 @@
             resources.ApplyResources(this.btnDis_30, "btnDis_30");
             this.btnDis_30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(88)))), ((int)(((byte)(12)))));
             this.btnDis_30.Name = "btnDis_30";
-            this.btnDis_30.ThemeName = "Material";
+            this.btnDis_30.ThemeName = "MaterialPink";
             this.btnDis_30.Click += new System.EventHandler(this.btnDis_Click);
             // 
             // btnDis_20
@@ -265,7 +265,7 @@
             resources.ApplyResources(this.btnDis_20, "btnDis_20");
             this.btnDis_20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(88)))), ((int)(((byte)(12)))));
             this.btnDis_20.Name = "btnDis_20";
-            this.btnDis_20.ThemeName = "Material";
+            this.btnDis_20.ThemeName = "MaterialPink";
             this.btnDis_20.Click += new System.EventHandler(this.btnDis_Click);
             // 
             // btnDis_10
@@ -274,7 +274,7 @@
             resources.ApplyResources(this.btnDis_10, "btnDis_10");
             this.btnDis_10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(88)))), ((int)(((byte)(12)))));
             this.btnDis_10.Name = "btnDis_10";
-            this.btnDis_10.ThemeName = "Material";
+            this.btnDis_10.ThemeName = "MaterialPink";
             this.btnDis_10.Click += new System.EventHandler(this.btnDis_Click);
             // 
             // btnDis_5
@@ -283,7 +283,7 @@
             resources.ApplyResources(this.btnDis_5, "btnDis_5");
             this.btnDis_5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(88)))), ((int)(((byte)(12)))));
             this.btnDis_5.Name = "btnDis_5";
-            this.btnDis_5.ThemeName = "Material";
+            this.btnDis_5.ThemeName = "MaterialPink";
             this.btnDis_5.Click += new System.EventHandler(this.btnDis_Click);
             // 
             // btnDis_0
@@ -292,7 +292,7 @@
             resources.ApplyResources(this.btnDis_0, "btnDis_0");
             this.btnDis_0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(88)))), ((int)(((byte)(12)))));
             this.btnDis_0.Name = "btnDis_0";
-            this.btnDis_0.ThemeName = "Material";
+            this.btnDis_0.ThemeName = "MaterialPink";
             this.btnDis_0.Click += new System.EventHandler(this.btnDis_Click);
             // 
             // lblRemark
@@ -300,7 +300,7 @@
             this.lblRemark.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(88)))), ((int)(((byte)(12)))));
             resources.ApplyResources(this.lblRemark, "lblRemark");
             this.lblRemark.Name = "lblRemark";
-            this.lblRemark.ThemeName = "Material";
+            this.lblRemark.ThemeName = "MaterialPink";
             // 
             // txtRemark
             // 
@@ -314,7 +314,7 @@
             // 
             // 
             this.txtRemark.RootElement.StretchVertically = true;
-            this.txtRemark.ThemeName = "Material";
+            this.txtRemark.ThemeName = "MaterialPink";
             // 
             // UpdateSaleDetailForm
             // 
@@ -351,7 +351,7 @@
             this.MinimizeBox = false;
             this.Name = "UpdateSaleDetailForm";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.UpdateSaleDetailForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnDis_25)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnDis_22)).EndInit();

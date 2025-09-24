@@ -34,7 +34,8 @@
             Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn4 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
             Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn5 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
             Telerik.WinControls.UI.TableViewDefinition tableViewDefinition1 = new Telerik.WinControls.UI.TableViewDefinition();
-            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialTheme();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ExchangeRatesForm));
+            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialPinkTheme();
             this.radPanel1 = new Telerik.WinControls.UI.RadPanel();
             this.btnCancel = new FontAwesome.Sharp.IconButton();
             this.btnClear = new FontAwesome.Sharp.IconButton();
@@ -89,7 +90,7 @@
             this.radPanel1.Name = "radPanel1";
             this.radPanel1.Size = new System.Drawing.Size(843, 188);
             this.radPanel1.TabIndex = 4;
-            this.radPanel1.ThemeName = "Material";
+            this.radPanel1.ThemeName = "MaterialPink";
             // 
             // btnCancel
             // 
@@ -162,7 +163,7 @@
             this.dtpDate.TabIndex = 1;
             this.dtpDate.TabStop = false;
             this.dtpDate.Text = "2024-08-05";
-            this.dtpDate.ThemeName = "Material";
+            this.dtpDate.ThemeName = "MaterialPink";
             this.dtpDate.Value = new System.DateTime(2024, 8, 5, 0, 0, 0, 0);
             // 
             // txtNssf
@@ -172,7 +173,7 @@
             this.txtNssf.Name = "txtNssf";
             this.txtNssf.Size = new System.Drawing.Size(218, 41);
             this.txtNssf.TabIndex = 5;
-            this.txtNssf.ThemeName = "Material";
+            this.txtNssf.ThemeName = "MaterialPink";
             // 
             // lblNssf
             // 
@@ -182,7 +183,7 @@
             this.lblNssf.Size = new System.Drawing.Size(41, 26);
             this.lblNssf.TabIndex = 27;
             this.lblNssf.Text = "Nssf";
-            this.lblNssf.ThemeName = "Material";
+            this.lblNssf.ThemeName = "MaterialPink";
             // 
             // txtTax
             // 
@@ -191,7 +192,7 @@
             this.txtTax.Name = "txtTax";
             this.txtTax.Size = new System.Drawing.Size(218, 38);
             this.txtTax.TabIndex = 4;
-            this.txtTax.ThemeName = "Material";
+            this.txtTax.ThemeName = "MaterialPink";
             // 
             // lblTax
             // 
@@ -201,7 +202,7 @@
             this.lblTax.Size = new System.Drawing.Size(36, 26);
             this.lblTax.TabIndex = 25;
             this.lblTax.Text = "Tax";
-            this.lblTax.ThemeName = "Material";
+            this.lblTax.ThemeName = "MaterialPink";
             // 
             // txtRateReturn
             // 
@@ -210,7 +211,7 @@
             this.txtRateReturn.Name = "txtRateReturn";
             this.txtRateReturn.Size = new System.Drawing.Size(218, 41);
             this.txtRateReturn.TabIndex = 3;
-            this.txtRateReturn.ThemeName = "Material";
+            this.txtRateReturn.ThemeName = "MaterialPink";
             // 
             // lblRateReturn
             // 
@@ -220,7 +221,7 @@
             this.lblRateReturn.Size = new System.Drawing.Size(109, 26);
             this.lblRateReturn.TabIndex = 21;
             this.lblRateReturn.Text = "RateReturned";
-            this.lblRateReturn.ThemeName = "Material";
+            this.lblRateReturn.ThemeName = "MaterialPink";
             // 
             // txtRate
             // 
@@ -229,7 +230,7 @@
             this.txtRate.Name = "txtRate";
             this.txtRate.Size = new System.Drawing.Size(218, 41);
             this.txtRate.TabIndex = 2;
-            this.txtRate.ThemeName = "Material";
+            this.txtRate.ThemeName = "MaterialPink";
             // 
             // lblRate
             // 
@@ -239,7 +240,7 @@
             this.lblRate.Size = new System.Drawing.Size(43, 26);
             this.lblRate.TabIndex = 21;
             this.lblRate.Text = "Rate";
-            this.lblRate.ThemeName = "Material";
+            this.lblRate.ThemeName = "MaterialPink";
             // 
             // lblDate
             // 
@@ -249,7 +250,7 @@
             this.lblDate.Size = new System.Drawing.Size(43, 26);
             this.lblDate.TabIndex = 19;
             this.lblDate.Text = "Date";
-            this.lblDate.ThemeName = "Material";
+            this.lblDate.ThemeName = "MaterialPink";
             // 
             // dgView
             // 
@@ -304,7 +305,7 @@
             this.dgView.Name = "dgView";
             this.dgView.Size = new System.Drawing.Size(843, 423);
             this.dgView.TabIndex = 5;
-            this.dgView.ThemeName = "Material";
+            this.dgView.ThemeName = "MaterialPink";
             this.dgView.CellDoubleClick += new Telerik.WinControls.UI.GridViewCellEventHandler(this.dgView_CellDoubleClick);
             // 
             // ExchangeRatesForm
@@ -315,10 +316,11 @@
             this.Controls.Add(this.dgView);
             this.Controls.Add(this.radPanel1);
             this.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ExchangeRatesForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Exchange Rates";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.frmExchangeRate_Load);
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).EndInit();
             this.radPanel1.ResumeLayout(false);
@@ -341,7 +343,7 @@
         }
 
         #endregion
-        private Telerik.WinControls.Themes.MaterialTheme materialTheme1;
+        private Telerik.WinControls.Themes.MaterialPinkTheme materialTheme1;
         private Telerik.WinControls.UI.RadPanel radPanel1;
         private Telerik.WinControls.UI.RadTextBox txtNssf;
         private Telerik.WinControls.UI.RadLabel lblNssf;

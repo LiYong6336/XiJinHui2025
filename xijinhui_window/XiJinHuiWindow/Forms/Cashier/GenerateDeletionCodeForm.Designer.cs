@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GenerateDeletionCodeForm));
             this.txtGeneratedCode = new Telerik.WinControls.UI.RadTextBox();
             this.txtVerifyCode = new Telerik.WinControls.UI.RadTextBox();
             this.btnGenerateCode = new FontAwesome.Sharp.IconButton();
@@ -49,7 +50,7 @@
             this.txtGeneratedCode.Name = "txtGeneratedCode";
             this.txtGeneratedCode.Size = new System.Drawing.Size(181, 36);
             this.txtGeneratedCode.TabIndex = 0;
-            this.txtGeneratedCode.ThemeName = "Material";
+            this.txtGeneratedCode.ThemeName = "MaterialPink";
             // 
             // txtVerifyCode
             // 
@@ -57,7 +58,7 @@
             this.txtVerifyCode.Name = "txtVerifyCode";
             this.txtVerifyCode.Size = new System.Drawing.Size(218, 36);
             this.txtVerifyCode.TabIndex = 0;
-            this.txtVerifyCode.ThemeName = "Material";
+            this.txtVerifyCode.ThemeName = "MaterialPink";
             // 
             // btnGenerateCode
             // 
@@ -126,12 +127,13 @@
             this.Controls.Add(this.btnGenerateCode);
             this.Controls.Add(this.txtVerifyCode);
             this.Controls.Add(this.txtGeneratedCode);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "GenerateDeletionCodeForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Generate Deletion Code";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.InvoiceSettingForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.txtGeneratedCode)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtVerifyCode)).EndInit();

@@ -77,7 +77,7 @@
             this.radPanel1.Name = "radPanel1";
             this.radPanel1.Size = new System.Drawing.Size(1004, 67);
             this.radPanel1.TabIndex = 2;
-            this.radPanel1.ThemeName = "Material";
+            this.radPanel1.ThemeName = "MaterialPink";
             // 
             // iconButton1
             // 
@@ -99,7 +99,7 @@
             this.txtSearch.NullText = "Search...";
             this.txtSearch.Size = new System.Drawing.Size(193, 36);
             this.txtSearch.TabIndex = 53;
-            this.txtSearch.ThemeName = "Material";
+            this.txtSearch.ThemeName = "MaterialPink";
             // 
             // btnIngredients
             // 
@@ -251,7 +251,7 @@
             this.gridItems.ReadOnly = true;
             this.gridItems.Size = new System.Drawing.Size(1004, 471);
             this.gridItems.TabIndex = 0;
-            this.gridItems.ThemeName = "Material";
+            this.gridItems.ThemeName = "MaterialPink";
             this.gridItems.CellClick += new Telerik.WinControls.UI.GridViewCellEventHandler(this.gridItems_CellClick);
             this.gridItems.CellDoubleClick += new Telerik.WinControls.UI.GridViewCellEventHandler(this.gridItems_CellDoubleClick);
             // 
@@ -263,7 +263,7 @@
             this.radPanel2.Name = "radPanel2";
             this.radPanel2.Size = new System.Drawing.Size(1004, 471);
             this.radPanel2.TabIndex = 3;
-            this.radPanel2.ThemeName = "Material";
+            this.radPanel2.ThemeName = "MaterialPink";
             // 
             // FoodDishesForm
             // 
@@ -278,7 +278,7 @@
             this.Name = "FoodDishesForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Food Dish";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.MainForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).EndInit();
             this.radPanel1.ResumeLayout(false);

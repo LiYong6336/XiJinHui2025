@@ -88,7 +88,7 @@ namespace XiJinHuiWindow.Forms.Cashier
                 button.BackColor = filteredBusyTablesCount > 1 ? Color.Purple : busyTablesId.Contains(df.Id) ? Color.DarkRed : Color.LightBlue;
                 button.ForeColor = busyTablesId.Contains(df.Id) ? Color.White : Color.Black;
                 button.Font = PublicVariable.fontStyleByLanguage();
-                button.ThemeName = "Material";
+                button.ThemeName = "MaterialPink";
                 button.Tag = df;
 
                 if (currentX + buttonWidth + padding > formWidth)
@@ -158,7 +158,7 @@ namespace XiJinHuiWindow.Forms.Cashier
                 button.Width = buttonWidth;
                 button.Height = buttonHeight;
                 button.Font = PublicVariable.fontStyleByLanguage();
-                button.ThemeName = "Material";
+                button.ThemeName = "MaterialPink";
                 button.Tag = df;
                 button.Click += new EventHandler(BtnDiningFloor_Click);
 

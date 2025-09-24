@@ -31,6 +31,7 @@
             Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn1 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
             Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn2 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
             Telerik.WinControls.UI.TableViewDefinition tableViewDefinition1 = new Telerik.WinControls.UI.TableViewDefinition();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ChooseFoodDishDetailForm));
             this.radPanel1 = new Telerik.WinControls.UI.RadPanel();
             this.gdDishDetails = new Telerik.WinControls.UI.RadGridView();
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).BeginInit();
@@ -81,7 +82,7 @@
             this.gdDishDetails.ReadOnly = true;
             this.gdDishDetails.Size = new System.Drawing.Size(651, 473);
             this.gdDishDetails.TabIndex = 15;
-            this.gdDishDetails.ThemeName = "Material";
+            this.gdDishDetails.ThemeName = "MaterialPink";
             this.gdDishDetails.CellDoubleClick += new Telerik.WinControls.UI.GridViewCellEventHandler(this.gdDishDetails_CellDoubleClick);
             // 
             // ChooseFoodDishDetailForm
@@ -93,13 +94,14 @@
             this.ClientSize = new System.Drawing.Size(651, 473);
             this.Controls.Add(this.radPanel1);
             this.Font = new System.Drawing.Font("Khmer OS Battambang", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "ChooseFoodDishDetailForm";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Choose Detail";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.ChooseFoodDishDetailForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).EndInit();
             this.radPanel1.ResumeLayout(false);

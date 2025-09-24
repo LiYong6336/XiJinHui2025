@@ -7,6 +7,7 @@ using System.Text.Json;
 using System.Windows.Forms;
 using XiJinHuiWindow.Models;
 using XiJinHuiWindow.Forms.Cashier;
+using Telerik.WinControls;
 
 namespace XiJinHuiWindow
 {
@@ -22,6 +23,9 @@ namespace XiJinHuiWindow
         Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             // Application.Run(new MainForm());
+
+            ThemeResolutionService.ApplicationThemeName = "MaterialPink";
+
 
             // Initialize HttpClientHelper with the base URL
             //HttpClientHelper.Initialize(Constants.ApiUrl);

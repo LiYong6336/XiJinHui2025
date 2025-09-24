@@ -64,7 +64,7 @@ namespace XiJinHuiWindow
             this.MenuMain.Size = new System.Drawing.Size(899, 37);
             this.MenuMain.TabIndex = 1;
             this.MenuMain.Font = PublicVariable.fontStyleByLanguage();
-            this.MenuMain.ThemeName = "Material";
+            this.MenuMain.ThemeName = "MaterialPink";
 
             // 
             // radMenuItem

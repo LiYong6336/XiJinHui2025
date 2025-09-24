@@ -32,7 +32,7 @@
             this.pnlTop = new Telerik.WinControls.UI.RadPanel();
             this.pnlFoot = new Telerik.WinControls.UI.RadPanel();
             this.pnlContent = new Telerik.WinControls.UI.RadPanel();
-            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialTheme();
+            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialPinkTheme();
             ((System.ComponentModel.ISupportInitialize)(this.pnlTop)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pnlFoot)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pnlContent)).BeginInit();
@@ -46,7 +46,7 @@
             this.pnlTop.Name = "pnlTop";
             this.pnlTop.Size = new System.Drawing.Size(1022, 76);
             this.pnlTop.TabIndex = 0;
-            this.pnlTop.ThemeName = "Material";
+            this.pnlTop.ThemeName = "MaterialPink";
             this.pnlTop.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlTop_Paint);
             // 
             // pnlFoot
@@ -56,7 +56,7 @@
             this.pnlFoot.Name = "pnlFoot";
             this.pnlFoot.Size = new System.Drawing.Size(1022, 100);
             this.pnlFoot.TabIndex = 1;
-            this.pnlFoot.ThemeName = "Material";
+            this.pnlFoot.ThemeName = "MaterialPink";
             // 
             // pnlContent
             // 
@@ -65,7 +65,7 @@
             this.pnlContent.Name = "pnlContent";
             this.pnlContent.Size = new System.Drawing.Size(1022, 555);
             this.pnlContent.TabIndex = 2;
-            this.pnlContent.ThemeName = "Material";
+            this.pnlContent.ThemeName = "MaterialPink";
             // 
             // ChangeTableForm
             // 
@@ -79,7 +79,7 @@
             this.Name = "ChangeTableForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Change Table";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.TableForm1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pnlTop)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pnlFoot)).EndInit();
@@ -94,6 +94,6 @@
         private Telerik.WinControls.UI.RadPanel pnlTop;
         private Telerik.WinControls.UI.RadPanel pnlFoot;
         private Telerik.WinControls.UI.RadPanel pnlContent;
-        private Telerik.WinControls.Themes.MaterialTheme materialTheme1;
+        private Telerik.WinControls.Themes.MaterialPinkTheme materialTheme1;
     }
 }

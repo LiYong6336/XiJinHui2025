@@ -94,7 +94,7 @@
             this.radPanel1.Name = "radPanel1";
             this.radPanel1.Size = new System.Drawing.Size(841, 187);
             this.radPanel1.TabIndex = 4;
-            this.radPanel1.ThemeName = "Material";
+            this.radPanel1.ThemeName = "MaterialPink";
             // 
             // dtExpDate
             // 
@@ -107,7 +107,7 @@
             this.dtExpDate.TabIndex = 44;
             this.dtExpDate.TabStop = false;
             this.dtExpDate.Text = "2024-12-11";
-            this.dtExpDate.ThemeName = "Material";
+            this.dtExpDate.ThemeName = "MaterialPink";
             this.dtExpDate.Value = new System.DateTime(2024, 12, 11, 10, 25, 2, 633);
             // 
             // lblExpDate
@@ -118,7 +118,7 @@
             this.lblExpDate.Size = new System.Drawing.Size(70, 26);
             this.lblExpDate.TabIndex = 43;
             this.lblExpDate.Text = "ExpDate";
-            this.lblExpDate.ThemeName = "Material";
+            this.lblExpDate.ThemeName = "MaterialPink";
             // 
             // dtMfpDate
             // 
@@ -131,7 +131,7 @@
             this.dtMfpDate.TabIndex = 44;
             this.dtMfpDate.TabStop = false;
             this.dtMfpDate.Text = "2024-12-11";
-            this.dtMfpDate.ThemeName = "Material";
+            this.dtMfpDate.ThemeName = "MaterialPink";
             this.dtMfpDate.Value = new System.DateTime(2024, 12, 11, 10, 25, 2, 633);
             // 
             // lblMfpDate
@@ -142,7 +142,7 @@
             this.lblMfpDate.Size = new System.Drawing.Size(69, 26);
             this.lblMfpDate.TabIndex = 43;
             this.lblMfpDate.Text = "MfpDate";
-            this.lblMfpDate.ThemeName = "Material";
+            this.lblMfpDate.ThemeName = "MaterialPink";
             // 
             // btnCancel
             // 
@@ -167,7 +167,7 @@
             this.ddIngredient.Name = "ddIngredient";
             this.ddIngredient.Size = new System.Drawing.Size(229, 41);
             this.ddIngredient.TabIndex = 1;
-            this.ddIngredient.ThemeName = "Material";
+            this.ddIngredient.ThemeName = "MaterialPink";
             this.ddIngredient.SelectedIndexChanged += new Telerik.WinControls.UI.Data.PositionChangedEventHandler(this.ddIngredient_SelectedIndexChanged);
             // 
             // lblIngredient
@@ -178,7 +178,7 @@
             this.lblIngredient.Size = new System.Drawing.Size(80, 26);
             this.lblIngredient.TabIndex = 34;
             this.lblIngredient.Text = "Ingredient";
-            this.lblIngredient.ThemeName = "Material";
+            this.lblIngredient.ThemeName = "MaterialPink";
             // 
             // btnDelete
             // 
@@ -217,7 +217,7 @@
             this.txtPrice.Name = "txtPrice";
             this.txtPrice.Size = new System.Drawing.Size(229, 45);
             this.txtPrice.TabIndex = 4;
-            this.txtPrice.ThemeName = "Material";
+            this.txtPrice.ThemeName = "MaterialPink";
             this.txtPrice.Enter += new System.EventHandler(this.txtChinese_Enter);
             this.txtPrice.Leave += new System.EventHandler(this.txtChinese_Leave);
             // 
@@ -229,7 +229,7 @@
             this.lblPrice.Size = new System.Drawing.Size(45, 26);
             this.lblPrice.TabIndex = 23;
             this.lblPrice.Text = "Price";
-            this.lblPrice.ThemeName = "Material";
+            this.lblPrice.ThemeName = "MaterialPink";
             // 
             // txtNote
             // 
@@ -238,7 +238,7 @@
             this.txtNote.Name = "txtNote";
             this.txtNote.Size = new System.Drawing.Size(229, 41);
             this.txtNote.TabIndex = 5;
-            this.txtNote.ThemeName = "Material";
+            this.txtNote.ThemeName = "MaterialPink";
             // 
             // lblNote
             // 
@@ -248,7 +248,7 @@
             this.lblNote.Size = new System.Drawing.Size(43, 26);
             this.lblNote.TabIndex = 21;
             this.lblNote.Text = "Note";
-            this.lblNote.ThemeName = "Material";
+            this.lblNote.ThemeName = "MaterialPink";
             // 
             // txtQuantity
             // 
@@ -257,7 +257,7 @@
             this.txtQuantity.Name = "txtQuantity";
             this.txtQuantity.Size = new System.Drawing.Size(229, 41);
             this.txtQuantity.TabIndex = 3;
-            this.txtQuantity.ThemeName = "Material";
+            this.txtQuantity.ThemeName = "MaterialPink";
             // 
             // lblQuantity
             // 
@@ -267,7 +267,7 @@
             this.lblQuantity.Size = new System.Drawing.Size(69, 26);
             this.lblQuantity.TabIndex = 19;
             this.lblQuantity.Text = "Quantity";
-            this.lblQuantity.ThemeName = "Material";
+            this.lblQuantity.ThemeName = "MaterialPink";
             // 
             // dgView
             // 
@@ -332,7 +332,7 @@
             this.dgView.Name = "dgView";
             this.dgView.Size = new System.Drawing.Size(841, 422);
             this.dgView.TabIndex = 5;
-            this.dgView.ThemeName = "Material";
+            this.dgView.ThemeName = "MaterialPink";
             this.dgView.CellDoubleClick += new Telerik.WinControls.UI.GridViewCellEventHandler(this.dgView_CellDoubleClick);
             // 
             // StockItemsForm
@@ -347,7 +347,7 @@
             this.Name = "StockItemsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Stock Items";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.frmCategory_Load);
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).EndInit();
             this.radPanel1.ResumeLayout(false);

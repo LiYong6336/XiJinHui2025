@@ -28,8 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PersonCountForm));
             this.pnlContent = new Telerik.WinControls.UI.RadPanel();
-            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialTheme();
+            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialPinkTheme();
             ((System.ComponentModel.ISupportInitialize)(this.pnlContent)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
@@ -41,7 +42,7 @@
             this.pnlContent.Name = "pnlContent";
             this.pnlContent.Size = new System.Drawing.Size(463, 316);
             this.pnlContent.TabIndex = 2;
-            this.pnlContent.ThemeName = "Material";
+            this.pnlContent.ThemeName = "MaterialPink";
             // 
             // PersonCountForm
             // 
@@ -49,10 +50,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(463, 316);
             this.Controls.Add(this.pnlContent);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PersonCountForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Choose Person Count";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.TableForm1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pnlContent)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
@@ -62,6 +64,6 @@
 
         #endregion
         private Telerik.WinControls.UI.RadPanel pnlContent;
-        private Telerik.WinControls.Themes.MaterialTheme materialTheme1;
+        private Telerik.WinControls.Themes.MaterialPinkTheme materialTheme1;
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ChooseAnimalPartsForm));
             this.lbHead = new Telerik.WinControls.UI.RadCheckedListBox();
             this.lbTail = new Telerik.WinControls.UI.RadCheckedListBox();
             this.lbWhole = new Telerik.WinControls.UI.RadCheckedListBox();
@@ -56,7 +57,7 @@
             this.lbHead.Name = "lbHead";
             this.lbHead.Size = new System.Drawing.Size(275, 439);
             this.lbHead.TabIndex = 0;
-            this.lbHead.ThemeName = "Material";
+            this.lbHead.ThemeName = "MaterialPink";
             this.lbHead.ItemCheckedChanged += new Telerik.WinControls.UI.ListViewItemEventHandler(this.lb_ItemCheckedChanged);
             // 
             // lbTail
@@ -67,7 +68,7 @@
             this.lbTail.Name = "lbTail";
             this.lbTail.Size = new System.Drawing.Size(275, 439);
             this.lbTail.TabIndex = 0;
-            this.lbTail.ThemeName = "Material";
+            this.lbTail.ThemeName = "MaterialPink";
             this.lbTail.ItemCheckedChanged += new Telerik.WinControls.UI.ListViewItemEventHandler(this.lb_ItemCheckedChanged);
             // 
             // lbWhole
@@ -78,7 +79,7 @@
             this.lbWhole.Name = "lbWhole";
             this.lbWhole.Size = new System.Drawing.Size(275, 439);
             this.lbWhole.TabIndex = 0;
-            this.lbWhole.ThemeName = "Material";
+            this.lbWhole.ThemeName = "MaterialPink";
             this.lbWhole.ItemCheckedChanged += new Telerik.WinControls.UI.ListViewItemEventHandler(this.lb_ItemCheckedChanged);
             // 
             // lbMix
@@ -89,7 +90,7 @@
             this.lbMix.Name = "lbMix";
             this.lbMix.Size = new System.Drawing.Size(275, 439);
             this.lbMix.TabIndex = 0;
-            this.lbMix.ThemeName = "Material";
+            this.lbMix.ThemeName = "MaterialPink";
             this.lbMix.ItemCheckedChanged += new Telerik.WinControls.UI.ListViewItemEventHandler(this.lb_ItemCheckedChanged);
             // 
             // lblHead
@@ -99,7 +100,7 @@
             this.lblHead.Size = new System.Drawing.Size(41, 21);
             this.lblHead.TabIndex = 1;
             this.lblHead.Text = "Head";
-            this.lblHead.ThemeName = "Material";
+            this.lblHead.ThemeName = "MaterialPink";
             // 
             // lblTail
             // 
@@ -108,7 +109,7 @@
             this.lblTail.Size = new System.Drawing.Size(31, 21);
             this.lblTail.TabIndex = 1;
             this.lblTail.Text = "Tail";
-            this.lblTail.ThemeName = "Material";
+            this.lblTail.ThemeName = "MaterialPink";
             // 
             // lblWhole
             // 
@@ -117,7 +118,7 @@
             this.lblWhole.Size = new System.Drawing.Size(47, 21);
             this.lblWhole.TabIndex = 1;
             this.lblWhole.Text = "Whole";
-            this.lblWhole.ThemeName = "Material";
+            this.lblWhole.ThemeName = "MaterialPink";
             // 
             // lblMix
             // 
@@ -126,7 +127,7 @@
             this.lblMix.Size = new System.Drawing.Size(31, 21);
             this.lblMix.TabIndex = 1;
             this.lblMix.Text = "Mix";
-            this.lblMix.ThemeName = "Material";
+            this.lblMix.ThemeName = "MaterialPink";
             // 
             // btnSubmit
             // 
@@ -155,12 +156,13 @@
             this.Controls.Add(this.lbWhole);
             this.Controls.Add(this.lbTail);
             this.Controls.Add(this.lbHead);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "ChooseAnimalPartsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Animal Part";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.ChooseAnimalPartsForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.lbHead)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lbTail)).EndInit();

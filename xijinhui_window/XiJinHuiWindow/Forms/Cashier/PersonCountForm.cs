@@ -53,7 +53,7 @@ namespace XiJinHuiWindow.Forms.Cashier
                 button.BackColor = i == selectedPersonCount ? Color.DarkRed : Color.LightBlue;
                 button.ForeColor = i == selectedPersonCount ? Color.White : Color.Black;
                 button.Font = PublicVariable.fontStyleByLanguage();
-                button.ThemeName = "Material";
+                button.ThemeName = "MaterialPink";
 
                 if (currentX + buttonWidth + padding > formWidth)
                 {

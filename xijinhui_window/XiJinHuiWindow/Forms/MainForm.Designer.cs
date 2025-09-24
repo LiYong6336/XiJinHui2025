@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialTheme();
             this.MenuMain = new Telerik.WinControls.UI.RadMenu();
+            this.materialPinkTheme1 = new Telerik.WinControls.Themes.MaterialPinkTheme();
             ((System.ComponentModel.ISupportInitialize)(this.MenuMain)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
@@ -47,7 +47,7 @@
             this.Controls.Add(this.MenuMain);
             this.IsMdiContainer = true;
             this.Name = "MainForm";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormMain_FormClosing);
             this.Load += new System.EventHandler(this.RadForm1_Load);
@@ -59,9 +59,7 @@
         }
 
         #endregion
-
-        private Telerik.WinControls.Themes.MaterialTheme materialTheme1;
         private Telerik.WinControls.UI.RadMenu MenuMain;
-   
+        private Telerik.WinControls.Themes.MaterialPinkTheme materialPinkTheme1;
     }
 }

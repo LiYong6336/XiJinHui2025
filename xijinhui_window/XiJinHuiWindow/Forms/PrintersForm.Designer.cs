@@ -35,7 +35,7 @@
             Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn23 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
             Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn24 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
             Telerik.WinControls.UI.TableViewDefinition tableViewDefinition4 = new Telerik.WinControls.UI.TableViewDefinition();
-            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialTheme();
+            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialPinkTheme();
             this.radPanel1 = new Telerik.WinControls.UI.RadPanel();
             this.ddType = new Telerik.WinControls.UI.RadDropDownList();
             this.txtLocation = new Telerik.WinControls.UI.RadTextBox();
@@ -96,7 +96,7 @@
             this.radPanel1.Name = "radPanel1";
             this.radPanel1.Size = new System.Drawing.Size(843, 197);
             this.radPanel1.TabIndex = 4;
-            this.radPanel1.ThemeName = "Material";
+            this.radPanel1.ThemeName = "MaterialPink";
             // 
             // ddType
             // 
@@ -106,7 +106,7 @@
             this.ddType.Size = new System.Drawing.Size(219, 36);
             this.ddType.TabIndex = 37;
             this.ddType.Text = "SelectType";
-            this.ddType.ThemeName = "Material";
+            this.ddType.ThemeName = "MaterialPink";
             // 
             // txtLocation
             // 
@@ -115,7 +115,7 @@
             this.txtLocation.Name = "txtLocation";
             this.txtLocation.Size = new System.Drawing.Size(219, 41);
             this.txtLocation.TabIndex = 29;
-            this.txtLocation.ThemeName = "Material";
+            this.txtLocation.ThemeName = "MaterialPink";
             // 
             // lblLocation
             // 
@@ -125,7 +125,7 @@
             this.lblLocation.Size = new System.Drawing.Size(70, 26);
             this.lblLocation.TabIndex = 27;
             this.lblLocation.Text = "Location";
-            this.lblLocation.ThemeName = "Material";
+            this.lblLocation.ThemeName = "MaterialPink";
             // 
             // lblType
             // 
@@ -135,7 +135,7 @@
             this.lblType.Size = new System.Drawing.Size(45, 26);
             this.lblType.TabIndex = 27;
             this.lblType.Text = "Type";
-            this.lblType.ThemeName = "Material";
+            this.lblType.ThemeName = "MaterialPink";
             // 
             // txtPort
             // 
@@ -144,7 +144,7 @@
             this.txtPort.Name = "txtPort";
             this.txtPort.Size = new System.Drawing.Size(219, 38);
             this.txtPort.TabIndex = 26;
-            this.txtPort.ThemeName = "Material";
+            this.txtPort.ThemeName = "MaterialPink";
             // 
             // lblPort
             // 
@@ -154,7 +154,7 @@
             this.lblPort.Size = new System.Drawing.Size(38, 26);
             this.lblPort.TabIndex = 25;
             this.lblPort.Text = "Port";
-            this.lblPort.ThemeName = "Material";
+            this.lblPort.ThemeName = "MaterialPink";
             // 
             // txtIp
             // 
@@ -163,7 +163,7 @@
             this.txtIp.Name = "txtIp";
             this.txtIp.Size = new System.Drawing.Size(219, 41);
             this.txtIp.TabIndex = 22;
-            this.txtIp.ThemeName = "Material";
+            this.txtIp.ThemeName = "MaterialPink";
             // 
             // lblIp
             // 
@@ -173,7 +173,7 @@
             this.lblIp.Size = new System.Drawing.Size(22, 26);
             this.lblIp.TabIndex = 21;
             this.lblIp.Text = "Ip";
-            this.lblIp.ThemeName = "Material";
+            this.lblIp.ThemeName = "MaterialPink";
             // 
             // txtBrand
             // 
@@ -182,7 +182,7 @@
             this.txtBrand.Name = "txtBrand";
             this.txtBrand.Size = new System.Drawing.Size(219, 41);
             this.txtBrand.TabIndex = 22;
-            this.txtBrand.ThemeName = "Material";
+            this.txtBrand.ThemeName = "MaterialPink";
             // 
             // lblBrand
             // 
@@ -192,7 +192,7 @@
             this.lblBrand.Size = new System.Drawing.Size(52, 26);
             this.lblBrand.TabIndex = 21;
             this.lblBrand.Text = "Brand";
-            this.lblBrand.ThemeName = "Material";
+            this.lblBrand.ThemeName = "MaterialPink";
             // 
             // txtDeviceName
             // 
@@ -201,7 +201,7 @@
             this.txtDeviceName.Name = "txtDeviceName";
             this.txtDeviceName.Size = new System.Drawing.Size(219, 41);
             this.txtDeviceName.TabIndex = 22;
-            this.txtDeviceName.ThemeName = "Material";
+            this.txtDeviceName.ThemeName = "MaterialPink";
             // 
             // lblDeviceName
             // 
@@ -211,7 +211,7 @@
             this.lblDeviceName.Size = new System.Drawing.Size(101, 26);
             this.lblDeviceName.TabIndex = 21;
             this.lblDeviceName.Text = "DeviceName";
-            this.lblDeviceName.ThemeName = "Material";
+            this.lblDeviceName.ThemeName = "MaterialPink";
             // 
             // dgView
             // 
@@ -272,7 +272,7 @@
             this.dgView.Name = "dgView";
             this.dgView.Size = new System.Drawing.Size(843, 414);
             this.dgView.TabIndex = 5;
-            this.dgView.ThemeName = "Material";
+            this.dgView.ThemeName = "MaterialPink";
             this.dgView.CellDoubleClick += new Telerik.WinControls.UI.GridViewCellEventHandler(this.dgView_CellDoubleClick);
             // 
             // btnCancel
@@ -346,7 +346,7 @@
             this.Name = "PrintersForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Printers";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.frmPrinter_Load);
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).EndInit();
             this.radPanel1.ResumeLayout(false);
@@ -371,7 +371,7 @@
         }
 
         #endregion
-        private Telerik.WinControls.Themes.MaterialTheme materialTheme1;
+        private Telerik.WinControls.Themes.MaterialPinkTheme materialTheme1;
         private Telerik.WinControls.UI.RadPanel radPanel1;
         private Telerik.WinControls.UI.RadLabel lblType;
         private Telerik.WinControls.UI.RadTextBox txtPort;

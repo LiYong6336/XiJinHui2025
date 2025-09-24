@@ -40,7 +40,7 @@
             Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn7 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
             Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn8 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
             Telerik.WinControls.UI.TableViewDefinition tableViewDefinition1 = new Telerik.WinControls.UI.TableViewDefinition();
-            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialTheme();
+            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialPinkTheme();
             this.radPanel1 = new Telerik.WinControls.UI.RadPanel();
             this.txtUsage = new Telerik.WinControls.UI.RadTextBox();
             this.btnCancel = new FontAwesome.Sharp.IconButton();
@@ -79,7 +79,7 @@
             this.radPanel1.Name = "radPanel1";
             this.radPanel1.Size = new System.Drawing.Size(843, 198);
             this.radPanel1.TabIndex = 4;
-            this.radPanel1.ThemeName = "Material";
+            this.radPanel1.ThemeName = "MaterialPink";
             // 
             // txtUsage
             // 
@@ -87,7 +87,7 @@
             this.txtUsage.Name = "txtUsage";
             this.txtUsage.Size = new System.Drawing.Size(218, 36);
             this.txtUsage.TabIndex = 43;
-            this.txtUsage.ThemeName = "Material";
+            this.txtUsage.ThemeName = "MaterialPink";
             // 
             // btnCancel
             // 
@@ -142,7 +142,7 @@
             this.lblUsage.Size = new System.Drawing.Size(55, 26);
             this.lblUsage.TabIndex = 21;
             this.lblUsage.Text = "Usage";
-            this.lblUsage.ThemeName = "Material";
+            this.lblUsage.ThemeName = "MaterialPink";
             // 
             // btnModify
             // 
@@ -167,7 +167,7 @@
             this.lblIngredient.Size = new System.Drawing.Size(80, 26);
             this.lblIngredient.TabIndex = 21;
             this.lblIngredient.Text = "Ingredient";
-            this.lblIngredient.ThemeName = "Material";
+            this.lblIngredient.ThemeName = "MaterialPink";
             // 
             // dgView
             // 
@@ -208,7 +208,7 @@
             this.dgView.Name = "dgView";
             this.dgView.Size = new System.Drawing.Size(843, 413);
             this.dgView.TabIndex = 5;
-            this.dgView.ThemeName = "Material";
+            this.dgView.ThemeName = "MaterialPink";
             this.dgView.CellDoubleClick += new Telerik.WinControls.UI.GridViewCellEventHandler(this.dgView_CellDoubleClick);
             // 
             // mcbIngredient
@@ -316,7 +316,7 @@
             this.mcbIngredient.Size = new System.Drawing.Size(613, 36);
             this.mcbIngredient.TabIndex = 47;
             this.mcbIngredient.TabStop = false;
-            this.mcbIngredient.ThemeName = "Material";
+            this.mcbIngredient.ThemeName = "MaterialPink";
             this.mcbIngredient.ValueMember = "Id";
             // 
             // FoodIngredientsForm
@@ -330,7 +330,7 @@
             this.Name = "FoodIngredientsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Food Ingredients";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.FormIngredient_Load);
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).EndInit();
             this.radPanel1.ResumeLayout(false);
@@ -349,7 +349,7 @@
         }
 
         #endregion
-        private Telerik.WinControls.Themes.MaterialTheme materialTheme1;
+        private Telerik.WinControls.Themes.MaterialPinkTheme materialTheme1;
         private Telerik.WinControls.UI.RadPanel radPanel1;
         private Telerik.WinControls.UI.RadLabel lblIngredient;
         private Telerik.WinControls.UI.RadGridView dgView;

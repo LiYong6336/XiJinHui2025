@@ -37,7 +37,7 @@
             this.radPanel1 = new Telerik.WinControls.UI.RadPanel();
             this.lblConfirmNewPassword = new Telerik.WinControls.UI.RadLabel();
             this.txtConfirmNewPassword = new Telerik.WinControls.UI.RadTextBox();
-            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialTheme();
+            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialPinkTheme();
             ((System.ComponentModel.ISupportInitialize)(this.txtCurrentPassword)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lblCurrentPassword)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lblNewPassword)).BeginInit();
@@ -57,7 +57,7 @@
             this.txtCurrentPassword.PasswordChar = '*';
             this.txtCurrentPassword.Size = new System.Drawing.Size(307, 36);
             this.txtCurrentPassword.TabIndex = 1;
-            this.txtCurrentPassword.ThemeName = "Material";
+            this.txtCurrentPassword.ThemeName = "MaterialPink";
             // 
             // lblCurrentPassword
             // 
@@ -66,7 +66,7 @@
             this.lblCurrentPassword.Size = new System.Drawing.Size(119, 21);
             this.lblCurrentPassword.TabIndex = 0;
             this.lblCurrentPassword.Text = "CurrentPassword";
-            this.lblCurrentPassword.ThemeName = "Material";
+            this.lblCurrentPassword.ThemeName = "MaterialPink";
             // 
             // lblNewPassword
             // 
@@ -75,7 +75,7 @@
             this.lblNewPassword.Size = new System.Drawing.Size(100, 21);
             this.lblNewPassword.TabIndex = 2;
             this.lblNewPassword.Text = "NewPassword";
-            this.lblNewPassword.ThemeName = "Material";
+            this.lblNewPassword.ThemeName = "MaterialPink";
             // 
             // txtNewPassword
             // 
@@ -84,7 +84,7 @@
             this.txtNewPassword.PasswordChar = '*';
             this.txtNewPassword.Size = new System.Drawing.Size(307, 36);
             this.txtNewPassword.TabIndex = 3;
-            this.txtNewPassword.ThemeName = "Material";
+            this.txtNewPassword.ThemeName = "MaterialPink";
             // 
             // btnSave
             // 
@@ -93,7 +93,7 @@
             this.btnSave.Size = new System.Drawing.Size(140, 41);
             this.btnSave.TabIndex = 6;
             this.btnSave.Text = "Save Change";
-            this.btnSave.ThemeName = "Material";
+            this.btnSave.ThemeName = "MaterialPink";
             this.btnSave.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // radPanel1
@@ -111,7 +111,7 @@
             this.radPanel1.Name = "radPanel1";
             this.radPanel1.Size = new System.Drawing.Size(379, 374);
             this.radPanel1.TabIndex = 0;
-            this.radPanel1.ThemeName = "Material";
+            this.radPanel1.ThemeName = "MaterialPink";
             // 
             // lblConfirmNewPassword
             // 
@@ -120,7 +120,7 @@
             this.lblConfirmNewPassword.Size = new System.Drawing.Size(152, 21);
             this.lblConfirmNewPassword.TabIndex = 4;
             this.lblConfirmNewPassword.Text = "ConfirmNewPassword";
-            this.lblConfirmNewPassword.ThemeName = "Material";
+            this.lblConfirmNewPassword.ThemeName = "MaterialPink";
             // 
             // txtConfirmNewPassword
             // 
@@ -129,7 +129,7 @@
             this.txtConfirmNewPassword.PasswordChar = '*';
             this.txtConfirmNewPassword.Size = new System.Drawing.Size(307, 36);
             this.txtConfirmNewPassword.TabIndex = 5;
-            this.txtConfirmNewPassword.ThemeName = "Material";
+            this.txtConfirmNewPassword.ThemeName = "MaterialPink";
             // 
             // ChangePasswordForm
             // 
@@ -144,7 +144,7 @@
             this.Name = "ChangePasswordForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Change Password";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.LoginForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.txtCurrentPassword)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lblCurrentPassword)).EndInit();
@@ -169,7 +169,7 @@
         private Telerik.WinControls.UI.RadTextBox txtNewPassword;
         private Telerik.WinControls.UI.RadButton btnSave;
         private Telerik.WinControls.UI.RadPanel radPanel1;
-        private Telerik.WinControls.Themes.MaterialTheme materialTheme1;
+        private Telerik.WinControls.Themes.MaterialPinkTheme materialTheme1;
         private Telerik.WinControls.UI.RadLabel lblConfirmNewPassword;
         private Telerik.WinControls.UI.RadTextBox txtConfirmNewPassword;
     }

@@ -48,7 +48,7 @@
             this.lblStartDate.Size = new System.Drawing.Size(68, 21);
             this.lblStartDate.TabIndex = 0;
             this.lblStartDate.Text = "StartDate";
-            this.lblStartDate.ThemeName = "Material";
+            this.lblStartDate.ThemeName = "MaterialPink";
             // 
             // lblEndDate
             // 
@@ -57,7 +57,7 @@
             this.lblEndDate.Size = new System.Drawing.Size(61, 21);
             this.lblEndDate.TabIndex = 2;
             this.lblEndDate.Text = "EndDate";
-            this.lblEndDate.ThemeName = "Material";
+            this.lblEndDate.ThemeName = "MaterialPink";
             // 
             // btnShow
             // 
@@ -66,7 +66,7 @@
             this.btnShow.Size = new System.Drawing.Size(236, 41);
             this.btnShow.TabIndex = 0;
             this.btnShow.Text = "Submit";
-            this.btnShow.ThemeName = "Material";
+            this.btnShow.ThemeName = "MaterialPink";
             this.btnShow.Click += new System.EventHandler(this.btnShow_Click);
             // 
             // dtpStart
@@ -81,7 +81,7 @@
             this.dtpStart.TabIndex = 3;
             this.dtpStart.TabStop = false;
             this.dtpStart.Text = "2024-04-24 19:47:14";
-            this.dtpStart.ThemeName = "Material";
+            this.dtpStart.ThemeName = "MaterialPink";
             this.dtpStart.Value = new System.DateTime(2024, 4, 24, 19, 47, 14, 581);
             // 
             // dtpEnd
@@ -96,7 +96,7 @@
             this.dtpEnd.TabIndex = 4;
             this.dtpEnd.TabStop = false;
             this.dtpEnd.Text = "2024-04-24 19:47:16";
-            this.dtpEnd.ThemeName = "Material";
+            this.dtpEnd.ThemeName = "MaterialPink";
             this.dtpEnd.Value = new System.DateTime(2024, 4, 24, 19, 47, 16, 561);
             // 
             // DailyUsageReportForm
@@ -112,7 +112,7 @@
             this.Name = "DailyUsageReportForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Daily Usage";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.frmDailyUsage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.lblStartDate)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lblEndDate)).EndInit();

@@ -42,6 +42,7 @@
             Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn11 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
             Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn12 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
             Telerik.WinControls.UI.TableViewDefinition tableViewDefinition2 = new Telerik.WinControls.UI.TableViewDefinition();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SpliteTableForm));
             this.pnSale = new Telerik.WinControls.UI.RadPanel();
             this.dgvInvoice1 = new Telerik.WinControls.UI.RadGridView();
             this.btnDgv1Up = new Telerik.WinControls.UI.RadButton();
@@ -133,7 +134,7 @@
             gridViewTextBoxColumn3.FieldName = "Description";
             gridViewTextBoxColumn3.HeaderText = "Description";
             gridViewTextBoxColumn3.Name = "Description";
-            gridViewTextBoxColumn3.Width = 210;
+            gridViewTextBoxColumn3.Width = 208;
             gridViewTextBoxColumn4.FieldName = "Qty";
             gridViewTextBoxColumn4.HeaderText = "Qty";
             gridViewTextBoxColumn4.Name = "Qty";
@@ -141,7 +142,7 @@
             gridViewTextBoxColumn5.FieldName = "DiscountPercentage";
             gridViewTextBoxColumn5.HeaderText = "Discount";
             gridViewTextBoxColumn5.Name = "DiscountPercentage";
-            gridViewTextBoxColumn5.Width = 73;
+            gridViewTextBoxColumn5.Width = 72;
             gridViewTextBoxColumn6.FieldName = "FoodPrice";
             gridViewTextBoxColumn6.HeaderText = "Price";
             gridViewTextBoxColumn6.Name = "FoodPrice";
@@ -160,7 +161,7 @@
             this.dgvInvoice1.ReadOnly = true;
             this.dgvInvoice1.Size = new System.Drawing.Size(404, 393);
             this.dgvInvoice1.TabIndex = 2;
-            this.dgvInvoice1.ThemeName = "Material";
+            this.dgvInvoice1.ThemeName = "MaterialPink";
             this.dgvInvoice1.SelectionChanged += new System.EventHandler(this.dgvInvoice1_SelectionChanged);
             // 
             // btnDgv1Up
@@ -286,7 +287,7 @@
             gridViewTextBoxColumn9.FieldName = "Description";
             gridViewTextBoxColumn9.HeaderText = "Description";
             gridViewTextBoxColumn9.Name = "Description";
-            gridViewTextBoxColumn9.Width = 210;
+            gridViewTextBoxColumn9.Width = 208;
             gridViewTextBoxColumn10.FieldName = "Qty";
             gridViewTextBoxColumn10.HeaderText = "Qty";
             gridViewTextBoxColumn10.Name = "Qty";
@@ -298,7 +299,7 @@
             gridViewTextBoxColumn12.FieldName = "FoodPrice";
             gridViewTextBoxColumn12.HeaderText = "Price";
             gridViewTextBoxColumn12.Name = "FoodPrice";
-            gridViewTextBoxColumn12.Width = 53;
+            gridViewTextBoxColumn12.Width = 52;
             this.dgvInvoice2.MasterTemplate.Columns.AddRange(new Telerik.WinControls.UI.GridViewDataColumn[] {
             gridViewTextBoxColumn7,
             gridViewTextBoxColumn8,
@@ -313,7 +314,7 @@
             this.dgvInvoice2.ReadOnly = true;
             this.dgvInvoice2.Size = new System.Drawing.Size(404, 395);
             this.dgvInvoice2.TabIndex = 2;
-            this.dgvInvoice2.ThemeName = "Material";
+            this.dgvInvoice2.ThemeName = "MaterialPink";
             this.dgvInvoice2.SelectionChanged += new System.EventHandler(this.dgvInvoice1_SelectionChanged);
             // 
             // btnDgv2Up
@@ -448,11 +449,12 @@
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.pnSale);
             this.Font = new System.Drawing.Font("Khmer OS Battambang", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "SpliteTableForm";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Split Invoice";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.SpliteTableForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pnSale)).EndInit();
             this.pnSale.ResumeLayout(false);

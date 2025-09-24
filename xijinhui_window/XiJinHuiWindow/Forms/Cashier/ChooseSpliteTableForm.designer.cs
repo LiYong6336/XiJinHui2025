@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ChooseSpliteTableForm));
             this.pnlInvoice = new Telerik.WinControls.UI.RadPanel();
             this.panel1 = new Telerik.WinControls.UI.RadPanel();
             this.atLabel1 = new Telerik.WinControls.UI.RadLabel();
@@ -91,10 +92,12 @@
             this.Controls.Add(this.pnlInvoice);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Khmer OS Battambang", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ChooseSpliteTableForm";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.ThemeName = "Material";
+            this.Text = "Split Table";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.ChooseSpliteTableForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pnlInvoice)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panel1)).EndInit();

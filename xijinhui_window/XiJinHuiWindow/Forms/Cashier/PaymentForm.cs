@@ -17,6 +17,7 @@ using XiJinHuiWindow.Reports.Cashier;
 using System.Threading.Tasks;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 using FontAwesome.Sharp;
+using XiJinHuiWindow.Properties;
 
 namespace XiJinHuiWindow.Forms.Cashier
 {
@@ -477,7 +478,7 @@ namespace XiJinHuiWindow.Forms.Cashier
                 pnl.ThemeName = pnlUsd.ThemeName = pnlRiel.ThemeName
                     = lblRiel.ThemeName = lblUsd.ThemeName
                     = txtRiel.ThemeName = txtUsd.ThemeName
-                    = "Material";
+                    = "MaterialPink";
             }
 
             GeneralFunction.ApplyFontToAllControls(pnlPaymentMethodsTxt);

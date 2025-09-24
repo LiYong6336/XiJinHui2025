@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PaymentForm));
             this.btn1 = new Telerik.WinControls.UI.RadButton();
             this.btn2 = new Telerik.WinControls.UI.RadButton();
             this.btn3 = new Telerik.WinControls.UI.RadButton();
@@ -116,7 +117,7 @@
             this.btn1.Size = new System.Drawing.Size(90, 60);
             this.btn1.TabIndex = 4;
             this.btn1.Text = "1";
-            this.btn1.ThemeName = "Material";
+            this.btn1.ThemeName = "MaterialPink";
             this.btn1.Click += new System.EventHandler(this.btnNumber_Click);
             this.btn1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btn_KeyDown);
             // 
@@ -130,7 +131,7 @@
             this.btn2.Size = new System.Drawing.Size(90, 60);
             this.btn2.TabIndex = 5;
             this.btn2.Text = "2";
-            this.btn2.ThemeName = "Material";
+            this.btn2.ThemeName = "MaterialPink";
             this.btn2.Click += new System.EventHandler(this.btnNumber_Click);
             this.btn2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btn_KeyDown);
             // 
@@ -144,7 +145,7 @@
             this.btn3.Size = new System.Drawing.Size(90, 60);
             this.btn3.TabIndex = 6;
             this.btn3.Text = "3";
-            this.btn3.ThemeName = "Material";
+            this.btn3.ThemeName = "MaterialPink";
             this.btn3.Click += new System.EventHandler(this.btnNumber_Click);
             this.btn3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btn_KeyDown);
             // 
@@ -158,7 +159,7 @@
             this.btn8.Size = new System.Drawing.Size(90, 60);
             this.btn8.TabIndex = 11;
             this.btn8.Text = "8";
-            this.btn8.ThemeName = "Material";
+            this.btn8.ThemeName = "MaterialPink";
             this.btn8.Click += new System.EventHandler(this.btnNumber_Click);
             this.btn8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btn_KeyDown);
             // 
@@ -172,7 +173,7 @@
             this.btn7.Size = new System.Drawing.Size(90, 60);
             this.btn7.TabIndex = 10;
             this.btn7.Text = "7";
-            this.btn7.ThemeName = "Material";
+            this.btn7.ThemeName = "MaterialPink";
             this.btn7.Click += new System.EventHandler(this.btnNumber_Click);
             this.btn7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btn_KeyDown);
             // 
@@ -186,7 +187,7 @@
             this.btn6.Size = new System.Drawing.Size(90, 60);
             this.btn6.TabIndex = 9;
             this.btn6.Text = "6";
-            this.btn6.ThemeName = "Material";
+            this.btn6.ThemeName = "MaterialPink";
             this.btn6.Click += new System.EventHandler(this.btnNumber_Click);
             this.btn6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btn_KeyDown);
             // 
@@ -200,7 +201,7 @@
             this.btn5.Size = new System.Drawing.Size(90, 60);
             this.btn5.TabIndex = 8;
             this.btn5.Text = "5";
-            this.btn5.ThemeName = "Material";
+            this.btn5.ThemeName = "MaterialPink";
             this.btn5.Click += new System.EventHandler(this.btnNumber_Click);
             this.btn5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btn_KeyDown);
             // 
@@ -214,7 +215,7 @@
             this.btn0.Size = new System.Drawing.Size(89, 60);
             this.btn0.TabIndex = 13;
             this.btn0.Text = "0";
-            this.btn0.ThemeName = "Material";
+            this.btn0.ThemeName = "MaterialPink";
             this.btn0.Click += new System.EventHandler(this.btnNumber_Click);
             this.btn0.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btn_KeyDown);
             // 
@@ -228,7 +229,7 @@
             this.btn9.Size = new System.Drawing.Size(90, 60);
             this.btn9.TabIndex = 12;
             this.btn9.Text = "9";
-            this.btn9.ThemeName = "Material";
+            this.btn9.ThemeName = "MaterialPink";
             this.btn9.Click += new System.EventHandler(this.btnNumber_Click);
             this.btn9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btn_KeyDown);
             // 
@@ -244,7 +245,7 @@
             this.btnBackSpace.Size = new System.Drawing.Size(187, 60);
             this.btnBackSpace.TabIndex = 14;
             this.btnBackSpace.Text = "<";
-            this.btnBackSpace.ThemeName = "Material";
+            this.btnBackSpace.ThemeName = "MaterialPink";
             this.btnBackSpace.Click += new System.EventHandler(this.btnBackSpace_Click);
             this.btnBackSpace.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btn_KeyDown);
             // 
@@ -257,7 +258,7 @@
             this.lblChangeInRiel.Size = new System.Drawing.Size(165, 27);
             this.lblChangeInRiel.TabIndex = 26;
             this.lblChangeInRiel.Text = "Changed In Riel";
-            this.lblChangeInRiel.ThemeName = "Material";
+            this.lblChangeInRiel.ThemeName = "MaterialPink";
             // 
             // lblChangeInDollar
             // 
@@ -268,7 +269,7 @@
             this.lblChangeInDollar.Size = new System.Drawing.Size(187, 27);
             this.lblChangeInDollar.TabIndex = 25;
             this.lblChangeInDollar.Text = "Changed In Dollar";
-            this.lblChangeInDollar.ThemeName = "Material";
+            this.lblChangeInDollar.ThemeName = "MaterialPink";
             // 
             // lblPaymentInRiel
             // 
@@ -280,7 +281,7 @@
             this.lblPaymentInRiel.TabIndex = 24;
             this.lblPaymentInRiel.Text = "Payment In Riel";
             this.lblPaymentInRiel.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.lblPaymentInRiel.ThemeName = "Material";
+            this.lblPaymentInRiel.ThemeName = "MaterialPink";
             // 
             // lblPaymentInDollar
             // 
@@ -291,7 +292,7 @@
             this.lblPaymentInDollar.Size = new System.Drawing.Size(187, 27);
             this.lblPaymentInDollar.TabIndex = 23;
             this.lblPaymentInDollar.Text = "Payment In Dollar";
-            this.lblPaymentInDollar.ThemeName = "Material";
+            this.lblPaymentInDollar.ThemeName = "MaterialPink";
             // 
             // lblTotalInRiel
             // 
@@ -302,7 +303,7 @@
             this.lblTotalInRiel.Size = new System.Drawing.Size(128, 27);
             this.lblTotalInRiel.TabIndex = 22;
             this.lblTotalInRiel.Text = "Total In Riel";
-            this.lblTotalInRiel.ThemeName = "Material";
+            this.lblTotalInRiel.ThemeName = "MaterialPink";
             // 
             // lblTotalInDollar
             // 
@@ -313,7 +314,7 @@
             this.lblTotalInDollar.Size = new System.Drawing.Size(150, 27);
             this.lblTotalInDollar.TabIndex = 21;
             this.lblTotalInDollar.Text = "Total In Dollar";
-            this.lblTotalInDollar.ThemeName = "Material";
+            this.lblTotalInDollar.ThemeName = "MaterialPink";
             // 
             // txtReturnRial
             // 
@@ -330,7 +331,7 @@
             this.txtReturnRial.TabIndex = 3;
             this.txtReturnRial.Text = "0";
             this.txtReturnRial.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.txtReturnRial.ThemeName = "Material";
+            this.txtReturnRial.ThemeName = "MaterialPink";
             // 
             // txtPayDollar
             // 
@@ -347,7 +348,7 @@
             this.txtPayDollar.TabIndex = 0;
             this.txtPayDollar.Text = "0";
             this.txtPayDollar.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.txtPayDollar.ThemeName = "Material";
+            this.txtPayDollar.ThemeName = "MaterialPink";
             // 
             // txtTotalRial
             // 
@@ -364,7 +365,7 @@
             this.txtTotalRial.TabIndex = 19;
             this.txtTotalRial.Text = "0";
             this.txtTotalRial.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.txtTotalRial.ThemeName = "Material";
+            this.txtTotalRial.ThemeName = "MaterialPink";
             this.txtTotalRial.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btn_KeyDown);
             // 
             // txtPayRial
@@ -382,7 +383,7 @@
             this.txtPayRial.TabIndex = 1;
             this.txtPayRial.Text = "0";
             this.txtPayRial.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.txtPayRial.ThemeName = "Material";
+            this.txtPayRial.ThemeName = "MaterialPink";
             // 
             // txtReturnDollar
             // 
@@ -398,7 +399,7 @@
             this.txtReturnDollar.TabIndex = 2;
             this.txtReturnDollar.Text = "0";
             this.txtReturnDollar.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.txtReturnDollar.ThemeName = "Material";
+            this.txtReturnDollar.ThemeName = "MaterialPink";
             // 
             // txtTotalDollar
             // 
@@ -415,7 +416,7 @@
             this.txtTotalDollar.TabIndex = 18;
             this.txtTotalDollar.Text = "0";
             this.txtTotalDollar.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.txtTotalDollar.ThemeName = "Material";
+            this.txtTotalDollar.ThemeName = "MaterialPink";
             this.txtTotalDollar.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btn_KeyDown);
             // 
             // btn4
@@ -428,7 +429,7 @@
             this.btn4.Size = new System.Drawing.Size(90, 60);
             this.btn4.TabIndex = 7;
             this.btn4.Text = "4";
-            this.btn4.ThemeName = "Material";
+            this.btn4.ThemeName = "MaterialPink";
             this.btn4.Click += new System.EventHandler(this.btnNumber_Click);
             this.btn4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btn_KeyDown);
             // 
@@ -481,7 +482,7 @@
             this.cddPaymentMethods.Name = "cddPaymentMethods";
             this.cddPaymentMethods.Size = new System.Drawing.Size(413, 36);
             this.cddPaymentMethods.TabIndex = 29;
-            this.cddPaymentMethods.ThemeName = "Material";
+            this.cddPaymentMethods.ThemeName = "MaterialPink";
             this.cddPaymentMethods.ItemCheckedChanged += new Telerik.WinControls.UI.RadCheckedListDataItemEventHandler(this.cddPaymentMethods_ItemCheckedChanged);
             // 
             // pnlLeft
@@ -493,7 +494,7 @@
             this.pnlLeft.Name = "pnlLeft";
             this.pnlLeft.Size = new System.Drawing.Size(453, 805);
             this.pnlLeft.TabIndex = 30;
-            this.pnlLeft.ThemeName = "Material";
+            this.pnlLeft.ThemeName = "MaterialPink";
             // 
             // pnlPaymentMethodsTxt
             // 
@@ -503,7 +504,7 @@
             this.pnlPaymentMethodsTxt.Name = "pnlPaymentMethodsTxt";
             this.pnlPaymentMethodsTxt.Size = new System.Drawing.Size(453, 397);
             this.pnlPaymentMethodsTxt.TabIndex = 31;
-            this.pnlPaymentMethodsTxt.ThemeName = "Material";
+            this.pnlPaymentMethodsTxt.ThemeName = "MaterialPink";
             // 
             // radPanel2
             // 
@@ -526,7 +527,7 @@
             this.radPanel2.Name = "radPanel2";
             this.radPanel2.Size = new System.Drawing.Size(453, 408);
             this.radPanel2.TabIndex = 31;
-            this.radPanel2.ThemeName = "Material";
+            this.radPanel2.ThemeName = "MaterialPink";
             // 
             // lblPaymentMethod
             // 
@@ -537,7 +538,7 @@
             this.lblPaymentMethod.Size = new System.Drawing.Size(177, 27);
             this.lblPaymentMethod.TabIndex = 25;
             this.lblPaymentMethod.Text = "PaymentMethods";
-            this.lblPaymentMethod.ThemeName = "Material";
+            this.lblPaymentMethod.ThemeName = "MaterialPink";
             // 
             // pnlRight
             // 
@@ -566,7 +567,7 @@
             this.pnlRight.Name = "pnlRight";
             this.pnlRight.Size = new System.Drawing.Size(326, 805);
             this.pnlRight.TabIndex = 31;
-            this.pnlRight.ThemeName = "Material";
+            this.pnlRight.ThemeName = "MaterialPink";
             // 
             // radLabel2
             // 
@@ -575,7 +576,7 @@
             this.radLabel2.Size = new System.Drawing.Size(109, 21);
             this.radLabel2.TabIndex = 33;
             this.radLabel2.Text = "Invoice Number";
-            this.radLabel2.ThemeName = "Material";
+            this.radLabel2.ThemeName = "MaterialPink";
             // 
             // radLabel1
             // 
@@ -584,7 +585,7 @@
             this.radLabel1.Size = new System.Drawing.Size(57, 21);
             this.radLabel1.TabIndex = 34;
             this.radLabel1.Text = "Remark";
-            this.radLabel1.ThemeName = "Material";
+            this.radLabel1.ThemeName = "MaterialPink";
             // 
             // btnClearInvoiceText
             // 
@@ -602,7 +603,7 @@
             this.txtRemark.NullText = "Remark";
             this.txtRemark.Size = new System.Drawing.Size(286, 36);
             this.txtRemark.TabIndex = 31;
-            this.txtRemark.ThemeName = "Material";
+            this.txtRemark.ThemeName = "MaterialPink";
             // 
             // txtInvoiceNumber
             // 
@@ -611,7 +612,7 @@
             this.txtInvoiceNumber.NullText = "Invoice Number";
             this.txtInvoiceNumber.Size = new System.Drawing.Size(243, 36);
             this.txtInvoiceNumber.TabIndex = 32;
-            this.txtInvoiceNumber.ThemeName = "Material";
+            this.txtInvoiceNumber.ThemeName = "MaterialPink";
             // 
             // btnPayCashPrint
             // 
@@ -639,13 +640,14 @@
             this.Controls.Add(this.pnlLeft);
             this.Controls.Add(this.pnlRight);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "PaymentForm";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Payment";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.PaymentForm_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btn_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.btn1)).EndInit();

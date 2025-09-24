@@ -38,6 +38,7 @@
             Telerik.WinControls.UI.TableViewDefinition tableViewDefinition1 = new Telerik.WinControls.UI.TableViewDefinition();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SaleForm));
             this.pnlFoot = new Telerik.WinControls.UI.RadPanel();
+            this.btnSearch = new FontAwesome.Sharp.IconButton();
             this.chkAll = new Telerik.WinControls.UI.RadCheckBox();
             this.txtSearch = new Telerik.WinControls.UI.RadTextBox();
             this.lblPeople = new Telerik.WinControls.UI.RadLabel();
@@ -48,10 +49,17 @@
             this.lblTableValue = new Telerik.WinControls.UI.RadLabel();
             this.lblUserValue = new Telerik.WinControls.UI.RadLabel();
             this.lblUser = new Telerik.WinControls.UI.RadLabel();
-            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialTheme();
+            this.btnInvoice = new FontAwesome.Sharp.IconButton();
+            this.btnPrintIn = new FontAwesome.Sharp.IconButton();
+            this.btnPayment = new FontAwesome.Sharp.IconButton();
+            this.btnClose = new FontAwesome.Sharp.IconButton();
             this.pnlCarts = new Telerik.WinControls.UI.RadPanel();
             this.gdCart = new Telerik.WinControls.UI.RadGridView();
             this.pnlTotal = new Telerik.WinControls.UI.RadPanel();
+            this.btnPrintWater = new FontAwesome.Sharp.IconButton();
+            this.btnPrintKitchen = new FontAwesome.Sharp.IconButton();
+            this.btnPrintStair = new FontAwesome.Sharp.IconButton();
+            this.btnPrintFood = new FontAwesome.Sharp.IconButton();
             this.lblServiceValue = new Telerik.WinControls.UI.RadLabel();
             this.lblVat = new Telerik.WinControls.UI.RadLabel();
             this.lblTotalPayValue = new Telerik.WinControls.UI.RadLabel();
@@ -63,18 +71,10 @@
             this.lblTotalValue = new Telerik.WinControls.UI.RadLabel();
             this.lblTotal = new Telerik.WinControls.UI.RadLabel();
             this.pnlContent = new Telerik.WinControls.UI.RadPanel();
-            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.pnlItems = new XiJinHuiWindow.Toolboxes.DoubleBufferedPanel();
-            this.btnSearch = new FontAwesome.Sharp.IconButton();
             this.gt = new Telerik.WinControls.UI.RadPanel();
-            this.btnPrintWater = new FontAwesome.Sharp.IconButton();
-            this.btnPrintKitchen = new FontAwesome.Sharp.IconButton();
-            this.btnPrintStair = new FontAwesome.Sharp.IconButton();
-            this.btnPrintFood = new FontAwesome.Sharp.IconButton();
-            this.btnInvoice = new FontAwesome.Sharp.IconButton();
-            this.btnPrintIn = new FontAwesome.Sharp.IconButton();
-            this.btnPayment = new FontAwesome.Sharp.IconButton();
-            this.btnClose = new FontAwesome.Sharp.IconButton();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.materialPinkTheme1 = new Telerik.WinControls.Themes.MaterialPinkTheme();
             ((System.ComponentModel.ISupportInitialize)(this.pnlFoot)).BeginInit();
             this.pnlFoot.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chkAll)).BeginInit();
@@ -131,386 +131,7 @@
             this.pnlFoot.Name = "pnlFoot";
             this.pnlFoot.Size = new System.Drawing.Size(1127, 100);
             this.pnlFoot.TabIndex = 1;
-            this.pnlFoot.ThemeName = "Material";
-            // 
-            // chkAll
-            // 
-            this.chkAll.Location = new System.Drawing.Point(788, 14);
-            this.chkAll.Name = "chkAll";
-            this.chkAll.Size = new System.Drawing.Size(42, 19);
-            this.chkAll.TabIndex = 3;
-            this.chkAll.Text = "All";
-            this.chkAll.ThemeName = "Material";
-            // 
-            // txtSearch
-            // 
-            this.txtSearch.Location = new System.Drawing.Point(464, 7);
-            this.txtSearch.Name = "txtSearch";
-            this.txtSearch.NullText = "Search food dish";
-            this.txtSearch.Size = new System.Drawing.Size(247, 36);
-            this.txtSearch.TabIndex = 2;
-            this.txtSearch.ThemeName = "Material";
-            this.txtSearch.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSearch_KeyDown);
-            this.txtSearch.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtSearch_KeyUp);
-            // 
-            // lblPeople
-            // 
-            this.lblPeople.Location = new System.Drawing.Point(1008, 65);
-            this.lblPeople.Name = "lblPeople";
-            this.lblPeople.Size = new System.Drawing.Size(56, 21);
-            this.lblPeople.TabIndex = 1;
-            this.lblPeople.Text = "People:";
-            this.lblPeople.ThemeName = "Material";
-            // 
-            // lblDate
-            // 
-            this.lblDate.Location = new System.Drawing.Point(788, 65);
-            this.lblDate.Name = "lblDate";
-            this.lblDate.Size = new System.Drawing.Size(41, 21);
-            this.lblDate.TabIndex = 1;
-            this.lblDate.Text = "Date:";
-            this.lblDate.ThemeName = "Material";
-            // 
-            // lblTable
-            // 
-            this.lblTable.Location = new System.Drawing.Point(655, 64);
-            this.lblTable.Name = "lblTable";
-            this.lblTable.Size = new System.Drawing.Size(47, 21);
-            this.lblTable.TabIndex = 1;
-            this.lblTable.Text = "Table:";
-            this.lblTable.ThemeName = "Material";
-            // 
-            // lblPeopleValue
-            // 
-            this.lblPeopleValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.lblPeopleValue.Location = new System.Drawing.Point(1070, 63);
-            this.lblPeopleValue.Name = "lblPeopleValue";
-            this.lblPeopleValue.Size = new System.Drawing.Size(17, 22);
-            this.lblPeopleValue.TabIndex = 1;
-            this.lblPeopleValue.Text = "0";
-            this.lblPeopleValue.ThemeName = "Material";
-            // 
-            // lblDateValue
-            // 
-            this.lblDateValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.lblDateValue.Location = new System.Drawing.Point(835, 63);
-            this.lblDateValue.Name = "lblDateValue";
-            this.lblDateValue.Size = new System.Drawing.Size(44, 22);
-            this.lblDateValue.TabIndex = 1;
-            this.lblDateValue.Text = "Date";
-            this.lblDateValue.ThemeName = "Material";
-            // 
-            // lblTableValue
-            // 
-            this.lblTableValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.lblTableValue.Location = new System.Drawing.Point(708, 64);
-            this.lblTableValue.Name = "lblTableValue";
-            this.lblTableValue.Size = new System.Drawing.Size(17, 22);
-            this.lblTableValue.TabIndex = 1;
-            this.lblTableValue.Text = "0";
-            this.lblTableValue.ThemeName = "Material";
-            // 
-            // lblUserValue
-            // 
-            this.lblUserValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.lblUserValue.Location = new System.Drawing.Point(511, 63);
-            this.lblUserValue.Name = "lblUserValue";
-            this.lblUserValue.Size = new System.Drawing.Size(86, 22);
-            this.lblUserValue.TabIndex = 1;
-            this.lblUserValue.Text = "Username";
-            this.lblUserValue.ThemeName = "Material";
-            // 
-            // lblUser
-            // 
-            this.lblUser.Location = new System.Drawing.Point(464, 64);
-            this.lblUser.Name = "lblUser";
-            this.lblUser.Size = new System.Drawing.Size(41, 21);
-            this.lblUser.TabIndex = 1;
-            this.lblUser.Text = "User:";
-            this.lblUser.ThemeName = "Material";
-            // 
-            // pnlCarts
-            // 
-            this.pnlCarts.Controls.Add(this.gdCart);
-            this.pnlCarts.Controls.Add(this.pnlTotal);
-            this.pnlCarts.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlCarts.Location = new System.Drawing.Point(0, 0);
-            this.pnlCarts.Name = "pnlCarts";
-            this.pnlCarts.Padding = new System.Windows.Forms.Padding(10, 10, 5, 5);
-            this.pnlCarts.Size = new System.Drawing.Size(445, 631);
-            this.pnlCarts.TabIndex = 2;
-            this.pnlCarts.ThemeName = "Material";
-            // 
-            // gdCart
-            // 
-            this.gdCart.AutoSizeRows = true;
-            this.gdCart.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gdCart.Location = new System.Drawing.Point(10, 10);
-            // 
-            // 
-            // 
-            this.gdCart.MasterTemplate.AllowAddNewRow = false;
-            this.gdCart.MasterTemplate.AllowColumnReorder = false;
-            this.gdCart.MasterTemplate.AllowDragToGroup = false;
-            this.gdCart.MasterTemplate.AllowEditRow = false;
-            this.gdCart.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill;
-            gridViewTextBoxColumn1.FieldName = "Id";
-            gridViewTextBoxColumn1.HeaderText = "Id";
-            gridViewTextBoxColumn1.IsVisible = false;
-            gridViewTextBoxColumn1.Name = "Id";
-            gridViewTextBoxColumn1.Width = 46;
-            gridViewTextBoxColumn2.FieldName = "NO";
-            gridViewTextBoxColumn2.HeaderText = "n_o";
-            gridViewTextBoxColumn2.Name = "NO";
-            gridViewTextBoxColumn2.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            gridViewTextBoxColumn2.Width = 34;
-            gridViewTextBoxColumn3.FieldName = "LangDescription";
-            gridViewTextBoxColumn3.HeaderText = "Description";
-            gridViewTextBoxColumn3.Multiline = true;
-            gridViewTextBoxColumn3.Name = "Description";
-            gridViewTextBoxColumn3.Width = 221;
-            gridViewTextBoxColumn3.WrapText = true;
-            gridViewTextBoxColumn4.FieldName = "QtyPrice";
-            gridViewTextBoxColumn4.HeaderText = "QtyPrice";
-            gridViewTextBoxColumn4.Name = "QtyPrice";
-            gridViewTextBoxColumn4.Width = 65;
-            gridViewTextBoxColumn5.FieldName = "FoodPrice";
-            gridViewTextBoxColumn5.HeaderText = "Price";
-            gridViewTextBoxColumn5.HeaderTextAlignment = System.Drawing.ContentAlignment.MiddleRight;
-            gridViewTextBoxColumn5.IsVisible = false;
-            gridViewTextBoxColumn5.Name = "FoodPrice";
-            gridViewTextBoxColumn5.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
-            gridViewTextBoxColumn5.Width = 58;
-            gridViewTextBoxColumn6.FieldName = "DiscountAmount";
-            gridViewTextBoxColumn6.HeaderText = "Discount";
-            gridViewTextBoxColumn6.HeaderTextAlignment = System.Drawing.ContentAlignment.MiddleRight;
-            gridViewTextBoxColumn6.Name = "DiscountAmount";
-            gridViewTextBoxColumn6.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
-            gridViewTextBoxColumn6.Width = 53;
-            gridViewTextBoxColumn7.FieldName = "TotalAmountAfterDiscount";
-            gridViewTextBoxColumn7.HeaderText = "Total";
-            gridViewTextBoxColumn7.Name = "TotalAmountAfterDiscount";
-            gridViewTextBoxColumn7.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
-            gridViewTextBoxColumn7.Width = 57;
-            this.gdCart.MasterTemplate.Columns.AddRange(new Telerik.WinControls.UI.GridViewDataColumn[] {
-            gridViewTextBoxColumn1,
-            gridViewTextBoxColumn2,
-            gridViewTextBoxColumn3,
-            gridViewTextBoxColumn4,
-            gridViewTextBoxColumn5,
-            gridViewTextBoxColumn6,
-            gridViewTextBoxColumn7});
-            this.gdCart.MasterTemplate.EnableGrouping = false;
-            this.gdCart.MasterTemplate.ShowRowHeaderColumn = false;
-            this.gdCart.MasterTemplate.ViewDefinition = tableViewDefinition1;
-            this.gdCart.Name = "gdCart";
-            this.gdCart.ReadOnly = true;
-            this.gdCart.Size = new System.Drawing.Size(430, 426);
-            this.gdCart.TabIndex = 0;
-            this.gdCart.ThemeName = "Material";
-            this.gdCart.CellFormatting += new Telerik.WinControls.UI.CellFormattingEventHandler(this.gdCart_CellFormatting);
-            this.gdCart.ViewCellFormatting += new Telerik.WinControls.UI.CellFormattingEventHandler(this.gdCart_ViewCellFormatting);
-            this.gdCart.DoubleClick += new System.EventHandler(this.gdCart_DoubleClick);
-            // 
-            // pnlTotal
-            // 
-            this.pnlTotal.Controls.Add(this.btnPrintWater);
-            this.pnlTotal.Controls.Add(this.btnPrintKitchen);
-            this.pnlTotal.Controls.Add(this.btnPrintStair);
-            this.pnlTotal.Controls.Add(this.btnPrintFood);
-            this.pnlTotal.Controls.Add(this.lblServiceValue);
-            this.pnlTotal.Controls.Add(this.lblVat);
-            this.pnlTotal.Controls.Add(this.lblTotalPayValue);
-            this.pnlTotal.Controls.Add(this.lblVatValue);
-            this.pnlTotal.Controls.Add(this.lblTotalPay);
-            this.pnlTotal.Controls.Add(this.lblService);
-            this.pnlTotal.Controls.Add(this.lblDiscountValue);
-            this.pnlTotal.Controls.Add(this.lblDiscount);
-            this.pnlTotal.Controls.Add(this.lblTotalValue);
-            this.pnlTotal.Controls.Add(this.lblTotal);
-            this.pnlTotal.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlTotal.Location = new System.Drawing.Point(10, 436);
-            this.pnlTotal.Name = "pnlTotal";
-            this.pnlTotal.Size = new System.Drawing.Size(430, 190);
-            this.pnlTotal.TabIndex = 3;
-            this.pnlTotal.ThemeName = "Material";
-            // 
-            // lblServiceValue
-            // 
-            this.lblServiceValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblServiceValue.AutoSize = false;
-            this.lblServiceValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblServiceValue.ForeColor = System.Drawing.Color.Blue;
-            this.lblServiceValue.Location = new System.Drawing.Point(262, 109);
-            this.lblServiceValue.Name = "lblServiceValue";
-            this.lblServiceValue.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblServiceValue.Size = new System.Drawing.Size(162, 35);
-            this.lblServiceValue.TabIndex = 0;
-            this.lblServiceValue.Text = "0.00";
-            this.lblServiceValue.ThemeName = "Material";
-            // 
-            // lblVat
-            // 
-            this.lblVat.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblVat.AutoSize = false;
-            this.lblVat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblVat.Location = new System.Drawing.Point(6, 135);
-            this.lblVat.Margin = new System.Windows.Forms.Padding(0);
-            this.lblVat.Name = "lblVat";
-            this.lblVat.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblVat.Size = new System.Drawing.Size(244, 35);
-            this.lblVat.TabIndex = 0;
-            this.lblVat.Text = "Vat";
-            this.lblVat.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
-            this.lblVat.ThemeName = "Material";
-            // 
-            // lblTotalPayValue
-            // 
-            this.lblTotalPayValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblTotalPayValue.AutoSize = false;
-            this.lblTotalPayValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblTotalPayValue.ForeColor = System.Drawing.Color.Blue;
-            this.lblTotalPayValue.Location = new System.Drawing.Point(262, 160);
-            this.lblTotalPayValue.Name = "lblTotalPayValue";
-            this.lblTotalPayValue.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblTotalPayValue.Size = new System.Drawing.Size(162, 35);
-            this.lblTotalPayValue.TabIndex = 0;
-            this.lblTotalPayValue.Text = "0.00";
-            this.lblTotalPayValue.ThemeName = "Material";
-            // 
-            // lblVatValue
-            // 
-            this.lblVatValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblVatValue.AutoSize = false;
-            this.lblVatValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblVatValue.ForeColor = System.Drawing.Color.Blue;
-            this.lblVatValue.Location = new System.Drawing.Point(262, 135);
-            this.lblVatValue.Name = "lblVatValue";
-            this.lblVatValue.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblVatValue.Size = new System.Drawing.Size(162, 35);
-            this.lblVatValue.TabIndex = 0;
-            this.lblVatValue.Text = "0.00";
-            this.lblVatValue.ThemeName = "Material";
-            // 
-            // lblTotalPay
-            // 
-            this.lblTotalPay.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblTotalPay.AutoSize = false;
-            this.lblTotalPay.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblTotalPay.Location = new System.Drawing.Point(6, 160);
-            this.lblTotalPay.Margin = new System.Windows.Forms.Padding(0);
-            this.lblTotalPay.Name = "lblTotalPay";
-            this.lblTotalPay.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblTotalPay.Size = new System.Drawing.Size(244, 35);
-            this.lblTotalPay.TabIndex = 0;
-            this.lblTotalPay.Text = "TotalPay";
-            this.lblTotalPay.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
-            this.lblTotalPay.ThemeName = "Material";
-            // 
-            // lblService
-            // 
-            this.lblService.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblService.AutoSize = false;
-            this.lblService.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblService.Location = new System.Drawing.Point(6, 109);
-            this.lblService.Margin = new System.Windows.Forms.Padding(0);
-            this.lblService.Name = "lblService";
-            this.lblService.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblService.Size = new System.Drawing.Size(244, 35);
-            this.lblService.TabIndex = 0;
-            this.lblService.Text = "Service";
-            this.lblService.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
-            this.lblService.ThemeName = "Material";
-            // 
-            // lblDiscountValue
-            // 
-            this.lblDiscountValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblDiscountValue.AutoSize = false;
-            this.lblDiscountValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblDiscountValue.ForeColor = System.Drawing.Color.Blue;
-            this.lblDiscountValue.Location = new System.Drawing.Point(262, 82);
-            this.lblDiscountValue.Name = "lblDiscountValue";
-            this.lblDiscountValue.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblDiscountValue.Size = new System.Drawing.Size(162, 35);
-            this.lblDiscountValue.TabIndex = 0;
-            this.lblDiscountValue.Text = "0.00";
-            this.lblDiscountValue.ThemeName = "Material";
-            // 
-            // lblDiscount
-            // 
-            this.lblDiscount.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblDiscount.AutoSize = false;
-            this.lblDiscount.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblDiscount.Location = new System.Drawing.Point(6, 82);
-            this.lblDiscount.Margin = new System.Windows.Forms.Padding(0);
-            this.lblDiscount.Name = "lblDiscount";
-            this.lblDiscount.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblDiscount.Size = new System.Drawing.Size(244, 35);
-            this.lblDiscount.TabIndex = 0;
-            this.lblDiscount.Text = "Discount";
-            this.lblDiscount.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
-            this.lblDiscount.ThemeName = "Material";
-            // 
-            // lblTotalValue
-            // 
-            this.lblTotalValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblTotalValue.AutoSize = false;
-            this.lblTotalValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblTotalValue.ForeColor = System.Drawing.Color.Blue;
-            this.lblTotalValue.Location = new System.Drawing.Point(262, 54);
-            this.lblTotalValue.Name = "lblTotalValue";
-            this.lblTotalValue.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblTotalValue.Size = new System.Drawing.Size(162, 35);
-            this.lblTotalValue.TabIndex = 0;
-            this.lblTotalValue.Text = "0.00";
-            this.lblTotalValue.ThemeName = "Material";
-            // 
-            // lblTotal
-            // 
-            this.lblTotal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblTotal.AutoSize = false;
-            this.lblTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblTotal.Location = new System.Drawing.Point(6, 54);
-            this.lblTotal.Margin = new System.Windows.Forms.Padding(0);
-            this.lblTotal.Name = "lblTotal";
-            this.lblTotal.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            // 
-            // 
-            // 
-            this.lblTotal.RootElement.AutoSize = true;
-            this.lblTotal.Size = new System.Drawing.Size(244, 35);
-            this.lblTotal.TabIndex = 0;
-            this.lblTotal.Text = "Total";
-            this.lblTotal.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
-            this.lblTotal.ThemeName = "Material";
-            // 
-            // pnlContent
-            // 
-            this.pnlContent.Controls.Add(this.pnlItems);
-            this.pnlContent.Controls.Add(this.gt);
-            this.pnlContent.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlContent.Location = new System.Drawing.Point(445, 0);
-            this.pnlContent.Name = "pnlContent";
-            this.pnlContent.Padding = new System.Windows.Forms.Padding(5, 10, 10, 5);
-            this.pnlContent.Size = new System.Drawing.Size(682, 631);
-            this.pnlContent.TabIndex = 2;
-            this.pnlContent.ThemeName = "Material";
-            // 
-            // openFileDialog1
-            // 
-            this.openFileDialog1.FileName = "openFileDialog1";
-            // 
-            // pnlItems
-            // 
-            this.pnlItems.AutoScroll = true;
-            this.pnlItems.AutoSize = true;
-            this.pnlItems.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlItems.Location = new System.Drawing.Point(5, 77);
-            this.pnlItems.Name = "pnlItems";
-            this.pnlItems.Size = new System.Drawing.Size(667, 549);
-            this.pnlItems.TabIndex = 4;
-            this.pnlItems.Scroll += new System.Windows.Forms.ScrollEventHandler(this.pnlItems_Scroll);
-            this.pnlItems.MouseHover += new System.EventHandler(this.pnlItems_MouseHover);
+            this.pnlFoot.ThemeName = "MaterialPink";
             // 
             // btnSearch
             // 
@@ -525,67 +146,101 @@
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
-            // gt
+            // chkAll
             // 
-            this.gt.AutoScroll = true;
-            this.gt.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gt.Location = new System.Drawing.Point(5, 10);
-            this.gt.Name = "gt";
-            this.gt.Size = new System.Drawing.Size(667, 67);
-            this.gt.TabIndex = 3;
-            this.gt.ThemeName = "Material";
+            this.chkAll.Location = new System.Drawing.Point(788, 14);
+            this.chkAll.Name = "chkAll";
+            this.chkAll.Size = new System.Drawing.Size(42, 19);
+            this.chkAll.TabIndex = 3;
+            this.chkAll.Text = "All";
+            this.chkAll.ThemeName = "MaterialPink";
             // 
-            // btnPrintWater
+            // txtSearch
             // 
-            this.btnPrintWater.IconChar = FontAwesome.Sharp.IconChar.BottleDroplet;
-            this.btnPrintWater.IconColor = System.Drawing.Color.Black;
-            this.btnPrintWater.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnPrintWater.IconSize = 32;
-            this.btnPrintWater.Location = new System.Drawing.Point(193, 10);
-            this.btnPrintWater.Name = "btnPrintWater";
-            this.btnPrintWater.Size = new System.Drawing.Size(53, 40);
-            this.btnPrintWater.TabIndex = 1;
-            this.btnPrintWater.UseVisualStyleBackColor = true;
-            this.btnPrintWater.Click += new System.EventHandler(this.btnPrintWater_Click);
+            this.txtSearch.Location = new System.Drawing.Point(464, 7);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.NullText = "Search food dish";
+            this.txtSearch.Size = new System.Drawing.Size(247, 36);
+            this.txtSearch.TabIndex = 2;
+            this.txtSearch.ThemeName = "MaterialPink";
+            this.txtSearch.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSearch_KeyDown);
+            this.txtSearch.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtSearch_KeyUp);
             // 
-            // btnPrintKitchen
+            // lblPeople
             // 
-            this.btnPrintKitchen.IconChar = FontAwesome.Sharp.IconChar.KitchenSet;
-            this.btnPrintKitchen.IconColor = System.Drawing.Color.Black;
-            this.btnPrintKitchen.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnPrintKitchen.IconSize = 32;
-            this.btnPrintKitchen.Location = new System.Drawing.Point(252, 10);
-            this.btnPrintKitchen.Name = "btnPrintKitchen";
-            this.btnPrintKitchen.Size = new System.Drawing.Size(53, 40);
-            this.btnPrintKitchen.TabIndex = 1;
-            this.btnPrintKitchen.UseVisualStyleBackColor = true;
-            this.btnPrintKitchen.Click += new System.EventHandler(this.btnPrintKitchen_Click);
+            this.lblPeople.Location = new System.Drawing.Point(1008, 65);
+            this.lblPeople.Name = "lblPeople";
+            this.lblPeople.Size = new System.Drawing.Size(56, 21);
+            this.lblPeople.TabIndex = 1;
+            this.lblPeople.Text = "People:";
+            this.lblPeople.ThemeName = "MaterialPink";
             // 
-            // btnPrintStair
+            // lblDate
             // 
-            this.btnPrintStair.IconChar = FontAwesome.Sharp.IconChar.Stairs;
-            this.btnPrintStair.IconColor = System.Drawing.Color.Black;
-            this.btnPrintStair.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnPrintStair.IconSize = 32;
-            this.btnPrintStair.Location = new System.Drawing.Point(311, 10);
-            this.btnPrintStair.Name = "btnPrintStair";
-            this.btnPrintStair.Size = new System.Drawing.Size(53, 40);
-            this.btnPrintStair.TabIndex = 1;
-            this.btnPrintStair.UseVisualStyleBackColor = true;
-            this.btnPrintStair.Click += new System.EventHandler(this.btnPrintStair_Click);
+            this.lblDate.Location = new System.Drawing.Point(788, 65);
+            this.lblDate.Name = "lblDate";
+            this.lblDate.Size = new System.Drawing.Size(41, 21);
+            this.lblDate.TabIndex = 1;
+            this.lblDate.Text = "Date:";
+            this.lblDate.ThemeName = "MaterialPink";
             // 
-            // btnPrintFood
+            // lblTable
             // 
-            this.btnPrintFood.IconChar = FontAwesome.Sharp.IconChar.Print;
-            this.btnPrintFood.IconColor = System.Drawing.Color.Black;
-            this.btnPrintFood.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnPrintFood.IconSize = 32;
-            this.btnPrintFood.Location = new System.Drawing.Point(370, 10);
-            this.btnPrintFood.Name = "btnPrintFood";
-            this.btnPrintFood.Size = new System.Drawing.Size(53, 40);
-            this.btnPrintFood.TabIndex = 1;
-            this.btnPrintFood.UseVisualStyleBackColor = true;
-            this.btnPrintFood.Click += new System.EventHandler(this.btnPrintFood_Click);
+            this.lblTable.Location = new System.Drawing.Point(655, 64);
+            this.lblTable.Name = "lblTable";
+            this.lblTable.Size = new System.Drawing.Size(47, 21);
+            this.lblTable.TabIndex = 1;
+            this.lblTable.Text = "Table:";
+            this.lblTable.ThemeName = "MaterialPink";
+            // 
+            // lblPeopleValue
+            // 
+            this.lblPeopleValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.lblPeopleValue.Location = new System.Drawing.Point(1070, 63);
+            this.lblPeopleValue.Name = "lblPeopleValue";
+            this.lblPeopleValue.Size = new System.Drawing.Size(17, 22);
+            this.lblPeopleValue.TabIndex = 1;
+            this.lblPeopleValue.Text = "0";
+            this.lblPeopleValue.ThemeName = "MaterialPink";
+            // 
+            // lblDateValue
+            // 
+            this.lblDateValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.lblDateValue.Location = new System.Drawing.Point(835, 63);
+            this.lblDateValue.Name = "lblDateValue";
+            this.lblDateValue.Size = new System.Drawing.Size(44, 22);
+            this.lblDateValue.TabIndex = 1;
+            this.lblDateValue.Text = "Date";
+            this.lblDateValue.ThemeName = "MaterialPink";
+            // 
+            // lblTableValue
+            // 
+            this.lblTableValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.lblTableValue.Location = new System.Drawing.Point(708, 64);
+            this.lblTableValue.Name = "lblTableValue";
+            this.lblTableValue.Size = new System.Drawing.Size(17, 22);
+            this.lblTableValue.TabIndex = 1;
+            this.lblTableValue.Text = "0";
+            this.lblTableValue.ThemeName = "MaterialPink";
+            // 
+            // lblUserValue
+            // 
+            this.lblUserValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.lblUserValue.Location = new System.Drawing.Point(511, 63);
+            this.lblUserValue.Name = "lblUserValue";
+            this.lblUserValue.Size = new System.Drawing.Size(86, 22);
+            this.lblUserValue.TabIndex = 1;
+            this.lblUserValue.Text = "Username";
+            this.lblUserValue.ThemeName = "MaterialPink";
+            // 
+            // lblUser
+            // 
+            this.lblUser.Location = new System.Drawing.Point(464, 64);
+            this.lblUser.Name = "lblUser";
+            this.lblUser.Size = new System.Drawing.Size(41, 21);
+            this.lblUser.TabIndex = 1;
+            this.lblUser.Text = "User:";
+            this.lblUser.ThemeName = "MaterialPink";
             // 
             // btnInvoice
             // 
@@ -647,6 +302,351 @@
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
+            // pnlCarts
+            // 
+            this.pnlCarts.Controls.Add(this.gdCart);
+            this.pnlCarts.Controls.Add(this.pnlTotal);
+            this.pnlCarts.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnlCarts.Location = new System.Drawing.Point(0, 0);
+            this.pnlCarts.Name = "pnlCarts";
+            this.pnlCarts.Padding = new System.Windows.Forms.Padding(10, 10, 5, 5);
+            this.pnlCarts.Size = new System.Drawing.Size(445, 631);
+            this.pnlCarts.TabIndex = 2;
+            this.pnlCarts.ThemeName = "MaterialPink";
+            // 
+            // gdCart
+            // 
+            this.gdCart.AutoSizeRows = true;
+            this.gdCart.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gdCart.Location = new System.Drawing.Point(10, 10);
+            // 
+            // 
+            // 
+            this.gdCart.MasterTemplate.AllowAddNewRow = false;
+            this.gdCart.MasterTemplate.AllowColumnReorder = false;
+            this.gdCart.MasterTemplate.AllowDragToGroup = false;
+            this.gdCart.MasterTemplate.AllowEditRow = false;
+            this.gdCart.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill;
+            gridViewTextBoxColumn1.FieldName = "Id";
+            gridViewTextBoxColumn1.HeaderText = "Id";
+            gridViewTextBoxColumn1.IsVisible = false;
+            gridViewTextBoxColumn1.Name = "Id";
+            gridViewTextBoxColumn1.Width = 46;
+            gridViewTextBoxColumn2.FieldName = "NO";
+            gridViewTextBoxColumn2.HeaderText = "n_o";
+            gridViewTextBoxColumn2.Name = "NO";
+            gridViewTextBoxColumn2.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            gridViewTextBoxColumn2.Width = 34;
+            gridViewTextBoxColumn3.FieldName = "LangDescription";
+            gridViewTextBoxColumn3.HeaderText = "Description";
+            gridViewTextBoxColumn3.Multiline = true;
+            gridViewTextBoxColumn3.Name = "Description";
+            gridViewTextBoxColumn3.Width = 221;
+            gridViewTextBoxColumn3.WrapText = true;
+            gridViewTextBoxColumn4.FieldName = "QtyPrice";
+            gridViewTextBoxColumn4.HeaderText = "QtyPrice";
+            gridViewTextBoxColumn4.Name = "QtyPrice";
+            gridViewTextBoxColumn4.Width = 64;
+            gridViewTextBoxColumn5.FieldName = "FoodPrice";
+            gridViewTextBoxColumn5.HeaderText = "Price";
+            gridViewTextBoxColumn5.HeaderTextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            gridViewTextBoxColumn5.IsVisible = false;
+            gridViewTextBoxColumn5.Name = "FoodPrice";
+            gridViewTextBoxColumn5.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            gridViewTextBoxColumn5.Width = 58;
+            gridViewTextBoxColumn6.FieldName = "DiscountAmount";
+            gridViewTextBoxColumn6.HeaderText = "Discount";
+            gridViewTextBoxColumn6.HeaderTextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            gridViewTextBoxColumn6.Name = "DiscountAmount";
+            gridViewTextBoxColumn6.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            gridViewTextBoxColumn6.Width = 52;
+            gridViewTextBoxColumn7.FieldName = "TotalAmountAfterDiscount";
+            gridViewTextBoxColumn7.HeaderText = "Total";
+            gridViewTextBoxColumn7.Name = "TotalAmountAfterDiscount";
+            gridViewTextBoxColumn7.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            gridViewTextBoxColumn7.Width = 59;
+            this.gdCart.MasterTemplate.Columns.AddRange(new Telerik.WinControls.UI.GridViewDataColumn[] {
+            gridViewTextBoxColumn1,
+            gridViewTextBoxColumn2,
+            gridViewTextBoxColumn3,
+            gridViewTextBoxColumn4,
+            gridViewTextBoxColumn5,
+            gridViewTextBoxColumn6,
+            gridViewTextBoxColumn7});
+            this.gdCart.MasterTemplate.EnableGrouping = false;
+            this.gdCart.MasterTemplate.ShowRowHeaderColumn = false;
+            this.gdCart.MasterTemplate.ViewDefinition = tableViewDefinition1;
+            this.gdCart.Name = "gdCart";
+            this.gdCart.ReadOnly = true;
+            this.gdCart.Size = new System.Drawing.Size(430, 426);
+            this.gdCart.TabIndex = 0;
+            this.gdCart.ThemeName = "MaterialPink";
+            this.gdCart.CellFormatting += new Telerik.WinControls.UI.CellFormattingEventHandler(this.gdCart_CellFormatting);
+            this.gdCart.ViewCellFormatting += new Telerik.WinControls.UI.CellFormattingEventHandler(this.gdCart_ViewCellFormatting);
+            this.gdCart.DoubleClick += new System.EventHandler(this.gdCart_DoubleClick);
+            // 
+            // pnlTotal
+            // 
+            this.pnlTotal.Controls.Add(this.btnPrintWater);
+            this.pnlTotal.Controls.Add(this.btnPrintKitchen);
+            this.pnlTotal.Controls.Add(this.btnPrintStair);
+            this.pnlTotal.Controls.Add(this.btnPrintFood);
+            this.pnlTotal.Controls.Add(this.lblServiceValue);
+            this.pnlTotal.Controls.Add(this.lblVat);
+            this.pnlTotal.Controls.Add(this.lblTotalPayValue);
+            this.pnlTotal.Controls.Add(this.lblVatValue);
+            this.pnlTotal.Controls.Add(this.lblTotalPay);
+            this.pnlTotal.Controls.Add(this.lblService);
+            this.pnlTotal.Controls.Add(this.lblDiscountValue);
+            this.pnlTotal.Controls.Add(this.lblDiscount);
+            this.pnlTotal.Controls.Add(this.lblTotalValue);
+            this.pnlTotal.Controls.Add(this.lblTotal);
+            this.pnlTotal.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlTotal.Location = new System.Drawing.Point(10, 436);
+            this.pnlTotal.Name = "pnlTotal";
+            this.pnlTotal.Size = new System.Drawing.Size(430, 190);
+            this.pnlTotal.TabIndex = 3;
+            this.pnlTotal.ThemeName = "MaterialPink";
+            // 
+            // btnPrintWater
+            // 
+            this.btnPrintWater.IconChar = FontAwesome.Sharp.IconChar.BottleDroplet;
+            this.btnPrintWater.IconColor = System.Drawing.Color.Black;
+            this.btnPrintWater.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnPrintWater.IconSize = 32;
+            this.btnPrintWater.Location = new System.Drawing.Point(193, 10);
+            this.btnPrintWater.Name = "btnPrintWater";
+            this.btnPrintWater.Size = new System.Drawing.Size(53, 40);
+            this.btnPrintWater.TabIndex = 1;
+            this.btnPrintWater.UseVisualStyleBackColor = true;
+            this.btnPrintWater.Click += new System.EventHandler(this.btnPrintWater_Click);
+            // 
+            // btnPrintKitchen
+            // 
+            this.btnPrintKitchen.IconChar = FontAwesome.Sharp.IconChar.KitchenSet;
+            this.btnPrintKitchen.IconColor = System.Drawing.Color.Black;
+            this.btnPrintKitchen.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnPrintKitchen.IconSize = 32;
+            this.btnPrintKitchen.Location = new System.Drawing.Point(252, 10);
+            this.btnPrintKitchen.Name = "btnPrintKitchen";
+            this.btnPrintKitchen.Size = new System.Drawing.Size(53, 40);
+            this.btnPrintKitchen.TabIndex = 1;
+            this.btnPrintKitchen.UseVisualStyleBackColor = true;
+            this.btnPrintKitchen.Click += new System.EventHandler(this.btnPrintKitchen_Click);
+            // 
+            // btnPrintStair
+            // 
+            this.btnPrintStair.IconChar = FontAwesome.Sharp.IconChar.Stairs;
+            this.btnPrintStair.IconColor = System.Drawing.Color.Black;
+            this.btnPrintStair.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnPrintStair.IconSize = 32;
+            this.btnPrintStair.Location = new System.Drawing.Point(311, 10);
+            this.btnPrintStair.Name = "btnPrintStair";
+            this.btnPrintStair.Size = new System.Drawing.Size(53, 40);
+            this.btnPrintStair.TabIndex = 1;
+            this.btnPrintStair.UseVisualStyleBackColor = true;
+            this.btnPrintStair.Click += new System.EventHandler(this.btnPrintStair_Click);
+            // 
+            // btnPrintFood
+            // 
+            this.btnPrintFood.IconChar = FontAwesome.Sharp.IconChar.Print;
+            this.btnPrintFood.IconColor = System.Drawing.Color.Black;
+            this.btnPrintFood.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnPrintFood.IconSize = 32;
+            this.btnPrintFood.Location = new System.Drawing.Point(370, 10);
+            this.btnPrintFood.Name = "btnPrintFood";
+            this.btnPrintFood.Size = new System.Drawing.Size(53, 40);
+            this.btnPrintFood.TabIndex = 1;
+            this.btnPrintFood.UseVisualStyleBackColor = true;
+            this.btnPrintFood.Click += new System.EventHandler(this.btnPrintFood_Click);
+            // 
+            // lblServiceValue
+            // 
+            this.lblServiceValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblServiceValue.AutoSize = false;
+            this.lblServiceValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblServiceValue.ForeColor = System.Drawing.Color.Blue;
+            this.lblServiceValue.Location = new System.Drawing.Point(262, 109);
+            this.lblServiceValue.Name = "lblServiceValue";
+            this.lblServiceValue.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.lblServiceValue.Size = new System.Drawing.Size(162, 35);
+            this.lblServiceValue.TabIndex = 0;
+            this.lblServiceValue.Text = "0.00";
+            this.lblServiceValue.ThemeName = "MaterialPink";
+            // 
+            // lblVat
+            // 
+            this.lblVat.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblVat.AutoSize = false;
+            this.lblVat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblVat.Location = new System.Drawing.Point(6, 135);
+            this.lblVat.Margin = new System.Windows.Forms.Padding(0);
+            this.lblVat.Name = "lblVat";
+            this.lblVat.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblVat.Size = new System.Drawing.Size(244, 35);
+            this.lblVat.TabIndex = 0;
+            this.lblVat.Text = "Vat";
+            this.lblVat.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblVat.ThemeName = "MaterialPink";
+            // 
+            // lblTotalPayValue
+            // 
+            this.lblTotalPayValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblTotalPayValue.AutoSize = false;
+            this.lblTotalPayValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblTotalPayValue.ForeColor = System.Drawing.Color.Blue;
+            this.lblTotalPayValue.Location = new System.Drawing.Point(262, 160);
+            this.lblTotalPayValue.Name = "lblTotalPayValue";
+            this.lblTotalPayValue.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.lblTotalPayValue.Size = new System.Drawing.Size(162, 35);
+            this.lblTotalPayValue.TabIndex = 0;
+            this.lblTotalPayValue.Text = "0.00";
+            this.lblTotalPayValue.ThemeName = "MaterialPink";
+            // 
+            // lblVatValue
+            // 
+            this.lblVatValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblVatValue.AutoSize = false;
+            this.lblVatValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblVatValue.ForeColor = System.Drawing.Color.Blue;
+            this.lblVatValue.Location = new System.Drawing.Point(262, 135);
+            this.lblVatValue.Name = "lblVatValue";
+            this.lblVatValue.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.lblVatValue.Size = new System.Drawing.Size(162, 35);
+            this.lblVatValue.TabIndex = 0;
+            this.lblVatValue.Text = "0.00";
+            this.lblVatValue.ThemeName = "MaterialPink";
+            // 
+            // lblTotalPay
+            // 
+            this.lblTotalPay.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblTotalPay.AutoSize = false;
+            this.lblTotalPay.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblTotalPay.Location = new System.Drawing.Point(6, 160);
+            this.lblTotalPay.Margin = new System.Windows.Forms.Padding(0);
+            this.lblTotalPay.Name = "lblTotalPay";
+            this.lblTotalPay.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblTotalPay.Size = new System.Drawing.Size(244, 35);
+            this.lblTotalPay.TabIndex = 0;
+            this.lblTotalPay.Text = "TotalPay";
+            this.lblTotalPay.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTotalPay.ThemeName = "MaterialPink";
+            // 
+            // lblService
+            // 
+            this.lblService.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblService.AutoSize = false;
+            this.lblService.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblService.Location = new System.Drawing.Point(6, 109);
+            this.lblService.Margin = new System.Windows.Forms.Padding(0);
+            this.lblService.Name = "lblService";
+            this.lblService.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblService.Size = new System.Drawing.Size(244, 35);
+            this.lblService.TabIndex = 0;
+            this.lblService.Text = "Service";
+            this.lblService.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblService.ThemeName = "MaterialPink";
+            // 
+            // lblDiscountValue
+            // 
+            this.lblDiscountValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblDiscountValue.AutoSize = false;
+            this.lblDiscountValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblDiscountValue.ForeColor = System.Drawing.Color.Blue;
+            this.lblDiscountValue.Location = new System.Drawing.Point(262, 82);
+            this.lblDiscountValue.Name = "lblDiscountValue";
+            this.lblDiscountValue.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.lblDiscountValue.Size = new System.Drawing.Size(162, 35);
+            this.lblDiscountValue.TabIndex = 0;
+            this.lblDiscountValue.Text = "0.00";
+            this.lblDiscountValue.ThemeName = "MaterialPink";
+            // 
+            // lblDiscount
+            // 
+            this.lblDiscount.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblDiscount.AutoSize = false;
+            this.lblDiscount.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblDiscount.Location = new System.Drawing.Point(6, 82);
+            this.lblDiscount.Margin = new System.Windows.Forms.Padding(0);
+            this.lblDiscount.Name = "lblDiscount";
+            this.lblDiscount.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblDiscount.Size = new System.Drawing.Size(244, 35);
+            this.lblDiscount.TabIndex = 0;
+            this.lblDiscount.Text = "Discount";
+            this.lblDiscount.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblDiscount.ThemeName = "MaterialPink";
+            // 
+            // lblTotalValue
+            // 
+            this.lblTotalValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblTotalValue.AutoSize = false;
+            this.lblTotalValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblTotalValue.ForeColor = System.Drawing.Color.Blue;
+            this.lblTotalValue.Location = new System.Drawing.Point(262, 54);
+            this.lblTotalValue.Name = "lblTotalValue";
+            this.lblTotalValue.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.lblTotalValue.Size = new System.Drawing.Size(162, 35);
+            this.lblTotalValue.TabIndex = 0;
+            this.lblTotalValue.Text = "0.00";
+            this.lblTotalValue.ThemeName = "MaterialPink";
+            // 
+            // lblTotal
+            // 
+            this.lblTotal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblTotal.AutoSize = false;
+            this.lblTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblTotal.Location = new System.Drawing.Point(6, 54);
+            this.lblTotal.Margin = new System.Windows.Forms.Padding(0);
+            this.lblTotal.Name = "lblTotal";
+            this.lblTotal.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            // 
+            // 
+            // 
+            this.lblTotal.RootElement.AutoSize = true;
+            this.lblTotal.Size = new System.Drawing.Size(244, 35);
+            this.lblTotal.TabIndex = 0;
+            this.lblTotal.Text = "Total";
+            this.lblTotal.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTotal.ThemeName = "MaterialPink";
+            // 
+            // pnlContent
+            // 
+            this.pnlContent.Controls.Add(this.pnlItems);
+            this.pnlContent.Controls.Add(this.gt);
+            this.pnlContent.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlContent.Location = new System.Drawing.Point(445, 0);
+            this.pnlContent.Name = "pnlContent";
+            this.pnlContent.Padding = new System.Windows.Forms.Padding(5, 10, 10, 5);
+            this.pnlContent.Size = new System.Drawing.Size(682, 631);
+            this.pnlContent.TabIndex = 2;
+            this.pnlContent.ThemeName = "MaterialPink";
+            // 
+            // pnlItems
+            // 
+            this.pnlItems.AutoScroll = true;
+            this.pnlItems.AutoSize = true;
+            this.pnlItems.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlItems.Location = new System.Drawing.Point(5, 77);
+            this.pnlItems.Name = "pnlItems";
+            this.pnlItems.Size = new System.Drawing.Size(667, 549);
+            this.pnlItems.TabIndex = 4;
+            this.pnlItems.Scroll += new System.Windows.Forms.ScrollEventHandler(this.pnlItems_Scroll);
+            this.pnlItems.MouseHover += new System.EventHandler(this.pnlItems_MouseHover);
+            // 
+            // gt
+            // 
+            this.gt.AutoScroll = true;
+            this.gt.Dock = System.Windows.Forms.DockStyle.Top;
+            this.gt.Location = new System.Drawing.Point(5, 10);
+            this.gt.Name = "gt";
+            this.gt.Size = new System.Drawing.Size(667, 67);
+            this.gt.TabIndex = 3;
+            this.gt.ThemeName = "MaterialPink";
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
             // SaleForm
             // 
             this.AcceptButton = this.btnSearch;
@@ -661,7 +661,7 @@
             this.Name = "SaleForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sale";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.SaleForm_Load);
             this.Shown += new System.EventHandler(this.SaleForm_Shown);
@@ -705,7 +705,6 @@
 
         #endregion
         private Telerik.WinControls.UI.RadPanel pnlFoot;
-        private Telerik.WinControls.Themes.MaterialTheme materialTheme1;
         private Telerik.WinControls.UI.RadPanel pnlCarts;
         private Telerik.WinControls.UI.RadPanel pnlContent;
         private Telerik.WinControls.UI.RadPanel gt;
@@ -742,5 +741,6 @@
         private FontAwesome.Sharp.IconButton btnPrintStair;
         private Telerik.WinControls.UI.RadCheckBox chkAll;
         private FontAwesome.Sharp.IconButton btnSearch;
+        private Telerik.WinControls.Themes.MaterialPinkTheme materialPinkTheme1;
     }
 }

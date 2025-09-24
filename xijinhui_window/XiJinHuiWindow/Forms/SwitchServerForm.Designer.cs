@@ -37,7 +37,7 @@
             this.radPanel1 = new Telerik.WinControls.UI.RadPanel();
             this.rbLocalServer = new Telerik.WinControls.UI.RadRadioButton();
             this.rbOnlineServer = new Telerik.WinControls.UI.RadRadioButton();
-            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialTheme();
+            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialPinkTheme();
             ((System.ComponentModel.ISupportInitialize)(this.txtOnlineServer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lblOnlineServer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lblLocalServer)).BeginInit();
@@ -56,7 +56,7 @@
             this.txtOnlineServer.Name = "txtOnlineServer";
             this.txtOnlineServer.Size = new System.Drawing.Size(307, 36);
             this.txtOnlineServer.TabIndex = 0;
-            this.txtOnlineServer.ThemeName = "Material";
+            this.txtOnlineServer.ThemeName = "MaterialPink";
             // 
             // lblOnlineServer
             // 
@@ -65,7 +65,7 @@
             this.lblOnlineServer.Size = new System.Drawing.Size(90, 21);
             this.lblOnlineServer.TabIndex = 1;
             this.lblOnlineServer.Text = "OnlineServer";
-            this.lblOnlineServer.ThemeName = "Material";
+            this.lblOnlineServer.ThemeName = "MaterialPink";
             // 
             // lblLocalServer
             // 
@@ -74,7 +74,7 @@
             this.lblLocalServer.Size = new System.Drawing.Size(84, 21);
             this.lblLocalServer.TabIndex = 3;
             this.lblLocalServer.Text = "LocalServer";
-            this.lblLocalServer.ThemeName = "Material";
+            this.lblLocalServer.ThemeName = "MaterialPink";
             // 
             // txtLocalServer
             // 
@@ -82,7 +82,7 @@
             this.txtLocalServer.Name = "txtLocalServer";
             this.txtLocalServer.Size = new System.Drawing.Size(307, 36);
             this.txtLocalServer.TabIndex = 2;
-            this.txtLocalServer.ThemeName = "Material";
+            this.txtLocalServer.ThemeName = "MaterialPink";
             // 
             // btnSave
             // 
@@ -91,7 +91,7 @@
             this.btnSave.Size = new System.Drawing.Size(140, 41);
             this.btnSave.TabIndex = 4;
             this.btnSave.Text = "Save";
-            this.btnSave.ThemeName = "Material";
+            this.btnSave.ThemeName = "MaterialPink";
             this.btnSave.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // radPanel1
@@ -109,7 +109,7 @@
             this.radPanel1.Name = "radPanel1";
             this.radPanel1.Size = new System.Drawing.Size(422, 311);
             this.radPanel1.TabIndex = 5;
-            this.radPanel1.ThemeName = "Material";
+            this.radPanel1.ThemeName = "MaterialPink";
             // 
             // rbLocalServer
             // 
@@ -144,7 +144,7 @@
             this.Name = "SwitchServerForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Switch Server";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.LoginForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.txtOnlineServer)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lblOnlineServer)).EndInit();
@@ -169,7 +169,7 @@
         private Telerik.WinControls.UI.RadTextBox txtLocalServer;
         private Telerik.WinControls.UI.RadButton btnSave;
         private Telerik.WinControls.UI.RadPanel radPanel1;
-        private Telerik.WinControls.Themes.MaterialTheme materialTheme1;
+        private Telerik.WinControls.Themes.MaterialPinkTheme materialTheme1;
         private Telerik.WinControls.UI.RadRadioButton rbOnlineServer;
         private Telerik.WinControls.UI.RadRadioButton rbLocalServer;
     }

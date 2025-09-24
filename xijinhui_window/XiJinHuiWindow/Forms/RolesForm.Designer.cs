@@ -31,7 +31,7 @@
             Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn3 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
             Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn4 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
             Telerik.WinControls.UI.TableViewDefinition tableViewDefinition2 = new Telerik.WinControls.UI.TableViewDefinition();
-            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialTheme();
+            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialPinkTheme();
             this.radPanel1 = new Telerik.WinControls.UI.RadPanel();
             this.radPanel3 = new Telerik.WinControls.UI.RadPanel();
             this.radPanel6 = new Telerik.WinControls.UI.RadPanel();
@@ -80,7 +80,7 @@
             this.radPanel1.Name = "radPanel1";
             this.radPanel1.Size = new System.Drawing.Size(646, 611);
             this.radPanel1.TabIndex = 4;
-            this.radPanel1.ThemeName = "Material";
+            this.radPanel1.ThemeName = "MaterialPink";
             // 
             // radPanel3
             // 
@@ -91,7 +91,7 @@
             this.radPanel3.Name = "radPanel3";
             this.radPanel3.Size = new System.Drawing.Size(646, 551);
             this.radPanel3.TabIndex = 6;
-            this.radPanel3.ThemeName = "Material";
+            this.radPanel3.ThemeName = "MaterialPink";
             // 
             // radPanel6
             // 
@@ -114,7 +114,7 @@
             this.radPanel5.Name = "radPanel5";
             this.radPanel5.Size = new System.Drawing.Size(491, 62);
             this.radPanel5.TabIndex = 6;
-            this.radPanel5.ThemeName = "Material";
+            this.radPanel5.ThemeName = "MaterialPink";
             // 
             // btnCancel
             // 
@@ -185,7 +185,7 @@
             this.cklMenu.Name = "cklMenu";
             this.cklMenu.Size = new System.Drawing.Size(491, 489);
             this.cklMenu.TabIndex = 37;
-            this.cklMenu.ThemeName = "Material";
+            this.cklMenu.ThemeName = "MaterialPink";
             // 
             // radPanel4
             // 
@@ -195,7 +195,7 @@
             this.radPanel4.Name = "radPanel4";
             this.radPanel4.Size = new System.Drawing.Size(155, 551);
             this.radPanel4.TabIndex = 6;
-            this.radPanel4.ThemeName = "Material";
+            this.radPanel4.ThemeName = "MaterialPink";
             // 
             // lblMenu
             // 
@@ -205,7 +205,7 @@
             this.lblMenu.Size = new System.Drawing.Size(49, 26);
             this.lblMenu.TabIndex = 21;
             this.lblMenu.Text = "Menu";
-            this.lblMenu.ThemeName = "Material";
+            this.lblMenu.ThemeName = "MaterialPink";
             // 
             // radPanel2
             // 
@@ -216,7 +216,7 @@
             this.radPanel2.Name = "radPanel2";
             this.radPanel2.Size = new System.Drawing.Size(646, 60);
             this.radPanel2.TabIndex = 6;
-            this.radPanel2.ThemeName = "Material";
+            this.radPanel2.ThemeName = "MaterialPink";
             // 
             // txtName
             // 
@@ -225,7 +225,7 @@
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(473, 41);
             this.txtName.TabIndex = 22;
-            this.txtName.ThemeName = "Material";
+            this.txtName.ThemeName = "MaterialPink";
             // 
             // lblName
             // 
@@ -235,7 +235,7 @@
             this.lblName.Size = new System.Drawing.Size(39, 26);
             this.lblName.TabIndex = 21;
             this.lblName.Text = "Title";
-            this.lblName.ThemeName = "Material";
+            this.lblName.ThemeName = "MaterialPink";
             // 
             // dgView
             // 
@@ -277,7 +277,7 @@
             this.dgView.Name = "dgView";
             this.dgView.Size = new System.Drawing.Size(197, 611);
             this.dgView.TabIndex = 5;
-            this.dgView.ThemeName = "Material";
+            this.dgView.ThemeName = "MaterialPink";
             this.dgView.CellDoubleClick += new Telerik.WinControls.UI.GridViewCellEventHandler(this.dgView_CellDoubleClick);
             // 
             // radPanel7
@@ -300,7 +300,7 @@
             this.Name = "RolesForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Roles";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.frmRole_Load);
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).EndInit();
             this.radPanel1.ResumeLayout(false);
@@ -330,7 +330,7 @@
         }
 
         #endregion
-        private Telerik.WinControls.Themes.MaterialTheme materialTheme1;
+        private Telerik.WinControls.Themes.MaterialPinkTheme materialTheme1;
         private Telerik.WinControls.UI.RadPanel radPanel1;
         private Telerik.WinControls.UI.RadTextBox txtName;
         private Telerik.WinControls.UI.RadLabel lblName;

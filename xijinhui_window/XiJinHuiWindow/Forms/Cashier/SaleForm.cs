@@ -164,7 +164,7 @@ namespace XiJinHuiWindow.Forms.Cashier
                 button.Width = buttonWidth;
                 button.Height = buttonHeight;
                 button.Font = PublicVariable.fontStyleByLanguage();
-                button.ThemeName = "Material";
+                button.ThemeName = "MaterialPink";
                 button.Tag = df;
                 button.Padding = new Padding(0);
                 button.Click += new EventHandler(BtnCategory_Click);

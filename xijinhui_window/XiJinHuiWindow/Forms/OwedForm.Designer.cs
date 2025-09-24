@@ -82,7 +82,7 @@
             this.radPanel1.Name = "radPanel1";
             this.radPanel1.Size = new System.Drawing.Size(871, 121);
             this.radPanel1.TabIndex = 4;
-            this.radPanel1.ThemeName = "Material";
+            this.radPanel1.ThemeName = "MaterialPink";
             this.radPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.radPanel1_Paint);
             // 
             // ddStatus
@@ -98,7 +98,7 @@
             this.ddStatus.Size = new System.Drawing.Size(204, 36);
             this.ddStatus.TabIndex = 24;
             this.ddStatus.Text = "owed";
-            this.ddStatus.ThemeName = "Material";
+            this.ddStatus.ThemeName = "MaterialPink";
             // 
             // txtSearch
             // 
@@ -106,7 +106,7 @@
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(238, 36);
             this.txtSearch.TabIndex = 23;
-            this.txtSearch.ThemeName = "Material";
+            this.txtSearch.ThemeName = "MaterialPink";
             // 
             // dtpEnd
             // 
@@ -119,7 +119,7 @@
             this.dtpEnd.TabIndex = 22;
             this.dtpEnd.TabStop = false;
             this.dtpEnd.Text = "2025-01-18 11:19:39";
-            this.dtpEnd.ThemeName = "Material";
+            this.dtpEnd.ThemeName = "MaterialPink";
             this.dtpEnd.Value = new System.DateTime(2025, 1, 18, 11, 19, 39, 806);
             // 
             // dtpStart
@@ -133,7 +133,7 @@
             this.dtpStart.TabIndex = 22;
             this.dtpStart.TabStop = false;
             this.dtpStart.Text = "2025-01-18 11:19:39";
-            this.dtpStart.ThemeName = "Material";
+            this.dtpStart.ThemeName = "MaterialPink";
             this.dtpStart.Value = new System.DateTime(2025, 1, 18, 11, 19, 39, 806);
             // 
             // lblEnd
@@ -144,7 +144,7 @@
             this.lblEnd.Size = new System.Drawing.Size(37, 26);
             this.lblEnd.TabIndex = 19;
             this.lblEnd.Text = "End";
-            this.lblEnd.ThemeName = "Material";
+            this.lblEnd.ThemeName = "MaterialPink";
             // 
             // btnSearch
             // 
@@ -169,7 +169,7 @@
             this.radLabel1.Size = new System.Drawing.Size(54, 26);
             this.radLabel1.TabIndex = 19;
             this.radLabel1.Text = "Status";
-            this.radLabel1.ThemeName = "Material";
+            this.radLabel1.ThemeName = "MaterialPink";
             // 
             // lblSearch
             // 
@@ -179,7 +179,7 @@
             this.lblSearch.Size = new System.Drawing.Size(60, 26);
             this.lblSearch.TabIndex = 19;
             this.lblSearch.Text = "Search";
-            this.lblSearch.ThemeName = "Material";
+            this.lblSearch.ThemeName = "MaterialPink";
             // 
             // lblStart
             // 
@@ -189,7 +189,7 @@
             this.lblStart.Size = new System.Drawing.Size(43, 26);
             this.lblStart.TabIndex = 19;
             this.lblStart.Text = "Start";
-            this.lblStart.ThemeName = "Material";
+            this.lblStart.ThemeName = "MaterialPink";
             // 
             // dgView
             // 
@@ -268,7 +268,7 @@
             this.dgView.Name = "dgView";
             this.dgView.Size = new System.Drawing.Size(871, 488);
             this.dgView.TabIndex = 5;
-            this.dgView.ThemeName = "Material";
+            this.dgView.ThemeName = "MaterialPink";
             this.dgView.CellFormatting += new Telerik.WinControls.UI.CellFormattingEventHandler(this.dgView_CellFormatting);
             this.dgView.CellClick += new Telerik.WinControls.UI.GridViewCellEventHandler(this.dgView_CellClick);
             // 
@@ -284,7 +284,7 @@
             this.Name = "OwedForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Owed";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.frmSaleTable_Load);
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).EndInit();
             this.radPanel1.ResumeLayout(false);

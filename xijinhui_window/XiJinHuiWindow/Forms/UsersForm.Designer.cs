@@ -93,7 +93,7 @@
             this.radPanel1.Name = "radPanel1";
             this.radPanel1.Size = new System.Drawing.Size(841, 197);
             this.radPanel1.TabIndex = 4;
-            this.radPanel1.ThemeName = "Material";
+            this.radPanel1.ThemeName = "MaterialPink";
             // 
             // btnCancel
             // 
@@ -162,7 +162,7 @@
             this.cbIsAdmin.Size = new System.Drawing.Size(79, 19);
             this.cbIsAdmin.TabIndex = 38;
             this.cbIsAdmin.Text = "IsAdmin";
-            this.cbIsAdmin.ThemeName = "Material";
+            this.cbIsAdmin.ThemeName = "MaterialPink";
             // 
             // ddRole
             // 
@@ -172,7 +172,7 @@
             this.ddRole.Size = new System.Drawing.Size(211, 36);
             this.ddRole.TabIndex = 37;
             this.ddRole.Text = "Select Role";
-            this.ddRole.ThemeName = "Material";
+            this.ddRole.ThemeName = "MaterialPink";
             // 
             // ddLanguage
             // 
@@ -182,7 +182,7 @@
             this.ddLanguage.Size = new System.Drawing.Size(211, 36);
             this.ddLanguage.TabIndex = 37;
             this.ddLanguage.Text = "Select Language";
-            this.ddLanguage.ThemeName = "Material";
+            this.ddLanguage.ThemeName = "MaterialPink";
             // 
             // lblRole
             // 
@@ -192,7 +192,7 @@
             this.lblRole.Size = new System.Drawing.Size(42, 26);
             this.lblRole.TabIndex = 27;
             this.lblRole.Text = "Role";
-            this.lblRole.ThemeName = "Material";
+            this.lblRole.ThemeName = "MaterialPink";
             // 
             // lblLocale
             // 
@@ -202,7 +202,7 @@
             this.lblLocale.Size = new System.Drawing.Size(80, 26);
             this.lblLocale.TabIndex = 27;
             this.lblLocale.Text = "Language";
-            this.lblLocale.ThemeName = "Material";
+            this.lblLocale.ThemeName = "MaterialPink";
             // 
             // txtPhone
             // 
@@ -211,7 +211,7 @@
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(211, 38);
             this.txtPhone.TabIndex = 26;
-            this.txtPhone.ThemeName = "Material";
+            this.txtPhone.ThemeName = "MaterialPink";
             // 
             // lblPhone
             // 
@@ -221,7 +221,7 @@
             this.lblPhone.Size = new System.Drawing.Size(55, 26);
             this.lblPhone.TabIndex = 25;
             this.lblPhone.Text = "Phone";
-            this.lblPhone.ThemeName = "Material";
+            this.lblPhone.ThemeName = "MaterialPink";
             // 
             // txtPassword
             // 
@@ -230,7 +230,7 @@
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(211, 38);
             this.txtPassword.TabIndex = 26;
-            this.txtPassword.ThemeName = "Material";
+            this.txtPassword.ThemeName = "MaterialPink";
             // 
             // lblPassword
             // 
@@ -240,7 +240,7 @@
             this.lblPassword.Size = new System.Drawing.Size(79, 26);
             this.lblPassword.TabIndex = 25;
             this.lblPassword.Text = "Password";
-            this.lblPassword.ThemeName = "Material";
+            this.lblPassword.ThemeName = "MaterialPink";
             // 
             // txtUsername
             // 
@@ -249,7 +249,7 @@
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(211, 41);
             this.txtUsername.TabIndex = 22;
-            this.txtUsername.ThemeName = "Material";
+            this.txtUsername.ThemeName = "MaterialPink";
             // 
             // lblUsername
             // 
@@ -259,7 +259,7 @@
             this.lblUsername.Size = new System.Drawing.Size(83, 26);
             this.lblUsername.TabIndex = 21;
             this.lblUsername.Text = "Username";
-            this.lblUsername.ThemeName = "Material";
+            this.lblUsername.ThemeName = "MaterialPink";
             // 
             // dgView
             // 
@@ -320,7 +320,7 @@
             this.dgView.Name = "dgView";
             this.dgView.Size = new System.Drawing.Size(841, 412);
             this.dgView.TabIndex = 5;
-            this.dgView.ThemeName = "Material";
+            this.dgView.ThemeName = "MaterialPink";
             this.dgView.CellDoubleClick += new Telerik.WinControls.UI.GridViewCellEventHandler(this.dgView_CellDoubleClick);
             // 
             // UsersForm
@@ -335,7 +335,7 @@
             this.Name = "UsersForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Users";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.frmUser_Load);
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).EndInit();
             this.radPanel1.ResumeLayout(false);

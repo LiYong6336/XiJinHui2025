@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SaleReportSecretForm));
-            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialTheme();
+            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialPinkTheme();
             this.btnOwe = new Telerik.WinControls.UI.RadButton();
             this.lblEndDate = new Telerik.WinControls.UI.RadLabel();
             this.dtpEnd = new Telerik.WinControls.UI.RadDateTimePicker();
@@ -49,14 +49,14 @@
             // 
             resources.ApplyResources(this.btnOwe, "btnOwe");
             this.btnOwe.Name = "btnOwe";
-            this.btnOwe.ThemeName = "Material";
+            this.btnOwe.ThemeName = "MaterialPink";
             this.btnOwe.Click += new System.EventHandler(this.btnOwe_Click);
             // 
             // lblEndDate
             // 
             resources.ApplyResources(this.lblEndDate, "lblEndDate");
             this.lblEndDate.Name = "lblEndDate";
-            this.lblEndDate.ThemeName = "Material";
+            this.lblEndDate.ThemeName = "MaterialPink";
             // 
             // dtpEnd
             // 
@@ -65,21 +65,21 @@
             this.dtpEnd.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpEnd.Name = "dtpEnd";
             this.dtpEnd.TabStop = false;
-            this.dtpEnd.ThemeName = "Material";
+            this.dtpEnd.ThemeName = "MaterialPink";
             this.dtpEnd.Value = new System.DateTime(2022, 6, 16, 12, 11, 26, 0);
             // 
             // btnShow
             // 
             resources.ApplyResources(this.btnShow, "btnShow");
             this.btnShow.Name = "btnShow";
-            this.btnShow.ThemeName = "Material";
+            this.btnShow.ThemeName = "MaterialPink";
             this.btnShow.Click += new System.EventHandler(this.btnShow_Click);
             // 
             // lblStartDate
             // 
             resources.ApplyResources(this.lblStartDate, "lblStartDate");
             this.lblStartDate.Name = "lblStartDate";
-            this.lblStartDate.ThemeName = "Material";
+            this.lblStartDate.ThemeName = "MaterialPink";
             // 
             // dtpStart
             // 
@@ -88,7 +88,7 @@
             this.dtpStart.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpStart.Name = "dtpStart";
             this.dtpStart.TabStop = false;
-            this.dtpStart.ThemeName = "Material";
+            this.dtpStart.ThemeName = "MaterialPink";
             this.dtpStart.Value = new System.DateTime(2022, 6, 16, 12, 11, 26, 0);
             // 
             // SaleReportSecretForm
@@ -102,7 +102,7 @@
             this.Controls.Add(this.lblStartDate);
             this.Controls.Add(this.dtpStart);
             this.Name = "SaleReportSecretForm";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.frmSaleReport_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnOwe)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lblEndDate)).EndInit();
@@ -118,7 +118,7 @@
 
         #endregion
 
-        private Telerik.WinControls.Themes.MaterialTheme materialTheme1;
+        private Telerik.WinControls.Themes.MaterialPinkTheme materialTheme1;
         private Telerik.WinControls.UI.RadButton btnOwe;
         private Telerik.WinControls.UI.RadLabel lblEndDate;
         private Telerik.WinControls.UI.RadDateTimePicker dtpEnd;

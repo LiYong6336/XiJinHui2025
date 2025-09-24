@@ -46,6 +46,7 @@
             Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn16 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
             Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn17 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
             Telerik.WinControls.UI.TableViewDefinition tableViewDefinition1 = new Telerik.WinControls.UI.TableViewDefinition();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DiningTablesForm));
             this.radPanel1 = new Telerik.WinControls.UI.RadPanel();
             this.btnNew = new FontAwesome.Sharp.IconButton();
             this.btnDelete = new FontAwesome.Sharp.IconButton();
@@ -69,7 +70,7 @@
             this.radPanel1.Name = "radPanel1";
             this.radPanel1.Size = new System.Drawing.Size(1004, 50);
             this.radPanel1.TabIndex = 2;
-            this.radPanel1.ThemeName = "Material";
+            this.radPanel1.ThemeName = "MaterialPink";
             // 
             // btnNew
             // 
@@ -203,7 +204,7 @@
             this.gridItems.ReadOnly = true;
             this.gridItems.Size = new System.Drawing.Size(1004, 488);
             this.gridItems.TabIndex = 0;
-            this.gridItems.ThemeName = "Material";
+            this.gridItems.ThemeName = "MaterialPink";
             this.gridItems.CellClick += new Telerik.WinControls.UI.GridViewCellEventHandler(this.gridItems_CellClick);
             this.gridItems.CellDoubleClick += new Telerik.WinControls.UI.GridViewCellEventHandler(this.gridItems_CellDoubleClick);
             // 
@@ -215,7 +216,7 @@
             this.radPanel2.Name = "radPanel2";
             this.radPanel2.Size = new System.Drawing.Size(1004, 488);
             this.radPanel2.TabIndex = 3;
-            this.radPanel2.ThemeName = "Material";
+            this.radPanel2.ThemeName = "MaterialPink";
             // 
             // DiningTablesForm
             // 
@@ -226,10 +227,11 @@
             this.ClientSize = new System.Drawing.Size(1004, 538);
             this.Controls.Add(this.radPanel2);
             this.Controls.Add(this.radPanel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "DiningTablesForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dining Tables";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.MainForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).EndInit();
             this.radPanel1.ResumeLayout(false);

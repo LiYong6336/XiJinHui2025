@@ -76,7 +76,7 @@
             this.radPanel1.Name = "radPanel1";
             this.radPanel1.Size = new System.Drawing.Size(841, 197);
             this.radPanel1.TabIndex = 4;
-            this.radPanel1.ThemeName = "Material";
+            this.radPanel1.ThemeName = "MaterialPink";
             // 
             // dtpInvoiceDate
             // 
@@ -89,7 +89,7 @@
             this.dtpInvoiceDate.TabIndex = 22;
             this.dtpInvoiceDate.TabStop = false;
             this.dtpInvoiceDate.Text = "2025-01-18";
-            this.dtpInvoiceDate.ThemeName = "Material";
+            this.dtpInvoiceDate.ThemeName = "MaterialPink";
             this.dtpInvoiceDate.Value = new System.DateTime(2025, 1, 18, 11, 19, 39, 806);
             // 
             // btnCancel
@@ -159,7 +159,7 @@
             this.txtInvoiceStart.Name = "txtInvoiceStart";
             this.txtInvoiceStart.Size = new System.Drawing.Size(229, 41);
             this.txtInvoiceStart.TabIndex = 1;
-            this.txtInvoiceStart.ThemeName = "Material";
+            this.txtInvoiceStart.ThemeName = "MaterialPink";
             // 
             // lblInvoiceStart
             // 
@@ -169,7 +169,7 @@
             this.lblInvoiceStart.Size = new System.Drawing.Size(94, 26);
             this.lblInvoiceStart.TabIndex = 21;
             this.lblInvoiceStart.Text = "InvoiceStart";
-            this.lblInvoiceStart.ThemeName = "Material";
+            this.lblInvoiceStart.ThemeName = "MaterialPink";
             // 
             // txtInvoiceCount
             // 
@@ -178,7 +178,7 @@
             this.txtInvoiceCount.Name = "txtInvoiceCount";
             this.txtInvoiceCount.Size = new System.Drawing.Size(229, 41);
             this.txtInvoiceCount.TabIndex = 1;
-            this.txtInvoiceCount.ThemeName = "Material";
+            this.txtInvoiceCount.ThemeName = "MaterialPink";
             // 
             // lblEnglish
             // 
@@ -188,7 +188,7 @@
             this.lblEnglish.Size = new System.Drawing.Size(102, 26);
             this.lblEnglish.TabIndex = 21;
             this.lblEnglish.Text = "InvoiceCount";
-            this.lblEnglish.ThemeName = "Material";
+            this.lblEnglish.ThemeName = "MaterialPink";
             // 
             // lblCode
             // 
@@ -198,7 +198,7 @@
             this.lblCode.Size = new System.Drawing.Size(43, 26);
             this.lblCode.TabIndex = 19;
             this.lblCode.Text = "Date";
-            this.lblCode.ThemeName = "Material";
+            this.lblCode.ThemeName = "MaterialPink";
             // 
             // dgView
             // 
@@ -248,7 +248,7 @@
             this.dgView.Name = "dgView";
             this.dgView.Size = new System.Drawing.Size(841, 412);
             this.dgView.TabIndex = 5;
-            this.dgView.ThemeName = "Material";
+            this.dgView.ThemeName = "MaterialPink";
             this.dgView.CellDoubleClick += new Telerik.WinControls.UI.GridViewCellEventHandler(this.dgView_CellDoubleClick);
             // 
             // SetInvoicesForm
@@ -263,7 +263,7 @@
             this.Name = "SetInvoicesForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Set Invoice";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.frmSetInvoice_Load);
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).EndInit();
             this.radPanel1.ResumeLayout(false);

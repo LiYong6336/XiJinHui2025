@@ -29,8 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition3 = new Telerik.WinControls.UI.TableViewDefinition();
-            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialTheme();
+            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition1 = new Telerik.WinControls.UI.TableViewDefinition();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CopyFoodIngredientsForm));
+            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialPinkTheme();
             this.dgView = new Telerik.WinControls.UI.RadGridView();
             this.radPanel1 = new Telerik.WinControls.UI.RadPanel();
             this.radPanel2 = new Telerik.WinControls.UI.RadPanel();
@@ -74,11 +75,11 @@
             this.dgView.MasterTemplate.EnableGrouping = false;
             this.dgView.MasterTemplate.EnableSorting = false;
             this.dgView.MasterTemplate.ShowRowHeaderColumn = false;
-            this.dgView.MasterTemplate.ViewDefinition = tableViewDefinition3;
+            this.dgView.MasterTemplate.ViewDefinition = tableViewDefinition1;
             this.dgView.Name = "dgView";
             this.dgView.Size = new System.Drawing.Size(471, 611);
             this.dgView.TabIndex = 5;
-            this.dgView.ThemeName = "Material";
+            this.dgView.ThemeName = "MaterialPink";
             this.dgView.CellDoubleClick += new Telerik.WinControls.UI.GridViewCellEventHandler(this.dgView_CellDoubleClick);
             // 
             // radPanel1
@@ -89,7 +90,7 @@
             this.radPanel1.Name = "radPanel1";
             this.radPanel1.Size = new System.Drawing.Size(471, 611);
             this.radPanel1.TabIndex = 6;
-            this.radPanel1.ThemeName = "Material";
+            this.radPanel1.ThemeName = "MaterialPink";
             // 
             // radPanel2
             // 
@@ -100,7 +101,7 @@
             this.radPanel2.Name = "radPanel2";
             this.radPanel2.Size = new System.Drawing.Size(372, 611);
             this.radPanel2.TabIndex = 7;
-            this.radPanel2.ThemeName = "Material";
+            this.radPanel2.ThemeName = "MaterialPink";
             // 
             // pnlList
             // 
@@ -110,7 +111,7 @@
             this.pnlList.Name = "pnlList";
             this.pnlList.Size = new System.Drawing.Size(372, 552);
             this.pnlList.TabIndex = 8;
-            this.pnlList.ThemeName = "Material";
+            this.pnlList.ThemeName = "MaterialPink";
             // 
             // ckFoodDish
             // 
@@ -121,7 +122,7 @@
             this.ckFoodDish.Name = "ckFoodDish";
             this.ckFoodDish.Size = new System.Drawing.Size(372, 552);
             this.ckFoodDish.TabIndex = 0;
-            this.ckFoodDish.ThemeName = "Material";
+            this.ckFoodDish.ThemeName = "MaterialPink";
             // 
             // pnlActions
             // 
@@ -153,10 +154,11 @@
             this.Controls.Add(this.radPanel2);
             this.Controls.Add(this.radPanel1);
             this.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "CopyFoodIngredientsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Copy Food Ingredients";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.FormIngredient_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgView.MasterTemplate)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgView)).EndInit();
@@ -175,7 +177,7 @@
         }
 
         #endregion
-        private Telerik.WinControls.Themes.MaterialTheme materialTheme1;
+        private Telerik.WinControls.Themes.MaterialPinkTheme materialTheme1;
         private Telerik.WinControls.UI.RadGridView dgView;
         private Telerik.WinControls.UI.RadPanel radPanel1;
         private Telerik.WinControls.UI.RadPanel radPanel2;

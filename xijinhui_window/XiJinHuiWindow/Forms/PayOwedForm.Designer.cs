@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PayOwedForm));
-            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialTheme();
+            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialPinkTheme();
             this.btnShow = new Telerik.WinControls.UI.RadButton();
             this.radLabel1 = new Telerik.WinControls.UI.RadLabel();
             this.dtpStart = new Telerik.WinControls.UI.RadDateTimePicker();
@@ -47,14 +47,14 @@
             // 
             resources.ApplyResources(this.btnShow, "btnShow");
             this.btnShow.Name = "btnShow";
-            this.btnShow.ThemeName = "Material";
+            this.btnShow.ThemeName = "MaterialPink";
             this.btnShow.Click += new System.EventHandler(this.btnShow_Click);
             // 
             // radLabel1
             // 
             resources.ApplyResources(this.radLabel1, "radLabel1");
             this.radLabel1.Name = "radLabel1";
-            this.radLabel1.ThemeName = "Material";
+            this.radLabel1.ThemeName = "MaterialPink";
             // 
             // dtpStart
             // 
@@ -63,20 +63,20 @@
             this.dtpStart.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpStart.Name = "dtpStart";
             this.dtpStart.TabStop = false;
-            this.dtpStart.ThemeName = "Material";
+            this.dtpStart.ThemeName = "MaterialPink";
             this.dtpStart.Value = new System.DateTime(2022, 6, 16, 12, 11, 26, 0);
             // 
             // radLabel2
             // 
             resources.ApplyResources(this.radLabel2, "radLabel2");
             this.radLabel2.Name = "radLabel2";
-            this.radLabel2.ThemeName = "Material";
+            this.radLabel2.ThemeName = "MaterialPink";
             // 
             // txtAmount
             // 
             resources.ApplyResources(this.txtAmount, "txtAmount");
             this.txtAmount.Name = "txtAmount";
-            this.txtAmount.ThemeName = "Material";
+            this.txtAmount.ThemeName = "MaterialPink";
             // 
             // PayOwedForm
             // 
@@ -88,7 +88,7 @@
             this.Controls.Add(this.radLabel1);
             this.Controls.Add(this.dtpStart);
             this.Name = "PayOwedForm";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.frmSaleReport_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnShow)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).EndInit();
@@ -103,7 +103,7 @@
 
         #endregion
 
-        private Telerik.WinControls.Themes.MaterialTheme materialTheme1;
+        private Telerik.WinControls.Themes.MaterialPinkTheme materialTheme1;
         private Telerik.WinControls.UI.RadButton btnShow;
         private Telerik.WinControls.UI.RadLabel radLabel1;
         private Telerik.WinControls.UI.RadDateTimePicker dtpStart;

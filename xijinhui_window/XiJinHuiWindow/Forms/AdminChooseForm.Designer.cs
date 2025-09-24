@@ -31,7 +31,7 @@
             this.btnDashboard = new FontAwesome.Sharp.IconButton();
             this.btnCashier = new FontAwesome.Sharp.IconButton();
             this.radPictureBox1 = new Telerik.WinControls.UI.RadPictureBox();
-            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialTheme();
+            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialPinkTheme();
             ((System.ComponentModel.ISupportInitialize)(this.radPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
@@ -83,7 +83,7 @@
             this.Name = "AdminChooseForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AdminChooseForm";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.AdminChooseForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.radPictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
@@ -96,6 +96,6 @@
         private FontAwesome.Sharp.IconButton btnDashboard;
         private FontAwesome.Sharp.IconButton btnCashier;
         private Telerik.WinControls.UI.RadPictureBox radPictureBox1;
-        private Telerik.WinControls.Themes.MaterialTheme materialTheme1;
+        private Telerik.WinControls.Themes.MaterialPinkTheme materialTheme1;
     }
 }

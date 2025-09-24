@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CustomerCUForm));
             this.lblCode = new Telerik.WinControls.UI.RadLabel();
             this.radPanel1 = new Telerik.WinControls.UI.RadPanel();
             this.dtDob = new Telerik.WinControls.UI.RadDateTimePicker();
@@ -80,7 +81,7 @@
             this.lblCode.Size = new System.Drawing.Size(41, 21);
             this.lblCode.TabIndex = 0;
             this.lblCode.Text = "Code";
-            this.lblCode.ThemeName = "Material";
+            this.lblCode.ThemeName = "MaterialPink";
             // 
             // radPanel1
             // 
@@ -108,7 +109,7 @@
             this.radPanel1.Name = "radPanel1";
             this.radPanel1.Size = new System.Drawing.Size(630, 353);
             this.radPanel1.TabIndex = 1;
-            this.radPanel1.ThemeName = "Material";
+            this.radPanel1.ThemeName = "MaterialPink";
             this.radPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.radPanel1_Paint);
             // 
             // dtDob
@@ -122,7 +123,7 @@
             this.dtDob.TabIndex = 8;
             this.dtDob.TabStop = false;
             this.dtDob.Text = "2024-09-04";
-            this.dtDob.ThemeName = "Material";
+            this.dtDob.ThemeName = "MaterialPink";
             this.dtDob.Value = new System.DateTime(2024, 9, 4, 14, 42, 36, 581);
             // 
             // ddGender
@@ -133,7 +134,7 @@
             this.ddGender.Size = new System.Drawing.Size(178, 36);
             this.ddGender.TabIndex = 9;
             this.ddGender.Text = "Gender";
-            this.ddGender.ThemeName = "Material";
+            this.ddGender.ThemeName = "MaterialPink";
             // 
             // btnSubmit
             // 
@@ -142,7 +143,7 @@
             this.btnSubmit.Size = new System.Drawing.Size(164, 52);
             this.btnSubmit.TabIndex = 10;
             this.btnSubmit.Text = "Submit";
-            this.btnSubmit.ThemeName = "Material";
+            this.btnSubmit.ThemeName = "MaterialPink";
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // txtAddress
@@ -151,7 +152,7 @@
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(167, 36);
             this.txtAddress.TabIndex = 6;
-            this.txtAddress.ThemeName = "Material";
+            this.txtAddress.ThemeName = "MaterialPink";
             // 
             // lblAddress
             // 
@@ -160,7 +161,7 @@
             this.lblAddress.Size = new System.Drawing.Size(61, 21);
             this.lblAddress.TabIndex = 0;
             this.lblAddress.Text = "Address";
-            this.lblAddress.ThemeName = "Material";
+            this.lblAddress.ThemeName = "MaterialPink";
             // 
             // txtBalance
             // 
@@ -168,7 +169,7 @@
             this.txtBalance.Name = "txtBalance";
             this.txtBalance.Size = new System.Drawing.Size(173, 36);
             this.txtBalance.TabIndex = 7;
-            this.txtBalance.ThemeName = "Material";
+            this.txtBalance.ThemeName = "MaterialPink";
             // 
             // lblGender
             // 
@@ -177,7 +178,7 @@
             this.lblGender.Size = new System.Drawing.Size(54, 21);
             this.lblGender.TabIndex = 0;
             this.lblGender.Text = "Gender";
-            this.lblGender.ThemeName = "Material";
+            this.lblGender.ThemeName = "MaterialPink";
             // 
             // lblBalance
             // 
@@ -186,7 +187,7 @@
             this.lblBalance.Size = new System.Drawing.Size(59, 21);
             this.lblBalance.TabIndex = 0;
             this.lblBalance.Text = "Balance";
-            this.lblBalance.ThemeName = "Material";
+            this.lblBalance.ThemeName = "MaterialPink";
             // 
             // lblDob
             // 
@@ -195,7 +196,7 @@
             this.lblDob.Size = new System.Drawing.Size(36, 21);
             this.lblDob.TabIndex = 0;
             this.lblDob.Text = "DOB";
-            this.lblDob.ThemeName = "Material";
+            this.lblDob.ThemeName = "MaterialPink";
             // 
             // txtPhone
             // 
@@ -203,7 +204,7 @@
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(167, 36);
             this.txtPhone.TabIndex = 5;
-            this.txtPhone.ThemeName = "Material";
+            this.txtPhone.ThemeName = "MaterialPink";
             // 
             // lblPhone
             // 
@@ -212,7 +213,7 @@
             this.lblPhone.Size = new System.Drawing.Size(48, 21);
             this.lblPhone.TabIndex = 0;
             this.lblPhone.Text = "Phone";
-            this.lblPhone.ThemeName = "Material";
+            this.lblPhone.ThemeName = "MaterialPink";
             // 
             // txtKhmerName
             // 
@@ -220,7 +221,7 @@
             this.txtKhmerName.Name = "txtKhmerName";
             this.txtKhmerName.Size = new System.Drawing.Size(167, 36);
             this.txtKhmerName.TabIndex = 4;
-            this.txtKhmerName.ThemeName = "Material";
+            this.txtKhmerName.ThemeName = "MaterialPink";
             this.txtKhmerName.Enter += new System.EventHandler(this.txtKhmerName_Enter);
             this.txtKhmerName.Leave += new System.EventHandler(this.txtKhmerName_Leave);
             // 
@@ -231,7 +232,7 @@
             this.lblKhmer.Size = new System.Drawing.Size(50, 21);
             this.lblKhmer.TabIndex = 0;
             this.lblKhmer.Text = "Khmer";
-            this.lblKhmer.ThemeName = "Material";
+            this.lblKhmer.ThemeName = "MaterialPink";
             // 
             // txtChineseName
             // 
@@ -239,7 +240,7 @@
             this.txtChineseName.Name = "txtChineseName";
             this.txtChineseName.Size = new System.Drawing.Size(173, 36);
             this.txtChineseName.TabIndex = 3;
-            this.txtChineseName.ThemeName = "Material";
+            this.txtChineseName.ThemeName = "MaterialPink";
             this.txtChineseName.Enter += new System.EventHandler(this.txtChineseName_Enter);
             this.txtChineseName.Leave += new System.EventHandler(this.txtChineseName_Leave);
             // 
@@ -250,7 +251,7 @@
             this.lblChinese.Size = new System.Drawing.Size(59, 21);
             this.lblChinese.TabIndex = 0;
             this.lblChinese.Text = "Chinese";
-            this.lblChinese.ThemeName = "Material";
+            this.lblChinese.ThemeName = "MaterialPink";
             // 
             // txtEnglishName
             // 
@@ -258,7 +259,7 @@
             this.txtEnglishName.Name = "txtEnglishName";
             this.txtEnglishName.Size = new System.Drawing.Size(167, 36);
             this.txtEnglishName.TabIndex = 2;
-            this.txtEnglishName.ThemeName = "Material";
+            this.txtEnglishName.ThemeName = "MaterialPink";
             // 
             // lblEnglish
             // 
@@ -267,7 +268,7 @@
             this.lblEnglish.Size = new System.Drawing.Size(54, 21);
             this.lblEnglish.TabIndex = 0;
             this.lblEnglish.Text = "English";
-            this.lblEnglish.ThemeName = "Material";
+            this.lblEnglish.ThemeName = "MaterialPink";
             // 
             // txtCode
             // 
@@ -275,7 +276,7 @@
             this.txtCode.Name = "txtCode";
             this.txtCode.Size = new System.Drawing.Size(173, 36);
             this.txtCode.TabIndex = 1;
-            this.txtCode.ThemeName = "Material";
+            this.txtCode.ThemeName = "MaterialPink";
             // 
             // CustomerCUForm
             // 
@@ -284,10 +285,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(630, 353);
             this.Controls.Add(this.radPanel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "CustomerCUForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Customer CU";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.CustomerCUForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.lblCode)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).EndInit();

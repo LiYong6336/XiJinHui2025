@@ -39,8 +39,10 @@
             Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn9 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
             Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn10 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
             Telerik.WinControls.UI.TableViewDefinition tableViewDefinition1 = new Telerik.WinControls.UI.TableViewDefinition();
-            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialTheme();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CategoriesForm));
+            this.materialTheme1 = new Telerik.WinControls.Themes.MaterialPinkTheme();
             this.radPanel1 = new Telerik.WinControls.UI.RadPanel();
+            this.ckIsAnimalPart = new Telerik.WinControls.UI.RadCheckBox();
             this.btnCancel = new FontAwesome.Sharp.IconButton();
             this.cobPrinter = new Telerik.WinControls.UI.RadDropDownList();
             this.lblPrinter = new Telerik.WinControls.UI.RadLabel();
@@ -58,9 +60,9 @@
             this.txtCode = new Telerik.WinControls.UI.RadTextBox();
             this.lblCode = new Telerik.WinControls.UI.RadLabel();
             this.dgView = new Telerik.WinControls.UI.RadGridView();
-            this.ckIsAnimalPart = new Telerik.WinControls.UI.RadCheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).BeginInit();
             this.radPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ckIsAnimalPart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cobPrinter)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lblPrinter)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtMemo)).BeginInit();
@@ -75,7 +77,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.lblCode)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgView.MasterTemplate)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ckIsAnimalPart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
@@ -103,7 +104,16 @@
             this.radPanel1.Name = "radPanel1";
             this.radPanel1.Size = new System.Drawing.Size(843, 242);
             this.radPanel1.TabIndex = 4;
-            this.radPanel1.ThemeName = "Material";
+            this.radPanel1.ThemeName = "MaterialPink";
+            // 
+            // ckIsAnimalPart
+            // 
+            this.ckIsAnimalPart.Location = new System.Drawing.Point(147, 201);
+            this.ckIsAnimalPart.Name = "ckIsAnimalPart";
+            this.ckIsAnimalPart.Size = new System.Drawing.Size(109, 19);
+            this.ckIsAnimalPart.TabIndex = 42;
+            this.ckIsAnimalPart.Text = "IsAnimalPart";
+            this.ckIsAnimalPart.ThemeName = "MaterialPink";
             // 
             // btnCancel
             // 
@@ -128,7 +138,7 @@
             this.cobPrinter.Name = "cobPrinter";
             this.cobPrinter.Size = new System.Drawing.Size(229, 41);
             this.cobPrinter.TabIndex = 6;
-            this.cobPrinter.ThemeName = "Material";
+            this.cobPrinter.ThemeName = "MaterialPink";
             // 
             // lblPrinter
             // 
@@ -138,7 +148,7 @@
             this.lblPrinter.Size = new System.Drawing.Size(56, 26);
             this.lblPrinter.TabIndex = 34;
             this.lblPrinter.Text = "Printer";
-            this.lblPrinter.ThemeName = "Material";
+            this.lblPrinter.ThemeName = "MaterialPink";
             // 
             // btnClear
             // 
@@ -162,7 +172,7 @@
             this.txtMemo.Name = "txtMemo";
             this.txtMemo.Size = new System.Drawing.Size(229, 41);
             this.txtMemo.TabIndex = 5;
-            this.txtMemo.ThemeName = "Material";
+            this.txtMemo.ThemeName = "MaterialPink";
             // 
             // btnDelete
             // 
@@ -202,7 +212,7 @@
             this.lblRemark.Size = new System.Drawing.Size(65, 26);
             this.lblRemark.TabIndex = 27;
             this.lblRemark.Text = "Remark";
-            this.lblRemark.ThemeName = "Material";
+            this.lblRemark.ThemeName = "MaterialPink";
             // 
             // txtKhmer
             // 
@@ -211,7 +221,7 @@
             this.txtKhmer.Name = "txtKhmer";
             this.txtKhmer.Size = new System.Drawing.Size(229, 38);
             this.txtKhmer.TabIndex = 4;
-            this.txtKhmer.ThemeName = "Material";
+            this.txtKhmer.ThemeName = "MaterialPink";
             this.txtKhmer.Enter += new System.EventHandler(this.txtKhmer_Enter);
             this.txtKhmer.Leave += new System.EventHandler(this.txtKhmer_Leave);
             // 
@@ -223,7 +233,7 @@
             this.lblKhmer.Size = new System.Drawing.Size(56, 26);
             this.lblKhmer.TabIndex = 25;
             this.lblKhmer.Text = "Khmer";
-            this.lblKhmer.ThemeName = "Material";
+            this.lblKhmer.ThemeName = "MaterialPink";
             // 
             // txtChinese
             // 
@@ -232,7 +242,7 @@
             this.txtChinese.Name = "txtChinese";
             this.txtChinese.Size = new System.Drawing.Size(229, 45);
             this.txtChinese.TabIndex = 3;
-            this.txtChinese.ThemeName = "Material";
+            this.txtChinese.ThemeName = "MaterialPink";
             this.txtChinese.Enter += new System.EventHandler(this.txtChinese_Enter);
             this.txtChinese.Leave += new System.EventHandler(this.txtChinese_Leave);
             // 
@@ -244,7 +254,7 @@
             this.lblChinese.Size = new System.Drawing.Size(68, 26);
             this.lblChinese.TabIndex = 23;
             this.lblChinese.Text = "Chinese";
-            this.lblChinese.ThemeName = "Material";
+            this.lblChinese.ThemeName = "MaterialPink";
             // 
             // txtEnglish
             // 
@@ -253,7 +263,7 @@
             this.txtEnglish.Name = "txtEnglish";
             this.txtEnglish.Size = new System.Drawing.Size(229, 41);
             this.txtEnglish.TabIndex = 2;
-            this.txtEnglish.ThemeName = "Material";
+            this.txtEnglish.ThemeName = "MaterialPink";
             // 
             // lblEnglish
             // 
@@ -263,7 +273,7 @@
             this.lblEnglish.Size = new System.Drawing.Size(61, 26);
             this.lblEnglish.TabIndex = 21;
             this.lblEnglish.Text = "English";
-            this.lblEnglish.ThemeName = "Material";
+            this.lblEnglish.ThemeName = "MaterialPink";
             // 
             // txtCode
             // 
@@ -272,7 +282,7 @@
             this.txtCode.Name = "txtCode";
             this.txtCode.Size = new System.Drawing.Size(229, 41);
             this.txtCode.TabIndex = 1;
-            this.txtCode.ThemeName = "Material";
+            this.txtCode.ThemeName = "MaterialPink";
             // 
             // lblCode
             // 
@@ -282,7 +292,7 @@
             this.lblCode.Size = new System.Drawing.Size(47, 26);
             this.lblCode.TabIndex = 19;
             this.lblCode.Text = "Code";
-            this.lblCode.ThemeName = "Material";
+            this.lblCode.ThemeName = "MaterialPink";
             // 
             // dgView
             // 
@@ -362,17 +372,8 @@
             this.dgView.Name = "dgView";
             this.dgView.Size = new System.Drawing.Size(843, 369);
             this.dgView.TabIndex = 5;
-            this.dgView.ThemeName = "Material";
+            this.dgView.ThemeName = "MaterialPink";
             this.dgView.CellDoubleClick += new Telerik.WinControls.UI.GridViewCellEventHandler(this.dgView_CellDoubleClick);
-            // 
-            // ckIsAnimalPart
-            // 
-            this.ckIsAnimalPart.Location = new System.Drawing.Point(147, 201);
-            this.ckIsAnimalPart.Name = "ckIsAnimalPart";
-            this.ckIsAnimalPart.Size = new System.Drawing.Size(109, 19);
-            this.ckIsAnimalPart.TabIndex = 42;
-            this.ckIsAnimalPart.Text = "IsAnimalPart";
-            this.ckIsAnimalPart.ThemeName = "Material";
             // 
             // CategoriesForm
             // 
@@ -382,14 +383,16 @@
             this.Controls.Add(this.dgView);
             this.Controls.Add(this.radPanel1);
             this.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "CategoriesForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Category";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.frmCategory_Load);
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).EndInit();
             this.radPanel1.ResumeLayout(false);
             this.radPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ckIsAnimalPart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cobPrinter)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lblPrinter)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtMemo)).EndInit();
@@ -404,14 +407,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.lblCode)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgView.MasterTemplate)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgView)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ckIsAnimalPart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private Telerik.WinControls.Themes.MaterialTheme materialTheme1;
+        private Telerik.WinControls.Themes.MaterialPinkTheme materialTheme1;
         private Telerik.WinControls.UI.RadPanel radPanel1;
         private Telerik.WinControls.UI.RadDropDownList cobPrinter;
         private Telerik.WinControls.UI.RadLabel lblPrinter;

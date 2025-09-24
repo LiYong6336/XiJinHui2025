@@ -53,7 +53,7 @@ namespace XiJinHuiWindow
             this.cmbInvoice.Name = "cmbInvoice";
             this.cmbInvoice.Size = new System.Drawing.Size(261, 36);
             this.cmbInvoice.TabIndex = 14;
-            this.cmbInvoice.ThemeName = "Material";
+            this.cmbInvoice.ThemeName = "MaterialPink";
             this.cmbInvoice.SelectedIndexChanged += new Telerik.WinControls.UI.Data.PositionChangedEventHandler(this.cmbInvoice_SelectedIndexChanged);
             // 
             // atLabel1
@@ -86,7 +86,7 @@ namespace XiJinHuiWindow
             this.dtpSaleDate.TabIndex = 20;
             this.dtpSaleDate.TabStop = false;
             this.dtpSaleDate.Text = "2025-01-18";
-            this.dtpSaleDate.ThemeName = "Material";
+            this.dtpSaleDate.ThemeName = "MaterialPink";
             this.dtpSaleDate.Value = new System.DateTime(2025, 1, 18, 11, 19, 39, 806);
             this.dtpSaleDate.ValueChanged += new System.EventHandler(this.dtpSaleDate_ValueChanged);
             // 
@@ -121,7 +121,7 @@ namespace XiJinHuiWindow
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reprint Invoice";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.frmReprintInvoice_Load);
             ((System.ComponentModel.ISupportInitialize)(this.cmbInvoice)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.atLabel1)).EndInit();

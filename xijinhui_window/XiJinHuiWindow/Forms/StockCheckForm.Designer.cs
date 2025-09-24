@@ -63,7 +63,7 @@
             this.radPanel1.Name = "radPanel1";
             this.radPanel1.Size = new System.Drawing.Size(841, 79);
             this.radPanel1.TabIndex = 4;
-            this.radPanel1.ThemeName = "Material";
+            this.radPanel1.ThemeName = "MaterialPink";
             // 
             // dtEndDate
             // 
@@ -76,7 +76,7 @@
             this.dtEndDate.TabIndex = 44;
             this.dtEndDate.TabStop = false;
             this.dtEndDate.Text = "2024-12-11";
-            this.dtEndDate.ThemeName = "Material";
+            this.dtEndDate.ThemeName = "MaterialPink";
             this.dtEndDate.Value = new System.DateTime(2024, 12, 11, 10, 25, 2, 633);
             // 
             // lblExpDate
@@ -87,7 +87,7 @@
             this.lblExpDate.Size = new System.Drawing.Size(71, 26);
             this.lblExpDate.TabIndex = 43;
             this.lblExpDate.Text = "EndDate";
-            this.lblExpDate.ThemeName = "Material";
+            this.lblExpDate.ThemeName = "MaterialPink";
             // 
             // dtStartDate
             // 
@@ -100,7 +100,7 @@
             this.dtStartDate.TabIndex = 44;
             this.dtStartDate.TabStop = false;
             this.dtStartDate.Text = "2024-12-11";
-            this.dtStartDate.ThemeName = "Material";
+            this.dtStartDate.ThemeName = "MaterialPink";
             this.dtStartDate.Value = new System.DateTime(2024, 12, 11, 10, 25, 2, 633);
             // 
             // lblMfpDate
@@ -111,7 +111,7 @@
             this.lblMfpDate.Size = new System.Drawing.Size(77, 26);
             this.lblMfpDate.TabIndex = 43;
             this.lblMfpDate.Text = "StartDate";
-            this.lblMfpDate.ThemeName = "Material";
+            this.lblMfpDate.ThemeName = "MaterialPink";
             // 
             // btnModify
             // 
@@ -175,7 +175,7 @@
             this.dgView.Name = "dgView";
             this.dgView.Size = new System.Drawing.Size(841, 530);
             this.dgView.TabIndex = 5;
-            this.dgView.ThemeName = "Material";
+            this.dgView.ThemeName = "MaterialPink";
             this.dgView.CellDoubleClick += new Telerik.WinControls.UI.GridViewCellEventHandler(this.dgView_CellDoubleClick);
             // 
             // StockCheckForm
@@ -190,7 +190,7 @@
             this.Name = "StockCheckForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Stock Check";
-            this.ThemeName = "Material";
+            this.ThemeName = "MaterialPink";
             this.Load += new System.EventHandler(this.frmCategory_Load);
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).EndInit();
             this.radPanel1.ResumeLayout(false);
