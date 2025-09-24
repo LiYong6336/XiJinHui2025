@@ -33,10 +33,10 @@ class ShowCart extends Component
         return view('livewire.show-cart')->layout('components.layouts.app.cart');
     }
 
-    public function removeFromCart(FoodDish $item): void
+    public function removeFromCart($id): void
     {
         $cartService = app(CartService::class);
-        $this->items = $cartService->remove($item->id);
+        $this->items = $cartService->remove($id);
     }
 
     public function increaseQty($id): void
@@ -126,10 +126,18 @@ class ShowCart extends Component
         }
 
         foreach ($this->items as $id => $item) {
-            $foodDish = FoodDish::findOrFail($id);
+            $cartIdParts = explode('-', (string)$id);
+            $foodDishId = $cartIdParts[0];
+            $foodDishDetailId = $cartIdParts[1] ?? null;
 
-            $decription =  $foodDish->english_name . ' - ' . $foodDish->khmer_name; // .' - ' . $foodDish->chinese_name;
-            $price = $foodDish->food_price;
+            $foodDish = FoodDish::findOrFail($foodDishId);
+            $foodDishDetail = null;
+            if ($foodDishDetailId) {
+                $foodDishDetail = $foodDish->foodDishDetails()->where('id', $foodDishDetailId)->first();
+            }
+
+            $decription =  $item['name'];
+            $price = $item['price'];
 
             $saleDetail = SaleDetail::create([
                 'sale_table_id' => $saleTable->id,
@@ -137,9 +145,9 @@ class ShowCart extends Component
                 'qty' => $item['quantity'],
                 'food_price' => $price,
                 'food_dish_id' => $foodDish->id,
-                //'food_dish_detail_id' => $foodDishDetail ? $foodDishDetail->id : null,
+                'food_dish_detail_id' => $foodDishDetail ? $foodDishDetail->id : null,
                 'food_dish_json' => $foodDish->load('category'),
-                //'food_dish_detail_json' => $foodDishDetail,
+                'food_dish_detail_json' => $foodDishDetail,
                 //'remark' => $remark,
             ]);
         }

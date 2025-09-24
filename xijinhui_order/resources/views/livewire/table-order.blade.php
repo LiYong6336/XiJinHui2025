@@ -1,6 +1,6 @@
 <div>
     <flux:header container class="py-3 border-b border-zinc-200 bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-900">
-        <a href="{{ route('table-order') }}" class="ms-2 me-5 flex items-center space-x-2 rtl:space-x-reverse lg:ms-0"
+        <a href="{{ route('table-order', request()->only(['c', 't'])) }}" class="ms-2 me-5 flex items-center space-x-2 rtl:space-x-reverse lg:ms-0"
             wire:navigate>
             <x-app-logo />
         </a>
@@ -57,15 +57,43 @@
                     @endif
                     <img src="{{ $item->food_photo_url ?? asset('assets/images/drink.jpg') }}" alt="Product"
                         class="w-full object-cover">
-                    <div class="p-4">
+                    <div class="py-4">
                         <h3 class="font-semibold">{{ $item->english_name }}</h3>
                         <p class="text-gray-600 mt-1">${{ $item->food_price }}</p>
-                        <button type="button" wire:click="addToCart({{ $item->id }})"
+                        <button type="button" wire:click="selectFoodDish({{ $item->id }})"
                             class="mt-3 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">Add to Cart
                         </button>
                     </div>
                 </div>
             @endforeach
         </div>
+
+        @if ($showFoodDishDetailModal)
+            <div class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+                <div class="bg-white p-6 rounded-lg shadow-lg w-10/12 max-w-lg">
+                    <h3 class="text-lg font-semibold mb-4">{{ $selectedFoodDish->english_name }}</h3>
+                    <div>
+                        @foreach ($selectedFoodDish->foodDishDetails as $detail)
+                            <label class="flex items-center space-x-2 border-b p-2">
+                                <input type="radio" wire:model="selectedFoodDishDetail" value="{{ $detail->id }}">
+
+                                <div class="flex flex-col w-full">
+                                    <span>{{ $detail->english_name }}</span>
+                                    <span>{{ $detail->khmer_name }}</span>
+                                    <span>{{ $detail->chinese_name }}</span>
+                                </div>
+                                <p class="text-xl font-bold">{{ $detail->price }}</p>
+                            </label>
+                        @endforeach
+                    </div>
+                    <div class="mt-4 flex justify-end space-x-2">
+                        <button type="button" wire:click="closeFoodDishDetailModal"
+                            class="bg-gray-300 px-4 py-2 rounded-lg">Cancel</button>
+                        <button type="button" wire:click="addSelectedFoodDishToCart"
+                            class="bg-blue-600 text-white px-4 py-2 rounded-lg">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        @endif
     </div>
 </div>

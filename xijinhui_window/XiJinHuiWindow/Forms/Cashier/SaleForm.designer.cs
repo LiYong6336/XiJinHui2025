@@ -337,7 +337,7 @@
             gridViewTextBoxColumn2.Name = "NO";
             gridViewTextBoxColumn2.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             gridViewTextBoxColumn2.Width = 34;
-            gridViewTextBoxColumn3.FieldName = "LangDescription";
+            gridViewTextBoxColumn3.FieldName = "Description";
             gridViewTextBoxColumn3.HeaderText = "Description";
             gridViewTextBoxColumn3.Multiline = true;
             gridViewTextBoxColumn3.Name = "Description";

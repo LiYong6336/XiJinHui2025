@@ -13,19 +13,35 @@ class CartService
         return Session::get($this->sessionKey, []);
     }
 
-    public function add($item)
+    public function add($item, $foodDishDetailId = null)
     {
         $cart = $this->getAll();
         $id = $item->id;
 
+        if ($foodDishDetailId) {
+            $id = $item->id . '-' . $foodDishDetailId;
+        }
+
+        $name = $item->english_name . ' - ' . $item->khmer_name;
+
         if (isset($cart[$id])) {
             $cart[$id]['quantity']++;
         } else {
+            $price = $item->food_price;
+            if ($foodDishDetailId) {
+                $detail = \App\Models\FoodDishDetail::find($foodDishDetailId);
+                if ($detail) {
+                    $name = $detail->english_name . ' - ' . $detail->khmer_name . ' - ' . $detail->chinese_name;
+                    $price = $detail->price;
+                }
+            }
+
             $cart[$id] = [
-                'name' => $item->english_name . ' - ' . $item->khmer_name,
-                'price' => $item->food_price,
+                'name' =>  $name,
+                'price' => $price,
                 'image' => $item->food_photo_url ?? asset('assets/images/drink.jpg'),
-                'quantity' => 1
+                'quantity' => 1,
+                'food_dish_detail_id' => $foodDishDetailId,
             ];
         }
 

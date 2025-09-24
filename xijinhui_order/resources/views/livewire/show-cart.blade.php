@@ -1,6 +1,6 @@
 <div>
     <flux:header container class="py-3 border-b border-zinc-200 bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-900">
-        <a href="{{ route('table-order') }}" class="ms-2 me-5 flex items-center space-x-2 rtl:space-x-reverse lg:ms-0"
+        <a href="{{ route('table-order', request()->only(['c', 't'])) }}" class="ms-2 me-5 flex items-center space-x-2 rtl:space-x-reverse lg:ms-0"
             wire:navigate>
             <x-app-logo />
         </a>
@@ -40,17 +40,17 @@
                         </div>
                         <div class="flex justify-between space-x-2">
                             <div class="flex items-center">
-                                <button wire:click="decreaseQty({{ $id }})"
+                                <button wire:click="decreaseQty('{{ $id }}')"
                                     class="w-8 h-8 flex items-center justify-center bg-gray-200 text-gray-700 rounded hover:bg-gray-300">
                                     -
                                 </button>
                                 <span class="w-8 text-center">{{ $item['quantity'] }}</span>
-                                <button wire:click="increaseQty({{ $id }})"
+                                <button wire:click="increaseQty('{{ $id }}')"
                                     class="w-8 h-8 flex items-center justify-center bg-gray-200 text-gray-700 rounded hover:bg-gray-300">
                                     +
                                 </button>
                             </div>
-                            <button wire:click="removeFromCart({{ $id }})"
+                            <button wire:click="removeFromCart('{{ $id }}')"
                                 class="w-8 h-8 flex items-center justify-center bg-red-500 text-white rounded hover:bg-gray-300">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor"
                                     viewBox="0 0 448 512">
