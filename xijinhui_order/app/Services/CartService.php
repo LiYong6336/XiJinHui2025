@@ -22,7 +22,7 @@ class CartService
             $cart[$id]['quantity']++;
         } else {
             $cart[$id] = [
-                'name' => $item->english_name,
+                'name' => $item->english_name . ' - ' . $item->khmer_name,
                 'price' => $item->food_price,
                 'image' => $item->food_photo_url ?? asset('assets/images/drink.jpg'),
                 'quantity' => 1
@@ -44,23 +44,23 @@ class CartService
         return $cart;
     }
 
-    public function increaseQuantity($id, $quantity=1)
+    public function increaseQuantity($id, $quantity = 1)
     {
         $cart = $this->getAll();
 
         if (isset($cart[$id])) {
-            $cart[$id]['quantity']+=$quantity;
+            $cart[$id]['quantity'] += $quantity;
             Session::put($this->sessionKey, $cart);
         }
         return $cart;
     }
 
-    public function decreaseQuantity($id, $quantity=1)
+    public function decreaseQuantity($id, $quantity = 1)
     {
         $cart = $this->getAll();
 
         if (isset($cart[$id])) {
-            $cart[$id]['quantity']-=$quantity;
+            $cart[$id]['quantity'] -= $quantity;
             Session::put($this->sessionKey, $cart);
         }
         return $cart;

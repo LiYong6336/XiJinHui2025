@@ -10,6 +10,7 @@ use App\Models\SaleDetail;
 use App\Models\SaleTable;
 use App\Services\CartService;
 use Carbon\Carbon;
+use Illuminate\Support\Facades\Session;
 use Livewire\Component;
 
 class ShowCart extends Component
@@ -24,6 +25,7 @@ class ShowCart extends Component
         $cartService = app(CartService::class);
         $this->items = $cartService->getAll();
         $this->tableId = request('t');
+        $this->personCount = Session::get('personCount', 1);
     }
 
     public function render()
@@ -58,6 +60,7 @@ class ShowCart extends Component
     public function changePersonCount($i)
     {
         $this->personCount = $i;
+        Session::put('personCount', $i, 60);
     }
 
     public function order()
@@ -91,7 +94,11 @@ class ShowCart extends Component
         //
         // return redirect()->route('table-order', ['t' => $this->tableId]);
 
-        $dinningTable = DiningTable::findOrFail($this->tableId);
+        $dinningTable = DiningTable::find($this->tableId);
+        if (!$dinningTable) {
+            session()->flash('error', 'Table not found.');
+            return redirect()->route('show-cart', ['t' => $this->tableId]);
+        }
 
         $exchange_rate = ExchangeRate::all()->last()->rate_standard;
 
@@ -99,24 +106,24 @@ class ShowCart extends Component
             ->where('status_code', 1)
             ->first();
 
-        if ($saleTable) {
-            session()->flash('error', 'Table: ' . $dinningTable->english_name . ' is being busy.');
-            return redirect()->route('table-order', ['t' => $this->tableId]);
+        if (!$saleTable) {
+            // session()->flash('error', 'Table: ' . $dinningTable->english_name . ' is being busy.');
+            // return redirect()->route('table-order', ['t' => $this->tableId]);
             //return HelperController::modelCretedSuccessfuleMessage($saleTable->load('dining_table', 'dining_table.dining_floor', 'user', 'sale_detail', 'sale_detail.saleDetailIngredients', 'sale_detail.saleDetailIngredients.ingredient'));
             // return response([
             //     'message' => 'Table: ' . $dinningTable->english_name . ' is being busy.',
             // ], Response::HTTP_BAD_REQUEST);
-        }
 
-        $saleTable = SaleTable::create([
-            'dining_table_id' => $this->tableId,
-            'sale_date' => Carbon::now(),
-            'exchange_rate' => $exchange_rate,
-            'person_count' => $this->personCount,
-            'room_service_charge' => $dinningTable->room_service_charge,
-            'room_service_fixPrice' => $dinningTable->room_service_fixPrice,
-            'status_code' => 1,
-        ]);
+            $saleTable = SaleTable::create([
+                'dining_table_id' => $this->tableId,
+                'sale_date' => Carbon::now(),
+                'exchange_rate' => $exchange_rate,
+                'person_count' => $this->personCount,
+                'room_service_charge' => $dinningTable->room_service_charge,
+                'room_service_fixPrice' => $dinningTable->room_service_fixPrice,
+                'status_code' => 1,
+            ]);
+        }
 
         foreach ($this->items as $id => $item) {
             $foodDish = FoodDish::findOrFail($id);
@@ -137,6 +144,8 @@ class ShowCart extends Component
             ]);
         }
 
+        $cartService = app(CartService::class);
+        $cartService->clear();
 
         session()->flash('success', 'Your order has been submitted. Please wait while we prepare it for you as quickly as possible.');
 
