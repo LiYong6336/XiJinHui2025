@@ -1,0 +1,2 @@
+C:/Users/kosal/code/restaurant_online/chuanmapo_flutter/android/app/.cxx/RelWithDebInfo/u5c5y4v2/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/kosal/code/restaurant_online/chuanmapo_flutter/android/app/.cxx/RelWithDebInfo/u5c5y4v2/x86_64/CMakeFiles/rebuild_cache.dir
