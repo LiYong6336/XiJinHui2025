@@ -26,6 +26,7 @@ class ShowCart extends Component
         $this->items = $cartService->getAll();
         $this->tableId = request('t');
         $this->personCount = Session::get('personCount', 1);
+        app()->setLocale(request('lang', 'en'));
     }
 
     public function render()

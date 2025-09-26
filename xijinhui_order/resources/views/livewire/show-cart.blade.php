@@ -1,7 +1,7 @@
 <div>
     <flux:header container class="py-3 border-b border-zinc-200 bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-900">
-        <a href="{{ route('table-order', ['t' => $tableId, 'c' => request('c')]) }}" class="ms-2 me-5 flex items-center space-x-2 rtl:space-x-reverse lg:ms-0"
-            wire:navigate>
+        <a href="{{ route('table-order', ['t' => $tableId, 'c' => request('c')]) }}"
+            class="ms-2 me-5 flex items-center space-x-2 rtl:space-x-reverse lg:ms-0" wire:navigate>
             <x-app-logo />
         </a>
         <flux:spacer />
@@ -67,13 +67,14 @@
         </div>
         <div class="flex flex-col my-2">
             <div class="flex w-full text-right mb-2 text-2xl">
-                <span class="w-1/2">Total: </span>
+                <span class="w-1/2">{{ __('Total') }}: </span>
                 <span
                     class="w-1/2">{{ collect($items)->reduce(fn($carry, $item) => $carry + $item['price'] * $item['quantity'], 0) }}</span>
             </div>
             <div class="mb-2">
                 <flux:modal.trigger name="handle-order">
-                    <flux:button class="w-full bg-blue-600" variant="primary" color="blue">Order</flux:button>
+                    <flux:button class="w-full bg-blue-600" variant="primary" color="blue">{{ __('Order') }}
+                    </flux:button>
                 </flux:modal.trigger>
             </div>
 
@@ -94,7 +95,7 @@
                     <div class="flex">
                         <flux:spacer />
 
-                        <flux:button type="button" wire:click="order" variant="primary">Submit</flux:button>
+                        <flux:button type="button" wire:click="order" variant="primary">{{__('Submit')}}</flux:button>
                     </div>
                 </div>
             </flux:modal>

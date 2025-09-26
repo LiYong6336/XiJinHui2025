@@ -19,11 +19,21 @@ class TableOrder extends Component
     public ?FoodDish $selectedFoodDish = null;
     public $selectedFoodDishDetail = null;
     public $showFoodDishDetailModal = false;
+    public $lang = 'en';
 
     public function mount()
     {
         $cartService = app(CartService::class);
         $this->carts = $cartService->getAll();
+
+        $this->lang = request('lang', 'en');
+        if($this->lang != 'en' && $this->lang != 'zh' && $this->lang != 'km') {
+            $this->lang = 'en';
+        }
+        if($this->lang != app()->getLocale()) {
+            session(['lang' => $this->lang]);
+            app()->setLocale($this->lang);
+        }
 
         $category_id = request('c');
         $this->tableId = request('t');
@@ -35,6 +45,15 @@ class TableOrder extends Component
         $this->mapCartQty($this->items);
 
         $this->categories = Category::all();
+    }
+
+    public function getNameProperty()
+    {
+        return match ($this->lang) {
+            'zh' => 'chinese_name',
+            'km' => 'khmer_name',
+            default => 'english_name',
+        };
     }
 
     public function render()
