@@ -14,6 +14,8 @@ class TableOrder extends Component
     public $carts = [];
     public $totalItems = 0;
 
+    public $tableId = null;
+
     public ?FoodDish $selectedFoodDish = null;
     public $selectedFoodDishDetail = null;
     public $showFoodDishDetailModal = false;
@@ -24,6 +26,7 @@ class TableOrder extends Component
         $this->carts = $cartService->getAll();
 
         $category_id = request('c');
+        $this->tableId = request('t');
 
         $this->items = FoodDish::where('is_enable', true)
             ->when($category_id, fn($query) => $query->where('category_id', $category_id))

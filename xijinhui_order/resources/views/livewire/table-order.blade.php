@@ -1,14 +1,14 @@
 <div>
     <flux:header container class="py-3 border-b border-zinc-200 bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-900">
-        <a href="{{ route('table-order', request()->only(['c', 't'])) }}" class="ms-2 me-5 flex items-center space-x-2 rtl:space-x-reverse lg:ms-0"
-            wire:navigate>
+        <a href="{{ route('table-order', ['c' => request('c'), 't' => $tableId]) }}"
+            class="ms-2 me-5 flex items-center space-x-2 rtl:space-x-reverse lg:ms-0" wire:navigate>
             <x-app-logo />
         </a>
 
         <flux:spacer />
 
         <div class="relative">
-            <a href="{{ route('show-cart', request()->only(['c', 't'])) }}">
+            <a href="{{ route('show-cart', ['c' => request('c'), 't' => $tableId]) }}">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-gray-700" fill="none" viewBox="0 0 24 24"
                     stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"

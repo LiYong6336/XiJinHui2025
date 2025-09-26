@@ -1,6 +1,6 @@
 <div>
     <flux:header container class="py-3 border-b border-zinc-200 bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-900">
-        <a href="{{ route('table-order', request()->only(['c', 't'])) }}" class="ms-2 me-5 flex items-center space-x-2 rtl:space-x-reverse lg:ms-0"
+        <a href="{{ route('table-order', ['t' => $tableId, 'c' => request('c')]) }}" class="ms-2 me-5 flex items-center space-x-2 rtl:space-x-reverse lg:ms-0"
             wire:navigate>
             <x-app-logo />
         </a>
@@ -90,8 +90,6 @@
                             </flux:button>
                         @endif
                     @endfor
-
-                    <flux:input label="Note" wire:model="note" placeholder="Note" />
 
                     <div class="flex">
                         <flux:spacer />
