@@ -73,7 +73,7 @@
             </div>
             <div class="mb-2">
                 <flux:modal.trigger name="handle-order">
-                    <flux:button class="w-full bg-blue-600" variant="primary" color="blue">{{ __('Order') }}
+                    <flux:button class="w-full bg-red-600" variant="primary" color="blue">{{ __('Order') }}
                     </flux:button>
                 </flux:modal.trigger>
             </div>
@@ -95,7 +95,8 @@
                     <div class="flex">
                         <flux:spacer />
 
-                        <flux:button type="button" wire:click="order" variant="primary">{{__('Submit')}}</flux:button>
+                        <flux:button type="button" class="bg-red-600" wire:click="order" variant="primary">
+                            {{ __('Submit') }}</flux:button>
                     </div>
                 </div>
             </flux:modal>

@@ -36,7 +36,7 @@
         </div>
 
         <div class="relative">
-            <a href="{{ route('show-cart', ['c' => request('c'), 't' => $tableId, 'lang'=>$lang]) }}">
+            <a href="{{ route('show-cart', ['c' => request('c'), 't' => $tableId, 'lang' => $lang]) }}">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-gray-700" fill="none" viewBox="0 0 24 24"
                     stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -70,10 +70,10 @@
 
         <div class="w-full flex flex-nowrap overflow-x-auto space-x-1 mb-2">
             <a href="{{ route('table-order', ['t' => $tableId, 'lang' => $lang]) }}"
-                class="whitespace-nowrap  bg-{{ !request('c') ? 'blue' : 'green' }}-600 text-white px-3 py-2 rounded-lg hover:bg-blue-700">{{ __('All') }}</a>
+                class="whitespace-nowrap {{ !request('c') ? 'bg-red-600 text-white' : 'border' }}  px-3 py-2 rounded-lg hover:bg-blue-700">{{ __('All') }}</a>
             @foreach ($categories as $c)
                 <a href="{{ route('table-order', ['c' => $c->id, 't' => $tableId, 'lang' => $lang]) }}"
-                    class="whitespace-nowrap {{ request('c') == $c->id ? 'bg-blue-600' : 'bg-green-600' }} text-white px-3 py-2 rounded-lg hover:bg-blue-700">{{ $c->{$this->name} }}</a>
+                    class="whitespace-nowrap {{ request('c') == $c->id ? 'bg-red-600 text-white' : 'border' }} px-3 py-2 rounded-lg hover:bg-blue-700">{{ $c->{$this->name} }}</a>
             @endforeach
         </div>
         <div class="flex flex-wrap -mx-2">
@@ -89,7 +89,7 @@
                         <h3 class="font-semibold">{{ $item->{$this->name} }}</h3>
                         <p class="text-gray-600 mt-1">${{ $item->food_price }}</p>
                         <button type="button" wire:click="selectFoodDish({{ $item->id }})"
-                            class="mt-3 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">{{ __('Add to Cart') }}
+                            class="mt-3 w-full bg-red-600 text-white py-2 rounded-lg hover:bg-blue-700">{{ __('Add to Cart') }}
                         </button>
                     </div>
                 </div>
@@ -118,7 +118,7 @@
                         <button type="button" wire:click="closeFoodDishDetailModal"
                             class="bg-gray-300 px-4 py-2 rounded-lg">{{ __('Cancel') }}</button>
                         <button type="button" wire:click="addSelectedFoodDishToCart"
-                            class="bg-blue-600 text-white px-4 py-2 rounded-lg">{{ __('Add to Cart') }}</button>
+                            class="bg-red-600 text-white px-4 py-2 rounded-lg">{{ __('Add to Cart') }}</button>
                     </div>
                 </div>
             </div>
